@@ -541,6 +541,24 @@ body.search-overlay:after {
  color:#03316e;
  border:1px solid #03316e
 }
+
+.resume a {
+ font-size:.875rem;
+ color:#0562dc;
+ display:inline-block;
+ border:1px solid #0562dc;
+ border-radius:.313rem;
+ padding:.25rem .625rem;
+ margin-right:.125rem;
+ margin-bottom:.5rem;
+ text-decoration:none;
+}
+.resume a:hover {
+ color: #fff;
+ background: #03316e;
+ border: 1px solid #03316e;
+}
+
 .img-rounded {
  border-radius:50%
 }
