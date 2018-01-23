@@ -33,11 +33,11 @@ links:
   - title: Home
     url: /
   - title: Series
-    url: /series
+    url: {{ site.baseurl }}/series
   - title: Tags
-    url: /tags
+    url: {{ site.baseurl }}/tags
   - title: About Me
-    url: /about
+    url: {{ site.baseurl }}/about
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
