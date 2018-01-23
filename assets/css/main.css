@@ -310,7 +310,7 @@ aside {
 aside h2 {
  text-align:center;
  margin:0 0 .625rem;
- font-family:'Open Sans',sans-serif;
+ font-family:'Overpass',sans-serif;
  font-weight:800;
  font-style:normal;
  font-size:1.25rem;
@@ -447,7 +447,7 @@ input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-se
 .search-form .search-list {
  position:absolute;
  width:100%;
- font-family:'Open Sans',sans-serif;
+ font-family:'Overpass',sans-serif;
  font-weight:300;
  font-style:normal
 }
