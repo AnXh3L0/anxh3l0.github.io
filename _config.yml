@@ -2,7 +2,7 @@
 title: Anxhelo Lushka
 description: My personal website and blog
 baseurl: "https://anxh3l0.github.io/lushka.al" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "lushka.al" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Anxhelo Lushka
