@@ -5,14 +5,13 @@ baseurl: "https://anxh3l0.github.io/lushka.al" # the subpath of your site, e.g. 
 url: "" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+username: Anxhelo Lushka
+user_description: Graphic and frontend designer
+user_title: Designer
+email: anxhelo@lushka.al
+github_username:  AnXh3L0
+instagram_username: angelolushka
+
 
 # Build settings
 markdown: kramdown
