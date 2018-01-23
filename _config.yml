@@ -33,7 +33,7 @@ links:
   - title: Home
     url: /
   - title: Series
-    url: baseurl/series
+    url: /series
   - title: Tags
     url: /tags
   - title: About Me
