@@ -13,7 +13,7 @@
 <timeslot_duration>00:05:00</timeslot_duration>
 </conference>
 </schedule>
-<day index="1" date="2018-02-03">
+<day index="1" date="2018-05-19">
     <room name="Pyramid">
       <event id="7294">
         <start>09:30</start>
@@ -34,4 +34,5 @@
           <link href="https://submission.fosdem.org/feedback/7294.php">Submit feedback</link>
         </links>
       </event>
-      </day>
+    </room>
+ </day>
