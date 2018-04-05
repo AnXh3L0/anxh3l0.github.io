@@ -13,3 +13,25 @@
 <timeslot_duration>00:05:00</timeslot_duration>
 </conference>
 </schedule>
+<day index="1" date="2018-02-03">
+    <room name="Pyramid">
+      <event id="7294">
+        <start>09:30</start>
+        <duration>00:15</duration>
+        <room>Pyramid</room>
+        <slug>Opening</slug>
+        <title>Welcome to OSCAL 2018</title>
+        <subtitle/>
+        <track>Main Track</track>
+        <type>keynote</type>
+        <language/>
+        <abstract>&lt;p&gt;OSCAL welcome and opening speech.&lt;/p&gt;</abstract>
+        <description>&lt;p&gt;Welcome to OSCAL 2018!&lt;/p&gt;</description>
+        <persons>
+          <person id="6">OSCAL Staff/person>
+        </persons>
+        <links>
+          <link href="https://submission.fosdem.org/feedback/7294.php">Submit feedback</link>
+        </links>
+      </event>
+      </day>
