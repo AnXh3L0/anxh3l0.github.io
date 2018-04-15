@@ -303,9 +303,9 @@ aside {
  padding:2.5rem 0 0;
  top:0;
  left:-15rem;
- background:#3f3f3f;
+ background:#002351;
  z-index:20;
- box-shadow:inset -10px -1px 15px -9px rgba(0,0,0,0.5);
+ box-shadow:inset -10px -1px 15px -9px rgba(0,0,0,0.3);
 }
 aside h2 {
  text-align:center;
