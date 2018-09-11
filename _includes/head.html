@@ -62,10 +62,8 @@
     <link rel="stylesheet" href="{{ "/assets/css/overpass.css" | prepend: site.baseurl }}"> 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-</head>
-
-<script>
-if ('serviceWorker' in navigator) {
+    <script>
+		if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
     navigator.serviceWorker.register('/assets/js/sw.js').then(function(registration) {
       // Registration was successful
@@ -77,3 +75,4 @@ if ('serviceWorker' in navigator) {
   });
 }
 </script>
+</head>
