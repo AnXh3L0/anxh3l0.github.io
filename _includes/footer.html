@@ -2,3 +2,16 @@
     <p>Made with <a href="http://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> and <span class="love">❤</span> by Anxhelo Lushka</p>
 </footer>
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
+<script>
+    if ('serviceWorker' in navigator) {
+window.addEventListener('load', function() {
+navigator.serviceWorker.register({{ "/assets/js/main.js" | prepend: site.baseurl }}).then(function(registration) {
+  // Registration was successful
+  console.log('ServiceWorker registration successful with scope: ', registration.scope);
+}, function(err) {
+  // registration failed :(
+  console.log('ServiceWorker registration failed: ', err);
+});
+});
+}
+</script>
