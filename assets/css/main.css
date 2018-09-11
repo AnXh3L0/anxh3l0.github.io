@@ -326,20 +326,16 @@ aside nav li {
 aside nav li a {
  width:100%;
  display:block;
- padding:1.25rem;
+ padding:1rem;
  text-decoration:none;
  font-family:'Overpass',sans-serif;
- font-weight:300;
+ font-weight:400;
  font-style:normal;
- color:#b3b3b1;
- border-top:1px solid #797979;
+ color:#94a2b6;
 }
 aside nav li a:hover {
  color:#191918;
  background:#fff
-}
-aside nav .feed {
- border-bottom:1px solid #797979
 }
 aside.slide {
  left:0
