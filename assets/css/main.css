@@ -1017,7 +1017,11 @@ html,body {
  text-decoration:none;
 }
 .share a:hover svg {
- fill:#0562dc
+ fill:#0562dc;
+ transition-timing-function: ease-in-out;
+ -webkit-transition-timing-function: ease-in-out;
+ -webkit-transition-duration: .35s;
+ transition-duration: .35s;
 }
 table {
  margin:3.125rem auto;
