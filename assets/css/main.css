@@ -1182,7 +1182,6 @@ pre span {
  display:table;
  width:100%;
  padding:2.5rem 0;
- margin:2.5rem 0;
 }
 @media only screen and (min-width:37.5rem) {
  .author {
@@ -1285,7 +1284,6 @@ pre span {
 footer {
  background:#0562dc;
  padding:1.563rem 0;
- margin-top:100px;
 }
 footer p,footer a {
  text-decoration:none;
