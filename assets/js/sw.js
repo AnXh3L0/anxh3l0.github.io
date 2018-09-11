@@ -1,6 +1,7 @@
 var CACHE_NAME = 'lushka-al-cache';
 var urlsToCache = [
-''
+  '/',
+  '../assets/js/main.js'
 ];
 
 self.addEventListener('install', function(event) {
