@@ -2,12 +2,12 @@
 title: Anxhelo Lushka
 description: My personal website and blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lushka.al" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://lushka.al" # the base hostname & protocol for your site
 locale: "en-US"
 
 # User settings
 username: Anxhelo Lushka
-user_description: Graphic and frontend designer
+user_description: Graphic/Frontend designer
 user_title: Designer
 email: anxhelo@lushka.al
 github_username:  AnXh3L0
