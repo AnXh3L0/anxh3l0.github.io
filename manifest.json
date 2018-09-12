@@ -1,0 +1,15 @@
+{
+  "short_name": "AL Design",
+  "name": "Anxhelo Lushka",
+  "icons": [
+    {
+      "src":"/assets/img/icons/largetile.png",
+      "sizes": "310x310",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#fff",
+  "Theme_color": "#0562DC",
+  "display": "fullscreen"
+}
