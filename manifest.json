@@ -3,8 +3,8 @@
   "name": "Anxhelo Lushka",
   "icons": [
     {
-      "src":"/assets/img/icons/largetile.png",
-      "sizes": "310x310",
+      "src":"/assets/img/icons/splash.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
