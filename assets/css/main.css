@@ -544,8 +544,7 @@ body.search-overlay:after {
  border:1px solid #0562dc;
  border-radius:.313rem;
  padding:.25rem .625rem;
- margin-right:.125rem;
- margin-bottom:.5rem;
+ margin-right:1.5rem;
  text-decoration:none;
 }
 .resume a:hover {
@@ -846,8 +845,7 @@ html,body {
  font-weight:300;
  font-style:normal;
  font-size:1.125rem;
- line-height:2;
- letter-spacing:.01rem;
+ line-height:1.6;
 }
 .post-content p:before,.post-content h1:before,.post-content h2:before,.post-content h3:before,.post-content h4:before,.post-content ul:before,.post-content ol:before,.post-content .tags:before,.post-content iframe:before,.post-content p:after,.post-content h1:after,.post-content h2:after,.post-content h3:after,.post-content h4:after,.post-content ul:after,.post-content ol:after,.post-content .tags:after,.post-content iframe:after {
  content:'';
