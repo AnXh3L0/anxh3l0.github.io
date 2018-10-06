@@ -1292,5 +1292,5 @@ footer p,footer a {
  margin:0
 }
 footer a:hover {
- color:#900
+ color:#000 !important;
 }
