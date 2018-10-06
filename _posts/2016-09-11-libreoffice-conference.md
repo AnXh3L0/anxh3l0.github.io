@@ -2,7 +2,7 @@
 layout: post
 title: "LibreOffice Conference 2016 - Brno"
 date: 2016-09-11 12:00:00
-image: '/assets/img/'
+image: '/assets/img/posts/libreoffice.png'
 description: 'Experiences'
 tags:
 - libreoffice
@@ -11,7 +11,7 @@ tags:
 - blog
 categories:
 - libreoffice
-- conference 
+- conference
 ---
 
 Konferenca e LibreOffice
@@ -31,9 +31,3 @@ Pas fundit të cdo dite të konferencës, organizatorët ishin kujdesur që gjit
 Moti ishte i qëndrueshëm dhe temperaturat ishin ideale, për të na lejuar të qëndronim në shoqërinë e kontribuesve të tjerë. Si përfundim, dua të shtoj se ishte një eksperiencë e paharrueshme dhe shpresoj që të jem prezent vitin e ardhshëm në këtë konferencë e cila do organizohet në Romë.
 
 Fotot janë nën licensën CC-BY-SA 4.0, pronë e Anxhelo Lushka, Italo Vignoli dhe Enio Gemmo.
-
-
-
-
-
-
