@@ -2,7 +2,7 @@
 layout: post
 title: "Digital-born Media Carnival 2017 - Kotor, Montenegro"
 date: 2017-07-20 12:00:00
-image: '/assets/img/'
+image: '/assets/img/posts/share-carnival.jpg'
 description: '4 day event gathering more than hundred of online media representatives,
 information explorers and digital rights enthusiasts'
 tags:
