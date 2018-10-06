@@ -2,6 +2,8 @@ var CACHE_NAME = 'lushka-al-cache';
 var urlsToCache = [
   '/',
   '/index.html',
+  '/about.html',
+  '/portfolio/index.html',
   '/assets/css/main.css',
   '/assets/css/overpass.css',
   '/assets/js/main.js'
@@ -32,7 +34,7 @@ self.addEventListener('fetch', function(event) {
             if(!response || response.status !== 200 || response.type !== 'basic') {
               return response;
             }
-            
+
             var responseToCache = response.clone();
 
             caches.open(CACHE_NAME)
