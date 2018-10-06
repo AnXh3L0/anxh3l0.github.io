@@ -28,6 +28,7 @@
     {% else %}
     <meta property="og:image" content="{{ site.url }}/assets/img/blog-image.png">
     {% endif %}
+    <meta property="og:image:type" content="image/png">
     <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:site_name" content="{{ site.title }}">
 
