@@ -2,7 +2,6 @@ var CACHE_NAME = 'lushka-al-cache';
 var urlsToCache = [
   '/',
   '/index.html',
-  '/about.html',
   '/portfolio/index.html',
   '/assets/css/main.css',
   '/assets/css/overpass.css',
