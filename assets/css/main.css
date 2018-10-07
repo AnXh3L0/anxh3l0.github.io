@@ -559,9 +559,13 @@ body.search-overlay:after {
 html,body {
  height:100%
 }
-.header-site,.header-post {
- background:#0562dc;
+.header-site {
  height:100%;
+ background:#0562dc;
+}
+.header-post {
+  height: 100%;
+  background: url("/assets/img/about.png");
 }
 .header-site .content,.header-post .content {
  width:95%;
@@ -620,12 +624,15 @@ html,body {
   clear:both
  }
 }
+.header-post .down .icon {
+  fill: #505050;
+}
 .header-post .subheader {
  display:table;
  padding:20px;
 }
 .header-post .subheader a {
- border:2px solid #fff;
+ border:2px solid #505050;
  border-radius:20px;
  padding:0 10px;
 }
@@ -657,11 +664,11 @@ html,body {
  font-size:1.25rem
 }
 .header-post h1,.header-post .subtitle,.header-post .date {
- color:#fff;
+ color:#505050;
  text-align:center
 }
 .header-post p {
- color:#fff;
+ color:#505050;
  text-decoration:none;
  font-family:'Overpass',sans-serif;
  font-weight:300;
