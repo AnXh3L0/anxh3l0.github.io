@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The truth about e-mail"
-date: 2018-10-15 12:00:00
+date: 2018-10-10 12:00:00
 image: '/assets/img/posts/email.png'
 description: 'A short beginner-friendly intro on e-mail ins and outs'
 tags:
