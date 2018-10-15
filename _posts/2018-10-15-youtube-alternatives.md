@@ -54,7 +54,7 @@ It's best to **avoid relying on redirect scripts** because they may redirect aft
 
 It does _not_ use the YouTube API. This solution **improves user privacy immensely** because, just like Invidious, the amount of requests is reduced to the absolute minimum required. It also registers as a handler in Android so **you can open links directly in NewPipe** - no redirects or anything required.
 
-You can also try "SkyTube" [2], which is based on the NewPipe Extractor, for some extra features like comments and filters.
+You can also try **SkyTube** [2], which is based on the NewPipe Extractor, for some extra features like comments and filters.
 
 ![SkyTube Interface](../assets/img/posts/skytube.jpg)
 
