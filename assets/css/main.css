@@ -273,7 +273,6 @@ a.slideButton,.dosearch {
 }
 .dosearch {
  right:10px;
- background:#0558c6;
  border-radius:.188rem;
  padding:.125rem .188rem
 }
@@ -1300,4 +1299,22 @@ footer p,footer a {
 }
 footer a:hover {
  color:#000 !important;
+}
+
+.fallback-menu {
+  display: none;
+}
+
+.no-js-banner {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  background-color: #fff7c9;
+  color: #786600;
+  display: none;
+  padding-top: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .5rem;
+  text-align: center !important;
 }

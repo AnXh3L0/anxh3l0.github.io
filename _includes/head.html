@@ -64,4 +64,23 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
     <link rel="manifest" href="{{ "/manifest.json" | prepend: site.baseurl }}">
+
+    <noscript>
+        <style>
+        .fallback-menu {
+        display: block; }
+        #open {
+            display: none;
+        }
+        #close {
+            display: none;
+        }
+        #search-icon {
+            display: none;
+        }
+        .no-js-banner {
+            display: block;
+        }
+    </style>
+    </noscript>
 </head>
