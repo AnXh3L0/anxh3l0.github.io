@@ -1,22 +1,22 @@
 ---
 layout: post
-title: "LibreOffice Hackfest Munich 2018"
-date: 2018-11-01 12:00:00
-image: '/assets/img/posts/libreoffice-hackfest.png'
-description: 'A short report on the Munich hackfest on LibreOffice'
+title: "Open Source Design Summit - Tirana 2018"
+date: 2018-11-06 12:00:00
+image: '/assets/img/posts/osd-summit.png'
+description: 'The 2nd edition of the Open Source Design Summit'
 tags:
-- libreoffice
-- hackfest
 - design
-- patch
-- foss
+- summit
+- community
+- open source
+- software
 categories:
 - article
 - report
 - blog
 ---
 
-The past month (end of October) I participated at the [LibreOffice Hackfest in Munich, Germany](https://wiki.documentfoundation.org/Hackfest/Muenchen2018). 
+Just a few days ago (from 2-4 November) I had the opportunity and the pleasure to organize and be part of the 2nd edition of the [Open Source Design Summit](https://opensourcedesign.net/summit), this time happening in Tirana, Albania.
 
 After the [LibreOffice Conference](https://libocon.org) we organized in September, the [Open Labs](https://openlabs.cc) community had a follow-up call with LibreOffice developers about future contributions and meetings. One of the ideas [Bjorn](https://skyfromme.wordpress.com/) proposed, was to create a team of contributors that want to learn and contribute to the core code of LibreOffice.
 

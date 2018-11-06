@@ -16,8 +16,6 @@ categories:
 - blog
 ---
 
-## The Truth About E-Mail Services
-
 There are many misconceptions about e-Mail, thanks to marketing efforts of companies looking to score a quick buck off the privacy scandals. Such companies include Protonmail, Tutanota et al. This post intends to teach you some basics so you can make an educated decision, unswayed by corporate greed.
 
 > E-Mail is always public. E-Mails are essentially postcards. It can be encrypted in transit [1] if you're lucky, but it will always be visible and accessable to the servers involved. There is absolutely no way to avoid this. The e-mail protocol is old and was never designed for privacy. 

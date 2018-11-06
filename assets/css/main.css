@@ -565,6 +565,8 @@ html,body {
 .header-post {
   height: 100%;
   background: url("/assets/img/about.png");
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 .header-site .content,.header-post .content {
  width:95%;
