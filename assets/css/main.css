@@ -204,12 +204,12 @@ h1,h2,h3,h4 {
 }
 .icons-home a {
  display:inline-block;
- padding:.938rem;
- margin:.125rem;
+ padding:.7rem;
+ margin:.1rem;
  border-radius:50%;
- border:.125rem solid #fff;
+ border:.2rem solid #fff;
  line-height:0;
- transition:all .7s;
+ transition:all .8s;
 }
 .icons-home a .icon {
  fill:#fff;
@@ -565,8 +565,7 @@ html,body {
 .header-post {
   height: 100%;
   background: url("/assets/img/about.png");
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  background-repeat: repeat-x;
 }
 .header-site .content,.header-post .content {
  width:95%;
