@@ -1301,11 +1301,9 @@ footer p,footer a {
 footer a:hover {
  color:#000 !important;
 }
-
 .fallback-menu {
   display: none;
 }
-
 .no-js-banner {
   width: 100%;
   position: fixed;
