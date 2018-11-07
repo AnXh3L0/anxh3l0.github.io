@@ -34,7 +34,7 @@ After, Jona explained more about the Fedora Women's Day and the Diversity & Incl
 
 [![Jona talking about initiatives](../assets/img/posts/fwd-jona-women.jpg)](../assets/img/posts/fwd-jona-women-full.jpg)
 
-As if we were approaching the end of the event (about 2 hours in total), I prepared the food (delicious muffins 🍩) and drinks 🥤 for the participants, and of course, the swag table, where the girls could take some stickers and spread the love for Fedora ❤️.
+As we were approaching the end of the event (about 2 hours in total), I prepared the food (delicious muffins 🍩) and drinks 🥤 for the participants, and of course, the swag table, where the girls could take some stickers and spread the love for Fedora ❤️.
 
 [![Stickers table](../assets/img/posts/fwd-stickers.jpg)](../assets/img/posts/fwd-stickers-full.jpg)
 
