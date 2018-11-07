@@ -40,7 +40,7 @@ As we were approaching the end of the event (about 2 hours in total), I prepared
 
 [![Muffins and drinks](../assets/img/posts/fwd-food.jpg)](../assets/img/posts/fwd-food-full.jpg)
 
-Everyone got a muffin and discussed a few minutes in groups with each other 👩‍💻 about the event and we asked a few questions some students had.
+Everyone got a muffin and discussed a few minutes in groups with each other 👩‍💻 about the event and we answered a few questions some students had.
 
 [![Students eating](../assets/img/posts/fwd-students.jpg)](../assets/img/posts/fwd-students-full.jpg)
 
