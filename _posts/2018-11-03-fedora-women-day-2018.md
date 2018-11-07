@@ -18,8 +18,7 @@ categories:
 
 As every year, the Fedora Diversity Team decided to organize the [Fedora Women's Day](https://fedoraproject.org/wiki/Category:Fedora_Women's_Day) event, an event that also happened in Tirana, Albania. The official day for that would be around mid September, but unfortunately being an organizer of the [LibreOffice Conference](https://libocon.org/2018) too, things got a bit out of hand and the event was postponed until the 30th of October 2018. 
 
-There were three of us (Ambassadors) that decided to organize this event, at the ["Hermann Gmeiner"](http://hermanngmeiner.vet.al/) technical high school in Tirana.
-[Mariana](https://marianaballa.com) couldn't make it because she was in Taiwan for the [OpenTechFund](https://www.opentech.fund/) Summit, so only [Jona](https://jona.azizaj.com) and I ran the event.
+We decided to organize this event at the ["Hermann Gmeiner"](http://hermanngmeiner.vet.al/) technical high school in Tirana.
 
 The event started at 11:30 AM at the auditorium of the high school. The participants were ALL girls, a whole 58 of them to be exact. They were eager to learn about the Fedora Project and how to get involved and contribute in open source.
 
