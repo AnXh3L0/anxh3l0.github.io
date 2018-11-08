@@ -34,7 +34,7 @@ At first I'll start with why Google Services are (imo) bad for your device. I co
 	- Google has agreed to perform special censorship of Youtube for the government of Pakistan, deleting views that the state opposes. This will help the illiberal Pakistani state suppress dissent.
 	- Youtube's "content ID" automatically deletes posted videos in a way copyright law does not require.
 
-These are just a few reasons, but you can read the RMS post I linked above, he tries to explain these more in detail than me. Although it may look like a tinfoil hat action to you, all these actions already happen everyday in real life.
+These are just a few reasons, but you can read the RMS post I linked above, he tries to explain these more in detail than me. Although it may look like a tinfoil hat reaction to you, all these actions already happen everyday in real life.
 
 ### Next on the list, my setup and a tutorial on how I achieved it
 
@@ -45,7 +45,7 @@ Now you might be thinking, 'but why did you buy a Chinese brand, they are not re
 There were a few reasons I chose this phone, first one of course being the price. It is a quite **budget-friendly** device, so most people are able to afford it. Next one would be the specs, which on paper (not only) are pretty decents for the price tag.
 With a 6 inch screen (Full HD resolution), a **4000 mAh battery** (superb battery life), 4GB of RAM, 64GB of storage, dual back cameras (12MP + 5MP), a front camera with flash (13MP) and a decent efficient Snapdragon 636, it was probably the best choice at that moment.
 
-The issue with it was that it came with [MIUI](https://en.wikipedia.org/wiki/MIUI), the Android skin that Xiaomi ships with most of its devices (except the Android One project devices). Yes, it is not that horrible, it has some extra features, but the problems lies deeper within. One of the reasons these devices from Xiaomi are so cheap (afaik they only have 5-10% win margin from sales) is that **they include data mining and ads in the system altogether with MIUI**. In this way, the system apps requires extra unnecessary permissions that mine your data and bombard you with ads, from which Xiaomi earns money. 
+The issue with it was that it came with [MIUI](https://en.wikipedia.org/wiki/MIUI), the Android skin that Xiaomi ships with most of its devices (except the Android One project devices). Yes, it is not that horrible, it has some extra features, but the problems lie deeper within. One of the reasons these devices from Xiaomi are so cheap (afaik they only have 5-10% win margin from sales) is that **they include data mining and ads in the system altogether with MIUI**. In this way, the system apps requires extra unnecessary permissions that mine your data and bombard you with ads, from which Xiaomi earns money. 
 
 Funnily enough, the Weather app included wanted access to my contacts and to make calls, why would it need that if it would just show the weather? Another case was with the Recorder app, it also required contacts and internet permissions, probably to send those recordings back to Xiaomi.
 
