@@ -16,13 +16,15 @@ categories:
 - blog
 ---
 
+Before reading this article, you might want to take a look at the ["Threat Modeling" article](/threat-modeling).
+
 There are many misconceptions about e-Mail, thanks to marketing efforts of companies looking to score a quick buck off the privacy scandals. Such companies include Protonmail, Tutanota et al. This post intends to teach you some basics so you can make an educated decision, unswayed by corporate greed.
 
-> E-Mail is always public. E-Mails are essentially postcards. It can be encrypted in transit [1] if you're lucky, but it will always be visible and accessable to the servers involved. There is absolutely no way to avoid this. The e-mail protocol is old and was never designed for privacy. 
+> E-Mail is **almost** always public. E-Mails are essentially postcards. It can be encrypted in transit [1], but it will always be visible and accessable to the servers involved. There is absolutely no way to avoid this. The e-mail protocol is old and was never designed for privacy. 
 
 > You need to encrypt yourself. The most common way to do so is PGP, which is supported by a wide array of clients [2] and thoroughly tested. 
 
-> Even PGP is not a a perfect solution.  Metadata will always be unencrypted. Subject line/sender/recipient/timestamp/etc. can already be used to create detailed profiles of you. There is no way to avoid this. You might want to keep the subject line light.
+> Even PGP is not a a perfect solution. Some of the metadata will always be unencrypted. Subject line/sender/recipient/timestamp/etc. can already be used to create detailed profiles of you. There is no way to avoid this. You might want to keep the subject line light.
 
 > Providers claiming they cannot scan/sell/analyze your data are always a scam. They can, and as stated before: there is no way around it.
 
