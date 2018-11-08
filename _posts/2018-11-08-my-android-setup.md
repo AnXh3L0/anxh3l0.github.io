@@ -105,6 +105,7 @@ Below you will find a list of the apps I have installed, what they replace and t
 * [Battery Charge Limit](https://f-droid.org/en/packages/com.slash.batterychargelimit) > Automatically stops charging the phone when it reaches 80% to lower battery wear and increase longevity
 * [DAVdroid](https://f-droid.org/en/packages/at.bitfire.davdroid) > This is one of my most-used apps, it basically replaces Google Contacts, Google Calendar and Google Tasks for me, it is connected to [my Nextcloud instance](https://cloud.lushka.al) and I have control over my data
 * [Document Viewer](https://f-droid.org/en/packages/org.sufficientlysecure.viewer) > A viewer app that can open hundreds of file formats, fast and lightweight
+* [Deezloader Remix](https://gitlab.com/Nick80835/DeezLoader-Android/) (an app that allows me to download high quality MP3 files from Deezer)
 * [Easy xkcd](https://f-droid.org/en/packages/de.tap.easy_xkcd) > An xckd comics reader, I love 
 * [Etar](https://f-droid.org/en/packages/ws.xsoh.etar) > Calendar app, replaces Google Calendar, works with DAVdroid
 * [FastHub-Libre](https://f-droid.org/en/packages/com.fastaccess.github.libre) > A GitHub client, entirely FOSS, useful if you use GitHub extensively like I do
@@ -134,7 +135,6 @@ This is pretty much **my list of the most useful F-Droid apps** I use, but unfor
 * AliExpress
 * Boost for Reddit
 * Google Camera (coupled with Camera API 2, this app allows me to take wonderful pictures with a 185 EUR phone, it's just too impressive and good not to use)
-* Deezloader (an app that allows me to download high quality MP3 files from Deezer)
 * Instagram
 * MediaBox HD (allows me to stream movies)
 * Mi Fit (an app that pairs with my Mi Band 2)
