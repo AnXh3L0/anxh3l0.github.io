@@ -34,7 +34,7 @@ At first I'll start with why Google Services are (imo) bad for your device. I co
 	- Google has agreed to perform special censorship of Youtube for the government of Pakistan, deleting views that the state opposes. This will help the illiberal Pakistani state suppress dissent.
 	- Youtube's "content ID" automatically deletes posted videos in a way copyright law does not require.
 
-These are just a few reasons, but you can read the RMS post I linked above, he tries to explain these more in detail than me. Although it may look like a tinfoil hat reaction to you, all these actions already happen everyday in real life.
+These are just a few reasons, but you can read the post by RMS I linked above in which he tries to explain these points in detail. Although it may look like a tinfoil hat reaction to you, all these actions already happen everyday in real life.
 
 ### Next on the list, my setup and a tutorial on how I achieved it
 
@@ -138,7 +138,7 @@ This is pretty much **my list of the most useful F-Droid apps** I use, but unfor
 
 * AliExpress
 * Boost for Reddit
-* Google Camera (coupled with Camera API 2, this app allows me to take wonderful pictures with a 185 EUR phone, it's just too impressive and good not to use)
+* Google Camera (coupled with Camera API 2, this app allows me to take wonderful pictures with a 185 EUR phone, it's just too impressive)
 * Instagram
 * MediaBox HD (allows me to stream movies)
 * Mi Fit (an app that pairs with my Mi Band 2)
