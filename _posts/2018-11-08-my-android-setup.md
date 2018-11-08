@@ -105,12 +105,8 @@ Below you will find a list of the apps I have installed, what they replace and t
 * [Battery Charge Limit](https://f-droid.org/en/packages/com.slash.batterychargelimit) > Automatically stops charging the phone when it reaches 80% to lower battery wear and increase longevity
 * [DAVdroid](https://f-droid.org/en/packages/at.bitfire.davdroid) > This is one of my most-used apps, it basically replaces Google Contacts, Google Calendar and Google Tasks for me, it is connected to [my Nextcloud instance](https://cloud.lushka.al) and I have control over my data
 * [Document Viewer](https://f-droid.org/en/packages/org.sufficientlysecure.viewer) > A viewer app that can open hundreds of file formats, fast and lightweight
-<<<<<<< HEAD
 * [Deezloader Remix](https://gitlab.com/Nick80835/DeezLoader-Android/) (an app that allows me to download high quality MP3 files from Deezer)
-* [Easy xkcd](https://f-droid.org/en/packages/de.tap.easy_xkcd) > An xckd comics reader, I love 
-=======
 * [Easy xkcd](https://f-droid.org/en/packages/de.tap.easy_xkcd) > An xkcd comics reader, I love these comics
->>>>>>> 03c8e9c716cc74318e879b11a438db55453031c7
 * [Etar](https://f-droid.org/en/packages/ws.xsoh.etar) > Calendar app, replaces Google Calendar, works with DAVdroid
 * [FastHub-Libre](https://f-droid.org/en/packages/com.fastaccess.github.libre) > A GitHub client, entirely FOSS, useful if you use GitHub extensively like I do
 * [Fennec F-Droid](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid) > Alternative to Google Chrome and others, a branded Firefox browser for F-Droid, without proprietary blobs/binaries that is updated and allows to install extensions to improve browsing experience
