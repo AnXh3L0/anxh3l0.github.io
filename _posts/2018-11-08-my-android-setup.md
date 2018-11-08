@@ -24,7 +24,7 @@ People have been asking me a lot lately about my phone, my Android setup and how
 At first I'll start with why Google Services are (imo) bad for your device. I could cut it short and guide you to this [post](https://stallman.org/google.html) by [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman), but I'm grabbing a few main points from it and adding them here.
 
 - Nonfree software required
-	- In general, most Google services require running nonfree Javascript code. Nowadays, nothing whatsoever appears if Javascript is disabled, even making a Google account requires running nonfree software (Javascript sent by the site). 
+	- In general, most Google services require running nonfree Javascript code. Nowadays, nothing whatsoever appears if Javascript is disabled, even making a Google account requires running nonfree software (Javascript sent by the site), same thing for logging in. 
 - Surveillance
 	- Google quietly combines its ad-tracking profiles with its browsing profiles and stores a huge amount of data on each user.
 - Terms of Service
