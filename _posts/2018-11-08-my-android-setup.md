@@ -112,8 +112,8 @@ Below you will find a list of the apps I have installed, what they replace and t
 * [Fennec F-Droid](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid) > Alternative to Google Chrome and others, a branded Firefox browser for F-Droid, without proprietary blobs/binaries that is updated and allows to install extensions to improve browsing experience
 * [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9) > Email client, replaces GMail app, customizable and can add as many email accounts as you wish
 * [Lawnchair](https://f-droid.org/en/packages/ch.deletescape.lawnchair.plah) > Launcher, can replace Nova Launcher or Pixel Launcher, allows customization and various changes, also supports icon packs and more
-* [Mattermost](https://f-droid.org/en/packages/com.mattermost.mattermost) > App that allows you to connect to a Mattermost server, Mattermost is an alternative to Slack
-* [NewPipe](https://f-droid.org/en/packages/org.schabi.newpipe) > The best YouTube client IMO, replaces YouTube, it is entirely FOSS, gets rid of YouTibe ads, lowers data usage, allows for background play, allows you to download video/audio etc. JUST TRY IT
+* [Mattermost](https://f-droid.org/en/packages/com.mattermost.mattermost) > App that allows you to connect to a Mattermost server, Mattermost iu an alternative to Slack
+* [NewPipe](https://f-droid.org/en/packages/org.schabi.newpipe) > The best YouTube client IMO, replaces YouTube, it is entirely FOSS, gets rid of YouTube ads, lowers data usage, allows for background play, allows you to download video/audio etc. JUST TRY IT
 * [Nextcloud SMS](https://f-droid.org/en/packages/fr.unix_experience.owncloud_sms) > Allows me to backup/sync my SMS to my Nextcloud instance
 * [Nextcloud Notes](https://f-droid.org/en/packages/it.niedermann.owncloud.notes) > Allows me to create, edit, delete, share notes and sync/backup to my Nextcloud instance
 * [OpenTasks](https://f-droid.org/en/packages/org.dmfs.tasks) > Allows me to create, edit, delete tasks and sync them up with my Nextcloud instance
