@@ -45,4 +45,4 @@ After contributing to the project, I decided to apply for the Ambassador positio
 
 Fedora is a very polished, stable and secure Linux-based OS. With all its variants, like [Spins](https://spins.fedoraproject.org) and [Labs](https://labs.fedoraproject.org), I'm pretty sure there will be something for everyone. If you have never used it, I would suggest that you try it, regardless of your technical background. If you use another distro, I would recommend you to try Fedora 29.
 
-All content is licensed under CC BY ([Creative Commons Attribution License](https://creativecommons.org/licenses/by/3.0/us/)).
+All content is licensed under CC BY-NC-SA 4.0. ([Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
