@@ -67,6 +67,21 @@ After this period of 15 days has passed, you have to re-connect your phone and d
 
 The next step would be finding a system ([ROM](https://www.xda-developers.com/what-is-custom-rom-android/)) that works for your device. I searched through the [XDA Developers Forum](https://forum.xda-developers.com/), which is a place where Android developers and users exchange ideas, apps etc. Fortunately, my phone is quite popular so it had [its own forum category](https://forum.xda-developers.com/redmi-note-5-pro). There, I skimmed through some popular ROM-s for my device and decided to use the [AOSiP ROM](https://forum.xda-developers.com/redmi-note-5-pro/development/rom-aosip-8-1-t3804473) (AOSiP standing for Android Open Source illusion Project).
 
+<hr />
+
+**EDIT**: Someone emailed me to say that my article is exactly what [/e/](https://e.foundation) does and is targeted to. I wanted to say thank you for reaching out but that is _not true_ at all. The reasoning behind my opinion about /e/ can also be found in this [website](https://ewwlo.xyz/evil), but I'll list a few of the reasons here.
+
+eelo is a “foundation” that got over 200K €  in funding from Kickstarter and IndieGoGo, promising to create a mobile OS and web services that are open and secure and protect your privacy.
+
+1. Their OS is based on LineageOS 14.1 (Android 7.1) with microG and other open source apps with it, which already exists for a long time now and it’s called [Lineage for microG](https://lineage.microg.org/).
+2. Instead of building all apps from the source code, they download the APKs from [APKPure](https://apkpure.com/) and put them in the ROM, without knowing if those APKs contain proprietary code/malware in them.
+3. At one point, they were literally just removing the Lineage copyright header from their code and adding theirs.
+4. They love to delete negative feedback and censor their users’ opinions in their Telegram group chat.
+
+In conclusion, I **don't recommend using /e/** ROM-s.
+
+<hr />
+
 Another thing you would likely want to do is have [root access](https://lifehacker.com/5789397/the-always-up-to-date-guide-to-rooting-any-android-phone) to your phone, to make it truly yours and modify files in the system, such as use a system-wide adblocker etc. To do this, I decided to use [Magisk](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445), a godsend app developed by a student to help you gain root access on your device and install what are called [modules](https://forum.xda-developers.com/apps/magisk), basically software.
 
 After downloading the ROM and Magisk, I had to install them on my phone. To do that, I moved the files to my SD card on the phone. Now, to install the system, I had to use something called a [recovery system](http://www.smartmobilephonesolutions.com/content/android-system-recovery). The one I use is called [TWRP](https://dl.twrp.me/whyred/) (standing for TeamWin Recovery Project), a popular solution.
@@ -82,6 +97,12 @@ After this was done, I turned off the phone and kept Volume Up + Power button pr
 Next step was to **issue a Wipe command**, necessary when you first install a custom ROM on your phone. As you can see from the image above, the Wipe command clears the Data, Cache and Dalvik (there is also an advanced option that allows us to tick a box to delete the System one too, as we don't need the old one anymore).
 
 This takes a few moments and after that, your phone is basically clean. Now it's time to **install the system**. By pressing the Install button on the main screen, we select the zip file we added there before (the ROM file) and swipe the screen to install it. Next, we have to install Magisk, which gives us root access to the device.
+
+<hr />
+
+**EDIT**: As some more experienced/power Android users might have noticed until now, there is no [GApps](https://opengapps.org/) (Google Apps) included. This is what we call GApps-less in the Android world, not having those packages installed at all.
+
+<hr />
 
 After successfully installing both, now we reboot the phone and **tada** 🎉, we are in the main screen.
 
