@@ -78,7 +78,7 @@ eelo is a “foundation” that got over 200K €  in funding from Kickstarter a
 3. At one point, they were literally just removing the Lineage copyright header from their code and adding theirs.
 4. They love to delete negative feedback and censor their users’ opinions in their Telegram group chat.
 
-In conclusion, I **don't recommend using /e/** ROM-s.
+In conclusion, I **don't recommend using /e/** ROM-s (at least until now).
 
 <hr />
 
@@ -101,6 +101,10 @@ This takes a few moments and after that, your phone is basically clean. Now it's
 <hr />
 
 **EDIT**: As some more experienced/power Android users might have noticed until now, there is no [GApps](https://opengapps.org/) (Google Apps) included. This is what we call GApps-less in the Android world, not having those packages installed at all.
+
+Note that one of the downsides of not having Google Services installed is that some of your apps might not work, for example their notifications might take longer to arrive or might not even work at all (this is what happens with Mattermost app for me). This happens because these apps use [Google Cloud Messaging](https://developers.google.com/cloud-messaging/) (now called [Firebase](https://firebase.google.com/docs/cloud-messaging/)) to wake the phone and push notifications to your phone.
+
+You can solve this (partially) by installing and using [microG](https://microg.org/) which provides some features of Google Services but allows for more control on your side. I don't recommend using this because it still helps Google Services and you don't really give up on them, but it's a good start if you want to quit Google slowly and not go cold turkey on it.
 
 <hr />
 
