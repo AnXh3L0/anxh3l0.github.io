@@ -5,11 +5,15 @@
         {% include svg-icons.html %}
         {% include header-post.html %}
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                {% assign words = page.content | number_of_words %}
+                    {% if words < 360 %}
+                    <p class="read-time">Read time: <b>1 minute</b></p>
+                    {% else %}
+                    <p class="read-time">Read time: <b>{{ words | divided_by:180 }} minutes</b></p>
+                    {% endif %}
                 {{ content }}
             </article>
-
             {% include share.html %}
             {% include author.html %}
             {% include footer.html %}
