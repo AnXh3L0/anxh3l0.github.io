@@ -226,7 +226,7 @@ h1,h2,h3,h4 {
  background:#fff;
 }
 .icons-home a:hover .icon {
- fill:#0562dc
+ fill:#333;
 }
 .down {
  position:absolute;
@@ -280,7 +280,7 @@ a.slideButton,.dosearch {
  cursor:pointer;
  padding:.313rem;
  border-radius:.188rem;
- background:#0558c6;
+ background:#444;
  width:2.5rem;
  height:2.5rem;
  fill:#fff
@@ -302,7 +302,7 @@ aside {
  padding:2.5rem 0 0;
  top:0;
  left:-15rem;
- background:#002351;
+ background:#222;
  z-index:20;
 }
 aside h2 {
@@ -329,10 +329,10 @@ aside nav li a {
  font-family:'Overpass',sans-serif;
  font-weight:400;
  font-style:normal;
- color:#94a2b6;
+ color:#fff;
 }
 aside nav li a:hover {
- color:#191918;
+ color:#222;
  background:#fff
 }
 aside.slide {
@@ -464,7 +464,7 @@ body.search-overlay:after {
 }
 @media only screen and (max-width:37.5rem) {
  body.search-overlay:after {
-  background-color:#0562dc
+  background-color:#333;
  }
 }
 .search-wrapper {
@@ -522,9 +522,9 @@ body.search-overlay:after {
 }
 .tags a {
  font-size:.875rem;
- color:#0562dc;
+ color:#fff;
  display:inline-block;
- border:1px solid #0562dc;
+ border:1px solid #fff;
  border-radius:.313rem;
  padding:.25rem .625rem;
  margin-right:.125rem;
@@ -536,39 +536,41 @@ body.search-overlay:after {
  user-select: none;
 }
 .tags a:hover {
- color:#03316e;
- border:1px solid #03316e
+ color:#333;
+ border:1px solid #fff;
+ background-color: #fff;
 }
 
 .resume a {
  font-size:.875rem;
- color:#0562dc;
+ color:#fff;
  display:inline-block;
- border:1px solid #0562dc;
+ border:1px solid #fff;
  border-radius:.313rem;
  padding:.25rem .625rem;
  margin-right:1.5rem;
  text-decoration:none;
 }
 .resume a:hover {
- color: #fff;
- background: #03316e;
- border: 1px solid #03316e;
+ color: #333;
+ background: #fff;
+ border: 1px solid #fff;
 }
 
 .img-rounded {
  border-radius:50%
 }
 html,body {
- height:100%
+ height:100%;
+ background-color: #333;
 }
 .header-site {
  height:100%;
- background:#0562dc;
+ background:#333;
 }
 .header-post {
   height: 100%;
-  background: url("/assets/img/about.png");
+  background: url("/assets/img/about-dark.png");
   background-repeat: repeat-x;
 }
 .header-site .content,.header-post .content {
@@ -629,7 +631,7 @@ html,body {
  }
 }
 .header-post .down .icon {
-  fill: #505050;
+  fill: #fff;
 }
 .header-post .subheader {
  display:table;
@@ -668,11 +670,11 @@ html,body {
  font-size:1.25rem
 }
 .header-post h1,.header-post .subtitle,.header-post .date {
- color:#505050;
+ color:#fff;
  text-align:center
 }
 .header-post p {
- color:#505050;
+ color:#fff;
  text-decoration:none;
  font-family:'Overpass',sans-serif;
  font-weight:300;
@@ -747,7 +749,7 @@ html,body {
  font-family:'Overpass',sans-serif;
  font-weight:800;
  font-style:normal;
- color:#0562dc;
+ color:#fff;
  font-size:5rem;
  line-height:1.6;
 }
@@ -768,7 +770,7 @@ html,body {
  }
 }
 .post-item .datetime .month-year {
- color:#000;
+ color:#eee;
  font-size:1.2rem
 }
 .post-item .content {
@@ -810,10 +812,10 @@ html,body {
  text-decoration:none
 }
 .post-item .content .date {
- color:#0562dc
+ color:#fff;
 }
 .post-item .content .post-title {
- color:#000;
+ color:#fff;
  font-size:2rem;
 }
 @media only screen and (max-width:37.5rem) {
@@ -822,14 +824,14 @@ html,body {
  }
 }
 .post-item .content .description {
- color:#333;
+ color:#eee;
  font-family:'Overpass',sans-serif;
  font-weight:300;
  font-style:normal;
  font-size:1.25rem;
 }
 .post-item .content .description a {
- color:#0562dc;
+ color:#ddd;
  text-decoration:underline
 }
 .post-content {
@@ -871,18 +873,18 @@ html,body {
  }
 }
 .post-content p,.post-content li {
- color:#333;
+ color:#fff;
 }
 .post-content p code,.post-content li code {
- color:#3085f4
+ color:#fff;
 }
 .post-content a {
  font-family:'Overpass',sans-serif;
  font-weight:300;
  font-style:normal;
- color:#0562dc;
+ color:#fff;
  text-decoration:none;
- border-bottom:2px solid #0562dc
+ border-bottom: 2px solid #fff;
 }
 .post-content iframe {
  margin-top:1.875rem;
@@ -908,6 +910,7 @@ html,body {
 .post-content h2 {
  font-size:1.375rem;
  line-height:1.4;
+ color: #fff;
 }
 @media only screen and (min-width:37.5rem) {
  .post-content h2 {
@@ -917,10 +920,11 @@ html,body {
 .post-content h3 {
  font-size:1.125rem;
  line-height:1.4;
+ color: #fff;
 }
 @media only screen and (min-width:37.5rem) {
  .post-content h3 {
-  font-size:1.563rem
+  font-size:1.563rem;
  }
 }
 .post-content ul,.post-content ol {
@@ -944,7 +948,7 @@ html,body {
  margin-left:auto;
  padding-left:0;
  padding-right:0;
- border-left:.313rem solid #0562dc;
+ border-left:.313rem solid #fff;
  padding:0 1.875rem;
  margin:3.125rem auto;
 }
@@ -1005,6 +1009,7 @@ html,body {
  border-top:1px solid #f2f2f2;
  padding-top:1.25rem;
  padding-bottom: 1.25rem;
+ color: #fff !important;
 }
 .share:before,.share:after {
  content:'';
@@ -1016,13 +1021,15 @@ html,body {
 .share svg {
  margin:.938rem;
  width:35px;
- height:35px
+ height:35px;
+ fill: #fff;
 }
 .share a {
  text-decoration:none;
+ color: #fff;
 }
 .share a:hover svg {
- fill:#0562dc;
+ fill:#ddd;
  transition-timing-function: ease-in-out;
  -webkit-transition-timing-function: ease-in-out;
  -webkit-transition-duration: .35s;
@@ -1055,6 +1062,7 @@ table th,table td {
  margin-left:auto;
  padding-left:0;
  padding-right:0;
+ color: #fff;
 }
 .tag-title:before,.tag-title:after {
  content:'';
@@ -1081,14 +1089,15 @@ table th,table td {
 }
 .post-list a {
  display:block;
- border-bottom:1px solid #dadada;
+ border-bottom:1px solid #fff;
  padding:.625rem 0;
  text-decoration:none;
  transition:all .5s;
+ color: #fff;
 }
 .post-list a:hover {
- color:#03316e;
- border-bottom:1px solid #03316e
+ color:#ddd;
+ border-bottom:1px solid #ddd;
 }
 .post-list .entry-date {
  float:right;
@@ -1187,7 +1196,7 @@ pre span {
  color:#a6e22e
 }
 .author {
- background:#f2f2f2;
+ background:#444;
  display:table;
  width:100%;
  padding:2.5rem 0;
@@ -1219,7 +1228,7 @@ pre span {
  }
 }
 .author .def {
- color:#808080;
+ color:#ddd;
  font-size:1.125rem;
  font-family:'Overpass',sans-serif;
  font-weight:300;
@@ -1234,17 +1243,18 @@ pre span {
 }
 .author .name {
  margin:0;
+ color: #fff;
 }
 .author .name a {
  font-family:'Overpass',sans-serif;
  font-weight:800;
  font-style:normal;
  text-decoration:none;
- color:#000;
+ color:#fff;
  font-size:1.875rem;
 }
 .author .name a:hover {
- color:#0562dc
+ color:#ddd;
 }
 @media only screen and (min-width:37.5rem) {
  .author .name a {
@@ -1257,6 +1267,7 @@ pre span {
  font-style:normal;
  margin:.625rem;
  font-size:1rem !important;
+ color: #fff;
 }
 @media only screen and (min-width:37.5rem) {
  .author .desc {
@@ -1265,7 +1276,11 @@ pre span {
 }
 .author .email {
  text-decoration:none;
- color:#0562dc
+ color:#fff;
+}
+.author .email:hover {
+ text-decoration:none;
+ color:#ddd;
 }
 .comments {
  *zoom:1;
@@ -1291,7 +1306,7 @@ pre span {
  font-size:1.875rem
 }
 footer {
- background:#0562dc;
+ background:#333;
  padding:1.563rem 0;
 }
 footer p,footer a {
@@ -1304,7 +1319,7 @@ footer p,footer a {
  margin:0
 }
 footer a:hover {
- color:#000 !important;
+ color:#ddd !important;
 }
 .fallback-menu {
   display: none;
@@ -1324,9 +1339,9 @@ footer a:hover {
 }
 .tags .read-time {
  font-size:.875rem;
- color:#333;
+ color:#fff;
  display:inline-block;
- border:1px solid #333;
+ border:1px solid #fff;
  border-radius:.313rem;
  padding:.25rem .625rem;
  margin-right:.125rem;
@@ -1338,12 +1353,12 @@ footer a:hover {
  user-select: none;
 }
 .tags .read-time:hover {
- color:#fff;
- background-color:#333;
- border:1px solid #333;
+ color:#333;
+ background-color:#fff;
+ border:1px solid #fff;
 }
 .read-time {
- color: #333;
+ color: red;
  text-align: center;
  -webkit-user-select: none;
  -moz-user-select: none;
@@ -1360,7 +1375,7 @@ label {
   text-indent: -9999px;
   width: 45px;
   height: 25px;
-  background: #0558c6;
+  background: #444;
   display: block;
   border-radius: 25px;
   position: absolute;

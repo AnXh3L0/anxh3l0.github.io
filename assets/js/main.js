@@ -1235,3 +1235,41 @@ window.Zepto = Zepto, void 0 === window.$ && (window.$ = Zepto),
       updateURL: !1
     })
   }(Zepto, window);
+
+  var checkbox = document.getElementById("switch");
+  var theme = document.getElementById("pagestyle");
+  var themedark = document.getElementById('pagestyle').getAttribute('href');
+
+  checkbox.addEventListener( 'change', function() {
+    if(this.checked) {
+    theme.setAttribute('href','/assets/css/dark.css');
+    localStorage.setItem('pagestyle', '/assets/css/dark.css');
+    } else {
+    theme.setAttribute('href','/assets/css/main.css');
+    localStorage.setItem('pagestyle', '/assets/css/main.css');
+    }
+  });
+
+  function load(){    
+    var checked = JSON.parse(localStorage.getItem('switch'));
+    document.getElementById("switch").checked = checked;
+    var darktheme = localStorage.getItem('pagestyle');
+    document.getElementById("pagestyle").href = darktheme;
+  }
+
+  var checked = JSON.parse(localStorage.getItem('switch'));
+  var darktheme = localStorage.getItem('pagestyle');
+  if (checked == true) {
+    document.getElementById("switch").checked = true;
+  }
+  if (darktheme == '/assets/css/dark.css') {
+    document.getElementById("pagestyle").href = "/assets/css/dark.css";
+  }
+  else if (darktheme == '/assets/css/main.css') {
+    document.getElementById("pagestyle").href = "/assets/css/main.css";
+  }
+
+  function save(){
+    var checkbox = document.getElementById('switch');
+    localStorage.setItem('switch', checkbox.checked);
+  }
