@@ -62,8 +62,7 @@
     <!-- Android Lollipop Theme Color -->
     <meta name="theme-color" content="#0562DC">
 
-    <link id="pagestyle" rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
-    <link rel="alternate stylesheet" href="{{ "/assets/css/dark.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/assets/css/overpass.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
@@ -87,7 +86,7 @@
         .no-js-banner {
             display: block;
         }
-            #switch {
+        label {
             display: none;
         }
     </style>

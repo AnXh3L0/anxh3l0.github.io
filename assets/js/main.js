@@ -1196,7 +1196,7 @@ window.Zepto = Zepto, void 0 === window.$ && (window.$ = Zepto),
           searchResults: ".search-results",
           searchResultsTitle: "<h4>Search Results:</h4>",
           limit: "5",
-          noResults: "<p>Ouch!<br/><small>Couldn't find anything! :'(</small></p>"
+          noResults: "<p>Ouch!<br/><small>Couldn't find anything! 😢</small></p>"
         }, e),
         s = a.jsonFormat.split(","),
         c = [],
@@ -1236,40 +1236,44 @@ window.Zepto = Zepto, void 0 === window.$ && (window.$ = Zepto),
     })
   }(Zepto, window);
 
-  var checkbox = document.getElementById("switch");
-  var theme = document.getElementById("pagestyle");
-  var themedark = document.getElementById('pagestyle').getAttribute('href');
+let toggle = document.querySelector('.toggle-theme');
+if (localStorage.getItem('dark')) {
+  document.body.classList.add('dark');
+}
 
-  checkbox.addEventListener( 'change', function() {
-    if(this.checked) {
-    theme.setAttribute('href','/assets/css/dark.css');
-    localStorage.setItem('pagestyle', '/assets/css/dark.css');
-    } else {
-    theme.setAttribute('href','/assets/css/main.css');
-    localStorage.setItem('pagestyle', '/assets/css/main.css');
-    }
-  });
+toggle.addEventListener('change', function(e) {
+  e.preventDefault();
 
-  function load(){    
+  if (document.body.classList.contains('dark')) {
+    document.body.classList.remove('dark');
+    localStorage.removeItem('dark');
+    document.getElementById('snackbar').innerHTML = 'Dark Mode Off';
+  } else {
+    document.body.classList.add('dark');
+    localStorage.setItem('dark', true);
+    document.getElementById('snackbar').innerHTML = 'Dark Mode On';
+  }
+});
+
+var checkbox = document.getElementById("switch");
+
+function load(){    
     var checked = JSON.parse(localStorage.getItem('switch'));
     document.getElementById("switch").checked = checked;
-    var darktheme = localStorage.getItem('pagestyle');
-    document.getElementById("pagestyle").href = darktheme;
-  }
+}
 
-  var checked = JSON.parse(localStorage.getItem('switch'));
-  var darktheme = localStorage.getItem('pagestyle');
+var checked = JSON.parse(localStorage.getItem('switch'));
   if (checked == true) {
     document.getElementById("switch").checked = true;
-  }
-  if (darktheme == '/assets/css/dark.css') {
-    document.getElementById("pagestyle").href = "/assets/css/dark.css";
-  }
-  else if (darktheme == '/assets/css/main.css') {
-    document.getElementById("pagestyle").href = "/assets/css/main.css";
-  }
+}
 
-  function save(){
+function save(){
     var checkbox = document.getElementById('switch');
     localStorage.setItem('switch', checkbox.checked);
-  }
+}
+
+function toast() {
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
