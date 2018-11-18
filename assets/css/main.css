@@ -25,7 +25,7 @@
   --links-color: #fff;
   --footer-bg: #333;
   --icon-menu: #444;
-  --sidebar-bg: #444;
+  --sidebar-bg: #222;
   --author-bg: #444;
   --author-def: #ddd;
   --post-bg: url("/assets/img/about-dark.png");
@@ -262,8 +262,8 @@ h1,h2,h3,h4 {
 }
 @media only screen and (min-width:37.5rem) {
  .icons-home a .icon {
-  width:30px;
-  height:30px
+  width:25px;
+  height:25px
  }
 }
 .icons-home a:hover {
@@ -287,11 +287,9 @@ h1,h2,h3,h4 {
  left:50%;
  -webkit-transform:translate(-50%,-50%);
  transform:translate(-50%,-50%);
- width:100px;
- height:100px;
+ width:85px;
+ height:85px;
  fill:#fff;
- -webkit-animation:pulse 1.3s infinite;
- animation:pulse 1.3s infinite
 }
 *,*:before,*:after {
  box-sizing:border-box
@@ -607,7 +605,7 @@ html,body {
 }
 .header-site {
  height:100%;
- background:var(--header);
+ background: var(--header);
 }
 .header-post {
   height: 100%;
@@ -1375,6 +1373,15 @@ footer a:hover {
   padding-bottom: .5rem;
   text-align: center !important;
 }
+.easter-egg {
+  position: absolute;
+  bottom: 0px;
+  width: 15rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  text-align: center !important;
+}
 .tags .read-time {
  font-size:.875rem;
  color:var(--text-color);
@@ -1447,42 +1454,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
-#snackbar {
-    visibility: hidden;
-    min-width: 100px;
-    margin-left: -60px;
-    background-color: var(--text-color);
-    color: var(--white);
-    text-align: center;
-    border-radius: 2px;
-    padding: 15px;
-    position: fixed;
-    z-index: 1;
-    left: 50%;
-    bottom: 30px;
-    font-size: 14px;
-}
-#snackbar.show {
-    visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-    animation: fadein 0.5s, fadeout 0.5s 2.5s;
-}
-@-webkit-keyframes fadein {
-    from {bottom: 0; opacity: 0;} 
-    to {bottom: 30px; opacity: 1;}
-}
-@keyframes fadein {
-    from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
-}
-@-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;} 
-    to {bottom: 0; opacity: 0;}
-}
-@keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 0; opacity: 0;}
 }
 /* Overpass font section added here in order to reduce number of requests to the server */
 /* overpass-regular - latin */
