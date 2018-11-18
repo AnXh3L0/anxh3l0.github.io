@@ -1455,6 +1455,66 @@ body {
   align-items: center;
   height: 100vh;
 }
+/* New classes for portofolio */
+@media (min-width: 768px) {
+ .flex {
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-moz-flex;
+  display:-ms-flexbox;
+  display:flex;
+  align-items:center;
+  flex-direction:row
+ }
+ .flex .text,.flex .image {
+  -webkit-flex:1;
+  flex:1;
+  padding:0 20px;
+ }
+ .post-content section:nth-child(even) .flex {
+  flex-direction:row-reverse
+ }
+}
+.portfolio-section {
+  padding: 50px 0;
+}
+.portfolio {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.container,.text-container {
+ margin:0 auto;
+ position:relative;
+ padding:0 20px
+}
+.text-container {
+ max-width:750px
+}
+.container {
+ max-width:1140px
+}
+.container.max-container {
+ max-width:100%;
+ padding:0
+}
+.card {
+ box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+ transition:all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
+}
+.card:hover {
+ box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+ -ms-transform:translate(2px, -2px);
+ -webkit-transform:translate(2px, -2px);
+ transform:translate(2px, -2px);
+ transition:all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
+}
+.post-content section:nth-child(even) .card:hover {
+  box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+ -ms-transform:translate(-2px, -2px);
+ -webkit-transform:translate(-2px, -2px);
+ transform:translate(-2px, -2px);
+ transition:all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
+ }
 /* Overpass font section added here in order to reduce number of requests to the server */
 /* overpass-regular - latin */
 @font-face {
