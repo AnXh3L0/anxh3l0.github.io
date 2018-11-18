@@ -1217,9 +1217,9 @@ window.Zepto = Zepto, void 0 === window.$ && (window.$ = Zepto),
   }(Zepto),
   function(t, e, n) {
     t("a#slide").click(function() {
-      t("#sidebar,a#slide,#fade").addClass("slide"), t("#open").hide(), t("#search").hide(), t("#close").show()
+      t("#sidebar,a#slide,#fade").addClass("slide"), t("#open").hide(), t("#search").hide(), t("#close").show(), t("#switcher").hide()
     }), t("#fade").click(function() {
-      t("#sidebar,a#slide,#fade").removeClass("slide"), t("#open").show(), t("#search").show(), t("#close").hide()
+      t("#sidebar,a#slide,#fade").removeClass("slide"), t("#open").show(), t("#search").show(), t("#close").hide(), t("#switcher").show()
     });
     var r = {
       close: t(".icon-remove-sign"),
@@ -1247,11 +1247,9 @@ toggle.addEventListener('change', function(e) {
   if (document.body.classList.contains('dark')) {
     document.body.classList.remove('dark');
     localStorage.removeItem('dark');
-    document.getElementById('snackbar').innerHTML = 'Dark Mode Off';
   } else {
     document.body.classList.add('dark');
     localStorage.setItem('dark', true);
-    document.getElementById('snackbar').innerHTML = 'Dark Mode On';
   }
 });
 
@@ -1270,10 +1268,4 @@ var checked = JSON.parse(localStorage.getItem('switch'));
 function save(){
     var checkbox = document.getElementById('switch');
     localStorage.setItem('switch', checkbox.checked);
-}
-
-function toast() {
-    var x = document.getElementById("snackbar");
-    x.className = "show";
-    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 }
