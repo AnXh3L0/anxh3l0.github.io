@@ -1246,7 +1246,6 @@ toggle.addEventListener('change', function(e) {
 
   if (document.body.classList.contains('dark')) {
     document.body.classList.remove('dark');
-    localStorage.removeItem('dark');
   } else {
     document.body.classList.add('dark');
     localStorage.setItem('dark', true);

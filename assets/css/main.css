@@ -1448,13 +1448,6 @@ input:checked + label:after {
 label:active:after {
   width: 20px;
 }
-// centering
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 /* New classes for portofolio */
 @media (min-width: 768px) {
  .flex {
