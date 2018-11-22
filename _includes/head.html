@@ -65,24 +65,52 @@
     <link rel="manifest" href="{{site.baseurl}}/assets/img/icons/site.webmanifest" />
     <!-- <link rel="manifest" href="{{ "/manifest.json" | prepend: site.baseurl }}"> -->
 
-    <!-- Fallbacks for disabled JavaScript users -->
-    <noscript>
-        <style>
-        #open {
-            display: none;
+<!-- Fallbacks for disabled JavaScript users -->
+<noscript>
+    <style>
+#open {
+      display: none;
+   }
+#close {
+      display: none;
+   }
+#search-icon {
+      display: none;
+   }
+#slide {
+      display: none;
+   }
+label {
+      display: none;
+   }
+.reminder {
+      display: none;
+   }
+.icons-home {
+      display: none;
+}
+.icons-alternative a {
+      display: inline-block;
+}
+aside {
+      position: fixed;
+      height: 100%;
+      width: 7.5rem;
+      padding: 2.5rem 0 0;
+      top: 0;
+      left: 0rem !important;
+      background: var(--sidebar-bg);
+      z-index: 20;
+   }
+.easter-egg {
+      display: none;
         }
-        #close {
-            display: none;
-        }
-        #search-icon {
-            display: none;
-        }
-        .no-js-banner {
-            display: block;
-        }
-        label {
-            display: none;
-        }
-    </style>
-    </noscript>
+@media only screen and (max-width:37.5rem) {
+      aside {
+        display: none;
+    }
+}
+</style>
+</noscript>
+
 </head>
