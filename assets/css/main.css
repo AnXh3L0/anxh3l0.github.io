@@ -16,6 +16,7 @@
   --icon-black: #333;
   --footer-text: #fff;
   --sidebar-text: #fff;
+  --reminder: block;
 }
 .dark {
   --white: #333;
@@ -35,6 +36,7 @@
   --icon-black: #fff;
   --footer-text: #fff;
   --sidebar-text: #fff;
+  --reminder: none;
 }
 html {
  font-family:overpass;
@@ -1447,6 +1449,19 @@ input:checked + label:after {
 }
 label:active:after {
   width: 20px;
+}
+.reminder {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: auto;
+  color: #fff;
+  font-size: .85rem;
+  display: var(--reminder);
+  position: absolute;
+  right: 65px;
+  top: 50px;
 }
 /* New classes for portofolio */
 @media (min-width: 768px) {
