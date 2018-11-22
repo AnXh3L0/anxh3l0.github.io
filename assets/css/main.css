@@ -274,6 +274,24 @@ h1,h2,h3,h4 {
 .icons-home a:hover .icon {
  fill:var(--icon-color);
 }
+.icons-alternative {
+ text-align:center;
+}
+.icons-alternative a {
+ display:none;
+ padding:.6rem;
+ margin:.1rem;
+ border-radius:50%;
+ border:.2rem solid #fff;
+ line-height:0;
+ transition:all .8s;
+}
+@media only screen and (min-width:37.5rem) {
+ .icons-alternative a .icon {
+  width:25px;
+  height:25px
+ }
+}
 .down {
  position:absolute;
  bottom:50px;
@@ -1559,22 +1577,4 @@ label:active:after {
        url('../fonts/overpass-v2-latin-800.woff') format('woff'), /* Modern Browsers */
        url('../fonts/overpass-v2-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/overpass-v2-latin-800.svg#Overpass') format('svg'); /* Legacy iOS */
-}
-.icons-alternative {
- text-align:center;
-}
-.icons-alternative a {
- display:none;
- padding:.6rem;
- margin:.1rem;
- border-radius:50%;
- border:.2rem solid #fff;
- line-height:0;
- transition:all .8s;
-}
-@media only screen and (min-width:37.5rem) {
- .icons-alternative a .icon {
-  width:25px;
-  height:25px
- }
 }
