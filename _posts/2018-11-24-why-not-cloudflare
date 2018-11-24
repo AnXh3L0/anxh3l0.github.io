@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cloudflare and reasons why not"
-date: 2018-11-14 12:00:00 +0200
+date: 2018-11-24 21:00:00 +0200
 image: '/assets/img/posts/cloudflare.png'
 description: 'Stop using this service!'
 tags:
@@ -15,3 +15,5 @@ categories:
 - psa
 - blog
 ---
+
+As a follow-up of my previous posts related to privacy, this one is dedicated to Cloudflare and why (imo) you shouldn't touch it with a ten foot pole.
