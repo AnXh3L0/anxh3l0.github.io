@@ -4,7 +4,6 @@
   --header: url("/assets/img/home.svg");
   --items-color: #0048a7;
   --links-color: #0048a7;
-  --footer-bg: #0048a7;
   --icon-menu: #333;
   --sidebar-bg: #333;
   --author-bg: #f2f2f2;
@@ -20,7 +19,6 @@
   --icon-white: #fff;
   --icon-color: #0048a7;
   --icon-black: #333;
-  --footer-text: #fff;
   --sidebar-text: #fff;
 }
 .dark {
@@ -29,7 +27,6 @@
   --header: url("/assets/img/home-dark.svg");
   --items-color: #fff;
   --links-color: #fff;
-  --footer-bg: #333;
   --icon-menu: #444;
   --sidebar-bg: #222;
   --author-bg: #444;
@@ -45,7 +42,6 @@
   --icon-white: #fff;
   --icon-color: #333;
   --icon-black: #fff;
-  --footer-text: #fff;
   --sidebar-text: #fff;
 }
 html {
@@ -1474,7 +1470,7 @@ pre span {
  font-size:1.875rem
 }
 footer {
- background:var(--footer-bg);
+ background:#333;
  padding:1.563rem 0;
 }
 footer p,footer a {
@@ -1482,12 +1478,12 @@ footer p,footer a {
  font-family:'Overpass',sans-serif;
  font-weight:300;
  font-style:normal;
- color:var(--footer-text);
+ color:#fff;
  text-align:center;
  margin:0
 }
 footer a:hover {
- color:var(--hover) !important;
+ color:#ddd;
 }
 .easter-egg {
   position: absolute;
