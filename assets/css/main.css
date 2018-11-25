@@ -844,6 +844,10 @@ html,body {
  .header-site .icons-home {
   text-align: center;
  }
+ .header-site .icons-home a {
+  margin:.15rem;
+  padding:.7rem;
+ }
  .header-about {
   height: 100%;
   background-repeat: no-repeat;
