@@ -8,9 +8,12 @@ description:
 <section class="content">
 	<div class="start">
 		<h1>Search</h1>
-		<form class="searchbox" action="https://start.duckduckgo.com/?q=&kp=-2&kl=us-en&kz=1&kav=1&kh=1&kg=p&kae=d&k1=-1&kv=1&kam=osm">
+		<form class="searchbox" method="GET" action="https://start.duckduckgo.com/">
 			<input type="text" name="q" value="" placeholder="" autofocus="on" autocomplete="off" autocapitalize="off">
 			<input class="search-glass" type="submit" name="" value="">
+			<div>
+				<input type="hidden" name="kp" value="-2"><input type="hidden" name="kl" value="us-en"><input type="hidden" name="kz" value="1"><input type="hidden" name="kav" value="1"><input type="hidden" name="kh" value="1"><input type="hidden" name="kg" value="p"><input type="hidden" name="kae" value="d"><input type="hidden" name="k1" value="-1"><input type="hidden" name="kv" value="1"><input type="hidden" name="kam" value="osm"><input type="hidden" name="t" value="h_">
+  			</div>
 		</form>
 	</div>
 </section>
