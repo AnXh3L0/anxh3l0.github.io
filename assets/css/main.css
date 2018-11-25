@@ -1,12 +1,12 @@
 :root {
   --white: #fff;
   --text-color: #333;
-  --header: #0048a7;
+  --header: url("/assets/img/home.svg");
   --items-color: #0048a7;
   --links-color: #0048a7;
   --footer-bg: #0048a7;
-  --icon-menu: #00429b;
-  --sidebar-bg: #002454;
+  --icon-menu: #333;
+  --sidebar-bg: #333;
   --author-bg: #f2f2f2;
   --author-def: #808080;
   --post-bg: url("/assets/img/about.png");
@@ -15,18 +15,18 @@
   --categories-bg: url("/assets/img/categories.svg");
   --tags-bg: url("/assets/img/tags.svg");
   --404: url("/assets/img/404.svg");
+  --mobile-bg: url("/assets/img/mobile-home.svg");
   --hover: #000;
   --icon-white: #fff;
   --icon-color: #0048a7;
   --icon-black: #333;
   --footer-text: #fff;
   --sidebar-text: #fff;
-  --reminder: block;
 }
 .dark {
   --white: #333;
   --text-color: #fff;
-  --header: #333;
+  --header: url("/assets/img/home-dark.svg");
   --items-color: #fff;
   --links-color: #fff;
   --footer-bg: #333;
@@ -40,13 +40,13 @@
   --categories-bg: url("/assets/img/categories-dark.svg");
   --tags-bg: url("/assets/img/tags.svg");
   --404: url("/assets/img/404-dark.svg");
+  --mobile-bg: url("/assets/img/mobile-home-dark.svg");
   --hover: #ddd;
   --icon-white: #fff;
   --icon-color: #333;
   --icon-black: #fff;
   --footer-text: #fff;
   --sidebar-text: #fff;
-  --reminder: none;
 }
 html {
  font-family:overpass;
@@ -256,19 +256,19 @@ h1,h2,h3,h4 {
  }
 }
 .icons-home {
- text-align:center;
+ text-align:left;
 }
 .icons-home a {
  display:inline-block;
  padding:.6rem;
  margin:.1rem;
  border-radius:50%;
- border:.2rem solid #fff;
+ border:.2rem solid var(--text-color);
  line-height:0;
- transition:all .8s;
+ transition:all .5s;
 }
 .icons-home a .icon {
- fill:var(--icon-white);
+ fill:var(--text-color);
  width:18px;
  height:18px;
 }
@@ -279,20 +279,20 @@ h1,h2,h3,h4 {
  }
 }
 .icons-home a:hover {
- background:var(--icon-white);
+ background:var(--text-color);
 }
 .icons-home a:hover .icon {
- fill:var(--icon-color);
+ fill:var(--white);
 }
 .icons-alternative {
- text-align:center;
+ text-align:left;
 }
 .icons-alternative a {
  display:none;
  padding:.6rem;
  margin:.1rem;
  border-radius:50%;
- border:.2rem solid #fff;
+ border:.2rem solid #333;
  line-height:0;
  transition:all .8s;
 }
@@ -319,7 +319,7 @@ h1,h2,h3,h4 {
  transform:translate(-50%,-50%);
  width:85px;
  height:85px;
- fill:#fff;
+ fill:var(--text-color);
 }
 *,*:before,*:after {
  box-sizing:border-box
@@ -636,6 +636,10 @@ html,body {
 .header-site {
  height:100%;
  background: var(--header);
+ background-repeat: no-repeat;
+ background-size: 55%;
+ background-position-x: 100%;
+ background-position-y: 50%; 
 }
 .header-post {
   height: 100%;
@@ -678,7 +682,7 @@ html,body {
   background-position: 50%;
 }
 .header-site .content,.header-post .content, .header-portfolio .content, .header-about .content, .header-categories .content, .header-tags .content {
- width:95%;
+ width:62.5rem;
  position:absolute;
  -webkit-transform-style:preserve-3d;
  transform-style:preserve-3d;
@@ -688,9 +692,9 @@ html,body {
  transform:translate(-50%,-50%);
  text-align:center
 }
-.header-site h1,.header-site h2 {
- color:#fff;
- text-align:center
+.header-site h1 {
+ color:var(--text-color);
+ text-align:left;
 }
 .header-site .site-title {
  font-size:3.75rem;
@@ -701,13 +705,13 @@ html,body {
 @media only screen and (min-width:37.5rem) {
  .header-site .site-title {
   margin-bottom:0;
-  font-size:6.25rem
+  font-size:6rem
  }
 }
 .header-site .site-description {
  font-size:1.25rem;
  display:block;
- margin:1.875rem 0;
+ margin:0rem 0 2rem 0;
 }
 @media only screen and (min-width:37.5rem) {
  .header-site .site-description {
@@ -822,6 +826,23 @@ html,body {
  .post-item {
   padding-left:1.25rem;
   padding-right:1.25rem
+ }
+ .header-site {
+  height: 100%;
+  background: var(--mobile-bg);
+  background-repeat: no-repeat;
+  background-size: 250%;
+  background-position-x: 100%;
+  background-position-y: 50%;
+ }
+ .header-site .content {
+  width: auto;
+ }
+ .header-site h1 {
+  text-align: center;
+ }
+ .header-site .icons-home {
+  text-align: center;
  }
  .header-about {
   height: 100%;
@@ -1538,19 +1559,6 @@ input:checked + label:after {
 }
 label:active:after {
   width: 20px;
-}
-.reminder {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: auto;
-  color: #fff;
-  font-size: .85rem;
-  display: var(--reminder);
-  position: absolute;
-  right: 65px;
-  top: 50px;
 }
 /* New classes for portofolio */
 @media (min-width: 768px) {
