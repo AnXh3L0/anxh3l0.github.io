@@ -850,11 +850,17 @@ html,body {
   background-size: 90%;
   background-position: 50%;
  }
+ .header-about .content {
+  width: auto;
+ }
  .header-portfolio {
   height: 100%;
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: 50%;
+ }
+ .header-portfolio .content {
+  width: auto;
  }
   .header-categories {
   height: 100%;
@@ -862,11 +868,17 @@ html,body {
   background-size: 90%;
   background-position: 50%;
  }
+  .header-categories .content {
+  width: auto; 
+ }
   .header-tags {
   height: 100%;
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: 50%;
+ }
+  .header-tags .content {
+  width: auto;
  }
   .header-404 {
   height: 100%;
