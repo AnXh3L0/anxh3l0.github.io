@@ -677,6 +677,23 @@ html,body {
   background-size: 50%;
   background-position: 50%;
 }
+.header-start {
+  height: 100%;
+  background: #333;
+  color: #fff;
+}
+.content .start {
+ width: auto;
+ position: absolute;
+ -webkit-transform-style: preserve-3d;
+ transform-style: preserve-3d;
+ top: 30%;
+ left: 50%;
+ -webkit-transform: translate(-50%,-50%);
+ transform: translate(-50%,-50%);
+ text-align: center;
+ color: #fff;
+}
 .header-site .content,.header-post .content, .header-portfolio .content, .header-about .content, .header-categories .content, .header-tags .content {
  width:62.5rem;
  position:absolute;
@@ -1634,6 +1651,31 @@ label:active:after {
  -webkit-transform:translate(-2px, -2px);
  transform:translate(-2px, -2px);
  transition:all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
+ }
+ .searchbox {
+ background-color: #292929;
+ }
+ input[type="text"] {
+ background-color: #292929;
+ border-color: #242424;
+ border: 0;
+ padding: 1rem;
+ box-sizing: border-box;
+ }
+ input[type="submit"] {
+  background-color: #292929;
+  border: 0;
+  padding:1rem 2rem 1rem 1rem;
+  box-sizing: border-box;
+ }
+ input[type="submit"]:hover {
+  background-color: #212121;
+ }
+ .search-glass {
+  background:  url('/assets/img/search-glass.svg');
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 50%;
  }
 /* Overpass font section added here in order to reduce number of requests to the server */
 /* overpass-regular - latin */
