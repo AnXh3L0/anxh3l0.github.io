@@ -886,6 +886,9 @@ html,body {
   background-size: 90%;
   background-position: 50%;
  }
+ .header-post .content {
+  width: auto;
+ }
 }
 .post-item .datetime {
  *zoom:1;
