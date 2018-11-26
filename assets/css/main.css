@@ -340,9 +340,9 @@ a.slideButton,.dosearch {
  left:10px
 }
 .dosearch {
- right:10px;
+ left:10px;
  border-radius:.188rem;
- padding:.125rem .188rem
+ top:60px;
 }
 .icon-menu {
  cursor:pointer;
@@ -354,8 +354,8 @@ a.slideButton,.dosearch {
  fill:#fff
 }
 .icon-search {
- width:2.188rem;
- height:2.188rem
+ width:40px;
+ height:40px;
 }
 .overlay {
  cursor:pointer
@@ -1568,7 +1568,7 @@ label {
   display: block;
   border-radius: 25px;
   position: absolute;
-  right: 55px;
+  right: 18px;
   top: 18px;
 }
 label:after {
