@@ -527,12 +527,12 @@ body.search-overlay:after {
  width:100%;
  height:100%;
  min-height:100%;
- background-color:rgba(0,0,0,0.6);
+ background-color:rgba(0,0,0,0.9);
  content:'';
 }
 @media only screen and (max-width:37.5rem) {
  body.search-overlay:after {
-  background-color:var(--header)
+  background-color:rgba(0,0,0,0.9);
  }
 }
 .search-wrapper {
