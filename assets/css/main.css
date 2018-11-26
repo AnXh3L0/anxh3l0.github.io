@@ -683,7 +683,7 @@ html,body {
   color: #fff;
 }
 .content .start {
- width: auto;
+ width: 62.5rem;
  position: absolute;
  -webkit-transform-style: preserve-3d;
  transform-style: preserve-3d;
@@ -905,6 +905,12 @@ html,body {
  }
  .header-post .content {
   width: auto;
+ }
+ .content .start {
+  max-width: 20rem;
+ }
+  input[type="text"] {
+  max-width: 15rem;
  }
 }
 .post-item .datetime {
@@ -1653,14 +1659,14 @@ label:active:after {
  transition:all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
  }
  .searchbox {
- background-color: #292929;
+ background-color: transparent;
  }
  input[type="text"] {
  background-color: #292929;
- border-color: #242424;
  border: 0;
- padding: 1rem;
+ padding: 1rem 1rem 1rem 1rem;
  box-sizing: border-box;
+ width:30rem;
  }
  input[type="submit"] {
   background-color: #292929;
