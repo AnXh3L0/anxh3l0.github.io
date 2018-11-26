@@ -20,7 +20,7 @@ If you own an Android device, you must have probably heard of/installed/used [Ch
 
 For those that have used their products and still do, I hope you delete them ASAP after reading this article; you might see this as a [PSA](https://www.slanguide.com/what-does-psa-mean/) (Public Service Announcement), I'm doing you people a favour.
 
-And the main queston would resolve to:
+And the main question would resolve to:
 
 ## Why do people trust Cheetah Mobile in 2018?
 
