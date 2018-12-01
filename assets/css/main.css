@@ -1658,31 +1658,6 @@ label:active:after {
  transform:translate(-2px, -2px);
  transition:all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
  }
- .searchbox {
- background-color: transparent;
- }
- input[type="text"] {
- background-color: #292929;
- border: 0;
- padding: 1rem 1rem 1rem 1rem;
- box-sizing: border-box;
- width:30rem;
- }
- input[type="submit"] {
-  background-color: #292929;
-  border: 0;
-  padding:1rem 2rem 1rem 1rem;
-  box-sizing: border-box;
- }
- input[type="submit"]:hover {
-  background-color: #212121;
- }
- .search-glass {
-  background:  url('/assets/img/search-glass.svg');
-  background-repeat: no-repeat;
-  background-size: 40%;
-  background-position: 50%;
- }
 /* Overpass font section added here in order to reduce number of requests to the server */
 /* overpass-regular - latin */
 @font-face {
