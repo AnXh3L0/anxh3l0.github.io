@@ -40,7 +40,7 @@ These are just a few reasons, but you can read the post by RMS I linked above in
 
 I own a **[Xiaomi Redmi Note 5 Pro](https://www.gsmarena.com/xiaomi_redmi_note_5_pro-8893.php)** smartphone (codename **whyred**), produced in China by [Xiaomi](https://en.wikipedia.org/wiki/Xiaomi), which I bought for around 185 EUR 4 months ago (from the time of writing this post).
 
-Now you might be thinking, 'but why did you buy a Chinese brand, they are not reliable'. Yes, it is not made from the usuals as you would expect, such as Samsung (which people often associate with Android, which is plain wrong), OnePlus, Nokia etc, but you should know almost every phone is produced in China.
+Now you might be thinking, 'but why did you buy a Chinese brand, they are not reliable'. Yes, it is not made from the usuals as you would expect, such as Samsung (which people often associate with Android, and is plain wrong), OnePlus, Nokia etc, but you should know almost every phone is produced in China.
 
 There were a few reasons I chose this phone, first one of course being the price. It is a quite **budget-friendly** device, so most people are able to afford it. Next one would be the specs, which on paper (not only) are pretty decents for the price tag.
 With a 6 inch screen (Full HD resolution), a **4000 mAh battery** (superb battery life), 4GB of RAM, 64GB of storage, dual back cameras (12MP + 5MP), a front camera with flash (13MP) and a decent efficient Snapdragon 636, it was probably the best choice at that moment.
@@ -57,9 +57,9 @@ The concept of formatting a phone is simple, you remove the existing system and 
 > — [Wikipedia](https://en.wikipedia.org/wiki/Booting)
 
 The problem here is that Xiaomi has a specific policy about the bootloader unlocking. A few months ago, the process was like this.
-You would have to [make a request](https://en.miui.com/unlock/) to Xiaomi to obtain an unlock code for your phone, by giving a valid reason, but this would not always work, as they could just refuse your request without reason and explanation.
+You would have to [make a request](https://en.miui.com/unlock/) to Xiaomi to obtain an unlock code for your phone, by giving a valid reason, but this would not always work, as they could just refuse your request without reasons and explanation.
 
-Now, that process has changed. You'll have to download a specific software from Xiaomi, called [Mi Unlock](http://www.miui.com/unlock/apply.php), install it in your Windows PC, [activate Debugging Settings in Developer Options](https://www.youtube.com/watch?v=7zhEsJlivFA) on your phone, reboot to the bootloader mode (by holding the Volume Down + Power button while the phone is off) and connect the phone to your computer to start a process called "Approval". This process starts a timer on the Xiaomi servers that will allow you to **unlock the phone only after a period of 15 days** (or a month in some rare cases, totally random) goes by.
+Now, that process has changed. You'll have to download a specific software from Xiaomi, called [Mi Unlock](http://www.miui.com/unlock/apply.php), install it in your Windows, Mac or Linux PC, [activate Debugging Settings in Developer Options](https://www.youtube.com/watch?v=7zhEsJlivFA) on your phone, reboot to the bootloader mode (by holding the Volume Down + Power button while the phone is off) and connect the phone to your computer to start a process called "Approval". This process starts a timer on the Xiaomi servers that will allow you to **unlock the phone only after a period of 15 days** (or a month in some rare cases, totally random) goes by.
  
 ![Mi Unlock app](../assets/img/posts/mi-unlock.png)
 
@@ -128,28 +128,29 @@ Below you will find a list of the apps I have installed, what they replace and t
 * [AnySoftKeyboard/AOSP Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) > Open Source keyboard, it has many themes and language packs, I am also part of this [project](https://anysoftkeyboard.github.io)
 * [Audio Recorder](https://f-droid.org/en/packages/com.github.axet.audiorecorder) > Does what it says, allows you to record audio files in different formats from the microphone
 * [Battery Charge Limit](https://f-droid.org/en/packages/com.slash.batterychargelimit) > Automatically stops charging the phone when it reaches 80% to lower battery wear and increase longevity
-* [DAVdroid](https://f-droid.org/en/packages/at.bitfire.davdroid) > This is one of my most-used apps, it basically replaces Google Contacts, Google Calendar and Google Tasks for me, it is connected to [my Nextcloud instance](https://cloud.lushka.al) and I have control over my data
+* [DAVx5](https://f-droid.org/en/packages/at.bitfire.davdroid) > This is one of my most-used apps, it basically replaces Google Contacts, Google Calendar and Google Tasks for me, it is connected to [my Nextcloud instance](https://cloud.lushka.al) and I have control over my data
 * [Document Viewer](https://f-droid.org/en/packages/org.sufficientlysecure.viewer) > A viewer app that can open hundreds of file formats, fast and lightweight
 * [Deezloader Remix](https://gitlab.com/Nick80835/DeezLoader-Android/) (an app that allows me to download high quality MP3 files from Deezer)
 * [Easy xkcd](https://f-droid.org/en/packages/de.tap.easy_xkcd) > An xkcd comics reader, I love these comics
-* [Etar](https://f-droid.org/en/packages/ws.xsoh.etar) > Calendar app, replaces Google Calendar, works with DAVdroid
+* [Etar](https://f-droid.org/en/packages/ws.xsoh.etar) > Calendar app, replaces Google Calendar, works with DAVx5
 * [FastHub-Libre](https://f-droid.org/en/packages/com.fastaccess.github.libre) > A GitHub client, entirely FOSS, useful if you use GitHub extensively like I do
 * [Fennec F-Droid](https://f-droid.org/en/packages/org.mozilla.fennec_fdroid) > Alternative to Google Chrome and others, a branded Firefox browser for F-Droid, without proprietary blobs/binaries that is updated and allows to install extensions to improve browsing experience
+* [Gadgetbridge](https://f-droid.org/en/packages/nodomain.freeyourgadget.gadgetbridge) > Alternative to Mi Fit, application that is used to pair Xiaomi hardware with the phone and track your health, steps, sleep etc.
 * [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9) > Email client, replaces GMail app, customizable and can add as many email accounts as you wish
 * [Lawnchair](https://f-droid.org/en/packages/ch.deletescape.lawnchair.plah) > Launcher, can replace Nova Launcher or Pixel Launcher, allows customization and various changes, also supports icon packs and more
-* [Mattermost](https://f-droid.org/en/packages/com.mattermost.mattermost) > App that allows you to connect to a Mattermost server, Mattermost iu an alternative to Slack
+* [Mattermost](https://f-droid.org/en/packages/com.mattermost.mattermost) > App that allows you to connect to a Mattermost server, Mattermost is an alternative to Slack
 * [NewPipe](https://f-droid.org/en/packages/org.schabi.newpipe) > The best YouTube client IMO, replaces YouTube, it is entirely FOSS, gets rid of YouTube ads, lowers data usage, allows for background play, allows you to download video/audio etc. JUST TRY IT
 * [Nextcloud SMS](https://f-droid.org/en/packages/fr.unix_experience.owncloud_sms) > Allows me to backup/sync my SMS to my Nextcloud instance
 * [Nextcloud Notes](https://f-droid.org/en/packages/it.niedermann.owncloud.notes) > Allows me to create, edit, delete, share notes and sync/backup to my Nextcloud instance
 * [OpenTasks](https://f-droid.org/en/packages/org.dmfs.tasks) > Allows me to create, edit, delete tasks and sync them up with my Nextcloud instance
-* [OsmAnd~](https://f-droid.org/en/packages/net.osmand.plus) > A map app, alternative to Google Maps, uses [OpenStreetMap](https://openstreetmap.org), allows for offline download and navigation 
+* [OsmAnd~](https://f-droid.org/en/packages/net.osmand.plus) > A map app, alternative to Google Maps, uses [OpenStreetMap](https://openstreetmap.org), allows for offline maps download and navigation 
 * [QKSMS](https://f-droid.org/en/packages/com.moez.QKSMS) > My favorite SMS app, replaces stock Messaging app, has a beautiful interface, allows backups, customization, has delayed sending feature etc.
 * [Resplash/Mysplash](https://f-droid.org/en/packages/com.wangdaye.mysplash) > Allows you to download beautiful and endless wallpapers from [Unsplash](https://unsplash.com), all free to use and modify
 * [ScreenCam](https://f-droid.org/en/packages/com.orpheusdroid.screenrecorder) > A screen recorder, allows various customizations and recording modes, no ads and free
 * [SecScanQR](https://f-droid.org/en/packages/de.t_dankworth.secscanqr) > A QR scanner app, really fast and lightweight
-* [Send Reduced Free](https://f-droid.org/en/packages/mobi.omegacentauri.SendReduced) > This app allows you to share big images instantly by reducing them and remove PII (personally identifiable information) before sending them to someone
+* [Send Reduced Free](https://f-droid.org/en/packages/mobi.omegacentauri.SendReduced) > This app allows you to share big images instantly by reducing them and removing PII (personally identifiable information) before sending them to someone
 * [TrebleShot](https://f-droid.org/en/packages/com.genonbeta.TrebleShot) > This ingenius app allows you to share files over a WiFi connection, in a really fast way, without even having internet access, to other devices
-* [Tusky](https://f-droid.org/en/packages/com.keylesspalace.tusky) > Tusky is a client for the [Mastodon](https://joinmastodon.org/) platform that I use to access my [personal Mastodon instance](https://lushka.ml) (Mastodon replaces Twitter)
+* [Tusky](https://f-droid.org/en/packages/com.keylesspalace.tusky) > Tusky is a client for the [Mastodon](https://joinmastodon.org/) platform that I use to access my [personal Mastodon instance](https://lushka.ml/@anxhelo) (Mastodon replaces Twitter)
 * [Unit Converter Ultimate](https://f-droid.org/en/packages/com.physphil.android.unitconverterultimate) > This app allows me to convert between 200 units in a snap, it works fully offline and it's fast
 * [Vinyl Music Player](https://f-droid.org/en/packages/com.poupa.vinylmusicplayer) > My preferred music player app, replaces Google Play Music or whatever you have already installed on your phone, it has a beautiful interface and many features
 * [VPN Hotspot](https://f-droid.org/en/packages/be.mygod.vpnhotspot) > This app allows me to share my VPN while I have enabled my phone to be a hotspot, so I can browse securely even on my laptop without doing anything else
@@ -159,20 +160,16 @@ This is pretty much **my list of the most useful F-Droid apps** I use, but unfor
 
 * AliExpress
 * Boost for Reddit
-* Google Camera (coupled with Camera API 2, this app allows me to take wonderful pictures with a 185 EUR phone, it's just too impressive)
+* Google Camera (coupled with Camera API 2, this app allows me to take wonderful pictures, needs microG)
 * Instagram
-* MediaBox HD (allows me to stream movies)
-* Mi Fit (an app that pairs with my Mi Band 2)
+* CyberFlix TV (allows me to stream movies)
 * MyVodafoneAL (the carrier app)
 * ProtonMail (email app)
-* Shazam Encore (to find those songs you usually listen in coffee shops)
 * Snapseed (photo editing app, really simple, powerful and quite good)
 * Spotify (music streaming)
 * Titanium Backup (to backup my app data, wifi passwords, calls log etc.)
-* ViPER4Android FX (music equalizer)
-* VSCO (photo editing, never use it really)
 * WhatsApp (E2E proprietary messaging app, almost everyone I know has it)
-* WiFi Map (mapped hotspots that are available, handy when abroad)
+* WiFi Map (mapped hotspots that are available, handy when abroad, needs microG to work)
 
 This is pretty much it, all the apps I use on my phone. **The configs are then pretty simple and straightforward and I can give a few tips**.
 
