@@ -106,7 +106,7 @@ If you do not know how to, don't install it in the first place. While we trust o
 
 ### Live Demo
 
-Here is the link: [http://keweonbet.info.tm/](http://keweonbet.info.tm/)
+Here is the link: [http://https-interception.info.tm/](http://https-interception.info.tm/)
 
 - Set the provided DNS resolver
 - Install the provided root certificate
