@@ -4,7 +4,6 @@ var urlsToCache = [
   '/index.html',
   '/portfolio/index.html',
   '/assets/css/main.css',
-  '/assets/css/overpass.css',
   '/assets/js/main.js'
 ];
 

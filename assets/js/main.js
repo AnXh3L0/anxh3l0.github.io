@@ -1240,10 +1240,8 @@ let toggle = document.querySelector('.toggle-theme');
 if (localStorage.getItem('dark')) {
   document.body.classList.add('dark');
 }
-
 toggle.addEventListener('change', function(e) {
   e.preventDefault();
-
   if (document.body.classList.contains('dark')) {
     document.body.classList.remove('dark');
     localStorage.removeItem('dark');
@@ -1252,19 +1250,15 @@ toggle.addEventListener('change', function(e) {
     localStorage.setItem('dark', true);
   }
 });
-
 var checkbox = document.getElementById("switch");
-
 function load(){    
     var checked = JSON.parse(localStorage.getItem('switch'));
     document.getElementById("switch").checked = checked;
 }
-
 var checked = JSON.parse(localStorage.getItem('switch'));
   if (checked == true) {
     document.getElementById("switch").checked = true;
 }
-
 function save(){
     var checkbox = document.getElementById('switch');
     localStorage.setItem('switch', checkbox.checked);
