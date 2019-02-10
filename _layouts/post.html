@@ -5,7 +5,7 @@
         {% include svg-icons.html %}
         {% include header-post.html %}
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+            <article id="scroll" class="post-content" itemprop="articleBody">
                 {% assign words = page.content | number_of_words %}
                     {% if words < 360 %}
                     <p class="read-time">Read time: <b>1 minute</b></p>
