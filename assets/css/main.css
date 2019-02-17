@@ -677,11 +677,6 @@ html,body {
   background-size: 50%;
   background-position: 50%;
 }
-.header-start {
-  height: 100%;
-  background: #333;
-  color: #fff;
-}
 .content .start {
  width: 62.5rem;
  position: absolute;
