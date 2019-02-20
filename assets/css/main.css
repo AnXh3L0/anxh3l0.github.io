@@ -423,7 +423,7 @@ a.slideButton.slide {
 .overlay.slide {
  pointer-events:auto;
  left:240px;
- background:rgba(0,0,0,0.6)
+ background:rgba(0,0,0,0.7)
 }
 input[type="search"] {
  -ms-box-sizing:content-box;
@@ -1394,113 +1394,6 @@ pre span {
 .highlight .na,.highlight .nc,.highlight .nd,.highlight .ne,.highlight .nf,.highlight .nx {
  color:#a6e22e
 }
-.author {
- background:var(--author-bg);
- display:table;
- width:100%;
- padding:2.5rem 0;
-}
-@media only screen and (min-width:37.5rem) {
- .author {
-  padding:3.125rem 0
- }
-}
-.author .details {
- margin:auto;
- max-width:50rem;
- padding:0 1.25rem;
-}
-@media only screen and (max-width:37.5rem) {
- .author .details {
-  text-align:center
- }
-}
-.author img {
- border-radius:50%;
- display:block;
- margin:auto;
-}
-@media only screen and (min-width:37.5rem) {
- .author img {
-  float:left;
-  margin-right:3.125rem
- }
-}
-.author .def {
- color:var(--author-def);
- font-size:1.125rem;
- font-family:'Overpass',sans-serif;
- font-weight:300;
- font-style:normal;
- margin:.625rem;
-}
-@media only screen and (min-width:37.5rem) {
- .author .def {
-  margin:0;
-  padding-top:1.563rem
- }
-}
-.author .name {
- margin:0;
- color: var(--text-color);
-}
-.author .name a {
- font-family:'Overpass',sans-serif;
- font-weight:800;
- font-style:normal;
- text-decoration:none;
- color:var(--text-color);
- font-size:1.875rem;
-}
-.author .name a:hover {
- color:var(--links-color)
-}
-@media only screen and (min-width:37.5rem) {
- .author .name a {
-  font-size:2.813rem
-  color: var(--text-color);
- }
-}
-.author .desc {
- font-family:'Overpass',sans-serif;
- font-weight:300;
- font-style:normal;
- margin:.625rem;
- font-size:1rem !important;
- color: var(--text-color);
-}
-@media only screen and (min-width:37.5rem) {
- .author .desc {
-  font-size:1.25rem
- }
-}
-.author .email {
- text-decoration:none;
- color:var(--links-color)
-}
-.comments {
- *zoom:1;
- width:auto;
- max-width:50rem;
- float:none;
- display:block;
- margin-right:auto;
- margin-left:auto;
- padding-left:0;
- padding-right:0;
- padding:0 1.25rem;
-}
-.comments:before,.comments:after {
- content:'';
- display:table
-}
-.comments:after {
- clear:both
-}
-.comments h3 {
- margin:0 0 1.875rem;
- font-size:1.875rem
-}
 footer {
  background:#333;
  padding:1.563rem 0;
@@ -1514,7 +1407,7 @@ footer p,footer a {
  margin:0
 }
 footer a:hover {
- color:#ddd;
+ color:#ccc;
 }
 .easter-egg {
   position: absolute;
