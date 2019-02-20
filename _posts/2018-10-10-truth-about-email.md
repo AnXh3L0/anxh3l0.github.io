@@ -34,6 +34,6 @@ There are many misconceptions about e-Mail, thanks to marketing efforts of compa
 
 [1] You can check if your message was encrypted in transit with a Thunderbird addon called [Paranoia](https://addons.thunderbird.net/en-US/thunderbird/addon/paranoia). <br />[2] You can use [Enigmail](https://www.enigmail.net/index.php/en/) for Thunderbird to easily deploy PGP in daily life without any effort on your end.
 
-This post is mirrored from [Privacy Today channel](https://t.me/privacytoday). [Privacy Today](https://t.me/joinchat/Awg5A0UW-tzOLX7zMoTDog) is a group about all things privacy, open source, libre philosophy and more!
+This post is mirrored from [Privacy Today channel](https://t.me/privacytoday). Privacy Today is a group about all things privacy, open source, libre philosophy and more!
 
 All content is licensed under CC BY-NC-SA 4.0. ([Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
