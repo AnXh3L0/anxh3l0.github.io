@@ -125,6 +125,6 @@ There are countless YouTube clones but, so far, none have really established the
 [2] [Vimeo website](https://vimeo.com)<br />
 [3] [List of supported sites](https://github.com/rg3/youtube-dl/tree/master/youtube_dl/extractor)
 
-This post is mirrored from [Privacy Today channel](https://t.me/privacytoday). [Privacy Today](https://t.me/joinchat/Awg5A0UW-tzOLX7zMoTDog) is a group about all things privacy, open source, libre philosophy and more!
+This post is mirrored from [Privacy Today channel](https://t.me/privacytoday). Privacy Today is a group about all things privacy, open source, libre philosophy and more!
 
 All content is licensed under CC BY-NC-SA 4.0. ([Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
