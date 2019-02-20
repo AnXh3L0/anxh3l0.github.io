@@ -117,6 +117,6 @@ Here is the link: [http://https-interception.info.tm/](http://https-interception
 
 If you are interested in more technical details, let us know. If there is enough interest, we might write an article but, for now, the important part is sharing the basics so you can make an informed decision and not fall for marketing and straight up fraud. Feel free to suggest other topics that are important to you. 
 
-This post is mirrored from [Privacy Today channel](https://t.me/privacytoday). [Privacy Today](https://t.me/joinchat/Awg5A0UW-tzOLX7zMoTDog) is a group about all things privacy, open source, libre philosophy and more!
+This post is mirrored from [Privacy Today channel](https://t.me/privacytoday). Privacy Today is a group about all things privacy, open source, libre philosophy and more!
 
 All content is licensed under CC BY-NC-SA 4.0. ([Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
