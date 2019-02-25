@@ -1047,7 +1047,7 @@ html,body {
 .post-content p,.post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content ul,.post-content ol,.post-content .tags,.post-content iframe {
  *zoom:1;
  width:auto;
- max-width:50rem;
+ max-width:62.5rem;
  float:none;
  display:block;
  margin-right:auto;
@@ -1071,7 +1071,8 @@ html,body {
 }
 @media only screen and (min-width:37.5rem) {
  .post-content p,.post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content ul,.post-content ol,.post-content .tags,.post-content iframe {
-  font-size:1.25rem
+  font-size:1.25rem;
+  max-width: 50rem;
  }
 }
 .post-content p,.post-content li {
