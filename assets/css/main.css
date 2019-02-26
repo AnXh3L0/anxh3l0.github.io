@@ -604,8 +604,9 @@ body.search-overlay:after {
  user-select: none;
 }
 .tags a:hover {
- color:var(--hover);
+ color:#333;
  border:1px solid var(--hover);
+ background-color: #fff;
 }
 
 .resume a {
@@ -1047,7 +1048,7 @@ html,body {
 .post-content p,.post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content ul,.post-content ol,.post-content .tags,.post-content iframe {
  *zoom:1;
  width:auto;
- max-width:62.5rem;
+ max-width:50rem;
  float:none;
  display:block;
  margin-right:auto;
@@ -1086,7 +1087,6 @@ html,body {
  font-style:normal;
  color:var(--links-color);
  text-decoration:none;
- border-bottom:2px solid var(--links-color)
 }
 .post-content iframe {
  margin-top:1.875rem;
