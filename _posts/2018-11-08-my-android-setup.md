@@ -149,27 +149,21 @@ Below you will find a list of the apps I have installed, what they replace and t
 * [ScreenCam](https://f-droid.org/en/packages/com.orpheusdroid.screenrecorder) > A screen recorder, allows various customizations and recording modes, no ads and free
 * [SecScanQR](https://f-droid.org/en/packages/de.t_dankworth.secscanqr) > A QR scanner app, really fast and lightweight
 * [Send Reduced Free](https://f-droid.org/en/packages/mobi.omegacentauri.SendReduced) > This app allows you to share big images instantly by reducing them and removing PII (personally identifiable information) before sending them to someone
+* [Slide](https://f-droid.org/en/packages/me.ccrama.redditslide/) > Open source Reddit client
+* [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger) > A clean version of Telegram Android client without trackers and Google Services
 * [TrebleShot](https://f-droid.org/en/packages/com.genonbeta.TrebleShot) > This ingenius app allows you to share files over a WiFi connection, in a really fast way, without even having internet access, to other devices
-* [Tusky](https://f-droid.org/en/packages/com.keylesspalace.tusky) > Tusky is a client for the [Mastodon](https://joinmastodon.org/) platform that I use to access my [personal Mastodon instance](https://lushka.ml/@anxhelo) (Mastodon replaces Twitter)
+* [Tusky](https://f-droid.org/en/packages/com.keylesspalace.tusky) > Tusky is a client for the [Mastodon](https://joinmastodon.org/) platform (Mastodon replaces Twitter)
 * [Unit Converter Ultimate](https://f-droid.org/en/packages/com.physphil.android.unitconverterultimate) > This app allows me to convert between 200 units in a snap, it works fully offline and it's fast
 * [Vinyl Music Player](https://f-droid.org/en/packages/com.poupa.vinylmusicplayer) > My preferred music player app, replaces Google Play Music or whatever you have already installed on your phone, it has a beautiful interface and many features
 * [VPN Hotspot](https://f-droid.org/en/packages/be.mygod.vpnhotspot) > This app allows me to share my VPN while I have enabled my phone to be a hotspot, so I can browse securely even on my laptop without doing anything else
-* [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger) > A clean version of Telegram Android client without trackers and Google Services
 
 This is pretty much **my list of the most useful F-Droid apps** I use, but unfortunately these are *NOT* the only apps I use. The proprietary apps I use (I know, I might sound a hypocrite, but not everything is replaceable, not yet at least) are as below:
 
-* AliExpress
-* Boost for Reddit
-* Google Camera (coupled with Camera API 2, this app allows me to take wonderful pictures, needs microG)
-* Instagram
-* CyberFlix TV (allows me to stream movies)
+* Google Camera (coupled with Camera API 2, needs basic microG from F-Droid to work)
 * MyVodafoneAL (the carrier app)
 * ProtonMail (email app)
-* Snapseed (photo editing app, really simple, powerful and quite good)
-* Spotify (music streaming)
 * Titanium Backup (to backup my app data, wifi passwords, calls log etc.)
 * WhatsApp (E2E proprietary messaging app, almost everyone I know has it)
-* WiFi Map (mapped hotspots that are available, handy when abroad, needs microG to work)
 
 This is pretty much it, all the apps I use on my phone. **The configs are then pretty simple and straightforward and I can give a few tips**.
 
