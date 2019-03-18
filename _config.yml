@@ -21,6 +21,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 
+paginate: 6
 
 # html minify
 compress_html:
@@ -42,6 +43,9 @@ links:
     url: /tags
   - title: About Me
     url: /about
+
+plugins:
+  - jekyll-paginate
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
