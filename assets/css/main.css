@@ -1089,7 +1089,7 @@
      font-weight:300;
      font-style:normal;
      color:var(--links-color);
-     text-decoration:none;
+     text-decoration:underline;
 }
  .post-content iframe {
      margin-top:1.875rem;
