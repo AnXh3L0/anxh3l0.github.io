@@ -597,7 +597,7 @@
      padding:.25rem .625rem;
      margin-right:.125rem;
      margin-bottom:.5rem;
-     text-decoration:none;
+     text-decoration:none !important;
      -webkit-user-select: none;
      -moz-user-select: none;
      -ms-user-select: none;
