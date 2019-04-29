@@ -25,7 +25,7 @@ div#wiper {
 	display: block;
 	position: fixed;
 	width: 100vw;
-	height: 100vh;	
+	height: 100vh;
 	background-color: #333;
 	transition: .5s opacity .5s, .5s z-index .5s;
 }
@@ -125,7 +125,7 @@ div#links > div.section {
 	display: inline-block;
 	vertical-align: top;
 	text-align: left;
-	height: 200px;
+	height: 250px;
 	width: 300px;
 	margin: 2px;
 	overflow: hidden;
