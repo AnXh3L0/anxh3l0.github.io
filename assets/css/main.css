@@ -1555,29 +1555,22 @@
 }
  .pagination > span {
      color: var(--text-color);
-     font-weight: 700;
+     margin: 0 15px;
 }
  .pagination > a {
-     font-size: .875rem;
-     color: var(--links-color);
+     color: var(--white);
      display: inline-block;
-     border: 1px solid var(--links-color);
-     border-radius: .313rem;
-     padding: .25rem .625rem;
-     margin-right: .125rem;
-     margin-bottom: .5rem;
+     border-radius: 50% !important;
+     background-color:  var(--text-color);
+     border: 2px solid var(--text-color);
+     padding: 6px;
+     width: 32px;
+     height: 32px;
      text-decoration: none;
 }
  .pagination > a:hover {
-     color:#333;
-     border:1px solid var(--hover);
-     background-color: #fff;
-}
- .pagination .previous {
-     float: left;
-}
- .pagination .next {
-     float: right;
+    color: var(--text-color);
+     background-color: transparent;
 }
 /* Overpass font section added here in order to reduce number of requests to the server */
 /* overpass-regular - latin */

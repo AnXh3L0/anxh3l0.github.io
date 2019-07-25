@@ -36,14 +36,18 @@ layout: default
     {% endfor %}
 </main>
 
+{% if paginator %}
 <div class="pagination">
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}#scroll" class="previous">
-      Previous
+    <a href="{{ paginator.previous_page_path }}#scroll">
+      &larr;
     </a> {% else %} {% endif %}
     <span class="page-num">
-{{ paginator.page }}/{{ paginator.total_pages }}
+Page <strong>{{ paginator.page }} of {{ paginator.total_pages }}</strong>
   </span> {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}#scroll" class="next">Next</a> {% else %} {% endif %}
+    <a href="{{ paginator.next_page_path }}#scroll">
+        &rarr;
+    </a> {% else %} {% endif %}
 </div>
 </div>
+{% endif %}
