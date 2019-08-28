@@ -748,7 +748,6 @@
 }
  @media only screen and (min-width:37.5rem) {
      .header-post .content {
-         *zoom:1;
          width:auto;
          max-width:1000px;
          float:none;
@@ -833,7 +832,6 @@
      text-align:left;
      padding:2.5rem 0;
      border-bottom:3px solid #f2f2f2;
-     *zoom:1;
      width:auto;
      max-width:62.5rem;
      float:none;
@@ -933,7 +931,6 @@
     }
 }
  .post-item .datetime {
-     *zoom:1;
      float:left;
      clear:none;
      text-align:inherit;
@@ -999,7 +996,6 @@
      white-space: nowrap;
 }
  .post-item .content {
-     *zoom:1;
      float:left;
      clear:none;
      text-align:inherit;
@@ -1069,7 +1065,6 @@
      display:block;
 }
  .post-content p,.post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content ul,.post-content ol,.post-content .tags,.post-content iframe {
-     *zoom:1;
      width:auto;
      max-width:50rem;
      float:none;
@@ -1165,7 +1160,6 @@
     }
 }
  .post-content blockquote {
-     *zoom:1;
      width:auto;
      max-width:45.625rem;
      float:none;
@@ -1202,7 +1196,6 @@
     }
 }
  .post-content hr {
-     *zoom:1;
      width:auto;
      max-width:47.5rem;
      float:none;
@@ -1277,7 +1270,6 @@
      font-style:normal;
      font-size:2.25rem;
      margin-top:3.75rem;
-     *zoom:1;
      width:auto;
      max-width:50rem;
      float:none;
@@ -1347,7 +1339,6 @@
     }
 }
  pre code {
-     *zoom:1;
      width:auto;
      max-width:50rem;
      float:none;
