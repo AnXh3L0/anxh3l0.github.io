@@ -562,14 +562,6 @@
      padding-right:10%;
      padding-left:10%;
 }
- .search-wrapper *zoom 1:after,.search-wrapper *zoom 1:before {
-     display:table;
-     line-height:0;
-     content:"" 
-}
- .search-wrapper *zoom 1:after {
-     clear:both 
-}
  .search-wrapper:before,.search-wrapper:after {
      display:table;
      line-height:0;
@@ -1421,15 +1413,6 @@
 }
  footer a:hover {
      color:#ccc;
-}
- .easter-egg {
-     position: absolute;
-     bottom: 0px;
-     width: 15rem;
-     padding-left: 1rem;
-     padding-right: 1rem;
-     padding-bottom: 1rem;
-     text-align: center !important;
 }
  .tags .read-time {
      font-size:.875rem;

@@ -17,7 +17,6 @@ telegram_username: AnXh3L0
 cloud: cloud.lushka.al
 git: git.lushka.al
 
-
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -45,6 +44,12 @@ links:
     url: /tags
   - title: About Me
     url: /about
+  - title: Start Page
+    url: /start
+  - title: Web Filters
+    url: /blocklist
+  - title: Feed
+    url: /feed.xml
 
 plugins:
   - jekyll-paginate
