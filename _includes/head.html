@@ -36,7 +36,6 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{site.baseurl}}/assets/img/icons/favicon.ico" type="image/x-icon" />
     <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/assets/img/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/assets/img/icons/favicon-16x16.png">
 
     <!-- Apple Touch Icons -->
     <link rel="apple-touch-icon" href="{{site.baseurl}}/assets/img/icons/apple-touch-icon.png" />
@@ -63,32 +62,11 @@
 <!-- Fallbacks for disabled JavaScript users -->
 <noscript>
     <style>
-#open {
-      display: none;
-}
-#close {
-      display: none;
-}
-#search-icon {
-      display: none;
-}
-#slide {
-      display: none;
-}
-label {
-      display: none;
-}
-.reminder {
-      display: none;
-}
-.icons-home {
+#open, #close, #search-icon, #slide, label, .reminder, .icons-home, .easter-egg {
       display: none;
 }
 .icons-alternative a {
       display: inline-block;
-}
-.share_post {
-      display: none;
 }
 .post-item {
       max-width: 45rem;
@@ -110,13 +88,9 @@ aside {
       background: var(--sidebar-bg);
       z-index: 20;
 }
-.easter-egg {
-      display: none;
-}
 @media only screen and (max-width:37.5rem) {
       aside {
-        display: none;
-}
+        display: none; }
 }
 </style>
 </noscript>
