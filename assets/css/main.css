@@ -44,66 +44,7 @@
      --icon-black: #fff;
      --sidebar-text: #fff;
 }
-/* Overpass font section added here in order to reduce number of requests to the server */
-/* overpass-regular - latin */
- @font-face {
-     font-family: 'Overpass';
-     font-style: normal;
-     font-display: swap;
-     font-weight: 400;
-     src: url('../fonts/overpass-v2-latin-regular.eot');
-    /* IE9 Compat Modes */
-     src: local('Overpass Regular'), local('Overpass-Regular'), url('../fonts/overpass-v2-latin-regular.eot?#iefix') format('embedded-opentype'), 
-    /* IE6-IE8 */
-     url('../fonts/overpass-v2-latin-regular.woff2') format('woff2'), 
-    /* Super Modern Browsers */
-     url('../fonts/overpass-v2-latin-regular.woff') format('woff'), 
-    /* Modern Browsers */
-     url('../fonts/overpass-v2-latin-regular.ttf') format('truetype'), 
-    /* Safari, Android, iOS */
-     url('../fonts/overpass-v2-latin-regular.svg#Overpass') format('svg');
-    /* Legacy iOS */
-}
-/* overpass-700 - latin */
- @font-face {
-     font-family: 'Overpass';
-     font-style: normal;
-     font-display: swap;
-     font-weight: 700;
-     src: url('../fonts/overpass-v2-latin-700.eot');
-    /* IE9 Compat Modes */
-     src: local('Overpass Bold'), local('Overpass-Bold'), url('../fonts/overpass-v2-latin-700.eot?#iefix') format('embedded-opentype'), 
-    /* IE6-IE8 */
-     url('../fonts/overpass-v2-latin-700.woff2') format('woff2'), 
-    /* Super Modern Browsers */
-     url('../fonts/overpass-v2-latin-700.woff') format('woff'), 
-    /* Modern Browsers */
-     url('../fonts/overpass-v2-latin-700.ttf') format('truetype'), 
-    /* Safari, Android, iOS */
-     url('../fonts/overpass-v2-latin-700.svg#Overpass') format('svg');
-    /* Legacy iOS */
-}
-/* overpass-800 - latin */
- @font-face {
-     font-family: 'Overpass';
-     font-style: normal;
-     font-display: swap;
-     font-weight: 800;
-     src: url('../fonts/overpass-v2-latin-800.eot');
-    /* IE9 Compat Modes */
-     src: local('Overpass ExtraBold'), local('Overpass-ExtraBold'), url('../fonts/overpass-v2-latin-800.eot?#iefix') format('embedded-opentype'), 
-    /* IE6-IE8 */
-     url('../fonts/overpass-v2-latin-800.woff2') format('woff2'), 
-    /* Super Modern Browsers */
-     url('../fonts/overpass-v2-latin-800.woff') format('woff'), 
-    /* Modern Browsers */
-     url('../fonts/overpass-v2-latin-800.ttf') format('truetype'), 
-    /* Safari, Android, iOS */
-     url('../fonts/overpass-v2-latin-800.svg#Overpass') format('svg');
-    /* Legacy iOS */
-}
  html {
-     font-family:overpass;
      -ms-text-size-adjust:100%;
      -webkit-text-size-adjust:100% 
 }
@@ -253,7 +194,6 @@
      -webkit-tap-highlight-color:rgba(0,0,0,0) 
 }
  h1,h2,h3,h4 {
-     font-family:'Overpass',sans-serif;
      font-weight:800;
      font-style:normal 
 }
@@ -382,7 +322,6 @@
  aside h2 {
      text-align:center;
      margin:0 0 .625rem;
-     font-family:'Overpass',sans-serif;
      font-weight:800;
      font-style:normal;
      font-size:1.25rem;
@@ -400,7 +339,6 @@
      display:block;
      padding:1rem;
      text-decoration:none;
-     font-family:'Overpass',sans-serif;
      font-weight:400;
      font-style:normal;
      color:var(--sidebar-text);
@@ -465,7 +403,6 @@
 }
  .search-form .search-field {
      width:100%;
-     font-family:'Overpass',sans-serif;
      font-weight:400;
      font-style:normal;
      font-size:1.625rem;
@@ -515,7 +452,6 @@
  .search-form .search-list {
      position:absolute;
      width:100%;
-     font-family:'Overpass',sans-serif;
      font-weight:400;
      font-style:normal 
 }
@@ -787,7 +723,6 @@
     }
 }
  .header-post .date {
-     font-family:'Overpass',sans-serif;
      font-weight:400;
      font-style:normal;
      font-size:1rem 
@@ -803,7 +738,6 @@
     }
 }
  .header-post .subtitle {
-     font-family:'Overpass',sans-serif;
      font-weight:400;
      font-style:normal;
      font-size:1.25rem 
@@ -815,7 +749,6 @@
  .header-post p {
      color:var(--text-color);
      text-decoration:none;
-     font-family:'Overpass',sans-serif;
      font-weight:400;
      font-style:normal;
      font-size:1.125rem 
@@ -959,7 +892,6 @@
     }
 }
  .post-item .datetime .day {
-     font-family:'Overpass',sans-serif;
      font-weight:800;
      font-style:normal;
      color:var(--items-color);
@@ -1038,7 +970,6 @@
 }
  .post-item .content .description {
      color:var(--text-color);
-     font-family:'Overpass',sans-serif;
      font-weight:400;
      font-style:normal;
      font-size:1.25rem;
@@ -1067,7 +998,6 @@
      padding-right:0;
      padding:0 1.25rem;
      margin:0 auto 1.875rem;
-     font-family:'Overpass',sans-serif;
      font-weight:400;
      font-style:normal;
      font-size:1.125rem;
@@ -1092,7 +1022,6 @@
      color:var(--text-color);
 }
  .post-content a {
-     font-family:'Overpass',sans-serif;
      font-weight:400;
      font-style:normal;
      color:var(--links-color);
@@ -1106,7 +1035,6 @@
      margin:auto !important 
 }
  .post-content h1,.post-content h2,.post-content h3,.post-content h4,.post-content h5 {
-     font-family:'Overpass',sans-serif;
      font-weight:800;
      font-style:normal 
 }
@@ -1257,7 +1185,6 @@
      padding:.313rem 
 }
  .tag-title {
-     font-family:'Overpass',sans-serif;
      font-weight:400;
      font-style:normal;
      font-size:2.25rem;
@@ -1404,7 +1331,6 @@
      padding:1.563rem 0;
 }
  footer p,footer a {
-     font-family:'Overpass',sans-serif;
      font-weight:400;
      font-style:normal;
      color:#fff;
