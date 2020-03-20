@@ -34,3 +34,9 @@ other = "Tabela e Përmbajtjes"
 [wordCount]
 one   = "Një Fjalë"
 other = "{{ .Count }} Fjalë"
+
+[publishDate]
+other = "Publikuar më"
+
+[updatedOn]
+other = "e përditësuar më"

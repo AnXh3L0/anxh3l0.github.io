@@ -34,3 +34,9 @@ other = "Contenuti"
 [wordCount]
 one   = "Una parola"
 other = "{{ .Count }} parole"
+
+[publishDate]
+other = "Pubblicato"
+
+[updatedOn]
+other = "Ultimo aggiornamento"
