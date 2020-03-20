@@ -1,20 +1,11 @@
----
-layout: post
-title: "LibreOffice Hackfest Munich 2018"
-date: 2018-11-01 12:00:00
-image: '/assets/img/posts/libreoffice-hackfest.png'
-description: 'A short report on the Munich hackfest on LibreOffice'
-tags:
-- libreoffice
-- hackfest
-- design
-- patch
-- foss
-categories:
-- article
-- report
-- blog
----
++++
+title = "LibreOffice Hackfest Munich 2018"
+date = "2018-11-01 12:00:00"
+featured = '/assets/img/posts/libreoffice-hackfest.png'
+description = 'A short report on the Munich hackfest on LibreOffice'
+tags = ["libreoffice", "hackfest", "design", "patch", "foss"]
+categories = ["article", "report", "blog"]
++++
 
 The past month (end of October) I participated at the [LibreOffice Hackfest in Munich, Germany](https://wiki.documentfoundation.org/Hackfest/Muenchen2018). 
 

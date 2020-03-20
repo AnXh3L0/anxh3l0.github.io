@@ -1,20 +1,11 @@
----
-layout: post
-title: "Cheetah Mobile and privacy"
-date: 2018-11-26 03:00:00 +0200
-image: '/assets/img/posts/cheetah.png'
-description: 'Reasons why you should remove them now!'
-tags:
-- privacy
-- software
-- proprietary
-- scam
-- android
-categories:
-- article
-- psa
-- blog
----
++++
+title = "Cheetah Mobile and privacy"
+date = "2018-11-26 03:00:00 +0200"
+featured = '/assets/img/posts/cheetah.png'
+description = 'Reasons why you should remove them now!'
+tags = ["privacy", "software", "proprietary", "scam", "android"]
+categories = ["article", "psa", "blog"]
++++
 
 If you own an Android device, you must have probably heard of/installed/used [Cheetah Mobile](https://www.cmcm.com/en-us/) applications before. If not, you're lucky you didn't get the chance to hand out your data for free :)
 

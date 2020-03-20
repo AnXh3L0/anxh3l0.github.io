@@ -1,23 +1,12 @@
----
-layout: post
-title: "Digital-born Media Carnival 2017 - Kotor, Montenegro"
-date: 2017-07-20 12:00:00
-image: '/assets/img/posts/share-carnival.jpg'
-description: '4 day event gathering more than hundred of online media representatives,
-information explorers and digital rights enthusiasts'
-tags:
-- montenegro
-- carnival
-- media
-- digital
-- news
-- censorship
-- report
-categories:
-- carnival
-- report
-- blog
----
++++
+draft = "true"
+title = "Digital-born Media Carnival 2017 - Kotor, Montenegro"
+date = "2017-07-20 12:00:00"
+featured = '/assets/img/posts/share-carnival.jpg'
+description = '4 day event gathering more than hundred of online media representatives, information explorers and digital rights enthusiasts'
+tags = ["montenegro", "carnival", "media", "digital", "news", "censorship", "report"]
+categories = ["carnival", "report", "blog"]
++++
 
 Software Freedom Kosova Conference. One of the biggest of its kind in the Balkans region. The seventh (7th) edition took place this time between 21-23 October, in Pristina, Kosovo. Based on my estimations, it gathered approximately two hundred participants.
 

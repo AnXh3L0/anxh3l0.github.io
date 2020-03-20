@@ -1,23 +1,11 @@
----
-layout: post
-title: "My Google-free Android life"
-date: 2018-11-08 10:00:00
-image: '/assets/img/posts/android-setup.png'
-description: 'An article on how to de-googlify your life and my setup'
-tags:
-- android
-- privacy
-- security
-- open source
-- software
-- google
-- foss
-categories:
-- beginner
-- article
-- how-to
-- blog
----
++++
+title = "My Google-free Android life"
+date = "2018-11-08 10:00:00"
+featured = '/assets/img/posts/android-setup.png'
+description = 'An article on how to de-googlify your life and my setup'
+tags = ["android", "privacy", "security", "open source", "software", "google", "foss"]
+categories = ["beginner", "article", "how-to", "blog"]
++++
 
 People have been asking me a lot lately about my phone, my Android setup and how I manage to use my smartphone without Google Services. Well, this is a post that aims to address precisely that. I would like to make this article really beginner-friendly so I'll try to go slow, going through things one by one and including screenshots so you can have a better view on how things happen and work like.
 

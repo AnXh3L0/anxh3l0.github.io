@@ -1,20 +1,11 @@
----
-layout: post
-title: "Threat Modeling"
-date: 2018-11-07 12:00:00
-image: '/assets/img/posts/threat-modeling.png'
-description: 'Assessing your risks in the online world'
-tags:
-- privacy
-- security
-- communication
-- risks
-- software
-categories:
-- article
-- how-to
-- blog
----
++++
+title = "Threat Modeling"
+date = "2018-11-07 12:00:00"
+featured = '/assets/img/posts/threat-modeling.png'
+description = 'Assessing your risks in the online world'
+tags = ["privacy", "security", "communication", "risks", "software"]
+categories = ["article", "how-to", "blog"]
++++
 
 **Note: This is a mirror (with minor modifications) of the original article posted by the [EFF](https://www.eff.org/about) [here](https://ssd.eff.org/en/module/assessing-your-risks).**
 

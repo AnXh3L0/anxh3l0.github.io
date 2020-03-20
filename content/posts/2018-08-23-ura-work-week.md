@@ -1,22 +1,12 @@
----
-layout: post
-title: "Ura Work Week - Pristina"
-date: 2018-08-23 12:00:00
-image: '/assets/img/posts/ura-work-week.png'
-description: 'Details from the Ura Work Week held in Pristina'
-tags:
-- pristina
-- kosovo
-- work
-- week
-- foss
-- report
-- design
-categories:
-- work
-- report
-- blog
----
++++
+draft = "true"
+title = "Ura Work Week - Pristina"
+date = "2018-08-23 12:00:00"
+featured = '/assets/img/posts/ura-work-week.png'
+description = 'Details from the Ura Work Week held in Pristina'
+tags = ["pristina", "kosovo", "work", "week", "foss", "report", "design"]
+categories = ["work", "report", "blog"]
++++
 
 Software Freedom Kosova Conference. One of the biggest of its kind in the Balkans region. The seventh (7th) edition took place this time between 21-23 October, in Pristina, Kosovo. Based on my estimations, it gathered approximately two hundred participants.
 

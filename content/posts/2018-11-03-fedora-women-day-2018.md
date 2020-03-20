@@ -1,20 +1,11 @@
----
-layout: post
-title: "Fedora Women's Day 2018"
-date: 2018-11-03 12:00:00
-image: '/assets/img/posts/fwd-event.png'
-description: 'An event dedicated to Women in the Fedora Project'
-tags:
-- fedora
-- event
-- community
-- open source
-- diversity
-categories:
-- article
-- report
-- blog
----
++++
+title = "Fedora Women's Day 2018"
+date = "2018-11-03 12:00:00"
+featured = '/assets/img/posts/fwd-event.png'
+description = 'An event dedicated to Women in the Fedora Project'
+tags = ["fedora", "event", "community", "open source", "diversity"]
+categories = ["article", "report", "blog"]
++++
 
 As every year, the Fedora Diversity Team decided to organize the [Fedora Women's Day](https://fedoraproject.org/wiki/Category:Fedora_Women's_Day) event, an event that also happened in Tirana, Albania. The official day for that would be around mid September, but unfortunately being an organizer of the [LibreOffice Conference](https://libocon.org/2018) too, things got a bit out of hand and the event was postponed until the 30th of October 2018. 
 
