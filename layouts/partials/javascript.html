@@ -1,5 +1,5 @@
 {{ $main := resources.Get "js/main.js" }}
-{{ $secureJS := slice $main | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
+{{ $secureJS := slice $main | resources.Concat "bundle.js" | resources.Minify }}
 <script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 
 {{ range $val := $.Site.Params.customJS }}

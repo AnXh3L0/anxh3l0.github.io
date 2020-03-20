@@ -1,6 +1,5 @@
 +++
 title = "Blocklist"
-date = "2020-03-20"
 +++
 
 # Install uBlock Origin

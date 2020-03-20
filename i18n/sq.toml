@@ -1,0 +1,36 @@
+# Translations for Albanian
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# Generic
+#
+[translations]
+other = "Përkthimet"
+
+[postAvailable]
+other = "Gjithashtu e disponueshme në"
+
+
+# 404.html
+#
+[archives]
+other = "Arkivat"
+
+[home]
+other = "Faqja Kryesore"
+
+[notFound]
+other = "Ups, faqja nuk u gjet"
+
+
+# posts/single.html
+#
+[readingTime]
+one   = "Një minutë"
+other = "{{ .Count }} minutas"
+
+[tableOfContents]
+other = "Tabela e Përmbajtjes"
+
+[wordCount]
+one   = "Një Fjalë"
+other = "{{ .Count }} Fjalë"
