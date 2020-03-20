@@ -1,0 +1,138 @@
+baseURL = "https://lushka.al"
+title   = "Anxhelo Lushka"
+
+DefaultContentLanguage = "en"
+
+rssLimit  = 300
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License." # This message is only used by the RSS template.
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/:title/"
+
+[author]
+  name = "Anxhelo Lushka"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "My personal website"
+  keywords = "design, ux, developer, privacy, security, foss, floss"
+  images = [""]
+
+  homeSubtitle = "UI/UX Developer"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  gitUrl = "https://git.lushka.al/anxhelo/website/commit/"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
+
+  justifyContent = false
+  contentTypeName = "posts"
+
+  defaultTheme = "light"
+  themeColor = "#252627"
+
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "$"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    logoCursorDisabled = true
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+  # Social icons
+  [[params.social]]
+    name = "email"
+    url  = "mailto:anxhelo@lushka.al"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/AnXh3L0"
+
+  [[params.social]]
+    name = "instagram"
+    url  = "https://instagram.com/anxhelolushka"
+
+  [[params.social]]
+    name = "telegram"
+    url  = "https://t.me/AnXh3L0"
+
+  [[params.social]]
+    name = "git"
+    url  = "https://git.lushka.al/"
+
+[languages]
+  [languages.en]
+    subtitle  = ""
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>'
+
+  [languages.fr]
+    subtitle  = ""
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "portfolio"
+    name       = "Portfolio"
+    url        = "portfolio/"
+  [[menu.main]]
+    identifier = "misc"
+    name       = "Misc"
+    url        = "misc/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
