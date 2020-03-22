@@ -27,7 +27,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/:title/"
+  posts = "/:filename/"
 
 [author]
   name = "Anxhelo Lushka"
