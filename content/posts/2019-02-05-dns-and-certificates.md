@@ -1,7 +1,7 @@
 +++
 title = "DNS and Root Certificates"
 date = "2019-02-05 10:00:00"
-featured = '/assets/img/posts/dns.png'
+images = ['/assets/img/posts/dns.png']
 description = 'What you need to know about it'
 tags = ["privacy", "security", "open source", "network", "dns", "certificates"]
 categories = ["beginner", "article", "blog"]

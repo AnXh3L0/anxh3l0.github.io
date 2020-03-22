@@ -1,7 +1,7 @@
 +++
 title = "Cheetah Mobile and privacy"
 date = "2018-11-26 03:00:00 +0200"
-featured = '/assets/img/posts/cheetah.png'
+images = ['/assets/img/posts/cheetah.png']
 description = 'Reasons why you should remove them now!'
 tags = ["privacy", "software", "proprietary", "scam", "android"]
 categories = ["article", "psa", "blog"]

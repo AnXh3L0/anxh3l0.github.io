@@ -2,7 +2,7 @@
 draft = "true"
 title = "Ura Work Week - Pristina"
 date = "2018-08-23 12:00:00"
-featured = '/assets/img/posts/ura-work-week.png'
+images = ['/assets/img/posts/ura-work-week.png']
 description = 'Details from the Ura Work Week held in Pristina'
 tags = ["pristina", "kosovo", "work", "week", "foss", "report", "design"]
 categories = ["work", "report", "blog"]

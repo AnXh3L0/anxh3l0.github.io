@@ -1,7 +1,7 @@
 +++
 title = "My Google-free Android life"
 date = "2018-11-08 10:00:00"
-featured = '/assets/img/posts/android-setup.png'
+images = ['/assets/img/posts/android-setup.png']
 description = 'An article on how to de-googlify your life and my setup'
 tags = ["android", "privacy", "security", "open source", "software", "google", "foss"]
 categories = ["beginner", "article", "how-to", "blog"]

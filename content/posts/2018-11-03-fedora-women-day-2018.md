@@ -1,7 +1,7 @@
 +++
 title = "Fedora Women's Day 2018"
 date = "2018-11-03 12:00:00"
-featured = '/assets/img/posts/fwd-event.png'
+images = ['/assets/img/posts/fwd-event.png']
 description = 'An event dedicated to Women in the Fedora Project'
 tags = ["fedora", "event", "community", "open source", "diversity"]
 categories = ["article", "report", "blog"]

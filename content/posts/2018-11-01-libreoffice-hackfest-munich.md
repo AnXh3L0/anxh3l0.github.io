@@ -1,7 +1,7 @@
 +++
 title = "LibreOffice Hackfest Munich 2018"
 date = "2018-11-01 12:00:00"
-featured = '/assets/img/posts/libreoffice-hackfest.png'
+images = ['/assets/img/posts/libreoffice-hackfest.png']
 description = 'A short report on the Munich hackfest on LibreOffice'
 tags = ["libreoffice", "hackfest", "design", "patch", "foss"]
 categories = ["article", "report", "blog"]

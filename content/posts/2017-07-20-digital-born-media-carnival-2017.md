@@ -2,7 +2,7 @@
 draft = "true"
 title = "Digital-born Media Carnival 2017 - Kotor, Montenegro"
 date = "2017-07-20 12:00:00"
-featured = '/assets/img/posts/share-carnival.jpg'
+images = ['/assets/img/posts/share-carnival.jpg']
 description = '4 day event gathering more than hundred of online media representatives, information explorers and digital rights enthusiasts'
 tags = ["montenegro", "carnival", "media", "digital", "news", "censorship", "report"]
 categories = ["carnival", "report", "blog"]

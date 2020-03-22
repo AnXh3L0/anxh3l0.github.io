@@ -1,7 +1,7 @@
 +++
 title = "Threat Modeling"
 date = "2018-11-07 12:00:00"
-featured = '/assets/img/posts/threat-modeling.png'
+images = ['/assets/img/posts/threat-modeling.png']
 description = 'Assessing your risks in the online world'
 tags = ["privacy", "security", "communication", "risks", "software"]
 categories = ["article", "how-to", "blog"]

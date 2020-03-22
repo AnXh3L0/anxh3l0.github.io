@@ -1,7 +1,7 @@
 +++
 title = "Alternatives to YouTube"
 date = "2018-10-15 12:00:00"
-featured = '/assets/img/posts/youtube.png'
+images = ['/assets/img/posts/youtube.png']
 description = 'A detailed article on helping you find privacy-aware alternatives to YouTube'
 tags = ["youtube", "multimedia", "privacy", "tips", "beginner", "apps", "foss"]
 categories = ["article", "privacy", "blog", "media"]
