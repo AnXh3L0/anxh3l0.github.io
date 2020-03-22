@@ -107,6 +107,14 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "git"
     url  = "https://git.lushka.al/"
+  
+  [[params.social]]
+    name = "cloud"
+    url  = "https://cloud.lushka.al/"
+
+  [[params.social]]
+    name = "rss"
+    url  = "/posts/index.xml"
 
 [languages]
   [languages.en]
