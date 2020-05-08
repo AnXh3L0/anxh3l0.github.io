@@ -17,5 +17,4 @@ You can contact me through various services. A few of them are presented below. 
 * Email: [anxhelo@lushka.al](mailto:anxhelo@lushka.al)
 * Telegram: [@AnXh3L0](https://t.me/AnXh3L0)
 * WhatsApp/Signal: [+355699932340](tel:+355699932340)
-* Session: [Scan code](/assets/img/session-id.png)
 
