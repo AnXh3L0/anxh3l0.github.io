@@ -86,7 +86,8 @@
 	  display: flex;
 	  flex-direction: row;
 	  justify-content: center;
-	  margin: 1em 0em;
+	  flex-wrap: wrap;
+	  margin: 1em 1em;
   }
   
   .box .box-container {
@@ -95,6 +96,7 @@
 	  height: 255px;
 	  float: left;
 	  border-radius: 5px;
+	  margin-top: 50px;
   }
   
   .box .box-container:not(:last-child) {
@@ -108,14 +110,23 @@
 	  text-align: left;
   }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 600px){ 
+
+  @media only screen 
+and (min-device-width : 800px) 
+and (max-device-width : 1200px) {
+	.box .box-container {
+		margin: 2rem !important;
+	}
+}
+
+  @media only screen 
+and (min-device-width : 150px) 
+and (max-device-width : 800px){ 
 	.box {
         flex-direction: column !important;
 	}
 	.box .box-container {
-		margin: 1rem 0rem !important;
+		margin: 2rem 0rem !important;
 	}
 }
   
