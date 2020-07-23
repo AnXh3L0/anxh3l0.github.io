@@ -8,13 +8,11 @@ In this website I will showcase my best works over time and some articles I writ
 
 During the last 4 years I have organized tens of events and conferences such as [OSCAL](https://osc.al) (Open Source Conference Albania), [LibreOffice Conference](https://libocon.org) and more.
 
-[Resume/CV](https://anxh3l0.github.io/resume) (Very Outdated!)
-
 ## Contact
 
 You can contact me through various services. A few of them are presented below. Keep in mind I don't use encrypted emails (GPG/PGP) so if you want a more secure way to contact me use the other apps.
 
 * Email: [anxhelo@lushka.al](mailto:anxhelo@lushka.al)
-* Telegram: [@AnXh3L0](https://t.me/AnXh3L0)
+* Telegram: [@anxhelolushka](https://t.me/anxhelolushka)
 * WhatsApp/Signal: [+355699932340](tel:+355699932340)
 

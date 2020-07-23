@@ -24,7 +24,7 @@ enableMissingTranslationPlaceholders = false
 disableRSS     = false
 disableSitemap = false
 disable404     = false
-disableHugoGeneratorInject = false
+disableHugoGeneratorInject = true
 
 [permalinks]
   posts = "/:filename/"
@@ -102,7 +102,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "telegram"
-    url  = "https://t.me/AnXh3L0"
+    url  = "https://t.me/anxhelolushka"
 
   [[params.social]]
     name = "git"
