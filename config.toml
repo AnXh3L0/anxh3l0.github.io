@@ -78,7 +78,7 @@ disableHugoGeneratorInject = true
     theme = "#252627"
 
   [params.logo]
-    logoText     = "Home"
+    logoText     = "(ᵔᴥᵔ)"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     logoCursorDisabled = true

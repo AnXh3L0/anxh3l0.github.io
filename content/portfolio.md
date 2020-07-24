@@ -12,6 +12,12 @@ COTECH is a company based in Germany that works on projects to protect the Inter
 
 <br>
 
+[![Aura Roboclean Website](/assets/img/portfolio/aura.jpg)](https://aura.al)
+
+The Aura Roboclean system serves to prevent diseases coming from the respiratory tract such as asthma, allergies, bronchitis and is a good asset in the prevention of influenza viruses. The website is multilingual and created using Hugo.
+
+<br>
+
 [![GlobaLeaks Website](/assets/img/portfolio/globaleaks.jpg)](https://globaleaks.org)
 
 GlobaLeaks in an open source, free software intended to enable secure and anonymous whistleblowing initiatives. This website was built using WordPress and customized after mockups built beforehand.
@@ -37,6 +43,12 @@ This website is a live style guide for the Briar brand, built using Hugo.
 
 <br>
 
+[![Logobridge Website](/assets/img/portfolio/logobridge.jpg)](https://logobridge.co)
+
+Logobridge is a collection of unused logo proposals over the past months and years, which are getting dusty already with no one using them. Use them as a placeholder for your project or as a template for your upcoming logo. All logos are in the Public Domain, so you are free to do whatever you want with it (commercially as well). They are also created with Inkscape, which is Free & Open Source Software. It’s a great way to kick off your open source project when you need to gather something quickly. The website was created using Jekyll and is available in two languages.
+
+<br>
+
 [![OxidizeConf Website](/assets/img/portfolio/oxidize-conf.jpg)](https://oxidizeconf.com)
 
 OxidizeConf is a conference revolving around embedded systems and IoT in Rust. The conference consists of one day of guided workshops and one day of talks by community members, followed by two days of development focused on hardware and embedded subjects in Rust. The site was built using Jekyll and a custom design.
@@ -52,6 +64,12 @@ SecureDrop is an open source whistleblower submission system that media organiza
 [![Open Source Design Summit Website](/assets/img/portfolio/osd-summit.jpg)](https://opensourcedesign.net/summit/)
 
 Open Source Design Summit itself is an yearly event where designers, developers and more join to discuss about the issues of Open Design and how to improve our involvement in projects, provide better design and feedback, use better tools, ways of communicating and sharing with people etc. I implemented the design for the 2018 Summit in the OSD website using Jekyll.
+
+<br>
+
+[![Reproducible Builds Style Guide Website](/assets/img/portfolio/reproducible-builds.jpg)](https://reproducible-builds.org/style/)
+
+Reproducible builds are a set of software development practices that create an independently-verifiable path from source to binary code. This live style guide website was created using Jekyll.
 
 <br>
    
