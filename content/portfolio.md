@@ -4,6 +4,8 @@ title = "Portfolio"
 
 Below you will find a few of my works, ordered from newest to oldest.
 
+![Header Image](/assets/img/portfolio/header.svg)
+
 <br>
 
 [![COTECH Website](/assets/img/portfolio/cotech.jpg)](https://cotech.de/en)

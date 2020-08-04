@@ -9,6 +9,5 @@ This page is going to contain quick links which I find important, including inte
 *  [Blocklists - Filters to make the web better](/blocklist)
 *  [Privacy Today Channel](https://t.me/privacytoday)
 *  [Open Source Telegram Channel](https://t.me/opensourcetelegram)
-*  [My personal startpage](/start)
 
 Visit this page often for updates!
