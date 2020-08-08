@@ -8,6 +8,8 @@ In this website I will showcase my best works over time and some articles I writ
 
 During the last 4 years I have organized tens of events and conferences such as [OSCAL](https://osc.al) (Open Source Conference Albania), [LibreOffice Conference](https://libocon.org) and more.
 
+[My resume](/resume)
+
 ## Contact
 
 You can contact me through various services. A few of them are presented below. Keep in mind I don't use encrypted emails (GPG/PGP) so if you want a more secure way to contact me use the other apps.

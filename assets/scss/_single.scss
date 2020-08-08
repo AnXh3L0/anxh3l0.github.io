@@ -195,3 +195,13 @@
     margin-right: 8px;
   }
 }
+
+.anchor-tag {
+  opacity: .35;
+  text-decoration: none;
+  margin-left: 5px;
+
+  &:hover {
+    opacity: 1;
+  }
+}
