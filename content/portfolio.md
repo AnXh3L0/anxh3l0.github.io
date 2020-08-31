@@ -81,7 +81,7 @@ This website is a live style guide for the Briar brand, built using Hugo.
 
 <br>
    
-[![AdAway website](/assets/img/portfolio/adaway.png)](https://adaway.org)
+[![AdAway website](/assets/img/portfolio/adaway.jpg)](https://adaway.org)
 
 **AdAway** is an open source ad blocker for Android using the hosts file. Their website hadn't been updated since almost two years so I decided to give them a hand and update it using Jekyll and turning it into a visually more attractive site. The work included recreating the AdAway logo in SVG as it wasn't available anywhere and creating an import/export page for host files conversions.
 
