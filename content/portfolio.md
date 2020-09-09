@@ -8,6 +8,12 @@ Below you will find a few of my works, ordered from newest to oldest.
 
 <br>
 
+[![EmergenCITY Website](/assets/img/portfolio/emergencity.jpg)](https://emergencity.de)
+
+**emergenCITY** aims at investigating fundamentals, methods and solutions towards the resilience of future digital cities and especially the capability of Information and Communication Technology to resist, adapt, and transform in crisis situations. The website was built using Jekyll, a custom Bootstrap, it is localized and fetches data from outside sources via JSON.
+
+<br>
+
 [![#IWantALetter Website](/assets/img/portfolio/iwantaletter.jpg)](https://iwantaletter.org)
 
 **#IWantALetter** is an initiative that is trying to throw light over what is going on inside prisons in Egypt regarding the measures taken to curb the spread of COVID-19 and why the government has arrested journalists and stopped them from contacting their families during the pandemic. This campaign is a Call for Action towards the Egyptian authorities and parliament representatives. The website was built from a provided mockup and is static.
