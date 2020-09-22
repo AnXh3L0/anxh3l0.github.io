@@ -19,7 +19,7 @@ This year, the conference had a new brand done by [Kleidi Eski](http://lightandm
 
 ![OSCAL 2019 logo](../assets/img/posts/oscal2019-logo.png)
 
-This year there were more than 40 speakers with interesting talks and workshops from various topics about security, privacy, Linux, free software, free knowledge and software freedom etc. 
+This year there were more than 40 speakers with interesting talks and workshops from various topics about security, privacy, Linux, free software, free knowledge and software freedom etc.
 
 **Ethical Tech** was the main theme of OSCAL 2019!
 

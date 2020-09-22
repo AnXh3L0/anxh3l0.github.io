@@ -9,14 +9,14 @@ categories = ["article", "privacy", "blog", "media"]
 
 ## YouTube (subscriptions) without an account
 
-_First of all: You should not support YouTube_. It's owned by Google and heavily involved in all of their associated activities. But that's another article entirely! Still, there might be content you're interested in that's only available on YouTube. 
+_First of all: You should not support YouTube_. It's owned by Google and heavily involved in all of their associated activities. But that's another article entirely! Still, there might be content you're interested in that's only available on YouTube.
 
 Petition the creators to use alternative platforms! If they're non-profit-oriented, it doesn't matter if the platform is changed once in a while. Almost anything else is preferable. Most likely they won't because they're getting very wealthy on YouTube monetisation, which, in turn, **generates enormous income featuring your data**. The following solutions are **fully ad-free**.
 
 To improve privacy for a large number of people, proposed ideas need to be sufficiently **easy and convenient to use**. That's why we'll first talk about a very simple change that everyone can implement.
 
 > "Invidious" (browser-based, desktop, mobile)
-  
+
 **Invidious** [1] is an alternative web interface to YouTube. It can be used via the author's website or self-hosted. It minimizes 3rd party connections, works without JavaScript/Cookies, and also supports subscriptions (only if you create an account on their site). It is a lot faster than YouTube, as well.
 
 ![Invidious website](../assets/img/posts/invidious.jpg)
@@ -25,7 +25,7 @@ It also supports YouTube videos embedded in other sites [2], and can redirect li
 
 It does **improve privacy to a certain extent** by stripping away many unnecessary requests; your browser will still send a more or less identifiable header to retrieve the videos. If you have to use YouTube in the browser, this is a helpful tool. It does _not_ use the YouTube API.
 
-**Possible downsides**: If you use the public site it could track your viewing behavior. If you make use of the subscription feature it has to, of course. It does not allow you to delete your account should you ever desire to do so but at least it doesn't require your e-mail or any other data. Sometimes you will encounter errors like 'The media could not be loaded, either because the server or network failed or because the format is not supported'. 
+**Possible downsides**: If you use the public site it could track your viewing behavior. If you make use of the subscription feature it has to, of course. It does not allow you to delete your account should you ever desire to do so but at least it doesn't require your e-mail or any other data. Sometimes you will encounter errors like 'The media could not be loaded, either because the server or network failed or because the format is not supported'.
 
 It's best to **avoid relying on redirect scripts** because they may redirect after undesired connections to YouTube have been made already. The same goes for replacing YouTube embeds in websites. A general downside to 3rd-party clients is that you may have to wait out some downtime when YouTube/Google change their systems.
 

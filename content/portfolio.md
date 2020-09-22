@@ -47,7 +47,7 @@ The **Aura Roboclean** system serves to prevent diseases coming from the respira
 [![K9Mail Website](/assets/img/portfolio/k9mail.jpg)](https://k9mail.app)
 
 **K-9 Mail** is an open source email client for Android with many advanced features. I stumbled upon an issue on their issue tracker on GitHub related to the website design so I decided to give them a hand and created a new website for the project, using Bootstrap and Jekyll.
-    
+
 <br>
 
 [![Briar Style Guide Website](/assets/img/portfolio/briar-styleguide.jpg)](https://briar-styleguide.netlify.app)
@@ -135,8 +135,3 @@ You can join the channel by pressing the image above and the group by clicking [
 [![Free Software Activity Day Milano](/assets/img/portfolio/fsadmilano.jpg)](https://activitydaymilano2017.wikitolearn.events/)
 
 An **international line-up** to find out that Open Source is not just for a selected few, but it is an inclusive creative process: accessible to everyone and where it's important that everyone participates. I created their brand for the entire event, starting with the logo, typography and social media images.
-
-
-
-
-

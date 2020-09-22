@@ -19,7 +19,7 @@ Thanks to all the Fedora team and to every amazing Open Source community that co
 
 Thank you developers, QA-ers, DevOps engineers, **designers**, beta version testers, community members, volunteers, localizers, program managers and everyone else that helped the project during all these years.
 
-Thank you all for being such a kind and welcoming community. I've felt very appreciated and **proud to be a Fedora Ambassador** 🎉  and representer.
+Thank you all for being such a kind and welcoming community. I've felt very appreciated and **proud to be a Fedora Ambassador** 🎉 and representer.
 
 ### Fedora and I
 
@@ -27,7 +27,7 @@ I've been using Fedora as my main operating system for almost 3 years. So how di
 
 I had been using Windows exclusively (I had used Ubuntu Linux before) up until the moment that I first took part in events organized at [Open Labs Hackerspace](https://openlabs.cc) in Tirana, Albania. I realized that there were more distros around and decided to try Fedora. My first installation was Fedora 22 and it went smoothly, so I decided to keep it installed.
 
-Later on, I participated in some more Fedora events at the local community ([Localizations](https://communityblog.fedoraproject.org/fedora-translation-sprint-5-days-50-members-20-thousand-words/)) and then it grew onto me. Everyone was so **welcoming and helpful**, so I started using Fedora more and it became my preferred 💻  and default operating system (my favorite DE is [XFCE](https://spins.fedoraproject.org/xfce).
+Later on, I participated in some more Fedora events at the local community ([Localizations](https://communityblog.fedoraproject.org/fedora-translation-sprint-5-days-50-members-20-thousand-words/)) and then it grew onto me. Everyone was so **welcoming and helpful**, so I started using Fedora more and it became my preferred 💻 and default operating system (my favorite DE is [XFCE](https://spins.fedoraproject.org/xfce).
 
 After contributing to the project, I decided to apply for the Ambassador position and was accepted. From the start I've been spreading the word about Fedora and organizing many events in the local hackerspace and not only, facilitated the involvement of Fedora at [OSCAL](https://oscal.openlabs.cc), our biggest early conference etc.
 

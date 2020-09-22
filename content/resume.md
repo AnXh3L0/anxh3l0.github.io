@@ -31,7 +31,7 @@ UI/UX Developer at [Ura Design](https://ura.design)
 
 <br>
 
-## Education 
+## Education
 
 - Bachelor of Computer Engineering at the [Polytechnic University of Tirana — Faculty of Information Technology](http://www.fti.edu.al/)
 
@@ -125,15 +125,15 @@ FOSDEM is a free event for software developers to meet, share ideas and collabor
 
 DOKU.TECH is an annual event bringing together individuals and tech talents with top-tier international future makers, executives, and thinkers. This conference explores and challenges the social implications of technological innovations through connectivity, content, masterclasses, workshops, and openness while inspiring youngsters by sharing knowledge and experiences.
 
---- 
+---
 
 **Participated at [Flock to Fedora 2018](https://flocktofedora.org/)**
 
 Flock is the Fedora Project's annual contributor-focused conference. It alternates between European and North American locations. The conference provides a venue for face to face meetings and conversations. It is also a place to celebrate our community.
 
---- 
+---
 
-**Participated in other smaller local events** 
+**Participated in other smaller local events**
 
 <br>
 

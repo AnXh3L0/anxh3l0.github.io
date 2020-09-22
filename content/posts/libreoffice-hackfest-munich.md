@@ -7,7 +7,7 @@ tags = ["libreoffice", "hackfest", "design", "patch", "foss"]
 categories = ["article", "report", "blog"]
 +++
 
-The past month (end of October) I participated at the [LibreOffice Hackfest in Munich, Germany](https://wiki.documentfoundation.org/Hackfest/Muenchen2018). 
+The past month (end of October) I participated at the [LibreOffice Hackfest in Munich, Germany](https://wiki.documentfoundation.org/Hackfest/Muenchen2018).
 
 After the [LibreOffice Conference](https://libocon.org) we organized in September, the [Open Labs](https://openlabs.cc) community had a follow-up call with LibreOffice developers about future contributions and meetings. One of the ideas [Bjorn](https://skyfromme.wordpress.com/) proposed, was to create a team of contributors that want to learn and contribute to the core code of LibreOffice.
 
@@ -15,7 +15,7 @@ This idea got a positive feedback from the community and now we have a group of 
 
 [Izabela Bakollari](https://twitter.com/IzabelBakollari/) and I attended the Hackfest in Munich hosted by [modulE](https://module.cib.de/) powered by [CIB](https://cib.de/).
 
-On the first day, we started by introducing ourselves and what we would work on during the weekend. I discussed with Heiko and others about some UX tickets and the idea of separating the LibreOffice and The Document Foundation branding from each other. 
+On the first day, we started by introducing ourselves and what we would work on during the weekend. I discussed with Heiko and others about some UX tickets and the idea of separating the LibreOffice and The Document Foundation branding from each other.
 
 ![Hackfest opening](../assets/img/posts/hackfest-opening.jpg)
 

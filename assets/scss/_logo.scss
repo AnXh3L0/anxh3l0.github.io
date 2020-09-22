@@ -4,7 +4,7 @@
   text-decoration: none;
   font-weight: bold;
   font-display: auto;
-  font-family: 'Inter UI';
+  font-family: "Inter UI";
 
   img {
     height: 44px;
@@ -30,14 +30,19 @@
 
   @media (prefers-reduced-motion: reduce) {
     &__cursor {
-        animation: none;
+      animation: none;
     }
   }
-
 }
 
 @keyframes cursor {
-  0% { opacity: 0; }
-  50% { opacity: 1; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }

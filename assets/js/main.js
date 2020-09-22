@@ -2,7 +2,9 @@
 
 const menuTrigger = document.querySelector(".menu-trigger");
 const menu = document.querySelector(".menu");
-const mobileQuery = getComputedStyle(document.body).getPropertyValue("--phoneWidth");
+const mobileQuery = getComputedStyle(document.body).getPropertyValue(
+  "--phoneWidth"
+);
 const isMobile = () => window.matchMedia(mobileQuery).matches;
 const isMobileMenu = () => {
   menuTrigger && menuTrigger.classList.toggle("hidden", !isMobile());
@@ -11,7 +13,11 @@ const isMobileMenu = () => {
 
 isMobileMenu();
 
-menuTrigger && menuTrigger.addEventListener("click", () => menu && menu.classList.toggle("hidden"));
+menuTrigger &&
+  menuTrigger.addEventListener(
+    "click",
+    () => menu && menu.classList.toggle("hidden")
+  );
 
 window.addEventListener("resize", isMobileMenu);
 
@@ -24,7 +30,9 @@ var metaThemeColor = document.querySelector("meta[name=theme-color]");
 
 if (getTheme !== null) {
   document.body.classList.toggle("dark-theme", isDark);
-  isDark ? metaThemeColor.setAttribute("content", "#252627") : metaThemeColor.setAttribute("content", "#fafafa");
+  isDark
+    ? metaThemeColor.setAttribute("content", "#252627")
+    : metaThemeColor.setAttribute("content", "#fafafa");
 }
 
 themeToggle.addEventListener("click", () => {
@@ -32,9 +40,9 @@ themeToggle.addEventListener("click", () => {
   window.localStorage &&
     window.localStorage.setItem(
       "theme",
-      document.body.classList.contains("dark-theme") ? "dark" : "light",
+      document.body.classList.contains("dark-theme") ? "dark" : "light"
     );
-  document.body.classList.contains("dark-theme") ?
-    metaThemeColor.setAttribute("content", "#252627") : metaThemeColor.setAttribute("content", "#fafafa");
-  ;
+  document.body.classList.contains("dark-theme")
+    ? metaThemeColor.setAttribute("content", "#252627")
+    : metaThemeColor.setAttribute("content", "#fafafa");
 });

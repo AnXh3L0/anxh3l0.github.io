@@ -49,7 +49,7 @@ Whenever you visit a website starting with https, you communicate with it using 
 
 That's where the root certificate comes in. Think of it as the next higher level that makes sure the levels below are correct. It verifies that the certificate sent to you has been authorized by a certificate authority. This authority ensures that the person creating the certificate is actually the real operator.
 
-This is also referred to as the chain of trust.  Your operating system includes a set of these root certificates by default so that the chain of trust can be guaranteed.
+This is also referred to as the chain of trust. Your operating system includes a set of these root certificates by default so that the chain of trust can be guaranteed.
 
 ### Abuse
 
@@ -69,7 +69,7 @@ This site will look absolutely fine to you; it has https in the URL and, if you 
 
 It now receives all the communication you intended to send to the original. This bypasses the checks created to avoid it. You won't receive error messages, your browser won't complain.
 
-**All your data is compromised!** 
+**All your data is compromised!**
 
 ## Conclusion
 
@@ -82,7 +82,7 @@ It now receives all the communication you intended to send to the original. This
 
 **Do not ever install a 3rd party root certificate!** There are very few exceptions why you would want to do so and none of them are applicable to general end users.
 
-**Do not fall for clever marketing that ensures "ad blocking", "military grade security", or something similar**. There are methods of using DNS resolvers on their own to enhance your privacy but installing a 3rd party root certificate never makes sense. You are opening yourself up to extreme abuse. 
+**Do not fall for clever marketing that ensures "ad blocking", "military grade security", or something similar**. There are methods of using DNS resolvers on their own to enhance your privacy but installing a 3rd party root certificate never makes sense. You are opening yourself up to extreme abuse.
 
 ## Seeing It Live
 
@@ -105,7 +105,7 @@ Here is the link: [http://https-interception.info.tm/](http://https-interception
 
 ## Further Information
 
-If you are interested in more technical details, let us know. If there is enough interest, we might write an article but, for now, the important part is sharing the basics so you can make an informed decision and not fall for marketing and straight up fraud. Feel free to suggest other topics that are important to you. 
+If you are interested in more technical details, let us know. If there is enough interest, we might write an article but, for now, the important part is sharing the basics so you can make an informed decision and not fall for marketing and straight up fraud. Feel free to suggest other topics that are important to you.
 
 This post is mirrored from [Privacy Today channel](https://t.me/privacytoday). Privacy Today is a group about all things privacy, open source, libre philosophy and more!
 

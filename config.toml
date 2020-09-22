@@ -77,16 +77,6 @@ disableHugoGeneratorInject = true
     msapplication = "#252627"
     theme = "#252627"
 
-  [params.logo]
-    logoText     = "(ᵔᴥᵔ)"
-    logoHomeLink = "/"
-    # Set true to remove the logo cursor entirely.
-    logoCursorDisabled = true
-    # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
-    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
-
   # Social icons
   [[params.social]]
     name = "email"

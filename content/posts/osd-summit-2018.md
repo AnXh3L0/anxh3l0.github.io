@@ -15,24 +15,24 @@ During the first weekend of November (from 2-4 November) I had the opportunity a
 
 Open Source Design Summit itself is an yearly event where designers, developers and more join to discuss about the issues of Open Design and how to improve our involvement in projects, provide better design and feedback, use better tools, ways of communicating and sharing with people etc.
 
-Together with the Open Source Design community a few months ago we at [Ura Design](https://ura.design) [initiated the discussion](https://github.com/opensourcedesign/organization/issues/103) on the [Open Source Design organization repo on GitHub](https://github.com/opensourcedesign) for the location of the upcoming Summit and proposed Tirana. The discussion kept going for quite some months and the members of the community chimed in and gave their opinion. 
+Together with the Open Source Design community a few months ago we at [Ura Design](https://ura.design) [initiated the discussion](https://github.com/opensourcedesign/organization/issues/103) on the [Open Source Design organization repo on GitHub](https://github.com/opensourcedesign) for the location of the upcoming Summit and proposed Tirana. The discussion kept going for quite some months and the members of the community chimed in and gave their opinion.
 We had discussions with the OSD members during the following months regarding the final details on monthly calls and [Discourse](https://discourse.opensourcedesign.net/).
 
 I was pretty excited to help with the organization of this edition as I feel myself much a part of this movement as I use _only_
 free and open source tools on my design workflow such as [GIMP](https://gimp.org), [Inkscape](https://inkscape.org), [Krita](https://krita.org), [Blender](https://blender.org) and many more.
 
 Below you'll find a more detailed storyline of the entire event and **my opinions** on what went good/bad and what to improve for the next edition.
- 
+
 ## The full story
 
 ### November 2nd (opening)
 
-This edition of the Summit started on the Friday of November 2nd in the afternoon with a reception gathering at [Ofiçina](http://oficina.al), the venue for the Summit. Some of the participants had arrived a day earlier (Thursday) or in the Friday morning, but unfortunately I (well, all of us really) was busy with the organization of the event so I couldn't meet up for food/drinks with the guests, so that sucked a bit. Being in Albania, things are usually done last minute (blame our mentality and for almost never being on time) and so were most of the preparations. 
+This edition of the Summit started on the Friday of November 2nd in the afternoon with a reception gathering at [Ofiçina](http://oficina.al), the venue for the Summit. Some of the participants had arrived a day earlier (Thursday) or in the Friday morning, but unfortunately I (well, all of us really) was busy with the organization of the event so I couldn't meet up for food/drinks with the guests, so that sucked a bit. Being in Albania, things are usually done last minute (blame our mentality and for almost never being on time) and so were most of the preparations.
 
 This was not a big problem anyway, because the OSD Summit is not the [classic big conference](https://en.wikipedia.org/wiki/Conference) with parallel sessions and workshops but more of a collective or a small [unconference](https://en.wikipedia.org/wiki/Unconference).
 
 I met with many old friends and some new ones from countries as far away as [New Zealand](https://en.wikipedia.org/wiki/New_Zealand), [Czech Republic](https://en.wikipedia.org/wiki/Czech_Republic), [Germany](https://en.wikipedia.org/wiki/Germany), [Kosovo](https://en.wikipedia.org/wiki/Kosovo) etc.
- 
+
 As it was the opening day, there weren't many participants (about 12 in total) but that was enough for us to start a "round table of chairs" (with good chill music in the background, sponsored by my Bluetooth speaker 😂 and a nice space outside) where everyone would introduce themselves, what they do, what projects they contribute to, why they were attending the summit and more.
 
 After this round of intros, we began compiling the agenda (mostly a draft) entirely onsite with all the attendees proposing the topics they wanted to discuss during the event over a beer. As the time had changed, it was already dark at 5 PM, so it was a bit difficult to differentiate between us. Note for next time, add more lights if the gathering is done outside.
@@ -45,7 +45,7 @@ The following Saturday morning (officially the 1st day of the Summit) started wi
 
 [![Saturday agenda](../assets/img/posts/osd-agenda-sat.jpg)](../assets/img/posts/osd-agenda-sat-full.jpg)
 
-We officially started the Summit by welcoming everyone by giving an intro to Open Source Design for newcomers that decided to join us in the Summit, following up with a short talk by [David](https://twitter.com/halaszdavid) and [Teresa](https://twitter.com/terezanovotna_) from [Red Hat](https://redhat.com) about [Design Systems](https://en.wikipedia.org/wiki/Systems_design), and specifically about [PatternFly](https://www.patternfly.org/). 
+We officially started the Summit by welcoming everyone by giving an intro to Open Source Design for newcomers that decided to join us in the Summit, following up with a short talk by [David](https://twitter.com/halaszdavid) and [Teresa](https://twitter.com/terezanovotna_) from [Red Hat](https://redhat.com) about [Design Systems](https://en.wikipedia.org/wiki/Systems_design), and specifically about [PatternFly](https://www.patternfly.org/).
 
 [![David and Tereza talk](../assets/img/posts/osd-david-tereza.jpg)](https://upload.wikimedia.org/wikipedia/commons/0/0a/Open_Source_Design_Summit_2018_-_79.jpg)
 
@@ -86,7 +86,7 @@ This is basically (**very detailed right?**) what happened during the Open Sourc
 Oh, I almost forgot, as promised, here is the group photo 📸 from the Summit. Enjoy!
 
 [![OSD Summit group photo](../assets/img/posts/osd-group-photo.jpg)](https://upload.wikimedia.org/wikipedia/commons/5/54/Open_Source_Design_Summit_2018_-_95.jpg)
- 
+
 Thanks to the support from [Stickermule](https://stickermule.com), [Mozilla](https://mozilla.org), [phpList](https://phplist.com), [Open Tech Fund](https://opentech.fund), [Red Hat](https://redhat.com) & [Nextcloud](https://nextcloud.com) we were able to bring the largest celebration of the Open Source Design community in the city.
 
 All content is licensed under CC BY-NC-SA 4.0. ([Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
