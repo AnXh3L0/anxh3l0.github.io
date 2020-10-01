@@ -8,7 +8,7 @@ In this website I will showcase my best works over time and some articles I writ
 
 During the last 4 years I have organized tens of events and conferences such as [OSCAL](https://osc.al) (Open Source Conference Albania), [LibreOffice Conference](https://libocon.org) and more.
 
-[My resume](/resume)
+:scroll: [Resume](/resume)
 
 ## Contact
 

@@ -2,6 +2,12 @@
 title = "Resume"
 +++
 
+## Availability
+
+I am available for hire. [Get in touch](/about#contact) with me.
+
+<br>
+
 ## Current work position
 
 UI/UX Developer at [Ura Design](https://ura.design)

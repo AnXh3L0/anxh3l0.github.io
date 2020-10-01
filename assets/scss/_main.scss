@@ -331,3 +331,49 @@ hr {
   text-decoration: none;
   z-index: 100000;
 }
+
+.alert {
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  padding: 20px;
+  color: $light-color;
+  background-color: $light-background;
+  border: 2px solid $light-border-color;
+  border-radius: 5px;
+
+  .dark-theme & {
+    background-color: $dark-background;
+    color: $dark-color;
+    border: 2px solid $dark-border-color;
+  }
+
+  & a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media #{$media-size-phone} {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    padding: 10px;
+  }
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: $light-color;
+  font-weight: bold;
+  float: right;
+  font-size: 24px;
+  line-height: 24px;
+  cursor: pointer;
+
+  .dark-theme & {
+    color: $dark-color;
+  }
+}
