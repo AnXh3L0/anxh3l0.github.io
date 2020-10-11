@@ -26,7 +26,7 @@ other = "Ups, faqja nuk u gjet"
 #
 [readingTime]
 one   = "Një minutë"
-other = "{{ .Count }} minutas"
+other = "{{ .Count }} minuta"
 
 [tableOfContents]
 other = "Tabela e Përmbajtjes"
