@@ -1,7 +1,5 @@
 .menu {
   background: #fafafa;
-  border-right: 1px solid;
-  margin-right: 18px;
   z-index: 9999;
 
   .dark-theme & {
@@ -10,11 +8,16 @@
 
   @media #{$media-size-phone} {
     position: absolute;
-    top: 50px;
-    right: 0;
+    top: 66px;
+    right: 20px;
     border: none;
     margin: 0;
     padding: 10px;
+    border: 2px solid $light-border-color;
+
+    .dark-theme & {
+      border: 2px solid $dark-border-color;
+    }
   }
 
   &__inner {
