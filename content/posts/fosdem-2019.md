@@ -1,7 +1,7 @@
 +++
 title = "FOSDEM 2019"
 date = "2019-02-12 12:00:00"
-images = ['/assets/img/posts/fosdem.png']
+images = ['/img/posts/fosdem.png']
 description = 'The biggest FOSS conference in Europe'
 tags = ["belgium", "conference", "fosdem", "report", "blog"]
 categories = ["conference", "report"]
@@ -14,17 +14,17 @@ This was my 3rd year going to FOSDEM, with the two previous years participating 
 I applied to help at the booth as a Fedora Ambassador and landed in Brussels a few days before the event.
 This gave me some time to wander around the city and visit Brugge, which was a beautiful city.
 
-![Brugge](../assets/img/posts/brugge.jpg)
+![Brugge](../img/posts/brugge.jpg)
 
 On Friday morning, Brian asked me to help him with the Fedora booth over at the [CentOS Dojo event](https://wiki.centos.org/Events/Dojo/Brussels2019) at the [Marriott Grand Place Hotel](https://www.openstreetmap.org/way/244955992#map=19/50.84890/4.34909). I arrived there at 9 AM and stayed during the whole day. There were some interesting talks over at the CentOS room and the [PostgreSQL](https://www.postgresql.org/) one.
 
-![Fedora booth at CentOS Dojo](../assets/img/posts/booth-dojo.jpg)
+![Fedora booth at CentOS Dojo](../img/posts/booth-dojo.jpg)
 
 As always, on Friday evening there's the FOSDEM pre-party held at [Delirium Taphouse Bar](https://www.openstreetmap.org/node/3118693327), but this time I didn't go as there's way too many people around.
 
 As always, FOSDEM started early morning on Saturday. It was snowing heavily but this didn't stop people from arriving.
 
-![Snow on Saturday](../assets/img/posts/fosdem-snow.jpg)
+![Snow on Saturday](../img/posts/fosdem-snow.jpg)
 
 We set-up the booth, with the Fedora roll-up banner, tablecloth, a [Fedorator](https://fedoraproject.org/wiki/Fedorator), an old [Sugar on a Stick](https://spins.fedoraproject.org/en/soas/) laptop and plenty of stickers and swag.
 

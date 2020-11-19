@@ -2,7 +2,7 @@
 draft = "true"
 title = "FOSSCAMP - Syros 2017"
 date = "2017-09-10 12:00:00"
-images = ['/assets/img/posts/fosscamp.png']
+images = ['/img/posts/fosscamp.png']
 description = 'A co-creation adventure with FOSS geeks from communities all around the Balkans and Europe aside the beach'
 tags = ["greece", "camp", "foss", "hacking", "geeks"]
 categories = ["fosscamp", "camp", "report"]

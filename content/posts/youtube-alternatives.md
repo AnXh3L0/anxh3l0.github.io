@@ -1,7 +1,7 @@
 +++
 title = "Alternatives to YouTube"
 date = "2018-10-15 12:00:00"
-images = ['/assets/img/posts/youtube.png']
+images = ['/img/posts/youtube.png']
 description = 'A detailed article on helping you find privacy-aware alternatives to YouTube'
 tags = ["youtube", "multimedia", "privacy", "tips", "beginner", "apps", "foss"]
 categories = ["article", "privacy", "blog", "media"]
@@ -19,7 +19,7 @@ To improve privacy for a large number of people, proposed ideas need to be suffi
 
 **Invidious** [1] is an alternative web interface to YouTube. It can be used via the author's website or self-hosted. It minimizes 3rd party connections, works without JavaScript/Cookies, and also supports subscriptions (only if you create an account on their site). It is a lot faster than YouTube, as well.
 
-![Invidious website](../assets/img/posts/invidious.jpg)
+![Invidious website](../img/posts/invidious.jpg)
 
 It also supports YouTube videos embedded in other sites [2], and can redirect links [3] to it via userscripts. You will need a userscript manager like the FOSS "Violentmonkey" [4]. ("Grease-"/"Tampermonkey" are not FOSS)
 
@@ -38,13 +38,13 @@ It's best to **avoid relying on redirect scripts** because they may redirect aft
 
 **NewPipe** [1] is a native Android application with many features that make it a solid choice over any proprietary app. Subscriptions, downloads, background playing (for listening to audio) and even creating playlists are all supported. You **do not need any account**.
 
-![NewPipe Interface](../assets/img/posts/newpipe.jpg)
+![NewPipe Interface](../img/posts/newpipe.jpg)
 
 It does _not_ use the YouTube API. This solution **improves user privacy immensely** because, just like Invidious, the amount of requests is reduced to the absolute minimum required. It also registers as a handler in Android so **you can open links directly in NewPipe** - no redirects or anything required.
 
 You can also try **SkyTube** [2], which is based on the NewPipe Extractor, for some extra features like comments and filters.
 
-![SkyTube Interface](../assets/img/posts/skytube.jpg)
+![SkyTube Interface](../img/posts/skytube.jpg)
 
 **Possible downsides**: just potential downtime, like explained before.
 

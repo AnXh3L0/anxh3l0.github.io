@@ -1,7 +1,7 @@
 +++
 title = "Thank you, Fedora"
 date = "2018-11-10 10:00:00"
-images = ['/assets/img/posts/thanks-fedora.png']
+images = ['/img/posts/thanks-fedora.png']
 description = 'A thank you for the Fedora Community'
 tags = ["fedora", "appreciation", "week", "event", "software", "foss"]
 categories = ["article", "appreciation", "blog"]

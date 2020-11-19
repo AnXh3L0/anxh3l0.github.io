@@ -1,7 +1,7 @@
 +++
 title = "Cheetah Mobile and privacy"
 date = "2018-11-26 03:00:00 +0200"
-images = ['/assets/img/posts/cheetah.png']
+images = ['/img/posts/cheetah.png']
 description = 'Reasons why you should remove them now!'
 tags = ["privacy", "software", "proprietary", "scam", "android"]
 categories = ["article", "psa", "blog"]
@@ -37,7 +37,7 @@ The Cheetah Mobile apps not only collect statistics while you’re using them, *
 
 You might be wondering what this has to do with this article and you are right. Samsung’s Android software has a storage cleaning tool, which you might consider a nice to have feature at first... until you look at it a little closer.
 
-![Samsung Cleaner](../assets/img/posts/samsung-cheetah.jpg)
+![Samsung Cleaner](../img/posts/samsung-cheetah.jpg)
 Source: [Reddit](https://www.reddit.com/r/Android/comments/68rtn1/clean_master_is_what_samsung_uses_for_their/)
 
 Clean Master is developed by Cheetah Mobile. The [app](https://play.google.com/store/apps/details?id=com.cleanmaster.mguard) on the Play Store has over 1,000,000,000 downloads and this number keeps rising every day. For every person that downloads them, Cheetah Mobile gets more and more data from users.
@@ -46,7 +46,7 @@ If you ever wanted to install Clean Master on your Samsung Galaxy but didn’t k
 
 Now, what does Microsoft have to do with all this? To show you this we’ll need to take a closer look at the Play Store description of CM Launcher 3D to uncover this:
 
-![CM Launcher 3D](../assets/img/posts/microsoft-cheetah.png)
+![CM Launcher 3D](../img/posts/microsoft-cheetah.png)
 
 Even if you have never used any of these "utility" apps before, you must've downloaded games such as Piano Tiles, created by Cheetah Games or another company funded by CM. Other apps and companies Cheetah Mobile owns you might not have realized yet include TikTok (formerly Musically) and Live.me, a live-streaming service.
 

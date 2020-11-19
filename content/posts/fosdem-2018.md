@@ -2,7 +2,7 @@
 draft = "true"
 title = "FOSDEM 2018"
 date = "2018-02-09 12:00:00"
-images = ['/assets/img/posts/fosdem.png']
+images = ['/img/posts/fosdem.png']
 description = 'The biggest FOSS conference in Europe'
 tags = ["belgium", "conference", "fosdem", "report", "blog"]
 categories = ["conference", "report"]

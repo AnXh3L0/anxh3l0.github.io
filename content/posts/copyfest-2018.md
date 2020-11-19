@@ -2,7 +2,7 @@
 draft = "true"
 title = "CopyFest Durrës - 2018"
 date = "2018-04-24 12:00:00"
-images = ['/assets/img/posts/copyfest.png']
+images = ['/img/posts/copyfest.png']
 description = 'A mini event for the importance of digital licenses'
 tags = ["event", "durres", "albania", "report", "blog"]
 categories = ["event", "report"]

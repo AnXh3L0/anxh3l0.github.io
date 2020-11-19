@@ -1,7 +1,7 @@
 +++
 title = "LibreOffice Conference 2016 - Brno"
 date = "2016-09-11 12:00:00"
-images = ['/assets/img/posts/libreoffice.png']
+images = ['/img/posts/libreoffice.png']
 tags = ["libreoffice", "conference", "report", "blog"]
 categories = ["libreoffice", "conference"]
 +++

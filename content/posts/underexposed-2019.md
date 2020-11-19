@@ -1,7 +1,7 @@
 +++
 title = "Underexposed 2019"
 date = "2019-01-21 15:00:00 +0200"
-images = ['/assets/img/posts/underexposed-post.jpg']
+images = ['/img/posts/underexposed-post.jpg']
 description = 'The Simply Secure event dedicated to Design'
 tags = ["design", "fellows", "community", "underexposed", "meeting"]
 categories = ["article", "report", "blog"]
@@ -19,11 +19,11 @@ I was invited as a [mentor](https://en.wikipedia.org/wiki/Mentorship) alongside 
 
 The first day started with an introduction by the hosts from Simply Secure over at the [WikiBär](https://www.openstreetmap.org/node/4842883021). [Georgia Bullen](https://twitter.com/georgiamoon), the new Simply Secure Executive Director, opened the event and talked about the purpose of it, the agenda and everything else. After, we began to introduce each other shortly and the reason why we were there. The fellows shared their projects and/or ideas with us so we could have a better graps before we started to work on them.
 
-![WikiBär](../assets/img/posts/wikibär.jpg)
+![WikiBär](../img/posts/wikibär.jpg)
 
 We decided to end the first day with drinks and food over at [Brewdog](https://www.openstreetmap.org/node/4525263054), not forgetting some oldschool arcade games (and some anti-surveillance stickers at the toilets).
 
-![Brewdog](../assets/img/posts/brewdog.jpg)
+![Brewdog](../img/posts/brewdog.jpg)
 
 ### Tuesday (8 January)
 
@@ -37,7 +37,7 @@ We (Elio and I) helped almost all the projects here by creating prototypes on pa
 
 The second day we went out for dinner at a Taiwanese sushi place, it was my 2nd time ever trying sushi (I still haven't learned how to properly use the chopsticks 😞).
 
-![Sushi](../assets/img/posts/underexposed-sushi.jpg)
+![Sushi](../img/posts/underexposed-sushi.jpg)
 
 ### Wednesday (9 January)
 
@@ -51,7 +51,7 @@ After the event, Simply Secure sponsored the dinner over at an old German restau
 
 We decided to take some time off on Thursday and hang around the city center (Berlin doesn't actually have a defined center) and did some shopping. The weather was, as always, gray and sometimes rainy.
 
-![Berlin Center](../assets/img/posts/berlin-center.jpg)
+![Berlin Center](../img/posts/berlin-center.jpg)
 
 After some shopping, we returned to WikiBär and worked some more with the others until the end of the day.
 
@@ -61,7 +61,7 @@ Elio's presentation was on Friday, about [Style Guides](https://en.wikipedia.org
 
 This was the final day of the event and the fellows worked during the day to prepare their presentations, on what they learned during the week and what they worked on. The presentations were held at the [Mozilla Offices](https://www.openstreetmap.org/node/4996803917#map=19/52.49947/13.44914) in Berlin. Many people had registered for the event and the fellows presented one by one their projects and conclusions. I was happy that our mockups were present in their slides and hope that the process continues to turn them into reality soon.
 
-![Mozilla Offices Berlin](../assets/img/posts/mozilla-berlin.jpg)
+![Mozilla Offices Berlin](../img/posts/mozilla-berlin.jpg)
 
 After the presentations, we got to discuss with each other and then head over for drinks somewhere close the venue.
 
@@ -69,7 +69,7 @@ After the presentations, we got to discuss with each other and then head over fo
 
 The last day, we headed down to the luggage room at the hostel, and I was suprised to see pictures of [David Hasselhoff](https://en.wikipedia.org/wiki/David_Hasselhoff) everywhere. It was like a little museum so I had to take some pictures of it 😂.
 
-![The Hoff](../assets/img/posts/hoff-berlin.jpg)
+![The Hoff](../img/posts/hoff-berlin.jpg)
 
 I would like to thank the entire Simply Secure team; Georgia, Ame, Eileen and Molly for being there and organizing a fantastic event. I had a really awesome time and hope to see you all again soon.
 

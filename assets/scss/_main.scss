@@ -14,7 +14,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Roboto",
+  font-family: "Georgia", -apple-system, BlinkMacSystemFont, "Roboto",
     "Segoe UI", Helvetica, Arial, sans-serif;
   font-display: auto;
   font-size: 1rem;
@@ -218,7 +218,7 @@ blockquote {
 
   &:before {
     content: "”";
-    font-family: Georgia, serif;
+    font-family: "Georgia", serif;
     font-display: auto;
     font-size: 3.875rem;
     position: absolute;
