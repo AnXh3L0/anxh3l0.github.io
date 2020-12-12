@@ -69,13 +69,13 @@ disableHugoGeneratorInject = true
   contentTypeName = "posts"
 
   defaultTheme = "light"
-  themeColor = "#252627"
+  themeColor = "#333"
 
   # Colors for favicons
   [params.favicon.color]
-    mask = "#252627"
-    msapplication = "#252627"
-    theme = "#252627"
+    mask = "#333"
+    msapplication = "#333"
+    theme = "#333"
 
   # Social icons
   [[params.social]]
