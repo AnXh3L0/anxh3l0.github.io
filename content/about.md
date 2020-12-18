@@ -17,3 +17,12 @@ You can contact me through various services. A few of them are presented below. 
 - Email: [anxhelo@lushka.al](mailto:anxhelo@lushka.al)
 - Telegram: [@anxhelolushka](https://t.me/anxhelolushka)
 - WhatsApp/Signal: [+355699932340](tel:+355699932340)
+- Session: [Click for QR code](#qr)
+
+<div id="qr" class="modal-window">
+  <div>
+    <a href="#contact" title="Close" class="modal-close">Close</a>
+    <img class="center" src="/img/session.jpg" alt="Session QR Code" width="350px" />
+    <code>05f638639e3f15d03d9e8f79ff51ec8bee1378bf6543fa4e83476d444d9adf440b</code>
+  </div>
+</div>
