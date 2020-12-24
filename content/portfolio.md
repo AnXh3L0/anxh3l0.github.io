@@ -4,8 +4,6 @@ title = "Portfolio"
 
 Below you will find a few of my works, ordered from newest to oldest.
 
-![Header Image](/img/portfolio/header.svg)
-
 <br>
 
 [![REScala Language Website](/img/portfolio/rescala.jpg)](https://www.rescala-lang.com/)

@@ -20,7 +20,7 @@ canonifyURLs = true
 enableRobotsTXT = true
 enableGitInfo   = true
 enableEmoji     = true
-enableMissingTranslationPlaceholders = false
+enableMissingTranslationPlaceholders = true
 disableRSS     = false
 disableSitemap = false
 disable404     = false
@@ -31,6 +31,7 @@ disableHugoGeneratorInject = true
 
 [author]
   name = "Anxhelo Lushka"
+  email = "anxhelo@lushka.al"
 
 [markup]
   [markup.goldmark]
@@ -49,10 +50,10 @@ disableHugoGeneratorInject = true
 
   # Metadata mostly used in document's head
   description = "My personal website"
-  keywords = "design, ux, developer, privacy, security, foss, floss"
+  keywords = "design, ux, ui, speaker, public, developer, privacy, security, foss, floss"
   images = [""]
 
-  homeSubtitle = "UI/UX Developer"
+  homeSubtitle = "UI/UX Developer | Public Speaker"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   gitUrl = "https://git.lushka.al/anxhelo/website/commit/"
@@ -98,18 +99,6 @@ disableHugoGeneratorInject = true
     name = "telegram"
     url  = "https://t.me/anxhelolushka"
 
-  [[params.social]]
-    name = "git"
-    url  = "https://git.lushka.al/"
-  
-  [[params.social]]
-    name = "cloud"
-    url  = "https://cloud.lushka.al/"
-
-  [[params.social]]
-    name = "rss"
-    url  = "/posts/index.xml"
-
 [languages]
   [languages.en]
     subtitle  = ""
@@ -143,3 +132,19 @@ disableHugoGeneratorInject = true
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+
+[privacy]
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true

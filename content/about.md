@@ -16,7 +16,8 @@ You can contact me through various services. A few of them are presented below. 
 
 - Email: [anxhelo@lushka.al](mailto:anxhelo@lushka.al)
 - Telegram: [@anxhelolushka](https://t.me/anxhelolushka)
-- WhatsApp/Signal: [+355699932340](tel:+355699932340)
+- WhatsApp: [Send me a message](https://wa.me/+355699932340?text=Hello%20there)
+- Signal: [+355699932340](tel:+355699932340)
 - Session: [Click for QR code](#qr)
 
 <div id="qr" class="modal-window">
