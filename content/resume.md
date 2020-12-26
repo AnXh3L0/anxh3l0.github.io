@@ -16,7 +16,7 @@ UI/UX Developer at [Ura Design](https://ura.design)
 
 ## Skills
 
-- 3+ years of web development experience, with focus on performance and security/privacy
+- 4+ years of web development experience, with focus on performance and security/privacy
 - Skilled in HTML/CSS/JavaScript
 - Experienced in system administration and security deployments
 - Long time contributor and volunteer in open source projects

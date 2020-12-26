@@ -120,18 +120,27 @@ disableHugoGeneratorInject = true
     identifier = "about"
     name       = "About"
     url        = "about/"
+    weight     = "1"
   [[menu.main]]
     identifier = "portfolio"
     name       = "Portfolio"
     url        = "portfolio/"
+    weight     = "2"
+  [[menu.main]]
+    identifier = "speaking"
+    name       = "Speaking"
+    url        = "speaking/"
+    weight     = "3"
   [[menu.main]]
     identifier = "misc"
     name       = "Misc"
     url        = "misc/"
+    weight     = "4"
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+    weight     = "5"
 
 [privacy]
   [privacy.instagram]
