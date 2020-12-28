@@ -20,6 +20,12 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br>
 
+{{< bbb domain="recordings.balkanflosstival.cc" id="73bdfeaac62107d8aac3612e38d66f368f057fd7-1607156056158" timestamp="277m28s" thumb="mindset.jpg" title="Why privacy is not about the tools but about the mindset" >}}
+
+**Why privacy is not about the tools but about the mindset** - At [Balkan FLOSStival](http://balkanflosstival.cc) | 5 December 2020
+
+<br>
+
 {{< embed id="yUrFuGuUXDc" title="Wake Up/ Ekspertët IT të Ballkanit bashkohen për privatësinë online dhe lirinë e shprehjes" >}}
 
 **Balkan FLOSStival** - At Wake Up on Top Channel | 4 December 2020
@@ -47,6 +53,12 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 {{< embed id="IZfmRL_wLOM" title="#ACEU19: Anxhelo Lushka – Usability Lab Overview and how to receive design help for your project" >}}
 
 **Usability Lab Overview and how to receive design help for your project** - At ApacheConEU 2019 in Berlin | 24 October 2019
+
+<br>
+
+{{< bbb domain="meet.flossk.org" id="3edbe3939d18067a08299b9a0a9b8d590af2bb85-1588088542963" thumb="privacy.png" title="Setting up a secure and private system from scratch" >}}
+
+**Setting up a secure and private system from scratch** - At an online webinar | 28 April 2020
 
 <br>
 

@@ -1,4 +1,4 @@
-.youtube-player {
+.youtube-player, .player {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
@@ -8,7 +8,7 @@
     margin: 5px;
   }
 
-  .youtube-player iframe {
+  .youtube-player iframe, .player iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -18,7 +18,7 @@
     background: transparent;
   }
 
-  .youtube-player img {
+  .youtube-player img, .player img {
     object-fit: cover;
     display: block;
     left: 0;
@@ -37,11 +37,11 @@
     transition: 0.4s all;
   }
 
-  .youtube-player img:hover {
+  .youtube-player img:hover, .player img:hover {
     -webkit-filter: brightness(75%);
   }
 
-  .youtube-player .play {
+  .youtube-player .play, .player .play {
     height: 100px;
     width: 100px;
     left: 50%;

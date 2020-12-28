@@ -20,6 +20,12 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 
 <br>
 
+{{< bbb domain="recordings.balkanflosstival.cc" id="73bdfeaac62107d8aac3612e38d66f368f057fd7-1607156056158" timestamp="277m28s" thumb="mindset.jpg" title="Why privacy is not about the tools but about the mindset" >}}
+
+**Pse privatësia nuk ka të bëjë me mjetet por me mendësinë** - Tek [Balkan FLOSStival](http://balkanflosstival.cc) | 5 Dhjetor 2020
+
+<br>
+
 {{< embed id="yUrFuGuUXDc" title="Wake Up/ Ekspertët IT të Ballkanit bashkohen për privatësinë online dhe lirinë e shprehjes" >}}
 
 **Ekspertët IT të Ballkanit bashkohen për Balkan FLOSStival** - Në Wake Up tek Top Channel | 4 Dhjetor 2020
@@ -41,6 +47,12 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 {{< embed id="JuJ0_O82t34" title="Wake Up/ WhatsApp humbet përdoruesit nga frika e sigurisë së të dhënave" >}}
 
 **WhatsApp humbet përdoruesit nga frika e sigurisë së të dhënave** - Në Wake Up tek Top Channel | 17 Dhjetor 2019
+
+<br>
+
+{{< bbb domain="meet.flossk.org" id="3edbe3939d18067a08299b9a0a9b8d590af2bb85-1588088542963" thumb="privacy.png" title="Setting up a secure and private system from scratch" >}}
+
+**Si të krijojmë një sistem të sigurt nga privat nga zero** - Tek një event online | 28 Prill 2020
 
 <br>
 
