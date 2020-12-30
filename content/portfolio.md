@@ -6,6 +6,12 @@ Below you will find a few of my works, ordered from newest to oldest.
 
 <br>
 
+[![Hardware Security SDK Website](/img/portfolio/hwsdk.jpg)](https://hwsecurity.dev/)
+
+**Hardware Security SDK** is a vendor-independent framework for using security keys and smartcards over NFC and USB. The website was built using Hugo and a custom Bootstrap theme.
+
+<br>
+
 [![REScala Language Website](/img/portfolio/rescala.jpg)](https://www.rescala-lang.com/)
 
 **REScala** is a Scala library for functional reactive programming on the JVM and the Web. It provides a rich API for event stream transformations and signal composition with managed consistent up-to-date state and minimal syntactic overhead. It supports concurrent and distributed programs. The website was built using Jekyll and a custom Bootstrap theme. It contains a user manual page for developers that want to start using RESCala and other information.
