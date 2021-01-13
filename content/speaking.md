@@ -8,6 +8,12 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br>
 
+{{< embed id="aJREmw7EADg" title="The privacy scandal with WhatsApp, what's going to happen after February 8?" >}}
+
+**The privacy scandal with WhatsApp, what's going to happen after February 8?** - At Kafe Shqeto on Syri TV | 13 January 2021
+
+<br>
+
 {{< embed id="4q0QPp18_4g" title="Social media and its impact on society" >}}
 
 **Social media and its impact on society** - At Ora 7 on RTSH | 11 December 2020
@@ -29,7 +35,7 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 {{< embed id="yUrFuGuUXDc" title="Wake Up/ Ekspertët IT të Ballkanit bashkohen për privatësinë online dhe lirinë e shprehjes" >}}
 
 **Balkan FLOSStival** - At Wake Up on Top Channel | 4 December 2020
- 
+
 <br>
 
 {{< embed id="bXr9uTa_usk" title="Wake Up/ 'Ju keni fituar 700 mijë dollarë' Eksperti IT: Si po mashtrohen qytetarët në WhatsApp" >}}

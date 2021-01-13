@@ -8,6 +8,12 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 
 <br>
 
+{{< embed id="aJREmw7EADg" title="Skandali me privatësinë në WhatsApp, çfarë do ndodhë pas 8 shkurtit?" >}}
+
+**Skandali me privatësinë në WhatsApp, çfarë do ndodhë pas 8 shkurtit?** - Në Kafe Shqeto tek Syri TV | 13 Janar 2021
+
+<br>
+
 {{< embed id="4q0QPp18_4g" title="Social media and its impact on society" >}}
 
 **Rrjetet sociale dhe impakti i tyre mbi shoqërinë** - Në Ora 7 tek RTSH | 11 Dhjetor 2020
@@ -29,7 +35,7 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 {{< embed id="yUrFuGuUXDc" title="Wake Up/ Ekspertët IT të Ballkanit bashkohen për privatësinë online dhe lirinë e shprehjes" >}}
 
 **Ekspertët IT të Ballkanit bashkohen për Balkan FLOSStival** - Në Wake Up tek Top Channel | 4 Dhjetor 2020
- 
+
 <br>
 
 {{< embed id="bXr9uTa_usk" title="Wake Up/ 'Ju keni fituar 700 mijë dollarë' Eksperti IT: Si po mashtrohen qytetarët në WhatsApp" >}}
