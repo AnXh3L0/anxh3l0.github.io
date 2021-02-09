@@ -8,6 +8,12 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br>
 
+{{< embed id="Y5dz5aNPlow" title="Be careful from the messages you receive on WhatsApp" >}}
+
+**Be careful from the messages you receive on WhatsApp** - At Kafe Shqeto on Syri TV | 9 February 2021
+
+<br>
+
 {{< embed id="aJREmw7EADg" title="The privacy scandal with WhatsApp, what's going to happen after February 8?" >}}
 
 **The privacy scandal with WhatsApp, what's going to happen after February 8?** - At Kafe Shqeto on Syri TV | 13 January 2021

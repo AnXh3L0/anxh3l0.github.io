@@ -6,6 +6,12 @@ Below you will find a few of my works, ordered from newest to oldest.
 
 <br>
 
+[![Hessian.AI Website](/img/portfolio/hessianai.jpg)](https://hessian.ai)
+
+**Hessian.AI** is a center for Artificial Intelligence at the TU Darmstadt aiming to drive research excellence, education, practice and leadership in AI to foster economic growth and improve the human condition. The website is a single static page and a custom Bootstrap theme.
+
+<br>
+
 [![Hardware Security SDK Website](/img/portfolio/hwsdk.jpg)](https://hwsecurity.dev/)
 
 **Hardware Security SDK** is a vendor-independent framework for using security keys and smartcards over NFC and USB. The website was built using Hugo and a custom Bootstrap theme.

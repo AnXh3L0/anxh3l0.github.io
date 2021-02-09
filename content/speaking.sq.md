@@ -8,6 +8,12 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 
 <br>
 
+{{< embed id="Y5dz5aNPlow" title="Kujdes nga mesazhet në 'WhatsApp'" >}}
+
+**Kujdes nga mesazhet në WhatsApp** - Në Kafe Shqeto tek Syri TV | 9 Shkurt 2021
+
+<br>
+
 {{< embed id="aJREmw7EADg" title="Skandali me privatësinë në WhatsApp, çfarë do ndodhë pas 8 shkurtit?" >}}
 
 **Skandali me privatësinë në WhatsApp, çfarë do ndodhë pas 8 shkurtit?** - Në Kafe Shqeto tek Syri TV | 13 Janar 2021
