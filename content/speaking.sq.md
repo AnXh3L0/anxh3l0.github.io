@@ -32,7 +32,7 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 
 <br>
 
-{{< bbb domain="recordings.balkanflosstival.cc" id="73bdfeaac62107d8aac3612e38d66f368f057fd7-1607156056158" timestamp="277m28s" thumb="mindset.jpg" title="Why privacy is not about the tools but about the mindset" >}}
+{{< bbb domain="meet-balancer.openlabs.cc" id="73bdfeaac62107d8aac3612e38d66f368f057fd7-1607156056158" timestamp="277m28s" thumb="mindset.jpg" title="Why privacy is not about the tools but about the mindset" >}}
 
 **Pse privatësia nuk ka të bëjë me mjetet por me mendësinë** - Tek [Balkan FLOSStival](http://balkanflosstival.cc) | 5 Dhjetor 2020
 
