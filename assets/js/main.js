@@ -46,3 +46,23 @@ themeToggle.addEventListener("click", () => {
     ? metaThemeColor.setAttribute("content", "#252627")
     : metaThemeColor.setAttribute("content", "#fafafa");
 });
+
+// Hire me box
+
+// Check if the user already closed the notification
+if (window.sessionStorage.getItem("hidden")) {
+  document.getElementById("hireme").style.display = "none";
+}
+
+document.addEventListener("click", function (event) {
+  if (!event.target.matches(".closebtn")) return;
+  window.sessionStorage.setItem("hidden", true);
+  document.getElementById("hireme").style.display = "none";
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("click", function (event) {
+    if (!event.target.matches(".closebtn")) return;
+    document.getElementById("hireme").style.display = "none";
+  });
+});

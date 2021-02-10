@@ -2,23 +2,3 @@
     <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
     <a href="/about#contact">I am available for hire!</a>
 </div>
-
-<script>
-    // Check if the user already closed the notification
-    if (window.sessionStorage.getItem('hidden')) {
-        document.getElementById("hireme").style.display = "none";
-    }
-
-    document.addEventListener('click', function (event) {
-        if (!event.target.matches('.closebtn')) return;
-        window.sessionStorage.setItem('hidden', true);
-        document.getElementById("hireme").style.display = "none";
-    });
-
-    document.addEventListener("DOMContentLoaded", function () {
-        document.addEventListener('click', function (event) {
-            if (!event.target.matches('.closebtn')) return;
-            document.getElementById("hireme").style.display = "none";
-        });
-    });
-</script>
