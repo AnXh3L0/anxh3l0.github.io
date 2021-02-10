@@ -24,7 +24,8 @@
     }
 
     a {
-      text-decoration: none;
+      text-decoration: underline;
+      text-decoration-color: salmon;
     }
   }
 
@@ -200,17 +201,4 @@
   &:hover {
     opacity: 1;
   }
-}
-
-figure figcaption {
-  font-size: 1rem !important;
-}
-
-figure img {
-  border: 3px solid #333;
-}
-
-figcaption h4 {
-  font-size: 1rem;
-  margin: 0.5rem 0 0 0;
 }

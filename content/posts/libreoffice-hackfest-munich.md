@@ -17,31 +17,31 @@ This idea got a positive feedback from the community and now we have a group of 
 
 On the first day, we started by introducing ourselves and what we would work on during the weekend. I discussed with Heiko and others about some UX tickets and the idea of separating the LibreOffice and The Document Foundation branding from each other.
 
-![Hackfest opening](../img/posts/hackfest-opening.jpg)
+![Hackfest opening](/img/posts/hackfest-opening.jpg)
 
 In the evening I got to [cook some delicious pasta](https://mobile.twitter.com/floeff/status/1055909904693780480) (Penne all'arrabbiata & Fusilli radicchio and gorgonzola) together with Marina and everyone seemed to have enjoyed the food (and the beer too).
 
-![Hackfest pasta](../img/posts/hackfest-pasta.jpg)
+![Hackfest pasta](/img/posts/hackfest-pasta.jpg)
 
 The next day (Saturday) was a bit more intensive. I started to prototype some ideas I had in mind about the branding for The Document Foundation. Unfortunately, I couldn't work that much because I was behind with my personal projects too. We had some interesing discussions on future local events and more.
 
-![Hackfest working](../img/posts/hackfest-working.jpg)
+![Hackfest working](/img/posts/hackfest-working.jpg)
 
 This second day we had some delicious pizza 🍕 for dinner.
 
-![Hackfest pizza](../img/posts/hackfest-pizza.jpg)
+![Hackfest pizza](/img/posts/hackfest-pizza.jpg)
 
 On Sunday, we made a summary of our contributions and bugfixes/patches/changes during the Hackfest.
 
-![Hackfest Last Day](../img/posts/hackfest-closing.jpg)
+![Hackfest Last Day](/img/posts/hackfest-closing.jpg)
 
 After that, it started raining but that didn't stop up from participating in the awesome Old Town city tour guided by Mike Saunders (Thanks Mike, you rock!).
 
-![Hackfest City Tour](../img/posts/hackfest-tour.jpg)
+![Hackfest City Tour](/img/posts/hackfest-tour.jpg)
 
 After the tour, we finished up with some food and beer 🍺.
 
-![Hackfest Beers](../img/posts/hackfest-beers.jpg)
+![Hackfest Beers](/img/posts/hackfest-beers.jpg)
 
 We also discussed about the idea of organizing the next Hackfest in Tirana in the upcoming March of 2019. By having the great support of LibreOffice community members, we can strengthen our skills and give back to the community.
 

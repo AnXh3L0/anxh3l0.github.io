@@ -13,31 +13,31 @@ We decided to organize this event at the ["Hermann Gmeiner"](http://hermanngmein
 
 The event started at 11:30 AM at the auditorium of the high school. The participants were ALL girls, a whole 58 of them to be exact. They were eager to learn about the Fedora Project and how to get involved and contribute in open source.
 
-[![Participants](../img/posts/fwd-participants.jpg)](../img/posts/fwd-participants-full.jpg)
+[![Participants](/img/posts/fwd-participants.jpg)](/img/posts/fwd-participants-full.jpg)
 
 Jona started by introducing us to the participants and where we came from, about [Open Labs](https://openlabs.cc) as the root origin from where the Albanian Fedora community was born in, about Fedora and other projects that strongly cooperate with it etc.
 
-[![Jona talking about Fedora](../img/posts/fwd-jona-talking.jpg)](../img/posts/fwd-jona-talking-full.jpg)
+[![Jona talking about Fedora](/img/posts/fwd-jona-talking.jpg)](/img/posts/fwd-jona-talking-full.jpg)
 
 The participants had questions and we were more than happy to answer those. Most of them hadn't heard about [Linux](https://en.wikipedia.org/wiki/Linux_kernel) before or used it, so this was a good opportunity for me to start from zero and explain Linux and distros with an easy terminology, so beginners could also understand it.
 
 After, Jona explained more about the Fedora Women's Day and the Diversity & Inclusion Team in Fedora, some initiatives that the girls could participate in, such as [Google Summer of Code](https://summerofcode.withgoogle.com/), [Google Code-In](https://codein.withgoogle.com/), [Rails Girls Summer of Code](https://railsgirlssummerofcode.org/), [Outreachy](https://www.outreachy.org/) etc.
 
-[![Jona talking about initiatives](../img/posts/fwd-jona-women.jpg)](../img/posts/fwd-jona-women-full.jpg)
+[![Jona talking about initiatives](/img/posts/fwd-jona-women.jpg)](/img/posts/fwd-jona-women-full.jpg)
 
 As we were approaching the end of the event (about 2 hours in total), I prepared the food (delicious muffins 🍩) and drinks 🥤 for the participants, and of course, the swag table, where the girls could take some stickers and spread the love for Fedora ❤️.
 
-[![Stickers table](../img/posts/fwd-stickers.jpg)](../img/posts/fwd-stickers-full.jpg)
+[![Stickers table](/img/posts/fwd-stickers.jpg)](/img/posts/fwd-stickers-full.jpg)
 
-[![Muffins and drinks](../img/posts/fwd-food.jpg)](../img/posts/fwd-food-full.jpg)
+[![Muffins and drinks](/img/posts/fwd-food.jpg)](/img/posts/fwd-food-full.jpg)
 
 Everyone got a muffin and discussed a few minutes in groups with each other 👩‍💻 about the event and we answered a few questions some students had.
 
-[![Students eating](../img/posts/fwd-students.jpg)](../img/posts/fwd-students-full.jpg)
+[![Students eating](/img/posts/fwd-students.jpg)](/img/posts/fwd-students-full.jpg)
 
 To wrap up the event, as always, we had a group photo 📸 (not everyone was there, they were shy). Funnily enough, I was the only guy in a room full of girls, haha.
 
-[![Group Photo](../img/posts/fwd-photo.jpg)](../img/posts/fwd-photo-full.jpg)
+[![Group Photo](/img/posts/fwd-photo.jpg)](/img/posts/fwd-photo-full.jpg)
 
 All in all, it was a successful event and we'll try to organize more in the upcoming future.
 

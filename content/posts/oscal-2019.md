@@ -17,7 +17,7 @@ So, what is this local event that everyone from the Albanian community was makin
 
 This year, the conference had a new brand done by [Kleidi Eski](http://lightandmoving.com/), the designer that has worked with us for the past 4 or 5 editions now. You can see the new logo displayed below.
 
-![OSCAL 2019 logo](../img/posts/oscal2019-logo.png)
+![OSCAL 2019 logo](/img/posts/oscal2019-logo.png)
 
 This year there were more than 40 speakers with interesting talks and workshops from various topics about security, privacy, Linux, free software, free knowledge and software freedom etc.
 
@@ -27,22 +27,22 @@ Self driving cars, artificial intelligence, personal assistants, algorithms, the
 
 This year I was present with a workshop titled **"How to setup a private and secure system in 2019"**. The workshop was 2 hours long and covered everything from zero for beginners on tools and workflows to make their systems more secure and private. I honestly expected more people and interest but I was left a bit disappointed because there were almost no questions from the audience and 99% of them had never heard of any of the tools I mentioned. This means that the big corps are now way past the threshold of being able to get rid of easily and painlessly, which is something I'm fighting for daily. Anyway, below you'll see some photos from my workshop.
 
-![OSCAL 2019 presentation](../img/posts/oscal2019-workshop-1.jpg)
-![OSCAL 2019 presentation](../img/posts/oscal2019-workshop-2.jpg)
-![OSCAL 2019 presentation](../img/posts/oscal2019-workshop-3.jpg)
+![OSCAL 2019 presentation](/img/posts/oscal2019-workshop-1.jpg)
+![OSCAL 2019 presentation](/img/posts/oscal2019-workshop-2.jpg)
+![OSCAL 2019 presentation](/img/posts/oscal2019-workshop-3.jpg)
 
 The second day we also celebrated the [release of Fedora 30](https://www.fedoraproject.org/wiki/Releases/30/ChangeSet), unfortunately breaking our tradition of having a cake, this time replaced this cupcakes for all the participants. Two goofy group photos are below.
 
-![OSCAL 2019 Fedora 30 Release Party](../img/posts/oscal2019-frparty-1.jpg)
-![OSCAL 2019 Fedora 30 Release Party](../img/posts/oscal2019-frparty-2.jpg)
+![OSCAL 2019 Fedora 30 Release Party](/img/posts/oscal2019-frparty-1.jpg)
+![OSCAL 2019 Fedora 30 Release Party](/img/posts/oscal2019-frparty-2.jpg)
 
 One sunny day someone from the local hackerspace asked me to make a funny writing that would be printed on some t-shirts. They sent a writing that said (in Albanian) - "Vdiqëëëëm". Translated in English that would mean "We're dying", which you might think it's weird, while yes, it is. The story behind it is a long one but to cut it short, it was a popular saying a while back for when we were tired during events. I didn't think much about it and just went ahead and made a nice handwritten design with the word and sent it to them. To my suprise, they actually went ahead and printed the t-shirts and we wore them in front of the backdrop there. We got some looks from people and they asked about the meaning and then wanted one too, unfortunately those were limited edition ones 😜
 
-![OSCAL 2019 Vdiqem t-shirts](../img/posts/oscal2019-tshirts.jpg)
+![OSCAL 2019 Vdiqem t-shirts](/img/posts/oscal2019-tshirts.jpg)
 
 As always, at the end of the first day, we take a group photo, and here it is.
 
-![OSCAL 2019 Group photo](../img/posts/oscal2019-group-photo.jpg)
+![OSCAL 2019 Group photo](/img/posts/oscal2019-group-photo.jpg)
 
 All in all, I think this was another successful edition of OSCAL and I can't wait for the next one. There's much more I didn't cover here but I hope it's a good overview of the event.
 
