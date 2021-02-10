@@ -16,14 +16,15 @@ UI/UX Developer at [Ura Design](https://ura.design)
 
 ## Skills
 
-- 4+ years of web development experience, with focus on performance and security/privacy
+- 4+ years of **web development** experience, with focus on performance and security/privacy
 - Skilled in HTML/CSS/JavaScript
-- Experienced in system administration and security deployments
+- Long experience in system administration and security deployments
+- Experienced in both **offensive and defensive teams** (pentesting)
 - Long time contributor and volunteer in open source projects
 - Capable of working in a team, under pressure and tight deadlines
 - Long experience in event organization
-- Proficient with graphic design software such as GIMP, Inkscape etc.
-- Public speaker in events related to open source, design, security and privacy
+- Proficient with graphic design software: Photoshop, Illustrator, GIMP, Inkscape etc.
+- **Public speaker** in events related to open source, design, security and privacy
 - Fluid speaker in more than 3 languages (Albanian, English, Italian etc)
 
 <br>
