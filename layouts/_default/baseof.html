@@ -6,19 +6,17 @@
 </head>
 
 <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
-    <div class="container">
-        {{ partial "header.html" . }}
+    {{ partial "header.html" . }}
 
-        <div class="content">
-            {{ block "main" . }}{{ end }}
-        </div>
+    <section>
+        {{ block "main" . }}{{ end }}
+    </section>
 
-        {{ partial "hire.html" . }}
+    {{ partial "hire.html" . }}
 
-        {{ block "footer" . }}
-        {{ partial "footer.html" . }}
-        {{ end }}
-    </div>
+    {{ block "footer" . }}
+    {{ partial "footer.html" . }}
+    {{ end }}
 
     {{ partial "javascript.html" . }}
 </body>

@@ -30,6 +30,11 @@ body {
   min-height: 100vh;
   flex-direction: column;
 
+  flex: 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
   @media #{$media-size-phone} {
     font-size: 1rem;
   }
@@ -257,15 +262,7 @@ ol ol {
   list-style-type: lower-alpha;
 }
 
-.container {
-  flex: 1 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.content {
+section {
   display: flex;
   flex-direction: column;
   flex: 1 auto;
@@ -370,19 +367,19 @@ hr {
     right: 20px;
     padding: 10px;
   }
-}
 
-.closebtn {
-  margin-left: 15px;
-  color: $light-color;
-  font-weight: bold;
-  float: right;
-  font-size: 24px;
-  line-height: 24px;
-  cursor: pointer;
-
-  .dark-theme & {
-    color: $dark-color;
+  & span {
+    margin-left: 15px;
+    color: $light-color;
+    font-weight: bold;
+    float: right;
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
+  
+    .dark-theme & {
+      color: $dark-color;
+    }
   }
 }
 

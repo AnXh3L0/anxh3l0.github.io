@@ -1,4 +1,4 @@
-.menu {
+nav {
   background: #fafafa;
   z-index: 9999;
 
@@ -20,7 +20,7 @@
     }
   }
 
-  &__inner {
+  & ul {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -46,14 +46,6 @@
     }
   }
 
-  &-trigger {
-    width: 24px;
-    height: 24px;
-    fill: currentColor;
-    margin-left: 10px;
-    cursor: pointer;
-  }
-
   a {
     display: inline-block;
     margin-right: 15px;
@@ -67,4 +59,12 @@
       margin-right: 0;
     }
   }
+}
+
+.trigger {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  margin-left: 10px;
+  cursor: pointer;
 }

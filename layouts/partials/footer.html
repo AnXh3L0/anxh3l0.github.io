@@ -1,15 +1,5 @@
-<footer class="footer">
-  <div class="footer__inner">
-    <div class="footer__content">
-      <span>&copy; {{ now.Format "2006" }}</span>
-      <span>{{ .Site.Copyright| safeHTML }}</span>
-    </div>
-  </div>
-  <div class="footer__inner">
-    <div class="footer__content">
-      <span>
-        Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>
-      </span>
-    </div>
-  </div>
+<footer>
+  &copy; {{ now.Format "2006" }}<br />
+  {{ .Site.Copyright| safeHTML }}<br />
+  Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>
 </footer>

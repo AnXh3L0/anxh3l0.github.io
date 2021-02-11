@@ -1,7 +1,7 @@
 // Mobile menu
 
-const menuTrigger = document.querySelector(".menu-trigger");
-const menu = document.querySelector(".menu");
+const menuTrigger = document.querySelector(".trigger");
+const menu = document.querySelector("nav");
 const mobileQuery = getComputedStyle(document.body).getPropertyValue(
   "--phoneWidth"
 );
@@ -51,19 +51,19 @@ themeToggle.addEventListener("click", () => {
 
 // Check if the user already closed the notification
 if (window.sessionStorage.getItem("hidden")) {
-  document.getElementById("hireme").style.display = "none";
+  document.getElementsByClassName("alert")[0].style.display = "none";
 }
 
 document.addEventListener("click", function (event) {
-  if (!event.target.matches(".closebtn")) return;
+  if (!event.target.matches("span")) return;
   window.sessionStorage.setItem("hidden", true);
-  document.getElementById("hireme").style.display = "none";
+  document.getElementsByClassName("alert")[0].style.display = "none";
 });
 
 document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("click", function (event) {
-    if (!event.target.matches(".closebtn")) return;
-    document.getElementById("hireme").style.display = "none";
+    if (!event.target.matches("span")) return;
+    document.getElementsByClassName("alert")[0].style.display = "none";
   });
 });
 

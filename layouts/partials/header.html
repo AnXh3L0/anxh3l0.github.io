@@ -1,11 +1,11 @@
-<header class="header">
-    <div class="header__inner">
+<header>
+    <div>
         {{ partial "logo.html" . }}
 
-        <div class="header__right">
+        <div>
             {{ if len .Site.Menus }}
             {{ partial "menu.html" . }}
-            <span class="menu-trigger">
+            <span class="trigger">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path d="M0 0h24v24H0z" fill="none" />
                     <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
@@ -13,7 +13,7 @@
             </span>
             {{ end }}
 
-            <span class="theme-toggle unselectable">{{ partial "theme-icon.html" . }}</span>
+            <span class="theme-toggle">{{ partial "theme-icon.html" . }}</span>
         </div>
     </div>
 </header>
