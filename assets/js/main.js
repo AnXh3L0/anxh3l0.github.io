@@ -55,14 +55,14 @@ if (window.sessionStorage.getItem("hidden")) {
 }
 
 document.addEventListener("click", function (event) {
-  if (!event.target.matches("span")) return;
+  if (!event.target.matches("button")) return;
   window.sessionStorage.setItem("hidden", true);
   document.getElementsByClassName("alert")[0].style.display = "none";
 });
 
 document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("click", function (event) {
-    if (!event.target.matches("span")) return;
+    if (!event.target.matches("button")) return;
     document.getElementsByClassName("alert")[0].style.display = "none";
   });
 });

@@ -262,7 +262,7 @@ ol ol {
   list-style-type: lower-alpha;
 }
 
-section {
+.content {
   display: flex;
   flex-direction: column;
   flex: 1 auto;
@@ -337,8 +337,12 @@ hr {
   z-index: 100000;
 }
 
+// Alert box
+
 .alert {
   position: fixed;
+  display: flex;
+  align-items: center;
   top: 100px;
   right: 50px;
   padding: 20px;
@@ -365,11 +369,12 @@ hr {
     position: absolute;
     top: 80px;
     right: 20px;
-    padding: 10px;
+    padding: 10px 16px;
   }
 
-  & span {
-    margin-left: 15px;
+  & button {
+    margin: 0px 0px 0px 10px;
+    padding: 4px 8px !important;
     color: $light-color;
     font-weight: bold;
     float: right;
@@ -462,4 +467,13 @@ hr {
       color: $dark-color-secondary;
     }
   }
+}
+
+main > div > h1 {
+  margin-bottom: 0;
+}
+
+main > div > p {
+  margin-top: 0px;
+  margin-bottom: 35px;
 }

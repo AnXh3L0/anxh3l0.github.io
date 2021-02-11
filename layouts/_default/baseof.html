@@ -8,9 +8,9 @@
 <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
     {{ partial "header.html" . }}
 
-    <section>
+    <div class="content">
         {{ block "main" . }}{{ end }}
-    </section>
+    </div>
 
     {{ partial "hire.html" . }}
 
