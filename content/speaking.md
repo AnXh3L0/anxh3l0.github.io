@@ -4,7 +4,7 @@ title = "Speaking"
 
 Below you will find a few of the talks/interviews/etc I've given in different events and TV shows. If you would like to collaborate, you can [contact](/about#contact) me.
 
-(!) To preserve visitor privacy without sacrificing usability, only the video thumbnails are fetched on page load. Only after you click on a video will the scripts start downloading. The [YouTube privacy policy](https://policies.google.com/privacy) applies to this content.
+(!) To preserve visitor privacy without sacrificing usability, only the video thumbnails are fetched on page load. Only after you click on a video will the scripts start downloading. The [YouTube privacy policy](https://policies.google.com/privacy "Google Privacy Policy applies here") applies to this content.
 
 <br>
 

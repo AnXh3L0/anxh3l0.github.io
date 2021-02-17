@@ -1,10 +1,10 @@
 baseURL = "https://lushka.al"
 title   = "Anxhelo Lushka"
 
-DefaultContentLanguage = "en"
+defaultContentLanguage = "en"
 
 rssLimit  = 300
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License." # This message is only used by the RSS template.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -103,17 +103,17 @@ disableHugoGeneratorInject = true
   [languages.en]
     subtitle  = ""
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License">CC BY-NC-SA 4.0</a>'
 
   [languages.sq]
     subtitle  = ""
     weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="Licensa">CC BY-NC-SA 4.0</a>'
 
   [languages.it]
     subtitle  = ""
     weight    = 3
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="Licensa">CC BY-NC-SA 4.0</a>'
 
 [menu]
   [[menu.main]]
@@ -157,3 +157,8 @@ disableHugoGeneratorInject = true
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
