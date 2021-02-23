@@ -93,11 +93,13 @@ function initYouTubeVideos() {
   for (var n = 0; n < playerElements.length; n++) {
     var videoId = playerElements[n].dataset.id;
     var videoTitle = playerElements[n].dataset.title;
+    var thumbImage = playerElements[n].dataset.thumb;
     var div = document.createElement("div");
     div.setAttribute("data-id", videoId);
+    div.setAttribute("data-thumb", thumbImage);
     var thumbNode = document.createElement("img");
     thumbNode.alt = videoTitle;
-    thumbNode.src = "//i.ytimg.com/vi/ID/hqdefault.jpg".replace("ID", videoId);
+    thumbNode.src = "/img/thumbs/image".replace("image", thumbImage);
     div.appendChild(thumbNode);
     var VideoTitle = document.createElement("p");
     VideoTitle.setAttribute("class", "vidtitle");
