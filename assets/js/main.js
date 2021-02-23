@@ -98,6 +98,7 @@ function initYouTubeVideos() {
     div.setAttribute("data-id", videoId);
     div.setAttribute("data-thumb", thumbImage);
     var thumbNode = document.createElement("img");
+    thumbNode.setAttribute("loading", "lazy");
     thumbNode.alt = videoTitle;
     thumbNode.src = "/img/thumbs/image".replace("image", thumbImage);
     div.appendChild(thumbNode);
@@ -146,6 +147,7 @@ function initBBBVideos() {
     div.setAttribute("data-thumb", thumbImage);
     div.setAttribute("data-timestamp", timestamp);
     var thumbNode = document.createElement("img");
+    thumbNode.setAttribute("loading", "lazy");
     thumbNode.alt = videoTitle;
     thumbNode.src = "/img/thumbs/image".replace("image", thumbImage);
     div.appendChild(thumbNode);

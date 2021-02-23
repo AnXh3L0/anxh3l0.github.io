@@ -4,6 +4,8 @@ title = "Portfolio"
 
 Below you will find a few of my works, ordered from newest to oldest.
 
+{{< figure src="/img/portfolio/demoweek.jpg" link="demoweek" title="Prototype Fund Demo Week" alt="Prototype Fund Demo Week" caption="**The Prototype Fund** is a funding program of the Federal Ministry of Education and Research (BMBF) that is managed and evaluated by the Open Knowledge Foundation Germany. Individuals and small teams (of freelance coders, hackers, UX designers and more) can receive funding in order to test their ideas and develop open source applications in the areas of Civic Tech, Data Literacy, IT Security and Software Infrastructure. The website of their 8th round demo week was built using Jekyll and custom CSS." >}}
+
 {{< figure src="/img/portfolio/hessianai.jpg" link="hessian" title="Hessian AI" alt="Hessian AI Website" caption="**Hessian.AI** is a center for Artificial Intelligence at the TU Darmstadt aiming to drive research excellence, education, practice and leadership in AI to foster economic growth and improve the human condition. The website is a single static page and a custom Bootstrap theme." >}}
 
 {{< figure src="/img/portfolio/hwsdk.jpg" link="hwsecurity" title="Hardware Security SDK" alt="Hardware Security SDK Website" caption="**Hardware Security SDK** is a vendor-independent framework for using security keys and smartcards over NFC and USB. The website was built using Hugo and a custom Bootstrap theme." >}}
