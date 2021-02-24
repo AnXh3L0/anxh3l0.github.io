@@ -14,7 +14,7 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br>
 
-{{< embed id="aJREmw7EADg" thumb="privacy-scandal-whatsapp.jpg" title="The privacy scandal with WhatsApp, what's going to happen after February 8?" >}}
+{{< embed id="aJREmw7EADg" thumb="privacy-scandal-whatsapp.jpg" title="The new WhatsApp privacy policy" >}}
 
 **The privacy scandal with WhatsApp, what's going to happen after February 8?** - At Kafe Shqeto on Syri TV | 13 January 2021
 
@@ -26,7 +26,7 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br>
 
-{{< embed id="wFxe1pShYsI" thumb="cybernetic-crime.jpg" title="Kafe Shqeto - Krimi kibernetik, sa të rrezikuar jemi Flet Semanaj dhe Lushka" >}}
+{{< embed id="wFxe1pShYsI" thumb="cybernetic-crime.jpg" title="Cybercrime, how dangerous is the current situation" >}}
 
 **Cybernetic crime and its dangers** - At Kafe Shqeto on Syri TV | 7 December 2020
 
@@ -38,13 +38,13 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br>
 
-{{< embed id="yUrFuGuUXDc" thumb="balkan-flosstival.webp" title="Wake Up/ Ekspertët IT të Ballkanit bashkohen për privatësinë online dhe lirinë e shprehjes" >}}
+{{< embed id="yUrFuGuUXDc" thumb="balkan-flosstival.webp" title="Balkan FLOSStival in  Albania" >}}
 
 **Balkan FLOSStival** - At Wake Up on Top Channel | 4 December 2020
 
 <br>
 
-{{< embed id="bXr9uTa_usk" thumb="money-scam-whatsapp.jpg" title="Wake Up/ 'Ju keni fituar 700 mijë dollarë' Eksperti IT: Si po mashtrohen qytetarët në WhatsApp" >}}
+{{< embed id="bXr9uTa_usk" thumb="money-scam-whatsapp.jpg" title="'You've won $700k', how citizens are being scammed on WhatsApp" >}}
 
 **How citizens are being scammed on WhatsApp** - At Wake Up on Top Channel | 29 October 2020
 
@@ -56,19 +56,19 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br>
 
-{{< embed id="JuJ0_O82t34" thumb="whatsapp-fears.jpg" title="Wake Up/ WhatsApp humbet përdoruesit nga frika e sigurisë së të dhënave" >}}
+{{< embed id="JuJ0_O82t34" thumb="whatsapp-fears.jpg" title="WhatsApp loses users from data security fears" >}}
 
 **WhatsApp is losing customers amidst data security fears** - At Wake Up on Top Channel | 17 December 2019
 
 <br>
 
-{{< embed id="IZfmRL_wLOM" thumb="apachecon-2019.jpg" title="#ACEU19: Anxhelo Lushka – Usability Lab Overview and how to receive design help for your project" >}}
+{{< embed id="IZfmRL_wLOM" thumb="apachecon-2019.jpg" title="Usability Lab/how to receive design help for your project" >}}
 
 **Usability Lab Overview and how to receive design help for your project** - At ApacheConEU 2019 in Berlin | 24 October 2019
 
 <br>
 
-{{< bbb domain="meet.flossk.org" id="3edbe3939d18067a08299b9a0a9b8d590af2bb85-1588088542963" thumb="privacy.png" title="Setting up a secure and private system from scratch" >}}
+{{< bbb domain="meet.flossk.org" id="3edbe3939d18067a08299b9a0a9b8d590af2bb85-1588088542963" thumb="privacy.jpg" title="Setting up a secure and private system from scratch" >}}
 
 **Setting up a secure and private system from scratch** - At an online webinar | 28 April 2020
 
@@ -86,6 +86,6 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br>
 
-{{< embed id="SbSNYwwGsBo" thumb="libreoffice-talk-2016.jpg" title="LibreOffice Conference 2016: The difficulties of creating a community" >}}
+{{< embed id="SbSNYwwGsBo" thumb="libreoffice-talk-2016.jpg" title="LibOCon 2016: The difficulties of creating a community" >}}
 
 **The difficulties of creating a community** - At LibreOffice Conference 2016 in Brno | 7 September 2016
