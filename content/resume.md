@@ -4,13 +4,13 @@ title = "Resume"
 
 ## Availability
 
-I am available for hire. [Get in touch](/about#contact) with me.
+I am available for hire. [Get in touch](/about#contact "Ways to contact me") with me.
 
 <br>
 
 ## Current work position
 
-UI/UX Developer at [Ura Design](https://ura.design)
+UI/UX Developer at [Ura Design](https://ura.design "Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects. Ura was founded in 2016 in Albania to cater to the ever-rising demand for Usability and Design services in Open Source Software.")
 
 <br>
 
@@ -41,7 +41,7 @@ UI/UX Developer at [Ura Design](https://ura.design)
 
 ## Education
 
-- Bachelor of Computer Engineering at the [Polytechnic University of Tirana — Faculty of Information Technology](http://www.fti.edu.al/)
+- Bachelor of Computer Engineering at the [Polytechnic University of Tirana — Faculty of Information Technology](http://www.fti.edu.al/ "The Faculty of Information Technology is the first faculty in Albania to train senior specialists in the fields of electronic engineering, telecommunication engineering and computer engineering.")
 
 <br>
 
@@ -59,7 +59,7 @@ Open Source Design Summit is an event dedicated to bringing designers and develo
 
 ---
 
-**Organizer of [LibreOffice Conference 2018](https://libocon.org/2018)**
+**Organizer of [LibreOffice Conference 2018](https://libocon.org/2018 "LibOCon is the annual gathering of the LibreOffice community")**
 
 LibOCon is the annual gathering of the LibreOffice community, in its 8th year. At LibOCon, LibreOffice users gather to network and meet key LibreOffice developers, designers, localizers, documenters, supporters and marketers, and to learn about the latest in LibreOffice development.
 

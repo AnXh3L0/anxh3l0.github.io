@@ -8,9 +8,9 @@ Në këtë faqe unë do të shfaq punët e mia më të mira me kalimin e kohës 
 
 Gjatë 4 viteve të fundit kam organizuar dhjetëra evente dhe konferenca të tilla si [OSCAL](https://osc.al)(Open Source Conference Albania), [LibreOffice Conference](https://libocon.org) dhe më shumë.
 
-:sparkles: **[Resume](/resume)**
+:sparkles: **[Resume](/resume "Resume ime si një faqe e vetme")**
 
-:scroll: **[PDF](/files/Resume%20-%20Anxhelo%20Lushka.pdf)**
+:scroll: **[PDF](/files/Resume%20-%20Anxhelo%20Lushka.pdf "Resume ime e shkurtuar në formatin PDF")**
 
 ## Kontakt
 

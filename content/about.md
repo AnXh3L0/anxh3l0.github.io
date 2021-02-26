@@ -8,9 +8,9 @@ In this website I will showcase my best works over time and some articles I writ
 
 During the last 4 years I have organized tens of events and conferences such as [OSCAL](https://osc.al) (Open Source Conference Albania), [LibreOffice Conference](https://libocon.org) and more.
 
-:sparkles: **[Resume](/resume)**
+:sparkles: **[Resume](/resume "My resume as a single page")**
 
-:scroll: **[PDF](/files/Resume%20-%20Anxhelo%20Lushka.pdf)**
+:scroll: **[PDF](/files/Resume%20-%20Anxhelo%20Lushka.pdf "My short resume in PDF format")**
 
 ## Contact
 

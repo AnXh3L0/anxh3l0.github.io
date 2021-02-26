@@ -67,6 +67,13 @@ nav {
   ul {
     display: block;
   }
+
+  @media #{$media-size-phone} {
+    position: relative;
+    top: 0;
+    right: 0;
+    border: none;
+  }
 }
 
 .trigger {
