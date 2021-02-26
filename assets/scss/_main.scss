@@ -381,9 +381,18 @@ hr {
     font-size: 24px;
     line-height: 24px;
     cursor: pointer;
+    transition: all 0.3s;
 
     .dark-theme & {
       color: $dark-color;
+
+      &:hover {
+        @include dark;
+      }
+    }
+
+    &:hover {
+      @include darker;
     }
   }
 }

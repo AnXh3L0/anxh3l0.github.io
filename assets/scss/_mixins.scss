@@ -1,3 +1,11 @@
 @mixin dimmed {
   opacity: 0.75;
 }
+
+@mixin darker {
+  background-color: darken($light-background, 20%);
+}
+
+@mixin dark {
+  background-color: lighten($dark-background, 15%);
+}
