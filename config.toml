@@ -160,8 +160,3 @@ disableHugoGeneratorInject = true
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
-
-[sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5

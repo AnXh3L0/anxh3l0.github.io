@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.6;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   scroll-behavior: smooth;
 }
 
@@ -188,6 +188,7 @@ code {
   margin: 0 2px;
   border-radius: 5px;
   font-size: 0.95rem;
+  overflow-wrap: break-word;
 
   .dark-theme & {
     background: $dark-background-secondary;
@@ -335,147 +336,6 @@ hr {
   padding: 15px 23px 14px;
   text-decoration: none;
   z-index: 100000;
-}
-
-// Alert box
-
-.alert {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  top: 100px;
-  right: 50px;
-  padding: 10px 20px;
-  color: $light-color;
-  background-color: $light-background;
-  border: 2px solid $light-border-color;
-  border-radius: 5px;
-
-  .dark-theme & {
-    background-color: $dark-background;
-    color: $dark-color;
-    border: 2px solid $dark-border-color;
-  }
-
-  & a {
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
-  @media #{$media-size-phone} {
-    position: absolute;
-    top: 80px;
-    right: 20px;
-    padding: 10px 16px;
-  }
-
-  & button {
-    margin: 0px 0px 0px 10px;
-    padding: 4px 8px !important;
-    color: $light-color;
-    font-weight: bold;
-    float: right;
-    font-size: 24px;
-    line-height: 24px;
-    cursor: pointer;
-    transition: all 0.3s;
-
-    .dark-theme & {
-      color: $dark-color;
-
-      &:hover {
-        @include dark;
-      }
-    }
-
-    &:hover {
-      @include darker;
-    }
-  }
-}
-
-.modal-window {
-  position: fixed;
-  color: $light-color;
-  background-color: $light-background;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 9999;
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s;
-
-  .dark-theme & {
-    background-color: $dark-background;
-    color: $dark-color;
-  }
-
-  &:target {
-    visibility: visible;
-    opacity: 1;
-    pointer-events: auto;
-  }
-
-  & img {
-    margin-bottom: 10px;
-    margin-top: 15px;
-  }
-
-  & > div {
-    width: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 2em;
-    border: 2px solid $light-border-color;
-    background-color: $light-background;
-
-    .dark-theme & {
-      background-color: $dark-background;
-      color: $dark-color;
-      border: 2px solid $dark-border-color;
-    }
-
-    & code {
-      word-wrap: break-word;
-    }
-
-    @media #{$media-size-phone} {
-      max-width: 340px;
-    }
-  }
-}
-
-.modal-close {
-  color: $light-color;
-  line-height: 50px;
-  font-size: 80%;
-  font-weight: bold;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 0;
-  width: 70px;
-  text-decoration: none;
-
-  &:hover {
-    color: $light-color-secondary;
-  }
-
-  .dark-theme & {
-    color: $dark-color;
-
-    &:hover {
-      color: $dark-color-secondary;
-    }
-  }
 }
 
 main > div > h1 {

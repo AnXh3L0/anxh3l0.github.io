@@ -1,6 +1,5 @@
 nav {
   background: #fafafa;
-  z-index: 9999;
 
   .dark-theme & {
     background: #252627;
@@ -82,4 +81,9 @@ nav {
   fill: currentColor;
   margin-left: 10px;
   cursor: pointer;
+  display: none;
+
+  @media #{$media-size-phone} {
+    display: block;
+  }
 }
