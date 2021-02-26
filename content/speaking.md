@@ -74,7 +74,7 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br>
 
-{{< embed id="rkLdBSmGxbs" thumb="cyber-laws.jpg" title="Vizioni i pasdites - Ligjet për krimin kibernetik" >}}
+{{< embed id="rkLdBSmGxbs" thumb="cyber-laws.jpg" title="Cybercrime laws in Albania" >}}
 
 **Laws on cybernetic crimes** - At Vizioni i Pasdites on Vizion Plus | 18 April 2019
 

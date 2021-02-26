@@ -37,6 +37,9 @@ disableHugoGeneratorInject = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
 
 [taxonomies]
   tag      = "tags"
