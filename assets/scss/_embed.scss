@@ -51,13 +51,13 @@
 .youtube-player .play,
 .player .play {
   position: absolute;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 13.229 13.229'%3E%3Cpath d='M11.76 6.615L1.469 12.632V.597z' fill='%23fff' stroke='%23fff' stroke-width='1' paint-order='fill markers stroke'/%3E%3C/svg%3E")
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='107.35' height='119.066' viewBox='0 0 28.403 31.503'%3E%3Cpath d='M0 4.495C0 .49 2.836-1.148 6.305.855L25.803 12.11c3.467 2.003 3.467 5.281 0 7.282L6.305 30.649C2.836 32.65 0 31.013 0 27.009z' fill='%23fff'/%3E%3C/svg%3E")
     no-repeat;
   background-size: 80px 80px;
   height: 80px;
   width: 80px;
-  left: 5%;
-  top: 72%;
+  left: 22px;
+  bottom: 30px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -70,69 +70,13 @@
 
 .vidtitle {
   position: absolute;
-  display: flex;
-  align-items: center;
   width: 100%;
   background-color: #000;
   opacity: 0.7;
-  padding: 10px;
+  padding: 10px 20px;
   margin: 0;
   font-weight: bold;
   font-size: 14px;
   color: #fff;
   user-select: none;
-
-  &:before {
-    content: "";
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z'%3E%3C/path%3E%3Cpolygon points='9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02'%3E%3C/polygon%3E%3C/svg%3E");
-    background-size: 22px 22px;
-    height: 22px;
-    width: 22px;
-    margin-right: 8px;
-  }
-}
-
-@media #{$media-size-phone} {
-  .youtube-player .play,
-  .player .play {
-    position: absolute;
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 13.229 13.229'%3E%3Cpath d='M11.76 6.615L1.469 12.632V.597z' fill='%23fff' stroke='%23fff' stroke-width='1' paint-order='fill markers stroke'/%3E%3C/svg%3E")
-      no-repeat;
-    background-size: 70px 70px;
-    height: 70px;
-    width: 70px;
-    left: 5%;
-    top: 55%;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
-  .vidtitle {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    background-color: #000;
-    opacity: 0.7;
-    padding: 10px;
-    margin: 0;
-    font-weight: bold;
-    font-size: 10px;
-    color: #fff;
-    user-select: none;
-
-    &:before {
-      content: "";
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z'%3E%3C/path%3E%3Cpolygon points='9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02'%3E%3C/polygon%3E%3C/svg%3E");
-      background-size: 18px 18px;
-      height: 18px;
-      width: 18px;
-      margin-right: 8px;
-    }
-  }
 }
