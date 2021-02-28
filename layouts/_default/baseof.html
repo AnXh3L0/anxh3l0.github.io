@@ -5,7 +5,7 @@
     {{ partial "head.html" . }}
 </head>
 
-<body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
+<body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}} {{ if .IsHome }}{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}{{ else }}"{{ end }}>
     {{ partial "header.html" . }}
 
     <div class="content">

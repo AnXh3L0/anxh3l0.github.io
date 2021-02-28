@@ -303,6 +303,13 @@ hr {
   }
 }
 
+.background-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+} 
+
 // Accessibility
 .screen-reader-text {
   border: 0;
