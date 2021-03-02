@@ -8,6 +8,12 @@
   background: #000;
 }
 
+audio,
+.audio-file {
+  width: 100%;
+  max-width: 100%;
+}
+
 .youtube-player iframe,
 .player iframe {
   position: absolute;
