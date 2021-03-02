@@ -90,6 +90,10 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br />
 
+{{< audio src="/files/Linux Weekend.mp3" class="audio-file" ext="mp3" caption="**Linux Weekend 2017** - At RTSH | 27 February 2017" >}}
+
+<br />
+
 {{< embed id="SbSNYwwGsBo" thumb="libreoffice-talk-2016.jpg" title="LibOCon 2016: The difficulties of creating a community" >}}
 
 **The difficulties of creating a community** - At LibreOffice Conference 2016 in Brno | 7 September 2016

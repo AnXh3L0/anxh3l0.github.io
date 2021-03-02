@@ -90,6 +90,10 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 
 <br />
 
+{{< audio src="/files/Linux Weekend.mp3" class="audio-file" ext="mp3" caption="**Linux Weekend 2017** - Tek RTSH | 27 Shkurt 2017" >}}
+
+<br />
+
 {{< embed id="SbSNYwwGsBo" thumb="libreoffice-talk-2016.jpg" title="LibOCon 2016: Vështirësitë e krijimit të një komuniteti" >}}
 
 **Vështirësitë e krijimit të një komuniteti** - Tek LibreOffice Conference 2016 në Brno | 7 Shtator 2016
