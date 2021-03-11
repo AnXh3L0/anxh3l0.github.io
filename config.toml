@@ -57,7 +57,6 @@ disableHugoGeneratorInject = true
   images = [""]
 
   homeSubtitle = "UI/UX Developer | Public Speaker"
-  backgroundImage = "/img/landing.svg"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   gitUrl = "https://github.com/AnXh3L0/anxh3l0.github.io/commit/"
