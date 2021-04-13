@@ -3,6 +3,7 @@ html {
   line-height: 1.6;
   letter-spacing: 0.05em;
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 *,
@@ -303,13 +304,6 @@ hr {
   }
 }
 
-.background-image {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-} 
-
 // Accessibility
 .screen-reader-text {
   border: 0;
@@ -343,6 +337,10 @@ hr {
   padding: 15px 23px 14px;
   text-decoration: none;
   z-index: 100000;
+}
+
+main {
+  margin-top: 75px;
 }
 
 main > div > h1 {

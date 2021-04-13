@@ -14,9 +14,29 @@ LibreOffice was originally launched in 2010, as a project adapted from OpenOffic
 
 I was present at this conference along with 2 other members of the Open Labs community in Albania. The conference was held in the city of Brno, Czech Republic, at the Faculty of Technology. Presenters were contributors from all over the world, most from countries like Italy, Germany, USA, Taiwan, Japan etc. Each of them presented on a particular topic and had long discussions on how this suite could be extended to ordinary individuals and government organizations and administrations. As you can see from the photos, a large part of the attendees (where the total number was 130), were over 30-35 years old, which I didn't like, and to be honest, I expected to have an average aged about 25-30, but it seemed these people knew what they were doing and confident in the words they were formulating.
 
+![Brno](/img/posts/libocon2016-brno-1.jpg)
+
+![Brno University](/img/posts/libocon2016-brno-2.jpg)
+
+![Main hall presentation](/img/posts/libocon2016-brno-3.jpg)
+
 Personally, I had a double presentation together with a friend of mine, where we presented over 30 minutes the situation of the LibreOffice community in Albania, from the beginning and the difficulties we encountered, to this day and what we could do more much to the future, in an effort to further spread the ideology of open source and free software to all.
 
+![My presentation](/img/posts/libocon2016-presentation.jpg)
+
 After the end of each day of the conference, the organizers made sure everything was perfect. We visited many historical sites in this city, from its center, museum, markets, to the Brewery (Czech Republic is the first place in the world in terms of annual beer consumption per person). We visited the offices of Red Hat, a very large company created around 1993, where we discussed and developed a hack hour, then had fun playing billiards, ping pong and so on.
+
+![Fun time](/img/posts/libocon2016-billiards.jpg)
+
+![Working area](/img/posts/libocon2016-working.jpg)
+
+As I said a little above, the beer in the Czech Republic is very high quality, certified at the Charlie bar, where everything was organized to perfection. There are over 5 universities in Brno and out of 400,000 inhabitants about 100,000 are students, where I noticed that the streets were empty, due to their absence. The residents were generally very approachable and communicative. 
+
+![Charlie's beer](/img/posts/libocon2016-beer.jpg)
+
+Something that had to be taken as an example and applied in our capital was the transport system (tram, urban, etc.) and their accuracy.
+
+![Tram in Brno](/img/posts/libocon2016-brno-tram.jpg)
 
 The weather was steady and temperatures were ideal, allowing us to stay in the company of other contributors. In conclusion, I would like to add that it was a memorable experience and I hope to be present next year at this conference in Rome.
 
