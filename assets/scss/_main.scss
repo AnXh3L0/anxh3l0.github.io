@@ -154,7 +154,16 @@ figure {
   }
 
   & img {
-    border: 3px solid #333;
+    border: 3px solid $light-background-secondary;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+    }
+
+    .dark-theme & {
+      border: 3px solid $dark-background-secondary;
+    }
   }
 
   figcaption {
@@ -233,7 +242,8 @@ blockquote {
 
   &:before {
     content: "”";
-    font-family: Arial, sanf-serif;
+    font-family: Arial, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, sans-serif;
     font-display: auto;
     font-size: 3.875rem;
     position: absolute;
