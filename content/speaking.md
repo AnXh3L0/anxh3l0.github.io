@@ -32,7 +32,7 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br />
 
-{{< bbb domain="meet-balancer.openlabs.cc" id="73bdfeaac62107d8aac3612e38d66f368f057fd7-1607156056158" timestamp="277m28s" thumb="mindset.jpg" title="Why privacy is not about the tools but about the mindset" >}}
+{{< embed id="GHvTXrirgIc" thumb="mindset.jpg" title="Why privacy is not about the tools but about the mindset" >}}
 
 **Why privacy is not about the tools but about the mindset** - At [Balkan FLOSStival](http://balkanflosstival.cc) | 5 December 2020
 

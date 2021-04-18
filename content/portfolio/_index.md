@@ -4,54 +4,54 @@ title = "Portfolio"
 
 Below you will find a few of my works, ordered from newest to oldest.
 
-{{< figure src="/img/portfolio/demoweek.jpg" link="demoweek" title="Prototype Fund Demo Week" alt="Prototype Fund Demo Week" caption="**The Prototype Fund** is a funding program of the Federal Ministry of Education and Research (BMBF) that is managed and evaluated by the Open Knowledge Foundation Germany. Individuals and small teams (of freelance coders, hackers, UX designers and more) can receive funding in order to test their ideas and develop open source applications in the areas of Civic Tech, Data Literacy, IT Security and Software Infrastructure. The website of their 8th round demo week was built using Jekyll and custom CSS." >}}
+{{< figure src="/img/portfolio/demoweek.jpg" link="demoweek" title="Prototype Fund Demo Week" alt="Prototype Fund Demo Week" >}}
 
-{{< figure src="/img/portfolio/ferrocene.jpg" link="ferrocene" title="Ferrocene Style Guide" alt="Ferrocene Style Guide" caption="**Ferrocene** is a sustainable effort led by Critical Section GmbH, a newly formed Ferrous Systems subsidiary, tasked with making Rust a first-class language for mission and safety-critical systems. Ferrocene produces a qualified Rust compiler toolchain. The website was built using Middleman, Bootstrap 5 as base and a lot of custom CSS on top." >}}
+{{< figure src="/img/portfolio/ferrocene.jpg" link="ferrocene" title="Ferrocene Style Guide" alt="Ferrocene Style Guide" >}}
 
-{{< figure src="/img/portfolio/hessianai.jpg" link="hessian" title="Hessian AI" alt="Hessian AI Website" caption="**Hessian.AI** is a center for Artificial Intelligence at the TU Darmstadt aiming to drive research excellence, education, practice and leadership in AI to foster economic growth and improve the human condition. The website is a single static page and a custom Bootstrap theme." >}}
+{{< figure src="/img/portfolio/hessianai.jpg" link="hessian" title="Hessian AI" alt="Hessian AI Website" >}}
 
-{{< figure src="/img/portfolio/hwsdk.jpg" link="hwsecurity" title="Hardware Security SDK" alt="Hardware Security SDK Website" caption="**Hardware Security SDK** is a vendor-independent framework for using security keys and smartcards over NFC and USB. The website was built using Hugo and a custom Bootstrap theme." >}}
+{{< figure src="/img/portfolio/hwsdk.jpg" link="hwsecurity" title="Hardware Security SDK" alt="Hardware Security SDK Website" >}}
 
-{{< figure src="/img/portfolio/rescala.jpg" link="rescala" title="REScala Language" alt="REScala Website" caption="**REScala** is a Scala library for functional reactive programming on the JVM and the Web. It provides a rich API for event stream transformations and signal composition with managed consistent up-to-date state and minimal syntactic overhead. It supports concurrent and distributed programs. The website was built using Jekyll and a custom Bootstrap theme. It contains a user manual page for developers that want to start using RESCala and other information." >}}
+{{< figure src="/img/portfolio/rescala.jpg" link="rescala" title="REScala Language" alt="REScala Website" >}}
 
-{{< figure src="/img/portfolio/emergencity.jpg" link="emergencity" title="emergenCITY" alt="emergenCITY Website" caption="**emergenCITY** aims at investigating fundamentals, methods and solutions towards the resilience of future digital cities and especially the capability of Information and Communication Technology to resist, adapt, and transform in crisis situations. The website was built using Jekyll, a custom Bootstrap, it is localized and fetches data from outside sources via JSON." >}}
+{{< figure src="/img/portfolio/emergencity.jpg" link="emergencity" title="emergenCITY" alt="emergenCITY Website" >}}
 
-{{< figure src="/img/portfolio/iwantaletter.jpg" link="iwantaletter" title="#IWantALetter" alt="#IWantALetter Website" caption="**#IWantALetter** is an initiative that is trying to throw light over what is going on inside prisons in Egypt regarding the measures taken to curb the spread of COVID-19 and why the government has arrested journalists and stopped them from contacting their families during the pandemic. This campaign is a Call for Action towards the Egyptian authorities and parliament representatives. The website was built from a provided mockup and is static." >}}
+{{< figure src="/img/portfolio/iwantaletter.jpg" link="iwantaletter" title="#IWantALetter" alt="#IWantALetter Website" >}}
 
-{{< figure src="/img/portfolio/cotech.jpg" link="cotech" title="COTECH" alt="COTECH Website" caption="**COTECH** is a company based in Germany that works on projects to protect the Internet at scale, like email encryption and secure software distribution. I was approached and asked to create their new website in June. The website was built with Hugo and according to custom mockups provided." >}}
+{{< figure src="/img/portfolio/cotech.jpg" link="cotech" title="COTECH" alt="COTECH Website" >}}
 
-{{< figure src="/img/portfolio/aura.jpg" link="aura" title="Aura Roboclean" alt="Aura Roboclean Website" caption="The **Aura Roboclean** system serves to prevent diseases coming from the respiratory tract such as asthma, allergies, bronchitis and is a good asset in the prevention of influenza viruses. The website is multilingual and created using Hugo." >}}
+{{< figure src="/img/portfolio/aura.jpg" link="aura" title="Aura Roboclean" alt="Aura Roboclean Website" >}}
 
-{{< figure src="/img/portfolio/globaleaks.jpg" link="globaleaks" title="GlobaLeaks" alt="GlobaLeaks Website" caption="**GlobaLeaks** in an open source, free software intended to enable secure and anonymous whistleblowing initiatives. This website was built using WordPress and customized after mockups built beforehand." >}}
+{{< figure src="/img/portfolio/globaleaks.jpg" link="globaleaks" title="GlobaLeaks" alt="GlobaLeaks Website" >}}
 
-{{< figure src="/img/portfolio/censoredplanet.jpg" link="censoredplanet" title="Censored Planet" alt="Censored Planet Website" caption="**Censored Planet** is a Research Lab at the University of Michigan operating at the intersection of networking, security, privacy, and Internet measurement. The website was built using Bootstrap, Jekyll and a Ruby backend to handle logins." >}}
+{{< figure src="/img/portfolio/censoredplanet.jpg" link="censoredplanet" title="Censored Planet" alt="Censored Planet Website" >}}
 
-{{< figure src="/img/portfolio/k9mail.jpg" link="k9mail" title="K-9 Mail" alt="K9Mail Website" caption="**K-9 Mail** is an open source email client for Android with many advanced features. I stumbled upon an issue on their issue tracker on GitHub related to the website design so I decided to give them a hand and created a new website for the project, using Bootstrap and Jekyll." >}}
+{{< figure src="/img/portfolio/k9mail.jpg" link="k9mail" title="K-9 Mail" alt="K9Mail Website" >}}
 
-{{< figure src="/img/portfolio/briar-styleguide.jpg" link="briar-styleguide" title="Briar Style Guide" alt="Briar Style Guide Website" caption="**Briar** is a messaging app designed for activists, journalists, and anyone else who needs a safe, easy and robust way to communicate. Unlike traditional messaging apps, Briar doesn’t rely on a central server - messages are synchronized directly between the users’ devices. If the internet’s down, Briar can sync via Bluetooth or Wi-Fi, keeping the information flowing in a crisis. If the internet’s up, Briar can sync via the Tor network, protecting users and their relationships from surveillance. This website is a live style guide for the Briar brand, built using Hugo." >}}
+{{< figure src="/img/portfolio/briar-styleguide.jpg" link="briar-styleguide" title="Briar Style Guide" alt="Briar Style Guide Website" >}}
 
-{{< figure src="/img/portfolio/logobridge.jpg" link="logobridge" title="Logobridge" alt="Logobridge Website" caption="**Logobridge** is a collection of unused logo proposals over the past months and years, which are getting dusty already with no one using them. Use them as a placeholder for your project or as a template for your upcoming logo. All logos are in the Public Domain, so you are free to do whatever you want with it (commercially as well). They are also created with Inkscape, which is Free & Open Source Software. It’s a great way to kick off your open source project when you need to gather something quickly. The website was created using Jekyll and is available in two languages." >}}
+{{< figure src="/img/portfolio/logobridge.jpg" link="logobridge" title="Logobridge" alt="Logobridge Website" >}}
 
-{{< figure src="/img/portfolio/oxidize-conf.jpg" link="oxidize-conf" title="OxidizeConf" alt="OxidizeConf Website" caption="**OxidizeConf** is a conference revolving around embedded systems and IoT in Rust. The conference consists of one day of guided workshops and one day of talks by community members, followed by two days of development focused on hardware and embedded subjects in Rust. The site was built using Jekyll and a custom design." >}}
+{{< figure src="/img/portfolio/oxidize-conf.jpg" link="oxidize-conf" title="OxidizeConf" alt="OxidizeConf Website" >}}
 
-{{< figure src="/img/portfolio/securedrop-styleguide.jpg" link="securedrop-styleguide" title="SecureDrop Style Guide" alt="SecureDrop Style Guide Website" caption="**SecureDrop** is an open source whistleblower submission system that media organizations can install to securely accept documents from anonymous sources. This website is a live style guide for the SecureDrop brand, built using Jekyll and Bootstrap." >}}
+{{< figure src="/img/portfolio/securedrop-styleguide.jpg" link="securedrop-styleguide" title="SecureDrop Style Guide" alt="SecureDrop Style Guide Website" >}}
 
-{{< figure src="/img/portfolio/osd-summit.jpg" link="opensourcedesign-summit" title="Open Source Design Summit" alt="Open Source Design Summit Website" caption="**Open Source Design Summit** itself is an yearly event where designers, developers and more join to discuss about the issues of Open Design and how to improve our involvement in projects, provide better design and feedback, use better tools, ways of communicating and sharing with people etc. I implemented the design for the 2018 Summit in the OSD website using Jekyll." >}}
+{{< figure src="/img/portfolio/osd-summit.jpg" link="opensourcedesign-summit" title="Open Source Design Summit" alt="Open Source Design Summit Website" >}}
 
-{{< figure src="/img/portfolio/reproducible-builds.jpg" link="reproduciblebuilds-styleguide" title="Reproducible Builds Style Guide" alt="Reproducible Builds Style Guide" caption="**Reproducible Builds** are a set of software development practices that create an independently-verifiable path from source to binary code. This live style guide website was created using Jekyll." >}}
+{{< figure src="/img/portfolio/reproducible-builds.jpg" link="reproduciblebuilds-styleguide" title="Reproducible Builds Style Guide" alt="Reproducible Builds Style Guide" >}}
 
-{{< figure src="/img/portfolio/adaway.jpg" link="adaway" title="AdAway" alt="AdAway Website" caption="**AdAway** is an open source ad blocker for Android using the hosts file. Their website hadn't been updated since almost two years so I decided to give them a hand and update it using Jekyll and turning it into a visually more attractive site. The work included recreating the AdAway logo in SVG as it wasn't available anywhere and creating an import/export page for host files conversions." >}}
+{{< figure src="/img/portfolio/adaway.jpg" link="adaway" title="AdAway" alt="AdAway Website" >}}
 
-{{< figure src="/img/portfolio/sirvpn.png" link="sirvpn" title="SirVPN" alt="SirVPN Website" caption="**SirVPN** was an initiative and one of the first VPN-s based on the new protocol called [Wireguard](https://www.wireguard.com/). The VPN was provided for free for the users (for a test drive period of 14 days) but has now shut down for lack of funding. I helped with the domain name, designed the website (as you might notice it's similar to the one you'll see below) and the logo, based on Indian symbols." >}}
+{{< figure src="/img/portfolio/sirvpn.png" link="sirvpn" title="SirVPN" alt="SirVPN Website" >}}
 
-{{< figure src="/img/portfolio/ask-website.png" link="anysoftkeyboard" title="AnySoftKeyboard" alt="AnySoftKeyboard Website" caption="**AnySoftKeyboard** is an open source keyboard for Android devices. It has an active community on [GitHub](https://github.com/AnySoftKeyboard/AnySoftKeyboard) and is available for Android 1.5 and up devices, so basically for every device possible. It is a private and fast alternative, weighning just 6.5MB, with over 40 supported languages. You can download the app from [Google Play Store](https://play.google.com/store/apps/details?id=com.menny.android.anysoftkeyboard) or [F-Droid](https://f-droid.org/repository/browse/?fdid=com.menny.android.anysoftkeyboard). I ran across this app a few weeks back and decided to contribute by designing a new website for them." >}}
+{{< figure src="/img/portfolio/ask-website.png" link="anysoftkeyboard" title="AnySoftKeyboard" alt="AnySoftKeyboard Website" >}}
 
-{{< figure src="/img/portfolio/libocon.png" link="libocon" title="LibOCon 2018" alt="LibOCon 2018 Branding" caption="**LibOCon** is the annual gathering of the [LibreOffice](https://libreoffice.org) community, this time on its 8th year. At LibOCon, LibreOffice users gather to network and meet key LibreOffice developers, designers, localizers, documenters, supporters and marketers, and to learn about the latest in LibreOffice development. We at [Ura Design](https://ura.design) worked on the visual identity for the 2018 edition and I dealt with most of the assets and production for printing." >}}
+{{< figure src="/img/portfolio/libocon.png" link="libocon" title="LibOCon 2018" alt="LibOCon 2018 Branding" >}}
 
-{{< figure src="/img/portfolio/privacy-today.png" link="privacytoday" title="Privacy Today" alt="Privacy Today Branding" caption="**Privacy Today** is an initiative where people talk about all things privacy, open source, libre philosophy and more! I created the main logo and some variations to represent their main groups; the eye in the logo stands for the current stance of the Internet where everything is under surveillance meanwhile the P stands for, you guessed it, 'Privacy'. You can join the channel by pressing the image above and the group by clicking [this link](https://t.me/privacytoday)." >}}
+{{< figure src="/img/portfolio/privacy-today.png" link="privacytoday" title="Privacy Today" alt="Privacy Today Branding" >}}
 
-{{< figure src="/img/portfolio/passman.jpg" link="passman" title="Passman" alt="Passman Graphics" caption="**Passman** is an innovative, opensource password manager for Nextcloud. Store your passwords safely with millitary grade encryption (AES-256bit). I helped create the logo and graphics for their website." >}}
+{{< figure src="/img/portfolio/passman.jpg" link="passman" title="Passman" alt="Passman Graphics" >}}
 
-{{< figure src="/img/portfolio/codeaholics.jpg" link="codeaholics" title="Codeaholics" alt="Codeaholics logo" caption="**Codeaholics** was part of Rails Girls Summer of Code, working on the Nextcloud project for the Contacts app. I created their logo and social media images they have used during their scholarship." >}}
+{{< figure src="/img/portfolio/codeaholics.jpg" link="codeaholics" title="Codeaholics" alt="Codeaholics logo" >}}
 
-{{< figure src="/img/portfolio/fsadmilano.jpg" link="fsadmilano" title="Free Software Activity Day Milano" alt="Free Software Activity Day Milano Branding" caption="An **international line-up** to find out that Open Source is not just for a selected few, but it is an inclusive creative process: accessible to everyone and where it's important that everyone participates. I created their brand for the entire event, starting with the logo, typography and social media images." >}}
+{{< figure src="/img/portfolio/fsadmilano.jpg" link="fsadmilano" title="Free Software Activity Day Milano" alt="Free Software Activity Day Milano Branding" >}}
