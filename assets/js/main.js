@@ -82,10 +82,6 @@ function initYouTubeVideos() {
     thumbNode.alt = videoTitle;
     thumbNode.src = "/img/thumbs/image".replace("image", thumbImage);
     div.appendChild(thumbNode);
-    var VideoTitle = document.createElement("p");
-    VideoTitle.setAttribute("class", "vidtitle");
-    VideoTitle.innerText = thumbNode.alt;
-    div.appendChild(VideoTitle);
     var playButton = document.createElement("div");
     playButton.setAttribute("class", "play");
     div.appendChild(playButton);
@@ -131,10 +127,6 @@ function initBBBVideos() {
     thumbNode.alt = videoTitle;
     thumbNode.src = "/img/thumbs/image".replace("image", thumbImage);
     div.appendChild(thumbNode);
-    var VideoTitle = document.createElement("p");
-    VideoTitle.setAttribute("class", "vidtitle");
-    VideoTitle.innerText = thumbNode.alt;
-    div.appendChild(VideoTitle);
     var playButton = document.createElement("div");
     playButton.setAttribute("class", "play");
     div.appendChild(playButton);
