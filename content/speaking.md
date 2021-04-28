@@ -38,7 +38,7 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br />
 
-{{< embed id="yUrFuGuUXDc" thumb="balkan-flosstival.webp" title="Balkan FLOSStival in  Albania" >}}
+{{< embed id="yUrFuGuUXDc" thumb="balkan-flosstival.jpg" title="Balkan FLOSStival in  Albania" >}}
 
 **Balkan FLOSStival** - At Wake Up on Top Channel | 4 December 2020
 

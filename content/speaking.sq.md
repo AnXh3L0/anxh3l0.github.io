@@ -38,7 +38,7 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 
 <br />
 
-{{< embed id="yUrFuGuUXDc" thumb="balkan-flosstival.webp" title="Balkan FLOSStival në Shqipëri" >}}
+{{< embed id="yUrFuGuUXDc" thumb="balkan-flosstival.jpg" title="Balkan FLOSStival në Shqipëri" >}}
 
 **Ekspertët IT të Ballkanit bashkohen për Balkan FLOSStival** - Në Wake Up tek Top Channel | 4 Dhjetor 2020
 

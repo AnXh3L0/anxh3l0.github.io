@@ -48,7 +48,7 @@ audio,
 
 .youtube-player img:hover,
 .player img:hover {
-  filter: brightness(0.85);
+  filter: brightness(0.9);
   & ~ .play {
     transform: scale(1.1);
   }
