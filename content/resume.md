@@ -178,19 +178,3 @@ Members – more formally known as the Board of Trustees – are a crucial part 
 ---
 
 **Member of many open source projects - a full list of which you can find on my [GitHub profile](https://github.com/AnXh3L0)**
-
-<script>
-var countDownDate = new Date("Aug 22, 2021 00:00:00").getTime();
-var myfunc = setInterval(function() {
-
-var now = new Date().getTime();
-var timeleft = countDownDate - now;
-var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
-        
-document.getElementById("days").innerHTML = "in " + days + " days"
-   if (timeleft < 0) {
-        clearInterval(myfunc);
-        document.getElementById("days").innerHTML = ""
-    }
-}, 1000);
-</script>
