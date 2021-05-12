@@ -4,7 +4,7 @@
         <h1>{{ .Site.Title }}</h1>
 
         {{- with .Site.Params.homeSubtitle }}
-        <p>{{.}}</p>
+        <p>{{. | markdownify }}</p>
         {{- end }}
 
         {{- with .Site.Params.social }}

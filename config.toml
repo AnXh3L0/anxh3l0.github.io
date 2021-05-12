@@ -1,5 +1,5 @@
 baseURL = "https://lushka.al"
-title   = "Anxhelo Lushka"
+title   = "Alpro Development"
 
 defaultContentLanguage = "en"
 
@@ -56,7 +56,7 @@ disableHugoGeneratorInject = true
   keywords = "design, ux, ui, speaker, public, developer, privacy, security, foss, floss"
   images = [""]
 
-  homeSubtitle = "UI/UX Developer | Public Speaker"
+  homeSubtitle = "**Anxhelo Lushka** | UI/UX Developer | Public Speaker"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   gitUrl = "https://github.com/AnXh3L0/anxh3l0.github.io/commit/"
@@ -106,17 +106,17 @@ disableHugoGeneratorInject = true
   [languages.en]
     subtitle  = ""
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License">CC BY-NC-SA 4.0</a>'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License">CC BY-NC-SA 4.0</a><br />Officially registered in Albania<br />NUIS **M12912403O**'
 
   [languages.sq]
     subtitle  = ""
     weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="Licensa">CC BY-NC-SA 4.0</a>'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="Licensa">CC BY-NC-SA 4.0</a><br />I regjistruar në Shqipëri<br />NIPT **M12912403O**'
 
   [languages.it]
     subtitle  = ""
     weight    = 3
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="Licensa">CC BY-NC-SA 4.0</a>'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="Licensa">CC BY-NC-SA 4.0</a><br />Immatricolata ufficialmente in Albania<br />NUIS **M12912403O**'
 
 [menu]
   [[menu.main]]

@@ -1,5 +1,5 @@
 <footer>
-  {{ .Site.Copyright | safeHTML }}<br />
+  {{ .Site.Copyright | safeHTML | markdownify }}<br />
   Powered by <a href="https://gohugo.io" target="_blank" rel="noopener"
     title="Hugo is one of the most popular open-source static site generators.">Hugo</a>
 </footer>
