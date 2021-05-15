@@ -4,7 +4,7 @@ title = "Resume"
 
 ## Availability
 
-I will be available for hire <span id="days"></span>. [Get in touch](/about#contact "Ways to contact me") with me.
+I am available for hire. [Get in touch](/about#contact "Ways to contact me") with me.
 
 <br>
 

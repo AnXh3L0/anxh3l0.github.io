@@ -138,17 +138,3 @@ function initBBBVideos() {
 }
 
 document.addEventListener("DOMContentLoaded", initBBBVideos);
-
-var countDownDate = new Date("Aug 22, 2021 00:00:00").getTime();
-var myfunc = setInterval(function() {
-
-var now = new Date().getTime();
-var timeleft = countDownDate - now;
-var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
-        
-document.getElementById("days").innerHTML = "in " + days + " days"
-   if (timeleft < 0) {
-        clearInterval(myfunc);
-        document.getElementById("days").innerHTML = ""
-    }
-}, 1000);
