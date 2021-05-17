@@ -4,7 +4,9 @@ title = "Portfolio"
 
 Below you will find a few of my works, ordered from newest to oldest.
 
-{{< figure src="/img/portfolio/newsalbania-thumb.jpg" link="newsalbania" title="News Albania Media Group" alt="ews Albania Media Group" >}}
+{{< figure src="/img/portfolio/heylogin-thumb.jpg" link="heylogin" title="heylogin" alt="heylogin" >}}
+
+{{< figure src="/img/portfolio/newsalbania-thumb.jpg" link="newsalbania" title="News Albania Media Group" alt="News Albania Media Group" >}}
 
 {{< figure src="/img/portfolio/demoweek-thumb.jpg" link="demoweek" title="Prototype Fund Demo Week" alt="Prototype Fund Demo Week" >}}
 
