@@ -1,8 +1,8 @@
 <nav>
   <ul>
-    {{- $currentPage := . -}}
-    {{ range .Site.Menus.main -}}
-    <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
-    {{- end }}
+    {{- $firstUrlElement := print "/" (index (split .URL "/") 1) "/" -}}
+    {{- range .Site.Menus.main -}}
+        <li><a {{ if eq ($firstUrlElement|lower) (.URL|lower) }}aria-current="page"{{end}} title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
   </ul>
 </nav>

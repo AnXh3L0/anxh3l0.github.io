@@ -29,7 +29,7 @@ nav {
 
   @media #{$media-size-phone} {
     ul {
-      font-size: .85rem;
+      font-size: .9rem;
     }
   }
 
@@ -39,11 +39,15 @@ nav {
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: underline 3px salmon;
     }
 
     &:last-of-type {
       margin-right: 0;
+    }
+
+    &[aria-current="page"] {
+      text-decoration: underline 3px salmon;
     }
   }
 }
