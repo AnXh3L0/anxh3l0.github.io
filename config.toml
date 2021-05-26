@@ -106,7 +106,7 @@ disableHugoGeneratorInject = true
   [languages.en]
     subtitle  = ""
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License">CC BY-NC-SA 4.0</a><br />Officially registered in Albania<br />NUIS **M12912403O**'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License">CC BY-NC-SA 4.0</a><br />Registered in Albania<br />NUIS **M12912403O**'
 
   [languages.sq]
     subtitle  = ""
@@ -116,7 +116,7 @@ disableHugoGeneratorInject = true
   [languages.it]
     subtitle  = ""
     weight    = 3
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="Licensa">CC BY-NC-SA 4.0</a><br />Immatricolata ufficialmente in Albania<br />NUIS **M12912403O**'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="Licensa">CC BY-NC-SA 4.0</a><br />Immatricolata in Albania<br />NUIS **M12912403O**'
 
 [menu]
   [[menu.main]]
