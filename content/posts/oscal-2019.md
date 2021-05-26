@@ -5,6 +5,7 @@ images = ['/img/posts/oscal-19.png']
 description = 'The annual Open Source Conference in Albania'
 tags = ["event", "tirana", "albania", "report", "blog", "conference"]
 categories = ["event", "report", "conference"]
+aliases = "/oscal-2019"
 +++
 
 Picking up from the last conference I was part of, [Software Freedom Kosovo 2019](/sfk-2019) in Pristina, just a month later, the 6th edition of OSCAL (Open Source Conference Albania) took part, on May 18-19 at OFIÇINA, the same venue as the edition of 2017.

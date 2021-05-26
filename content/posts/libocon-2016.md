@@ -4,6 +4,7 @@ date = "2016-09-11 12:00:00"
 images = ['/img/posts/libreoffice.png']
 tags = ["libreoffice", "conference", "report", "blog"]
 categories = ["libreoffice", "conference"]
+aliases = "/libocon-2016"
 +++
 
 LibreOffice Conference

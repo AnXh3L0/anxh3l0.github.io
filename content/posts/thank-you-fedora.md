@@ -5,6 +5,7 @@ images = ['/img/posts/thanks-fedora.png']
 description = 'A thank you for the Fedora Community'
 tags = ["fedora", "appreciation", "week", "event", "software", "foss"]
 categories = ["article", "appreciation", "blog"]
+aliases = "/thank-you-fedora"
 +++
 
 A few days ago it was Fedora's 15th anniversary. To celebrate this date, the [Fedora Community Operations Team](https://docs.fedoraproject.org/en-US/commops/) decided to organize the [Fedora Appreciation Week](https://docs.fedoraproject.org/en-US/commops/appreciation-week/). This event happens on the week of November 6th to coincide with the [announcement of the project 15 years ago](https://www.redhat.com/archives/fedora-announce-list/2003-November/msg00000.html).

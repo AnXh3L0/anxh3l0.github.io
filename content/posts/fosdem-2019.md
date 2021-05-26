@@ -5,6 +5,7 @@ images = ['/img/posts/fosdem.png']
 description = 'The biggest FOSS conference in Europe'
 tags = ["belgium", "conference", "fosdem", "report", "blog"]
 categories = ["conference", "report"]
+aliases = "/fosdem-2019"
 +++
 
 [FOSDEM](https://fosdem.org) is one of the largest gatherings of Free Software contributors in the world and happens each year in Brussels (Belgium) at the [ULB Campus Solbosch](https://www.openstreetmap.org/way/30358555#map=16/50.8199/4.3987). In 2019, it was be held on Saturday, February 2nd, and Sunday, February 3rd.

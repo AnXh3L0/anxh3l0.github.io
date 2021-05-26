@@ -6,6 +6,7 @@ description = 'The 2nd edition of the Summit'
 tags = ["design", "summit", "community", "open source", "software"]
 categories = ["article", "report", "blog"]
 toc = true
+aliases = "/osd-summit-2018"
 +++
 
 During the first weekend of November (from 2-4 November) I had the opportunity and the pleasure to organize and be part of the 2nd edition of the [Open Source Design Summit](https://opensourcedesign.net/summit), this time happening in Tirana, Albania.

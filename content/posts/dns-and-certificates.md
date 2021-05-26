@@ -5,6 +5,7 @@ images = ['/img/posts/dns.png']
 description = 'What you need to know about it'
 tags = ["privacy", "security", "open source", "network", "dns", "certificates"]
 categories = ["beginner", "article", "blog"]
+aliases = "/dns-and-certificates"
 +++
 
 Due to recent events we (as in we from the Privacy Today group) felt compelled to write an impromptu article on this matter. It's intended for all audiences so it will be kept simple - technical details may be posted later.

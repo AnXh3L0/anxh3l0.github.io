@@ -5,6 +5,7 @@ images = ['/img/posts/libreoffice-hackfest.png']
 description = 'A short report on the Munich hackfest on LibreOffice'
 tags = ["libreoffice", "hackfest", "design", "patch", "foss"]
 categories = ["article", "report", "blog"]
+aliases = "/libreoffice-hackfest-munich"
 +++
 
 The past month (end of October) I participated at the [LibreOffice Hackfest in Munich, Germany](https://wiki.documentfoundation.org/Hackfest/Muenchen2018).

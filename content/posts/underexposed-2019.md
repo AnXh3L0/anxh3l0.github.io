@@ -5,6 +5,7 @@ images = ['/img/posts/underexposed-post.jpg']
 description = 'The Simply Secure event dedicated to Design'
 tags = ["design", "fellows", "community", "underexposed", "meeting"]
 categories = ["article", "report", "blog"]
+aliases = "/underexposed-2019"
 +++
 
 During early January (7-11) I had the opportunity and the pleasure to be part as a mentor in the [Underexposed](https://simplysecure.org/underexposed/) event organized by [Simply Secure](https://simplysecure.org/) in Berlin, Germany.

@@ -5,6 +5,7 @@ images = ['/img/posts/email.png']
 description = 'A short beginner-friendly intro on e-mail ins and outs'
 tags = ["email", "privacy", "tips", "beginner", "foss"]
 categories = ["article", "privacy", "blog"]
+aliases = "/truth-about-email"
 +++
 
 Before reading this article, you might want to take a look at the ["Threat Modeling" article](/threat-modeling).

@@ -5,6 +5,7 @@ images = ['/img/posts/sfk.png']
 description = 'The iconic FOSS conference in Kosovo'
 tags = ["kosovo", "conference", "sfk"]
 category = 'conference'
+aliases = "/sfk-16"
 +++
 
 Software Freedom Kosova Conference. One of the biggest of its kind in the Balkans region. The seventh (7th) edition took place this time between 21-23 October, in Pristina, Kosovo. Based on my estimations, it gathered approximately two hundred participants.

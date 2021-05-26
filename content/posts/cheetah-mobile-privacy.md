@@ -5,6 +5,7 @@ images = ['/img/posts/cheetah.png']
 description = 'Reasons why you should remove them now!'
 tags = ["privacy", "software", "proprietary", "scam", "android"]
 categories = ["article", "psa", "blog"]
+aliases = "/cheetah-mobile-privacy"
 +++
 
 If you own an Android device, you must have probably heard of/installed/used [Cheetah Mobile](https://www.cmcm.com/en-us/) applications before. If not, you're lucky you didn't get the chance to hand out your data for free :)

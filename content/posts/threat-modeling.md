@@ -5,6 +5,7 @@ images = ['/img/posts/threat-modeling.png']
 description = 'Assessing your risks in the online world'
 tags = ["privacy", "security", "communication", "risks", "software"]
 categories = ["article", "how-to", "blog"]
+aliases = "/threat-modeling"
 +++
 
 **Note: This is a mirror (with minor modifications) of the original article posted by the [EFF](https://www.eff.org/about) [here](https://ssd.eff.org/en/module/assessing-your-risks).**
