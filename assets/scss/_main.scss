@@ -39,11 +39,6 @@ body {
   @media #{$media-size-phone} {
     font-size: 1rem;
   }
-
-  &.dark-theme {
-    background-color: $dark-background;
-    color: $dark-color;
-  }
 }
 
 h2,
@@ -160,10 +155,6 @@ figure {
     &:hover {
       box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
     }
-
-    .dark-theme & {
-      border: 3px solid $dark-background-secondary;
-    }
   }
 
   figcaption {
@@ -199,10 +190,6 @@ code {
   border-radius: 5px;
   font-size: 0.95rem;
   overflow-wrap: break-word;
-
-  .dark-theme & {
-    background: $dark-background-secondary;
-  }
 }
 
 pre {
@@ -223,10 +210,6 @@ pre {
     margin: 0;
     padding: 0;
     font-size: inherit;
-
-    .dark-theme & {
-      color: inherit;
-    }
   }
 }
 
@@ -292,10 +275,6 @@ hr {
   border: none;
   background: $light-border-color;
   height: 1px;
-
-  .dark-theme & {
-    background: $dark-border-color;
-  }
 }
 
 .hidden {

@@ -9,10 +9,6 @@ header {
   width: 100%;
   padding: 20px;
 
-  .dark-theme & {
-    background: #252627;
-  }
-
   & > div {
     display: flex;
     align-items: center;
@@ -20,6 +16,10 @@ header {
     margin: 0 auto;
     width: 760px;
     max-width: 100%;
+
+    & > a {
+      display: flex;
+    }
 
     & > div {
       display: flex;
@@ -31,20 +31,4 @@ header {
       }
     }
   }
-}
-
-.theme-toggle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1;
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-}
-
-.theme-toggler {
-  fill: currentColor;
 }

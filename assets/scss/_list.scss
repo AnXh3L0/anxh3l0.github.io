@@ -11,10 +11,6 @@
 
   &:not(:last-of-type) {
     border-bottom: 1px solid $light-border-color;
-
-    .dark-theme & {
-      border-color: $dark-border-color;
-    }
   }
 
   &-group {

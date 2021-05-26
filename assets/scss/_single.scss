@@ -51,10 +51,6 @@
       &:hover {
         box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
       }
-
-      .dark-theme & {
-        border: 3px solid $dark-background-secondary;
-      }
     }
   }
 
@@ -118,11 +114,6 @@
       text-decoration: none;
       letter-spacing: 0.1em;
       z-index: 1;
-
-      .dark-theme & {
-        background: $dark-background;
-        color: $dark-color-secondary;
-      }
     }
 
     hr {
@@ -160,10 +151,6 @@
   padding: 0;
   cursor: pointer;
   appearance: none;
-
-  .dark-theme & {
-    background: $dark-background-secondary;
-  }
 
   + .button {
     margin-left: 10px;
