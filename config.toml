@@ -56,7 +56,7 @@ disableHugoGeneratorInject = true
   keywords = "design, ux, ui, speaker, public, developer, privacy, security, foss, floss"
   images = [""]
 
-  homeSubtitle = "**Anxhelo Lushka** | UI/UX Developer"
+  homeSubtitle = "**Anxhelo Lushka** | Developer"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   gitUrl = "https://github.com/AnXh3L0/anxh3l0.github.io/commit/"
