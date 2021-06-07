@@ -23,8 +23,6 @@ a.button {
   cursor: pointer;
   outline: none;
 
-  /* variants */
-
   &.outline {
     background: transparent;
     border-color: $light-background-secondary;

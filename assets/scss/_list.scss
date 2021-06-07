@@ -38,9 +38,10 @@
 
     &-year {
       padding-top: 14px;
-      margin-right: 1.8em;
+      margin-right: 1.5em;
       font-size: 1.6em;
-      @include dimmed;
+      font-weight: bold;
+      color: salmon;
 
       @media #{$media-size-tablet} {
         margin: -6px 0 4px;
@@ -48,13 +49,17 @@
     }
 
     &-item {
-      border-bottom: 1px grey dashed;
+      border-bottom: 2px grey dashed;
+
+      &:hover {
+        border-bottom: 2px salmon dashed;
+      }
 
       a {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        padding: 12px 0;
+        padding: 10px 0;
         text-decoration: none;
       }
     }

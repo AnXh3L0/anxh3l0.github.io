@@ -26,6 +26,10 @@
     a {
       text-decoration: underline;
       text-decoration-color: salmon;
+
+      &:hover {
+        text-decoration-style: dotted;
+      }
     }
   }
 
@@ -42,6 +46,20 @@
 
   &-content {
     margin-top: 30px;
+
+    & a {
+      outline: 3px solid transparent;
+
+      &:hover {
+        color: darken($light-color, 90%);
+      }
+
+      &:focus {
+        background-color: #fd0;
+        box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
+        text-decoration: none;
+      }
+    }
 
     & p img {
       margin: 15px auto;
@@ -70,6 +88,20 @@
     font-size: 0.8rem;
     line-height: normal;
     @include dimmed;
+
+    & a {
+      outline: 3px solid transparent;
+
+      &:hover {
+        color: darken($light-color, 90%);
+      }
+
+      &:focus {
+        background-color: #fd0;
+        box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
+        text-decoration: none;
+      }
+    }
 
     p {
       margin: 0.8em 0;

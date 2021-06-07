@@ -1,6 +1,6 @@
 {{ $main := resources.Get "js/main.js" }}
 {{ $secureJS := slice $main | resources.Concat "bundle.js" | resources.Minify }}
-<script src="{{ $secureJS.RelPermalink }}"></script>
+<script defer src="{{ $secureJS.RelPermalink }}"></script>
 
 {{ range $val := $.Site.Params.customJS }}
 {{ if gt (len $val) 0 }}

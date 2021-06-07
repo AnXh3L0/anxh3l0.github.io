@@ -1,5 +1,6 @@
 +++
 title = "Speaking"
+js = true
 +++
 
 Below you will find a few of the talks/interviews/etc I've given in different events and TV shows. If you would like to collaborate, you can [contact](/about#contact) me.

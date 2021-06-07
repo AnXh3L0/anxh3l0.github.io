@@ -20,15 +20,15 @@ header {
 
     & > a {
       display: flex;
-    }
 
-    & > div {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
+      & svg {
+        transition: 0.2s ease-in-out;
+      }
 
-      @media #{$media-size-phone} {
-        flex-direction: row-reverse;
+      &:hover {
+        svg {
+          transform: rotate(135deg);
+        }
       }
     }
   }

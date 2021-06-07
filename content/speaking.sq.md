@@ -1,5 +1,6 @@
 +++
 title = "Oratoria publike"
+js = true
 +++
 
 Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në evente të ndryshme dhe shfaqje televizive. Nëse dëshironi të bashkëpunojmë, mund të më [kontaktoni](/about#kontakt).
