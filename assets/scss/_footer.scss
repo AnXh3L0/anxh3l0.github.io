@@ -2,4 +2,18 @@ footer {
   padding: 40px 20px;
   flex-grow: 0;
   color: $light-color-secondary;
+
+  & a {
+    outline: 3px solid transparent;
+
+    &:hover {
+      color: darken($light-color, 90%);
+    }
+
+    &:focus {
+      background-color: #fd0;
+      box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
+      text-decoration: none;
+    }
+  }
 }
