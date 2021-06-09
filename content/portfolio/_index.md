@@ -4,6 +4,8 @@ title = "Portfolio"
 
 Below you will find a few of my works, ordered from newest to oldest.
 
+{{< figure src="/img/portfolio/adapt-thumb.jpg" link="adapt" title="ADAPT by Internews" alt="ADAPT by Internews" >}}
+
 {{< figure src="/img/portfolio/internews-assessment-thumb.jpg" link="open-source-assessment" title="Open Source Assessment by Internews" alt="Open Source Assessment by Internews" >}}
 
 {{< figure src="/img/portfolio/heylogin-thumb.jpg" link="heylogin" title="heylogin" alt="heylogin" >}}
