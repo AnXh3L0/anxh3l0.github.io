@@ -6,9 +6,11 @@
 </head>
 
 <body>
+    <a class="screen-reader-text" href="#content">Skip to content</a>
+
     {{ partial "header.html" . }}
 
-    <div class="content">
+    <div id="content" class="content">
         {{ block "main" . }}{{ end }}
     </div>
 
