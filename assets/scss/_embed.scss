@@ -6,6 +6,14 @@
   overflow: hidden;
   max-width: 100%;
   background: #000;
+  transition: all 0.3s ease-in-out;
+
+  &:focus-visible {
+    background-color: #fd0;
+    border: 3px solid #fd0;
+    outline: none;
+    transform: scale(1.02);
+  }
 }
 
 audio,

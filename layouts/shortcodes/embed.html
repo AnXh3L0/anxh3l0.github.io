@@ -1,4 +1,4 @@
 {{- $id := .Get "id" | default (.Get 0) -}}
 {{- $title := .Get "title" | default "Embed Video" }}
 {{- $thumb := .Get "thumb" | default "default.png" }}
-<div class="youtube-player" data-id="{{ $id }}" data-title="{{ $title }}" data-thumb="{{ $thumb }}"></div>
+<div role="button" tabindex="0" class="youtube-player" data-id="{{ $id }}" data-title="{{ $title }}" data-thumb="{{ $thumb }}"></div>
