@@ -99,6 +99,10 @@ disableHugoGeneratorInject = true
     url  = "https://instagram.com/anxhelolushka"
 
   [[params.social]]
+    name = "linkedin"
+    url  = "https://linkedin.com/in/anxhelo-lushka"
+
+  [[params.social]]
     name = "telegram"
     url  = "https://t.me/anxhelolushka"
 
