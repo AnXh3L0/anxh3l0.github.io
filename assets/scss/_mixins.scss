@@ -1,3 +1,10 @@
 @mixin dimmed {
   opacity: 0.75;
 }
+
+@mixin focus {
+  background-color: #fd0;
+  box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
+  text-decoration: none !important;
+  outline: none;
+}

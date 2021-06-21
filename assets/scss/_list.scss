@@ -66,6 +66,14 @@
         justify-content: space-between;
         align-items: baseline;
         text-decoration: none;
+
+        &:focus {
+          @include focus;
+        }
+
+        &:focus-visible {
+          outline: none;
+        }
       }
     }
 

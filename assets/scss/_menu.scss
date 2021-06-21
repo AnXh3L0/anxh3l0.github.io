@@ -49,6 +49,10 @@ nav {
     &[aria-current="page"] {
       text-decoration: underline 3px salmon;
     }
+
+    &:focus-visible {
+      @include focus;
+    }
   }
 }
 

@@ -30,6 +30,10 @@
       &:hover {
         text-decoration-style: dotted;
       }
+
+      &:focus {
+        @include focus;
+      }
     }
   }
 
@@ -219,6 +223,10 @@
   transition: 0.2s ease-in;
 
   &:hover {
+    opacity: 1;
+  }
+
+  &:focus {
     opacity: 1;
   }
 }
