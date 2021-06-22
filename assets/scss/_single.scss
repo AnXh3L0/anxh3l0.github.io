@@ -118,7 +118,7 @@
 
     svg {
       margin-right: 0.6em;
-      display: inline-block;
+      display: inline;
       vertical-align: -0.125em;
       width: 1em;
       height: 1em;
@@ -218,6 +218,10 @@
 
   &.previous .button__icon {
     margin-right: 8px;
+  }
+
+  &:hover {
+    background-color: $light-border-color;
   }
 }
 

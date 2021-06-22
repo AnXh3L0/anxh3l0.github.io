@@ -12,6 +12,7 @@ footer {
 
     &:focus {
       @include focus;
+      color: darken($light-color, 90%);
     }
   }
 }
