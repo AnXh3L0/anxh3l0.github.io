@@ -24,9 +24,8 @@
     }
 
     a {
-      text-decoration: 4px underline;
-      text-decoration-color: salmon;
-
+      text-decoration: solid underline salmon 4px;
+      
       &:hover {
         text-decoration-style: dotted;
       }
