@@ -6,7 +6,6 @@
 
 html {
   line-height: 1.15;
-  -moz-tab-size: 4;
   tab-size: 4;
 }
 
@@ -80,51 +79,12 @@ select {
   text-transform: none;
 }
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
-::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-:-moz-focusring {
-  outline: 1px dotted;
-}
-
-:-moz-ui-invalid {
-  box-shadow: none;
-}
-
 legend {
   padding: 0;
 }
 
 progress {
   vertical-align: baseline;
-}
-
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
-  height: auto;
-}
-
-[type="search"] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
-}
-
-::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
 }
 
 summary {
