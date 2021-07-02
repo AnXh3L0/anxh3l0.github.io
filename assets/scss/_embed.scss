@@ -9,7 +9,6 @@
   transition: all 0.3s ease-in-out;
 
   &:focus-visible {
-    background-color: #fd0;
     border: 3px solid #fd0;
     outline: none;
     transform: scale(1.02);
@@ -49,8 +48,6 @@ audio,
   border: none;
   height: auto;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   filter: brightness(0.75);
 }
@@ -75,8 +72,6 @@ audio,
   bottom: 30px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
 
   @media #{$media-size-tablet} {
     background-size: 50px 50px;

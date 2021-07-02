@@ -39,7 +39,8 @@ nav {
     text-decoration: none;
 
     &:hover {
-      text-decoration: solid underline salmon 3px;
+      text-decoration: solid underline salmon;
+      text-decoration-thickness: 3px;
     }
 
     &:last-of-type {
@@ -47,7 +48,8 @@ nav {
     }
 
     &[aria-current="page"] {
-      text-decoration: solid underline salmon 3px;
+      text-decoration: solid underline salmon;
+      text-decoration-thickness: 3px;
     }
 
     &:focus-visible {

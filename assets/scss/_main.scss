@@ -29,7 +29,6 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-  -webkit-overflow-scrolling: touch;
 
   display: flex;
   min-height: 100vh;
@@ -106,12 +105,6 @@ img {
   &.right {
     margin-left: auto;
   }
-}
-
-::cue {
-  background-color: #fd0;
-  color: black;
-  font-size: 1rem;
 }
 
 figure {
@@ -193,7 +186,7 @@ figure {
 }
 
 code {
-  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-family: Consolas, Monaco, monospace;
   font-feature-settings: normal;
   background: $light-background-secondary;
   padding: 1px 6px;
