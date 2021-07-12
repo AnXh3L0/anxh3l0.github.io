@@ -88,4 +88,16 @@ function initBBBVideos() {
   }
 }
 
+function changeCSS() {
+  var yt = document.getElementsByClassName("youtube-player");
+  var bbb = document.getElementsByClassName("player");
+  for (var i=0;i<yt.length;i+=1){
+    yt[i].style.display = 'block';
+  }
+  for (var j=0;j<bbb.length;j+=1){
+    bbb[j].style.display = 'block';
+  }
+}
+
 document.addEventListener("DOMContentLoaded", initBBBVideos);
+document.addEventListener("DOMContentLoaded", changeCSS);
