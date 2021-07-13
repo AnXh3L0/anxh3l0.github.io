@@ -91,11 +91,15 @@ function initBBBVideos() {
 function changeCSS() {
   var yt = document.getElementsByClassName("youtube-player");
   var bbb = document.getElementsByClassName("player");
+  var links = document.getElementsByClassName("nojs-video");
   for (var i=0;i<yt.length;i+=1){
     yt[i].style.display = 'block';
   }
   for (var j=0;j<bbb.length;j+=1){
     bbb[j].style.display = 'block';
+  }
+  for (var k=0;k<links.length;k+=1){
+    links[k].style.display = 'none';
   }
 }
 
