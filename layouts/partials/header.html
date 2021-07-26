@@ -1,10 +1,5 @@
 <header>
-    <div>
-        {{ partial "logo.html" . }}
-        <div>
-            {{ if len .Site.Menus }}
-            {{ partial "menu.html" . }}
-            {{ end }}
-        </div>
-    </div>
+{{ if len .Site.Menus }}
+{{ partial "menu.html" . }}
+{{ end }}
 </header>

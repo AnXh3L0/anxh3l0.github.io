@@ -8,18 +8,5 @@ header {
   z-index: 1000;
   width: 100%;
   padding: 20px;
-  box-shadow: 0 2px 10px #00000012;
-
-  & > div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 760px;
-    max-width: 100%;
-
-    & > a {
-      display: flex;
-    }
-  }
+  box-shadow: 0 3px 8px #00000012;
 }

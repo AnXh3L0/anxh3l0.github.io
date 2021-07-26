@@ -7,7 +7,6 @@ nav {
     justify-content: flex-start;
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 0 0 15px;
     font-size: 1rem;
     list-style: none;
 
@@ -16,6 +15,10 @@ nav {
 
       &:last-child {
         margin: 0 0 0 12px;
+      }
+
+      &:first-child {
+        margin: 0 12px 0 0;
       }
     }
 
@@ -29,7 +32,8 @@ nav {
 
   @media #{$media-size-phone} {
     ul {
-      font-size: .9rem;
+      font-size: .85rem;
+      flex-wrap: wrap;
     }
   }
 

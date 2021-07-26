@@ -2,7 +2,7 @@
   <ul>
     {{- $firstUrlElement := print "/" (index (split .RelPermalink "/") 1) "/" -}}
     {{- range .Site.Menus.main -}}
-        <li><a {{ if eq ($firstUrlElement|lower) (.URL|lower) }}aria-current="page"{{end}} href="{{ .URL }}">{{ .Name }}</a></li>
+        <li><a {{ if eq ($firstUrlElement|lower) (.URL|lower) }}aria-current="page"{{end}} href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
     {{ end }}
   </ul>
 </nav>

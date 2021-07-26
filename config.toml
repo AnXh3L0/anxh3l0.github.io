@@ -103,43 +103,71 @@ disableHugoGeneratorInject = true
     subtitle  = ""
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License">CC BY-NC-SA 4.0</a><br />Registered in Albania<br />NUIS **M12912403O**'
+  [[languages.en.menu.main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
+    weight     = "1"
+  [[languages.en.menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about/"
+    weight     = "2"
+  [[languages.en.menu.main]]
+    identifier = "portfolio"
+    name       = "Portfolio"
+    url        = "/portfolio/"
+    weight     = "3"
+  [[languages.en.menu.main]]
+    identifier = "speaking"
+    name       = "Speaking"
+    url        = "/speaking/"
+    weight     = "4"
+  [[languages.en.menu.main]]
+    identifier = "misc"
+    name       = "Misc"
+    url        = "/misc/"
+    weight     = "5"
+  [[languages.en.menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts/"
+    weight     = "6"
 
   [languages.sq]
     subtitle  = ""
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="Licensa">CC BY-NC-SA 4.0</a><br />I regjistruar në Shqipëri<br />NIPT **M12912403O**'
-
-  [languages.it]
-    subtitle  = ""
-    weight    = 3
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="Licensa">CC BY-NC-SA 4.0</a><br />Immatricolata in Albania<br />NUIS **M12912403O**'
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about/"
+  [[languages.sq.menu.main]]
+    identifier = "home"
+    name       = "Krye"
+    url        = "/"
     weight     = "1"
-  [[menu.main]]
-    identifier = "portfolio"
-    name       = "Portfolio"
-    url        = "/portfolio/"
+  [[languages.sq.menu.main]]
+    identifier = "about"
+    name       = "Rreth"
+    url        = "/about/"
     weight     = "2"
-  [[menu.main]]
-    identifier = "speaking"
-    name       = "Speaking"
-    url        = "/speaking/"
+  [[languages.sq.menu.main]]
+    identifier = "portfolio"
+    name       = "Projektet"
+    url        = "/portfolio/"
     weight     = "3"
-  [[menu.main]]
-    identifier = "misc"
-    name       = "Misc"
-    url        = "/misc/"
+  [[languages.sq.menu.main]]
+    identifier = "speaking"
+    name       = "Oratoria"
+    url        = "/speaking/"
     weight     = "4"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "/posts/"
+  [[languages.sq.menu.main]]
+    identifier = "misc"
+    name       = "Mikse"
+    url        = "/misc/"
     weight     = "5"
+  [[languages.sq.menu.main]]
+    identifier = "posts"
+    name       = "Postimet"
+    url        = "/posts/"
+    weight     = "6"
 
 [privacy]
   [privacy.instagram]
