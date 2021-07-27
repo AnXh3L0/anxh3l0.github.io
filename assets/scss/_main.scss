@@ -4,6 +4,7 @@ html {
   letter-spacing: 0.05em;
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
+  overflow-y: scroll;
 }
 
 @media (prefers-reduced-motion: reduce) {
