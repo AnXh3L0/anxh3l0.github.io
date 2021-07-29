@@ -16,7 +16,7 @@ During the last 4 years I have organized tens of events and conferences such as 
 
 You can contact me through various services. A few of them are presented below. Keep in mind I don't use encrypted emails (GPG/PGP) so if you want a more secure way to contact me use the other apps.
 
-- Email: [anxhelo@lushka.al](mailto:anxhelo@lushka.al)
+- Email: `anxhelo@lushka.al`
 - Telegram: [@anxhelolushka](https://t.me/anxhelolushka)
 - WhatsApp: [Send me a message](https://wa.me/+355699932340?text=Hello%20there)
 - Signal: [+355699932340](tel:+355699932340)
