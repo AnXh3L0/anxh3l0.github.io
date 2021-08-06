@@ -75,9 +75,9 @@
                 <line x1="8" y1="2" x2="8" y2="6"></line>
                 <line x1="3" y1="10" x2="21" y2="10"></line>
             </svg>{{ i18n "publishDate" . }}
-            {{ if .Site.Params.dateformNumTime }}{{ dateFormat .Site.Params.dateformNumTime .Date.Local }}{{ else }}{{ dateFormat "2006-01-02 15:04" .Date.Local }}{{ end }}
+            {{ if .Site.Params.dateformNumTime }}<time datetime="{{ dateFormat .Site.Params.dateformNumTime .Date.Local }}">{{ dateFormat .Site.Params.dateformNumTime .Date.Local }}</time>{{ else }}<time datetime="{{ dateFormat .Site.Params.dateformNumTime .Date.Local }}">{{ dateFormat "2006-01-02 15:04" .Date.Local }}</time>{{ end }}
             {{ if ne .PublishDate .Lastmod }}, {{ i18n "updatedOn" . }}
-            {{ .Lastmod.Format "2006-01-02 15:04" }}{{ end }}
+            <time datetime="{{ .Date.Format .Site.Params.dateformNumTime }}">{{ .Lastmod.Format "2006-01-02 15:04" }}</time>{{ end }}
         </p>
 
         {{- if .GitInfo }}
@@ -88,7 +88,7 @@
                 <line x1="17.01" y1="12" x2="22.96" y2="12"></line>
             </svg><a href="{{ .Site.Params.gitUrl -}}{{ .GitInfo.Hash }}" target="_blank"
                 rel="noopener" title="Commit message: {{ .GitInfo.Subject}}">{{ .GitInfo.AbbreviatedHash }}</a> @
-            {{ if .Site.Params.dateformNum }}{{ dateFormat .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}{{ else }}{{ dateFormat "2006-01-02" .GitInfo.AuthorDate.Local }}{{ end }}
+            {{ if .Site.Params.dateformNum }}<time datetime="{{ dateFormat .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}">{{ dateFormat .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}</time>{{ else }}<time datetime="{{ dateFormat .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}">{{ dateFormat "2006-01-02" .GitInfo.AuthorDate.Local }}</time>{{ end }}
         </p>
         {{- end }}
     </div>

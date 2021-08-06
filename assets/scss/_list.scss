@@ -41,7 +41,7 @@
       margin-right: 1.5em;
       font-size: 1.6em;
       font-weight: bold;
-      color: salmon;
+      color: $light-color-secondary;
 
       @media #{$media-size-tablet} {
         margin: -6px 0 4px;
