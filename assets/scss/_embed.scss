@@ -50,7 +50,7 @@ audio,
   height: auto;
   cursor: pointer;
   transition: all .3s ease-in-out;
-  filter: brightness(.75);
+  filter: brightness(.5);
 }
 
 .youtube-player img:hover,
@@ -84,5 +84,9 @@ audio,
 
   &:hover {
     transform: scale(1.075);
+  }
+
+  &:focus {
+    filter:drop-shadow(0 0 .7rem $light-border-color);
   }
 }
