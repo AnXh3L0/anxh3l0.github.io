@@ -1,7 +1,11 @@
+:root {
+  font-size: 16px;
+}
+
 html {
   box-sizing: border-box;
   line-height: 1.6;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
   overflow-y: scroll;
@@ -11,9 +15,9 @@ html {
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms !important;
+    animation-duration: .01ms !important;
     animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
+    transition-duration: .01ms !important;
     scroll-behavior: auto !important;
   }
 }
@@ -28,12 +32,8 @@ body {
   color: $light-color;
   text-rendering: optimizeLegibility;
   font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
-
   display: flex;
   min-height: 100vh;
-  flex-direction: column;
-
-  flex: 1 auto;
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -50,37 +50,19 @@ h6 {
 }
 
 h1 {
-  font-size: 2.625rem;
+  font-size: clamp(2.2rem, #{"2.3vw + 1.2rem"}, 2.625rem);
 }
 
 h2 {
-  font-size: 1.625rem;
+  font-size: clamp(1.5rem, #{".7vw + 1.2rem"}, 1.625rem);
 }
 
 h3 {
-  font-size: 1.375rem;
+  font-size: clamp(1.3rem, #{".4vw + 1.1rem"}, 1.375rem);
 }
 
 h4 {
-  font-size: 1.125rem;
-}
-
-@media #{$media-size-phone} {
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  h3 {
-    font-size: 1.15rem;
-  }
-
-  h4 {
-    font-size: 1.125rem;
-  }
+  font-size: clamp(1.1rem, #{".1vw + 1rem"}, 1.125rem);
 }
 
 a {
@@ -109,7 +91,7 @@ img {
 figure {
   display: table;
   max-width: 100%;
-  margin: 25px 0;
+  margin: 1.5rem 0;
 
   &.left {
     margin-right: auto;
@@ -119,7 +101,7 @@ figure {
     margin-right: auto;
     float: left;
     img {
-      margin: 20px 20px 20px 0;
+      margin: 1.25rem 1.25rem 1.25rem 0;
     }
   }
 
@@ -136,7 +118,7 @@ figure {
     margin-left: auto;
     float: right;
     img {
-      margin: 20px 0 20px 20px;
+      margin: 1.25rem 0 1.25rem 1.25rem;
     }
   }
 
@@ -147,24 +129,24 @@ figure {
   }
 
   & img {
-    border: 3px solid $light-background-secondary;
-    transition: all 0.3s ease-in-out;
+    border: .25rem solid $light-background-secondary;
+    transition: all .3s ease-in-out;
 
     &:hover {
-      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 .625rem 1rem -.25rem rgba(0,0,0,.1),
+        0 .25rem .375rem -.125rem rgba(0,0,0,.05);
     }
   }
 
   & a:focus-visible img {
-    border: 5px solid #fd0;
+    border: .25rem solid #fd0;
     transform: scale(1.03);
   }
 
   figcaption {
     font-size: 1rem;
-    margin-top: 5px;
-    opacity: 0.8;
+    margin-top: .25rem;
+    opacity: .8;
 
     &.left {
       text-align: left;
@@ -179,7 +161,7 @@ figure {
     }
 
     & h4 {
-      margin: 0.5rem 0 0 0;
+      margin: .5rem 0 0 0;
     }
   }
 }
@@ -188,18 +170,18 @@ code {
   font-family: Consolas, Monaco, monospace;
   font-feature-settings: normal;
   background: $light-background-secondary;
-  padding: 1px 6px;
-  margin: 0 2px;
-  border-radius: 5px;
-  font-size: 0.95rem;
+  padding: .125rem .375rem;
+  margin: 0 .125rem;
+  border-radius: .25rem;
+  font-size: .95rem;
   overflow-wrap: break-word;
 }
 
 pre {
   background: #212020;
-  padding: 20px;
-  border-radius: 8px;
-  font-size: 0.95rem;
+  padding: 1.25rem;
+  border-radius: .5rem;
+  font-size: .95rem;
   overflow: auto;
 
   @media #{$media-size-phone} {
@@ -219,20 +201,20 @@ pre {
 blockquote {
   background: #fff;
   position: relative;
-  border: solid 2px;
-  margin: 40px 0px;
-  padding: 20px;
-  box-shadow: 10px 10px 0 0 salmon;
-  transition: 0.3s ease-in-out;
+  border: solid .125rem;
+  margin: 2.5rem 0;
+  padding: 1.25rem;
+  box-shadow: .625rem .625rem 0 0 salmon;
+  transition: .3s ease-in-out;
 
   &:hover {
-    box-shadow: 0px 0px 0 0 salmon;
+    box-shadow: 0 0 0 0 salmon;
   }
 
   @media #{$media-size-phone} {
-    box-shadow: 8px 8px 0 0 salmon;
-    margin: 25px 0px;
-    padding: 20px;
+    box-shadow: .5rem .5rem 0 0 salmon;
+    margin: 1.5rem 0;
+    padding: 1.25rem;
   }
 
   p:first-of-type {
@@ -246,11 +228,11 @@ blockquote {
 
 ul,
 ol {
-  margin-left: 40px;
+  margin-left: 2.5rem;
   padding: 0;
 
   @media #{$media-size-phone} {
-    margin-left: 20px;
+    margin-left: 2.5rem;
   }
 }
 
@@ -309,26 +291,26 @@ hr {
 }
 
 .screen-reader-text:focus {
-  border-radius: 3px;
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  border-radius: .25rem;
+  box-shadow: 0 0 .125rem .125rem rgba(0,0,0,.6);
   clip: auto !important;
   clip-path: none;
   color: black;
   display: block;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-weight: bold;
   height: auto;
   width: auto;
-  top: 5px;
-  left: 5px;
+  top: .25rem;
+  left: .25rem;
   line-height: normal;
-  padding: 15px;
+  padding: 1rem;
   text-decoration: none;
   z-index: 100000;
 }
 
 main {
-  margin-top: 75px;
+  margin-top: 4.75rem;
 }
 
 main > div > h1 {
@@ -337,5 +319,5 @@ main > div > h1 {
 
 main > div > p {
   margin-top: 0px;
-  margin-bottom: 35px;
+  margin-bottom: 2.25rem;
 }

@@ -1,12 +1,12 @@
 .posts {
   width: 100%;
-  max-width: 800px;
+  max-width: 50rem;
   text-align: left;
-  padding: 20px;
-  margin: 60px auto 20px auto;
+  padding: 1.25rem;
+  margin: 3.75rem auto 1.25rem auto;
 
   @media #{$media-size-tablet} {
-    max-width: 660px;
+    max-width: 41.25rem;
   }
 
   &:not(:last-of-type) {
@@ -33,18 +33,18 @@
   .post {
     &-title {
       font-size: 1rem;
-      margin: 5px 0 5px 0;
+      margin: .25rem 0 .25rem 0;
     }
 
     &-year {
-      padding-top: 14px;
+      padding-top: .875rem;
       margin-right: 1.5em;
       font-size: 1.6em;
       font-weight: bold;
       color: $light-color-secondary;
 
       @media #{$media-size-tablet} {
-        margin: -6px 0 4px;
+        margin: -.375rem 0 .25rem;
       }
     }
 
@@ -54,11 +54,11 @@
     }
 
     &-item {
-      border-bottom: 2px grey dashed;
-      padding: 12px 0;
+      border-bottom: .125rem grey dashed;
+      padding: .75rem 0;
 
       &:hover {
-        border-bottom: 2px salmon dashed;
+        border-bottom: .125rem salmon dashed;
       }
 
       a {

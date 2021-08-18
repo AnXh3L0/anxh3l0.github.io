@@ -1,12 +1,12 @@
 .post {
   width: 100%;
-  max-width: 800px;
+  max-width: 50rem;
   text-align: left;
-  padding: 20px;
-  margin: 80px auto 20px auto;
+  padding: 1.25rem;
+  margin: 5rem auto 1.25rem auto;
 
   @media #{$media-size-tablet} {
-    max-width: 600px;
+    max-width: 37.5rem;
   }
 
   &-date {
@@ -17,7 +17,7 @@
 
   &-title {
     font-size: 2.625rem;
-    margin: 0 0 20px;
+    margin: 0 0 1.25rem;
 
     @media #{$media-size-phone} {
       font-size: 2rem;
@@ -38,9 +38,9 @@
 
   &-tags {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     font-size: 1rem;
-    opacity: 0.5;
+    opacity: .5;
 
     a {
       text-decoration: none;
@@ -48,10 +48,10 @@
   }
 
   &-content {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 
     & a {
-      outline: 3px solid transparent;
+      outline: .25rem solid transparent;
 
       &:hover {
         color: darken($light-color, 90%);
@@ -63,12 +63,12 @@
     }
 
     & p img {
-      margin: 15px auto;
-      border: 3px solid $light-background-secondary;
-      transition: 0.3s ease-in-out;
+      margin: 1rem auto;
+      border: .25rem solid $light-background-secondary;
+      transition: .3s ease-in-out;
 
       &:hover {
-        box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+        box-shadow: 0 .625rem 1rem -.25rem rgba(0,0,0,.1),0 .25rem .375rem -.125rem rgba(0,0,0,.05);
       }
     }
 
@@ -77,30 +77,30 @@
 
       &:after {
         content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
-        margin-left: 4px;
+        margin-left: .25rem;
       }
     }
   }
 
   &-cover {
-    border-radius: 8px;
-    margin: 40px -50px;
-    width: 860px;
-    max-width: 860px;
+    border-radius: .5rem;
+    margin: 2.5rem -3.125rem;
+    width: 53.75rem;
+    max-width: 53.75rem;
 
     @media #{$media-size-tablet} {
-      margin: 20px 0;
+      margin: 1.25rem 0;
       width: 100%;
     }
   }
 
   &-info {
-    font-size: 0.8rem;
+    font-size: .8rem;
     line-height: normal;
     @include dimmed;
 
     & a {
-      outline: 3px solid transparent;
+      outline: .25rem solid transparent;
 
       &:hover {
         color: darken($light-color, 90%);
@@ -112,19 +112,19 @@
     }
 
     p {
-      margin: 0.8em 0;
+      margin: .8em 0;
     }
 
     svg {
-      margin-right: 0.6em;
+      margin-right: .6em;
       display: inline;
-      vertical-align: -0.125em;
+      vertical-align: -.125em;
       width: 1em;
       height: 1em;
     }
     
     .tag {
-      margin-right: 0.5em;
+      margin-right: .5em;
       display: inline-block;
 
       &::before {
@@ -135,24 +135,24 @@
 }
 
 .pagination {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 
   &__title {
     display: flex;
     text-align: center;
     position: relative;
-    margin: 30px 0 20px;
+    margin: 1.875rem 0 1.25rem;
 
     &-h {
       text-align: center;
       margin: 0 auto;
-      padding: 5px 10px;
+      padding: .25rem .625rem;
       background: $light-background;
       color: $light-color-secondary;
-      font-size: 0.8rem;
+      font-size: .8rem;
       text-transform: uppercase;
       text-decoration: none;
-      letter-spacing: 0.1em;
+      letter-spacing: .1em;
       z-index: 1;
     }
 
@@ -161,7 +161,7 @@
       left: 0;
       right: 0;
       width: 100%;
-      margin-top: 15px;
+      margin-top: 1rem;
       z-index: 0;
     }
   }
@@ -186,19 +186,19 @@
   background: $light-background-secondary;
   font-size: 1rem;
   font-weight: 600;
-  border-radius: 8px;
+  border-radius: .5rem;
   max-width: 40%;
   padding: 0;
   cursor: pointer;
   appearance: none;
 
   + .button {
-    margin-left: 10px;
+    margin-left: .625rem;
   }
 
   a {
     display: flex;
-    padding: 8px 16px;
+    padding: .5rem 1rem;
     text-decoration: none;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -212,11 +212,11 @@
   }
 
   &.next .button__icon {
-    margin-left: 8px;
+    margin-left: .5rem;
   }
 
   &.previous .button__icon {
-    margin-right: 8px;
+    margin-right: .5rem;
   }
 
   &:hover {
@@ -225,10 +225,10 @@
 }
 
 .anchor-tag {
-  opacity: 0.7;
+  opacity: .7;
   text-decoration: none;
-  margin-left: 5px;
-  transition: 0.2s ease-in;
+  margin-left: .25rem;
+  transition: .2s ease-in;
 
   &:hover {
     opacity: 1;
