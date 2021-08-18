@@ -33,7 +33,7 @@ function initYouTubeVideos() {
     thumbNode.alt = videoTitle;
     thumbNode.src = "/img/thumbs/image".replace("image", thumbImage);
     div.appendChild(thumbNode);
-    let playButton = document.createElement("div");
+    let playButton = document.createElement("button");
     playButton.setAttribute("class", "play");
     div.appendChild(playButton);
     div.onclick = function () {
@@ -78,7 +78,7 @@ function initBBBVideos() {
     thumbNode.alt = videoTitle;
     thumbNode.src = "/img/thumbs/image".replace("image", thumbImage);
     div.appendChild(thumbNode);
-    let playButton = document.createElement("div");
+    let playButton = document.createElement("button");
     playButton.setAttribute("class", "play");
     div.appendChild(playButton);
     div.onclick = function () {
@@ -105,3 +105,12 @@ function changeCSS() {
 
 document.addEventListener("DOMContentLoaded", initBBBVideos);
 document.addEventListener("DOMContentLoaded", changeCSS);
+
+document.querySelectorAll('.play').forEach(item => {
+  item.addEventListener('keyup', event => {
+    event.preventDefault();
+    if (event.keyCode == 13) {
+      event.click();
+    }
+  });
+});
