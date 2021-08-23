@@ -50,6 +50,12 @@ Web Developer at [Tahoe-LAFS](https://tahoe-lafs.org "Tahoe-LAFS is a Free and O
 
 ## Experience
 
+**Web Developer at [Tahoe-LAFS](https://tahoe-lafs.org/)**
+
+Tahoe-LAFS is a Free and Open decentralized cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security.
+
+---
+
 **Mentor at [Underexposed 2019](https://simplysecure.org/underexposed/)**
 
 Underexposed is an annual convening designed to elevate tech issues that need attention and prioritization from the design and usability community.

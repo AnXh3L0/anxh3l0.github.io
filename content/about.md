@@ -6,7 +6,7 @@ My name is Anxhelo Lushka, I'm a graphic designer and frontend developer, gradua
 
 In this website I will showcase my best works over time and some articles I write related to events I've organized/participated in, security and privacy in general, tips and tricks etc.
 
-During the last 4 years I have organized tens of events and conferences such as [OSCAL](https://osc.al) (Open Source Conference Albania), [LibreOffice Conference](https://libocon.org) and more.
+During the last 5 years I have organized tens of events and conferences such as [OSCAL](https://osc.al) (Open Source Conference Albania), [LibreOffice Conference](https://libocon.org) and more.
 
 :sparkles: **[Resume](/resume "My resume as a single page")**
 

@@ -6,7 +6,7 @@ Unë quhem Anxhelo Lushka, jam një dizajner grafik dhe zhvillues frontend, i di
 
 Në këtë faqe unë do të shfaq punët e mia më të mira me kalimin e kohës dhe disa artikuj që unë shkruaj në lidhje me ngjarjet që kam organizuar / marrë pjesë, sigurinë dhe privatësinë në përgjithësi, këshilla dhe truket etj.
 
-Gjatë 4 viteve të fundit kam organizuar dhjetëra evente dhe konferenca të tilla si [OSCAL](https://osc.al)(Open Source Conference Albania), [LibreOffice Conference](https://libocon.org) dhe më shumë.
+Gjatë 5 viteve të fundit kam organizuar dhjetëra evente dhe konferenca të tilla si [OSCAL](https://osc.al)(Open Source Conference Albania), [LibreOffice Conference](https://libocon.org) dhe më shumë.
 
 :sparkles: **[Resume](/resume "Resume ime si një faqe e vetme")**
 
