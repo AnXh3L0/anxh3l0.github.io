@@ -55,6 +55,7 @@ disableHugoGeneratorInject = true
   description = "My personal website"
   keywords = "design, ux, ui, speaker, public, developer, privacy, security, foss, floss"
   images = [""]
+  googleVeri = "EfTDzyY5SKBdXLP7dT3YJX3STlK1JYbol6r8PXHD0qc"
 
   homeSubtitle = "**Anxhelo Lushka** | Developer"
 
