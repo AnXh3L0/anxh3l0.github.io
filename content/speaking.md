@@ -9,6 +9,13 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br />
 
+{{< embed id="neWH6gSejM4" thumb="online-bullying.jpg" title="Online bullying and the kidnapping of Kozak" >}}
+
+**Online bullying and the kidnapping of Kozak** - At Shqipëria Live on Top Channel | 24 September 2021
+<a class="nojs-video" href="https://www.youtube.com/watch?v=neWH6gSejM4" target="_blank" rel="noopener noreferrer" title="Online bullying and the kidnapping of Kozak">Link to video 'Online bullying and the kidnapping of Kozak'</a>
+
+<br />
+
 {{< embed id="Y5dz5aNPlow" thumb="careful-messages-whatsapp.jpg" title="Be careful from the messages you receive on WhatsApp" >}}
 
 **Be careful from the messages you receive on WhatsApp** - At Kafe Shqeto on Syri TV | 9 February 2021

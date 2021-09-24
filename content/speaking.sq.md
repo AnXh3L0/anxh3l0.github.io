@@ -9,6 +9,13 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 
 <br />
 
+{{< embed id="neWH6gSejM4" thumb="online-bullying.jpg" title="Bullizmi online dhe pengmarrja e Kozakut" >}}
+
+**Bullizmi online dhe pengmarrja e Kozakut** - Tek Shqipëria Live në Top Channel | 24 Shtator 2021
+<a class="nojs-video" href="https://www.youtube.com/watch?v=neWH6gSejM4" target="_blank" rel="noopener noreferrer" title="Bullizmi online dhe pengmarrja e Kozakut">Ndërlidhja për videon 'Bullizmi online dhe pengmarrja e Kozakut'</a>
+
+<br />
+
 {{< embed id="Y5dz5aNPlow" thumb="careful-messages-whatsapp.jpg" title="Kujdes nga mesazhet në WhatsApp" >}}
 
 **Kujdes nga mesazhet në WhatsApp** - Në Kafe Shqeto tek Syri TV | 9 Shkurt 2021
