@@ -90,6 +90,10 @@ disableHugoGeneratorInject = true
   [[params.social]]
     name = "github"
     url  = "https://github.com/AnXh3L0"
+  
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/anxhelo-lushka-17894b221"
 
   [[params.social]]
     name = "instagram"
