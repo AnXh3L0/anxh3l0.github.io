@@ -9,6 +9,13 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br />
 
+{{< embed id="JLZ1oXtbimU" thumb="zonazero-facebook.jpg" title="Are you afraid for your privacy? Here is the app you need" >}}
+
+**Are you afraid for your privacy? Here is the app you need** - At Zona Zero on Top News | 5 October 2021
+<a class="nojs-video" href="https://www.youtube.com/watch?v=JLZ1oXtbimU" target="_blank" rel="noopener noreferrer" title="Are you afraid for your privacy? Here is the app you need">Link to video 'Are you afraid for your privacy? Here is the app you need'</a>
+
+<br />
+
 {{< embed id="neWH6gSejM4" thumb="online-bullying.jpg" title="Online bullying and the kidnapping of Kozak" >}}
 
 **Online bullying and the kidnapping of Kozak** - At Shqipëria Live on Top Channel | 24 September 2021

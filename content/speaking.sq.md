@@ -9,6 +9,13 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 
 <br />
 
+{{< embed id="JLZ1oXtbimU" thumb="zonazero-facebook.jpg" title="Keni frikë për sigurinë e privatësisë? Ja aplikacioni që ju duhet" >}}
+
+**Keni frikë për sigurinë e privatësisë? Ja aplikacioni që ju duhet** - Tek Zona Zero në Top News | 5 Tetor 2021
+<a class="nojs-video" href="https://www.youtube.com/watch?v=JLZ1oXtbimU" target="_blank" rel="noopener noreferrer" title="Keni frikë për sigurinë e privatësisë? Ja aplikacioni që ju duhet">Ndërlidhja për videon 'Keni frikë për sigurinë e privatësisë? Ja aplikacioni që ju duhet'</a>
+
+<br />
+
 {{< embed id="neWH6gSejM4" thumb="online-bullying.jpg" title="Bullizmi online dhe pengmarrja e Kozakut" >}}
 
 **Bullizmi online dhe pengmarrja e Kozakut** - Tek Shqipëria Live në Top Channel | 24 Shtator 2021
