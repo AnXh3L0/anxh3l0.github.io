@@ -129,18 +129,17 @@ figure {
   }
 
   & img {
-    border: .25rem solid $light-background-secondary;
+    border: .25rem solid transparent;
     transition: all .3s ease-in-out;
 
     &:hover {
-      box-shadow: 0 .625rem 1rem -.25rem rgba(0,0,0,.1),
-        0 .25rem .375rem -.125rem rgba(0,0,0,.05);
+      border: .25rem solid #fd0;
     }
   }
 
   & a:focus-visible img {
     border: .25rem solid #fd0;
-    transform: scale(1.03);
+    transform: scale(1.025);
   }
 
   figcaption {

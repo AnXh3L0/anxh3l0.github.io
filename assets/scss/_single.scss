@@ -22,18 +22,6 @@
     @media #{$media-size-phone} {
       font-size: 2rem;
     }
-
-    a {
-      text-decoration: solid underline salmon;
-      
-      &:hover {
-        text-decoration-style: dotted;
-      }
-
-      &:focus {
-        @include focus;
-      }
-    }
   }
 
   &-tags {
