@@ -9,6 +9,13 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 
 <br />
 
+{{< embed id="Vd2Iy7UmOYI" thumb="breaking-callcenter.jpg" title="Mashtrimet nga call center dhe hetimet nga SPAK" >}}
+
+**Mashtrimet nga call center dhe hetimet nga SPAK** - Tek Breaking në Top News | 3 Nëntor 2021
+<a class="nojs-video" href="https://www.youtube.com/watch?v=Vd2Iy7UmOYI" target="_blank" rel="noopener noreferrer" title="Mashtrimet nga call center dhe hetimet nga SPAK">Ndërlidhja për videon 'Mashtrimet nga call center dhe hetimet nga SPAK'</a>
+
+<br />
+
 {{< embed id="JLZ1oXtbimU" thumb="zonazero-facebook.jpg" title="Keni frikë për sigurinë e privatësisë? Ja aplikacioni që ju duhet" >}}
 
 **Keni frikë për sigurinë e privatësisë? Ja aplikacioni që ju duhet** - Tek Zona Zero në Top News | 5 Tetor 2021

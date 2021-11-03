@@ -9,6 +9,13 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br />
 
+{{< embed id="Vd2Iy7UmOYI" thumb="breaking-callcenter.jpg" title="Call center scams and SPAK investigations" >}}
+
+**Call center scams and SPAK investigations** - At Breaking on Top News | 3 November 2021
+<a class="nojs-video" href="https://www.youtube.com/watch?v=Vd2Iy7UmOYI" target="_blank" rel="noopener noreferrer" title="Call center scams and SPAK investigations">Link to video 'Call center scams and SPAK investigations'</a>
+
+<br />
+
 {{< embed id="JLZ1oXtbimU" thumb="zonazero-facebook.jpg" title="Are you afraid for your privacy? Here is the app you need" >}}
 
 **Are you afraid for your privacy? Here is the app you need** - At Zona Zero on Top News | 5 October 2021
