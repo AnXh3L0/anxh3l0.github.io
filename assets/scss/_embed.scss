@@ -84,3 +84,15 @@ audio,
     filter:drop-shadow(0 0 .7rem $light-border-color);
   }
 }
+
+.language {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  font-size: 0.95rem;
+  width: 100%;
+  padding-block: 0.3rem;
+  padding-left: 1rem;
+  color: white;
+  background: rgba(0,0,0, 0.35);
+}
