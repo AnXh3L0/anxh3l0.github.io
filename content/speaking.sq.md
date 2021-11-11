@@ -9,6 +9,13 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 
 <br />
 
+{{< embed id="UGNtSgZlrNc" thumb="zonazero-whatsappweb.jpg" lang="Albanian" title="WhatsApp Web i ri dhe përdorimi pa telefon" >}}
+
+**WhatsApp Web i ri dhe përdorimi pa telefon** - Tek Zona Zero në Top News | 10 Nëntor 2021
+<a class="nojs-video" href="https://www.youtube.com/watch?v=UGNtSgZlrNc" target="_blank" rel="noopener noreferrer" title="WhatsApp Web i ri dhe përdorimi pa telefon">Ndërlidhja për videon 'WhatsApp Web i ri dhe përdorimi pa telefon'</a>
+
+<br />
+
 {{< embed id="Vd2Iy7UmOYI" thumb="breaking-callcenter.jpg" lang="Albanian" title="Mashtrimet nga call center dhe hetimet nga SPAK" >}}
 
 **Mashtrimet nga call center dhe hetimet nga SPAK** - Tek Breaking në Top News | 3 Nëntor 2021

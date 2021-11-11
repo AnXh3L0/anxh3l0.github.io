@@ -9,6 +9,13 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br />
 
+{{< embed id="UGNtSgZlrNc" thumb="zonazero-whatsappweb.jpg" lang="Albanian" title="The new WhatsApp Web features" >}}
+
+**The new WhatsApp Web features** - At Zona Zero on Top News | 10 November 2021
+<a class="nojs-video" href="https://www.youtube.com/watch?v=UGNtSgZlrNc" target="_blank" rel="noopener noreferrer" title="The new WhatsApp Web features">Link to video 'The new WhatsApp Web features'</a>
+
+<br />
+
 {{< embed id="Vd2Iy7UmOYI" thumb="breaking-callcenter.jpg" lang="Albanian" title="Call center scams and SPAK investigations" >}}
 
 **Call center scams and SPAK investigations** - At Breaking on Top News | 3 November 2021

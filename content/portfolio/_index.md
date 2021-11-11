@@ -4,6 +4,10 @@ title = "Portfolio"
 
 Below you will find a few of my works, ordered from newest to oldest.
 
+{{< figure src="/img/portfolio/buendnisf5-thumb.jpg" link="buendnis-f5" title="Buendnis F5" alt="Buendnis F5" >}}
+
+{{< figure src="/img/portfolio/gregoriangrace-thumb.jpg" link="gregorian" title="Gregorian Grace" alt="Gregorian Grace" >}}
+
 {{< figure src="/img/portfolio/wahlbrief-thumb.jpg" link="wahlbrief" title="Wahlbrief" alt="Wahlbrief" >}}
 
 {{< figure src="/img/portfolio/adapt-thumb.jpg" link="adapt" title="ADAPT by Internews" alt="ADAPT by Internews" >}}
