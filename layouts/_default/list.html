@@ -12,21 +12,21 @@
 
         <ul class="posts-list">
             {{- range .Pages }}
-            <article>
                 <li class="post-item">
-                    <a href="{{ .Permalink }}">
-                        <span class="post-title">{{ .Title }}</span>
-                        <span class="post-day">
-                            {{ if .Site.Params.dateformShort }}
-                            <time datetime="{{ .Date.Format .Site.Params.dateformNum }}">{{ .Date.Format .Site.Params.dateformShort }}</time>
-                            {{ else }}
-                            {{ .Date.Format "Jan 2" }}
-                            {{ end }}
-                        </span>
-                    </a>
-                    <span class="post-description">{{ .Description }}</span>
+                    <article>
+                        <a href="{{ .Permalink }}">
+                            <span class="post-title">{{ .Title }}</span>
+                            <span class="post-day">
+                                {{ if .Site.Params.dateformShort }}
+                                <time datetime="{{ .Date.Format .Site.Params.dateformNum }}">{{ .Date.Format .Site.Params.dateformShort }}</time>
+                                {{ else }}
+                                {{ .Date.Format "Jan 2" }}
+                                {{ end }}
+                            </span>
+                        </a>
+                        <span class="post-description">{{ .Description }}</span>
+                    </article>
                 </li>
-            </article>
             {{- end }}
         </ul>
     </div>

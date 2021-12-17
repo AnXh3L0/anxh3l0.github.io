@@ -41,6 +41,8 @@ function initYouTubeVideos() {
     div.appendChild(thumbLang);
     let playButton = document.createElement("button");
     playButton.setAttribute("class", "play");
+    playButton.setAttribute("type", "button");
+    playButton.setAttribute("aria-label", "Play video");
     div.appendChild(playButton);
     div.onclick = function () {
       embedIframe(this);
@@ -92,6 +94,8 @@ function initBBBVideos() {
     div.appendChild(thumbLang);
     let playButton = document.createElement("button");
     playButton.setAttribute("class", "play");
+    playButton.setAttribute("type", "button");
+    playButton.setAttribute("aria-label", "Play video");
     div.appendChild(playButton);
     div.onclick = function () {
       embedVideo(this);
