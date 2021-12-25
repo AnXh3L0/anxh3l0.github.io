@@ -9,4 +9,8 @@ header {
   width: 100%;
   padding: 1.25rem;
   box-shadow: 0 .25rem .5rem #00000012;
+
+  @media #{$media-size-phone} {
+    padding: 1.25rem 1rem;
+  }
 }

@@ -9,6 +9,25 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br />
 
+{{< embed id="Rr5sjuMqQ-U" thumb="salary-scandal.jpg" lang="Albanian" title="October list and bank accounts expected to come out?!" >}}
+
+<br />
+
+{{< embed id="u9z53XHkzPU" thumb="bank-loans.jpg" lang="Albanian" title="Bank loans are expected to come out, the level of crisis in the country!" >}}
+
+**October list and bank accounts expected to come out?!** - At Zona Zero on Top News | 23 December 2021
+<a class="nojs-video" href="https://www.youtube.com/watch?v=Rr5sjuMqQ-U" target="_blank" rel="noopener noreferrer" title="October list and bank accounts expected to come out?!">Link to video 'October list and bank accounts expected to come out?!'</a>
+<a class="nojs-video" href="https://www.youtube.com/watch?v=u9z53XHkzPU" target="_blank" rel="noopener noreferrer" title="Bank loans are expected to come out, the level of crisis in the country!">Link to video 'Bank loans are expected to come out, the level of crisis in the country!'</a>
+
+<br />
+
+{{< embed id="woEKOI3IgNc" thumb="april-salaries.jpg" lang="Albanian" title="April salaries leaked, the potential risks!" >}}
+
+**April salaries leaked, the potential risks!** - At Shqipëria Live on Top Channel | 23 December 2021
+<a class="nojs-video" href="https://www.youtube.com/watch?v=woEKOI3IgNc" target="_blank" rel="noopener noreferrer" title="April salaries leaked, the potential risks!">Link to video 'April salaries leaked, the potential risks!'</a>
+
+<br />
+
 {{< embed id="UGNtSgZlrNc" thumb="zonazero-whatsappweb.jpg" lang="Albanian" title="The new WhatsApp Web features" >}}
 
 **The new WhatsApp Web features** - At Zona Zero on Top News | 10 November 2021
