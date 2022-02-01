@@ -4,6 +4,8 @@ title = "Portfolio"
 
 Below you will find a few of my works, ordered from newest to oldest.
 
+{{< figure src="/img/portfolio/infrastructurefund-thumb.jpg" link="infrastructurefund" title="Infrastructure Fund" alt="Infrastructure Fund" >}}
+
 {{< figure src="/img/portfolio/wolff-thumb.jpg" link="wolff-concerts" title="Wolff Concerts" alt="Wolff Concerts" >}}
 
 {{< figure src="/img/portfolio/buendnisf5-thumb.jpg" link="buendnis-f5" title="Buendnis F5" alt="Buendnis F5" >}}
