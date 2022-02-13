@@ -1,7 +1,6 @@
 <footer>
   {{ .Site.Copyright | safeHTML | markdownify }}<br />
-  Powered by <a href="https://gohugo.io" target="_blank" rel="noopener"
-    title="Built with version {{ hugo.Version }}">Hugo</a>
+  {{ .Site.Params.poweredBy | safeHTML | markdownify }}
 </footer>
 
 {{ if isset .Params "js" }}{{ partial "javascript.html" . }}{{ end }}

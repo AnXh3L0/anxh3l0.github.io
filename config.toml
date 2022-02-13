@@ -57,7 +57,8 @@ disableHugoGeneratorInject = true
   images = [""]
   googleVeri = "EfTDzyY5SKBdXLP7dT3YJX3STlK1JYbol6r8PXHD0qc"
 
-  homeSubtitle = "**Anxhelo Lushka** | Developer"
+  homeSubtitle = ""
+  poweredBy = ""
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   gitUrl = "https://github.com/AnXh3L0/anxh3l0.github.io/commit/"
@@ -108,6 +109,8 @@ disableHugoGeneratorInject = true
     subtitle  = ""
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License">CC BY-NC-SA 4.0</a><br />Registered in Albania<br />NUIS **M12912403O**'
+    homeSubtitle = "**Anxhelo Lushka** | Developer"
+    poweredBy = 'Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>'
   [[languages.en.menu.main]]
     identifier = "home"
     name       = "Home"
@@ -143,6 +146,8 @@ disableHugoGeneratorInject = true
     subtitle  = ""
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="Licensa">CC BY-NC-SA 4.0</a><br />I regjistruar në Shqipëri<br />NIPT **M12912403O**'
+    homeSubtitle = "**Anxhelo Lushka** | Zhvillues"
+    poweredBy = 'Fuqizuar nga <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>'
   [[languages.sq.menu.main]]
     identifier = "home"
     name       = "Krye"
