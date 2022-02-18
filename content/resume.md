@@ -11,6 +11,8 @@ I am available for hire. [Get in touch](/about#contact "Ways to contact me") wit
 
 ## Current work position(s)
 
+DevOps Engineer at [Magoware](https://www.magoware.tv/)
+
 UI/UX Developer and system administrator at [Ura Design](https://ura.design "Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects. Ura was founded in 2016 in Albania to cater to the ever-rising demand for Usability and Design services in Open Source Software.")
 
 Web Developer at [Tahoe-LAFS](https://tahoe-lafs.org "Tahoe-LAFS is a Free and Open decentralized cloud storage system that distributes your data across multiple servers. Even if some of the servers fail or are taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security.") supported by [Internews](https://internews.org "Internews, an international media support nonprofit, believes everyone deserves trustworthy news and information to make informed decisions about their lives and hold power to account.")
