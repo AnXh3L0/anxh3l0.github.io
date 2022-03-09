@@ -8,23 +8,3 @@ $light-border-color: #dcdcdc;
 
 $media-size-phone: "(max-width: 42.75rem)";
 $media-size-tablet: "(max-width: 56.25rem)";
-
-@media (prefers-color-scheme: dark) {
-  body {
-    filter: invert(100%) hue-rotate(180deg);
-  }
-
-  html {
-    background-color: #111;
-  }
-
-  img,
-  video,
-  iframe {
-    filter: invert(100%) hue-rotate(180deg) !important;
-  }
-
-  li::marker {
-    color: #666;
-  }
-}
