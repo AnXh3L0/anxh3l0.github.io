@@ -9,10 +9,10 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br />
 
-{{< embed id="uDRQb_bYOnM" thumb="rtsh-oscal.jpg" lang="Albanian" title="7th edition of OSCAL" >}}
+{{< embed id="uDRQb_bYOnM" thumb="rtsh-oscal.jpg" lang="Albanian" title="7th edition of OSCAL in Tirana" >}}
 
-**7th edition of OSCAL** - At Ora 7 on RTSH | 18 April 2022
-<a class="nojs-video" href="https://www.youtube.com/watch?v=uDRQb_bYOnM" target="_blank" rel="noopener noreferrer" title="7th edition of OSCAL">Link to video '7th edition of OSCAL'</a>
+**7th edition of OSCAL in Tirana** - At Ora 7 on RTSH | 18 April 2022
+<a class="nojs-video" href="https://www.youtube.com/watch?v=uDRQb_bYOnM" target="_blank" rel="noopener noreferrer" title="7th edition of OSCAL in Tirana">Link to video '7th edition of OSCAL in Tirana'</a>
 
 <br />
 

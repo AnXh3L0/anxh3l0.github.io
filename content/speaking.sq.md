@@ -9,6 +9,13 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 
 <br />
 
+{{< embed id="uDRQb_bYOnM" thumb="rtsh-oscal.jpg" lang="Albanian" title="Edicioni i 7-të i konferencës OSCAL në Tiranë!" >}}
+
+**Edicioni i 7-të i konferencës OSCAL në Tiranë!** - Tek Ora 7 në RTSH | 18 Prill 2022
+<a class="nojs-video" href="https://www.youtube.com/watch?v=uDRQb_bYOnM" target="_blank" rel="noopener noreferrer" title="Edicioni i 7-të i konferencës OSCAL në Tiranë!">Ndërlidhja për videon 'Edicioni i 7-të i konferencës OSCAL në Tiranë!'</a>
+
+<br />
+
 {{< embed id="Rr5sjuMqQ-U" thumb="salary-scandal.jpg" lang="Albanian" title="Lista e tetorit dhe llogaritë bankare priten të dalin?!" >}}
 
 <br />
