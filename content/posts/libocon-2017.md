@@ -2,7 +2,7 @@
 draft = "true"
 title = "LibreOffice Conference 2017 - Rome"
 date = "2017-10-18 12:00:00"
-images = ['/img/posts/libocon.png']
+images = ['/img/posts/libocon.webp']
 description = 'The annual international conference of the LibreOffice project'
 tags = ["rome", "conference", "libreoffice", "foss", "report"]
 categories = ["conference", "report", "blog"]

@@ -2,7 +2,7 @@
 draft = "true"
 title = "Doku Tech Festival 2018"
 date = "2018-06-15 12:00:00"
-images = ['/img/posts/dokutech.png']
+images = ['/img/posts/dokutech.webp']
 description = 'The annual tech festival in Kosovo'
 tags = ["event", "kosovo", "pristina", "report", "blog", "festival"]
 categories = ["event", "report", "festival", "dokutech"]

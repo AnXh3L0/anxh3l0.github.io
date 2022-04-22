@@ -2,7 +2,7 @@
 draft = "true"
 title = "Wiki Weekend Tirana 2016"
 date = "2016-12-14 12:00:00"
-images = ['/img/posts/wiki-weekend.png']
+images = ['/img/posts/wiki-weekend.webp']
 description = 'The free knowledge wiki conference'
 tags = ["albania", "conference", "wikimedia", "knowledge", "report"]
 categories = ["conference", "report"]

@@ -1,7 +1,7 @@
 +++
 title = "Google Fonts installer"
 date = "2021-06-06 23:50:00"
-images = ['/img/posts/google-fonts.png']
+images = ['/img/posts/google-fonts.webp']
 description = 'A script to install all Google Fonts locally'
 tags = ["fonts", "google", "script", "privacy", "local", "offline"]
 categories = ["script", "privacy"]

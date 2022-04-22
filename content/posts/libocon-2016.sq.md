@@ -1,7 +1,7 @@
 +++
 title = "LibreOffice Conference 2016 - Brno"
 date = "2016-09-11 12:00:00"
-images = ['/img/posts/libreoffice.png']
+images = ['/img/posts/libreoffice.webp']
 tags = ["libreoffice", "conference", "report", "blog"]
 categories = ["libreoffice", "conference"]
 aliases = "/libocon-2016"
@@ -17,29 +17,29 @@ Prezent në këtë konferencë isha së bashku me 2 anëtarë të tjerë të kom
 Konferenca u mbajt në qytetin e Brno, në Republikën Çeke, në Fakultetin e Teknologjisë. Prezent ishin kontribues nga e gjithë bota, shumica nga shtetet si Itali, Gjermani, USA, Tajvan, Japoni etj.
 Secili prej tyre prezantoi rreth një teme të caktuar dhe kishte diskutime të gjata për mënyrat se si mund të përhapet më shumë kjo suitë tek individët e zakonshëm dhe nëpër organizata e administrata qeveritare. Siç duket dhe nga fotot, një pjesë e madhe e të pranishmëve (ku numri total arrinte tek 130), ishin të moshave mbi 30-35 vjeç, gjë që nuk më pëlqeu dhe aq të them të drejtën, prisja që të kishte një mesatare të moshës rreth 25-30, por mesa dukej këta persona e dinin se cfarë ishin duke bërë dhe të sigurt në fjalët që formulonin.
 
-![Brno](/img/posts/libocon2016-brno-1.jpg)
+![Brno](/img/posts/libocon2016-brno-1.webp)
 
-![Universiteti në Brno](/img/posts/libocon2016-brno-2.jpg)
+![Universiteti në Brno](/img/posts/libocon2016-brno-2.webp)
 
-![Prezantimi në sallën kryesore](/img/posts/libocon2016-brno-3.jpg)
+![Prezantimi në sallën kryesore](/img/posts/libocon2016-brno-3.webp)
 
 Personalisht, pata një prezantim të dyfishtë së bashku dhe me një mik timin, ku gjatë 30 minutave prezantuam gjendjen e komunitetit të LibreOffice në Shqipëri, që prej fillimit dhe vështirësitë që kemi hasur, e deri në ditët e sotme dhe se cfarë mund të bënim më tepër për të ardhmen, në përpjekje për ta përhapur më tej idelogjinë e softuerit me burim të hapur dhe të lirë për të gjithë.
 
-![Prezantimi im](/img/posts/libocon2016-presentation.jpg)
+![Prezantimi im](/img/posts/libocon2016-presentation.webp)
 
 Pas fundit të cdo dite të konferencës, organizatorët ishin kujdesur që gjithcka të ishte perfekte. Vizituam shumë vende historike në këtë qytet, që nga qendra e tij, muzeu, marketet, e deri tek Shtëpia e Birrës (Çekia është vendi i parë në botë përsa i përket konsumit vjetor të birrës për person). Vizituam zyrat e Red Hat, një kompani shumë e madhe e krijuar rreth vitit 1993, ku diskutuam me të tjerët dhe zhvilluam një hack hour, më pas u zbavitëm duke luajtur bilardo, ping pong etj.
 
-![Koha e lirë për lojra](/img/posts/libocon2016-billiards.jpg)
+![Koha e lirë për lojra](/img/posts/libocon2016-billiards.webp)
 
-![Zona e punës](/img/posts/libocon2016-working.jpg)
+![Zona e punës](/img/posts/libocon2016-working.webp)
 
 Siç e thashë pak më lart, birra në Çeki është shumë cilësore, e vërtetuar në bar Charlie, ku cdo gjë ishte e organizuar në perfeksion. Në Brno janë mbi 5 universitete dhe nga 400.000 banorë rreth 100.000 janë studentë, ku vura re se rrugët ishin boshe, si pasojë e mungesës së tyre. Në përgjithësi banorët ishin shumë të afrueshëm dhe të komunikueshëm. 
 
-![Birraria Charlie](/img/posts/libocon2016-beer.jpg)
+![Birraria Charlie](/img/posts/libocon2016-beer.webp)
 
 Dicka që duhej marrë shembull dhe duhet aplikuar në kryeqytetin tonë ishte sistemi i transportit (tramvaj,urban etj) dhe saktësia e tyre.
 
-![Tramvaj në Brno](/img/posts/libocon2016-brno-tram.jpg)
+![Tramvaj në Brno](/img/posts/libocon2016-brno-tram.webp)
 
 Moti ishte i qëndrueshëm dhe temperaturat ishin ideale, për të na lejuar të qëndronim në shoqërinë e kontribuesve të tjerë. Si përfundim, dua të shtoj se ishte një eksperiencë e paharrueshme dhe shpresoj që të jem prezent vitin e ardhshëm në këtë konferencë e cila do organizohet në Romë.
 

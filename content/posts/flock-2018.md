@@ -2,7 +2,7 @@
 draft = "true"
 title = "Fedora to FLOCK conference - 2018"
 date = "2018-08-14 12:00:00"
-images = ['/img/posts/flock.jpg']
+images = ['/img/posts/flock.webp']
 description ='The annual Fedora community conference'
 tags = ["event", "dresden", "germany", "report", "blog", "conference", "flock"]
 categories = ["event", "report", "conference", "flock"]

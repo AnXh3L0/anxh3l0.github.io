@@ -2,7 +2,7 @@
 draft = "true"
 title = "Open Source Conference Albania 2017"
 date = "2017-05-20 12:00:00"
-images = ['/img/posts/oscal.png']
+images = ['/img/posts/oscal.webp']
 description = 'The biggest FOSS conference in Albania'
 tags = ["albania", "conference", "oscal", "report", "foss"]
 categories = ["conference", "report", "blog", "oscal"]

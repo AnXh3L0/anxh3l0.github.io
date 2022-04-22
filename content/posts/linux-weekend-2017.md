@@ -2,7 +2,7 @@
 draft = "true"
 title = "Linux Weekend 2017"
 date = "2017-04-01 12:00:00"
-cover  = 'posts/linux-weekend.png'
+cover  = 'posts/linux-weekend.webp'
 description = 'The Linux-only conference in Tirana'
 tags = ["albania", "conference", "linux", "foss", "report"]
 categories = ["conference", "report", "blog"]
