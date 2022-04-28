@@ -1,0 +1,6 @@
+{{- $id := .Get "id" | default (.Get 0) -}}
+{{- $title := .Get "title" | default "Embed Video" }}
+{{- $timestamp := .Get "timestamp" | default "0" }}
+{{- $thumb := .Get "thumb" | default "default.webp" }}
+{{- $lang := .Get "lang" | default "sq" }}
+<div class="fb-player" data-id="{{ $id }}" data-timestamp="{{ $timestamp }}" data-title="{{ $title }}" data-thumb="{{ $thumb }}" data-lang="{{ $lang }}"></div>

@@ -9,6 +9,13 @@ Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në 
 
 <br />
 
+{{< fb id="portali.syri.net%2Fvideos%2F1128625541045148%2F" timestamp="3901" thumb="online-shopping.webp" lang="Albanian" title="Blerjet online dhe rreziqet" >}}
+
+**Blerjet online dhe rreziqet** - Në Kafe Shqeto tek Syri TV | 28 Prill 2022
+<a class="nojs-video" href="https://www.facebook.com/watch/live/?v=1128625541045148" target="_blank" rel="noopener noreferrer" title="Blerjet online dhe rreziqet">Ndërlidhja për videon 'Blerjet online dhe rreziqet'</a>
+
+<br />
+
 {{< embed id="uDRQb_bYOnM" thumb="rtsh-oscal.webp" lang="Albanian" title="Edicioni i 7-të i konferencës OSCAL në Tiranë!" >}}
 
 **Edicioni i 7-të i konferencës OSCAL në Tiranë!** - Tek Ora 7 në RTSH | 18 Prill 2022

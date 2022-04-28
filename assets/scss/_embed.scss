@@ -1,5 +1,6 @@
 .youtube-player,
-.player {
+.player,
+.fb-player {
   display: none;
   position: relative;
   padding-bottom: 56.25%;
@@ -18,7 +19,8 @@ audio,
 }
 
 .youtube-player iframe,
-.player iframe {
+.player iframe,
+.fb-player iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -29,7 +31,8 @@ audio,
 }
 
 .youtube-player img,
-.player img {
+.player img,
+.fb-player img {
   object-fit: cover;
   display: block;
   left: 0;
@@ -48,7 +51,8 @@ audio,
 }
 
 .youtube-player img:hover,
-.player img:hover {
+.player img:hover,
+.fb-player img:hover {
   filter: brightness(.9);
   & ~ .play {
     width: 5.5rem;
@@ -58,7 +62,8 @@ audio,
 }
 
 .youtube-player .play,
-.player .play {
+.player .play,
+.fb-player .play {
   position: absolute;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='107.35' height='119.066' viewBox='0 0 28.403 31.503'%3E%3Cpath d='M0 4.495C0 .49 2.836-1.148 6.305.855L25.803 12.11c3.467 2.003 3.467 5.281 0 7.282L6.305 30.649C2.836 32.65 0 31.013 0 27.009z' fill='%23fff'/%3E%3C/svg%3E")
     no-repeat;

@@ -9,6 +9,13 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br />
 
+{{< fb id="portali.syri.net%2Fvideos%2F1128625541045148%2F" timestamp="3901" thumb="online-shopping.webp" lang="Albanian" title="Online shopping and risks" >}}
+
+**Online shopping and risks** - At Kafe Shqeto on Syri TV | 28 April 2022
+<a class="nojs-video" href="https://www.facebook.com/watch/live/?v=1128625541045148" target="_blank" rel="noopener noreferrer" title="Online shopping and risks">Link to video 'Online shopping and risks'</a>
+
+<br />
+
 {{< embed id="uDRQb_bYOnM" thumb="rtsh-oscal.webp" lang="Albanian" title="7th edition of OSCAL in Tirana" >}}
 
 **7th edition of OSCAL in Tirana** - At Ora 7 on RTSH | 18 April 2022
