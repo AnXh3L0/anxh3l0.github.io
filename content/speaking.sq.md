@@ -5,7 +5,14 @@ js = true
 
 Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në evente të ndryshme dhe shfaqje televizive. Nëse dëshironi të bashkëpunojmë, mund të më [kontaktoni](/about#kontakt).
 
-(!) Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vetëm pasi të klikoni në një video ato do të fillojnë të shkarkohen. [Politika e privatësisë së YouTube](https://policies.google.com/privacy) aplikohet mbi këtë përmbajtje.
+(!) Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vetëm pasi të klikoni në një video ato do të fillojnë të shkarkohen. [Politika e privatësisë së YouTube](https://policies.google.com/privacy) dhe [Facebook](https://www.facebook.com/about/privacy/update "Facebook Privacy Policy") aplikohet mbi këtë përmbajtje.
+
+<br />
+
+{{< embed id="Wf5pmziPkiY" thumb="abcnews-darkweb.webp" lang="Albanian" title="Rrjeti i errët | Dark Web" >}}
+
+**Rrjeti i errët | Dark Web** - Tek Piranjat në ABC News | 03 Maj 2022 | Fillon nga [28:20](https://youtu.be/Wf5pmziPkiY?t=1700)
+<a class="nojs-video" href="https://youtu.be/Wf5pmziPkiY?t=1700" target="_blank" rel="noopener noreferrer" title="Rrjeti i errët">Ndërlidhja për videon 'Rrjeti i errët'</a>
 
 <br />
 
