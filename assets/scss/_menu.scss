@@ -90,6 +90,7 @@ nav {
 
 @media #{$media-size-phone} {
   #menu label {
+    cursor: pointer;
     display: inline-block;
     color: $light-color;
     font-size: 1.25rem;
