@@ -1,39 +1,12 @@
 <header>
-  <div>
+  <div id="menu">
     <a href="{{ .Site.BaseURL }}">
       <img src="/favicons/favicon.svg" width="45px" alt="Alpro Development logo" />
     </a>
-    {{ if len .Site.Menus }}
-    {{ partial "menu.html" . }}
-    <span class="menu-trigger">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-        </svg>
-    </span>
-    {{ end }}
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger"/>
+      {{ if len .Site.Menus }}
+      {{ partial "menu.html" . }}
+      {{ end }}
   </div>
-  <script>
-    // Mobile menu
-    const menuTrigger = document.querySelector(".menu-trigger");
-    const menu = document.querySelector("nav");
-    const mobileQuery = getComputedStyle(document.body).getPropertyValue(
-      "--phoneWidth"
-    );
-    const isMobile = () => window.matchMedia(mobileQuery).matches;
-    const isMobileMenu = () => {
-      menuTrigger && menuTrigger.classList.toggle("hidden", !isMobile());
-      menu && menu.classList.toggle("hidden", isMobile());
-    };
-    
-    isMobileMenu();
-    
-    menuTrigger &&
-      menuTrigger.addEventListener(
-        "click",
-        () => menu && menu.classList.toggle("hidden")
-      );
-    
-    window.addEventListener("resize", isMobileMenu);
-  </script>
 </header>
