@@ -8,3 +8,8 @@ $light-border-color: #dcdcdc;
 
 $media-size-phone: "(max-width: 42.75rem)";
 $media-size-tablet: "(max-width: 56.25rem)";
+
+:root {
+    --phoneWidth: (max-width: 684px);
+    --tabletWidth: (max-width: 900px);
+}  

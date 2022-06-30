@@ -31,7 +31,15 @@ nav {
   }
 
   @media #{$media-size-phone} {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    border: none;
+    outline: 1px solid $light-border-color;
+    margin: 0;
+    padding: 10px;
     ul {
+      flex-direction: column;
       font-size: .85rem;
       flex-wrap: wrap;
     }
@@ -60,6 +68,12 @@ nav {
   }
 }
 
+// @media #{$media-size-phone} {
+//   nav {
+//     display: none;
+//   }
+// }
+
 #TableOfContents {
   background: transparent;
 
@@ -72,5 +86,18 @@ nav {
     top: 0;
     right: 0;
     border: none;
+  }
+}
+
+.menu-trigger {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  margin-left: 10px;
+  cursor: pointer;
+  display: none;
+
+  @media #{$media-size-phone} {
+    display: block;
   }
 }

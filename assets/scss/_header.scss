@@ -7,10 +7,14 @@ header {
   top: 0;
   z-index: 1000;
   width: 100%;
-  padding: 1.25rem;
+  padding: .75rem 1.25rem;
   box-shadow: 0 .25rem .5rem #00000012;
 
-  @media #{$media-size-phone} {
-    padding: 1.25rem 1rem;
+  & div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 760px;
+    max-width: 100%;
   }
 }

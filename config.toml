@@ -91,6 +91,10 @@ disableHugoGeneratorInject = true
   [[params.social]]
     name = "github"
     url  = "https://github.com/AnXh3L0"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/anxhelolushka"
   
   [[params.social]]
     name = "linkedin"
@@ -112,35 +116,30 @@ disableHugoGeneratorInject = true
     homeSubtitle = "**Anxhelo Lushka** | Developer | DevOps"
     poweredBy = 'Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>'
   [[languages.en.menu.main]]
-    identifier = "home"
-    name       = "Home"
-    url        = "/"
-    weight     = "1"
-  [[languages.en.menu.main]]
     identifier = "about"
     name       = "About"
     url        = "/about/"
-    weight     = "2"
+    weight     = "1"
   [[languages.en.menu.main]]
     identifier = "portfolio"
     name       = "Portfolio"
     url        = "/portfolio/"
-    weight     = "3"
+    weight     = "2"
   [[languages.en.menu.main]]
     identifier = "speaking"
     name       = "Speaking"
     url        = "/speaking/"
-    weight     = "4"
+    weight     = "3"
   [[languages.en.menu.main]]
     identifier = "misc"
     name       = "Misc"
     url        = "/misc/"
-    weight     = "5"
+    weight     = "4"
   [[languages.en.menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "/posts/"
-    weight     = "6"
+    weight     = "5"
 
   [languages.sq]
     subtitle  = ""
@@ -149,35 +148,30 @@ disableHugoGeneratorInject = true
     homeSubtitle = "**Anxhelo Lushka** | Zhvillues | DevOps"
     poweredBy = 'Fuqizuar nga <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>'
   [[languages.sq.menu.main]]
-    identifier = "home"
-    name       = "Krye"
-    url        = "/"
-    weight     = "1"
-  [[languages.sq.menu.main]]
     identifier = "about"
     name       = "Rreth"
     url        = "/about/"
-    weight     = "2"
+    weight     = "1"
   [[languages.sq.menu.main]]
     identifier = "portfolio"
     name       = "Projektet"
     url        = "/portfolio/"
-    weight     = "3"
+    weight     = "2"
   [[languages.sq.menu.main]]
     identifier = "speaking"
     name       = "Oratoria"
     url        = "/speaking/"
-    weight     = "4"
+    weight     = "3"
   [[languages.sq.menu.main]]
     identifier = "misc"
     name       = "Mikse"
     url        = "/misc/"
-    weight     = "5"
+    weight     = "4"
   [[languages.sq.menu.main]]
     identifier = "posts"
     name       = "Postimet"
     url        = "/posts/"
-    weight     = "6"
+    weight     = "5"
 
 [privacy]
   [privacy.instagram]
