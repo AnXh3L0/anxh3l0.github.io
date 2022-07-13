@@ -45,7 +45,7 @@
 <link href="{{ if .OutputFormats.Get "json" }}{{ .Site.BaseURL }}feed.json{{ end }}" rel="alternate" type="application/json" title="{{ .Site.Title }}" /> {{ end }}
 
 <!-- Plausible -->
-<script defer data-api="/api/event/" data-domain="lushka.al" src="/js/plausible.js"></script>
+<script defer data-api="/api/event" data-domain="lushka.al" src="/js/plausible.js"></script>
 
 <!-- Custom head tags -->
 {{- if templates.Exists "partials/extra-head.html" -}}
