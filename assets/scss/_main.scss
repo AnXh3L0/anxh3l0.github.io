@@ -1,8 +1,11 @@
 :root {
   font-size: 16px;
+  --phoneWidth: (max-width: 684px);
+  --tabletWidth: (max-width: 900px);
 }
 
 html {
+  tab-size: 4;
   box-sizing: border-box;
   line-height: 1.6;
   letter-spacing: .05em;
@@ -15,10 +18,10 @@ html {
   *,
   *::before,
   *::after {
-    animation-duration: .01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: .01ms !important;
-    scroll-behavior: auto !important;
+    animation-duration: .01ms;
+    animation-iteration-count: 1;
+    transition-duration: .01ms;
+    scroll-behavior: auto;
   }
 }
 
@@ -190,7 +193,7 @@ pre {
   }
 
   code {
-    background: none !important;
+    background: none;
     color: #ccc;
     margin: 0;
     padding: 0;
@@ -284,9 +287,9 @@ hr {
   margin: -1px;
   overflow: hidden;
   padding: 0;
-  position: absolute !important;
+  position: absolute;
   width: 1px;
-  word-wrap: normal !important;
+  word-wrap: normal;
 }
 
 .screen-reader-text:focus {
