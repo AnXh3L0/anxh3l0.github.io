@@ -9,10 +9,17 @@ Below you will find a few of the talks/interviews/etc I've given in different ev
 
 <br />
 
-{{< embed id="Wf5pmziPkiY" thumb="abcnews-darkweb.webp" lang="Albanian" title="The dark web" >}}
+{{< embed id="ZznAq6IC-4o" timestamp="430" thumb="cyberattack-on-gov.webp" lang="Albanian" title="The cybersecurity attack on Albanian gov sites" >}}
 
-**The dark web** - At Piranjat on ABC News | 03 May 2022 | Starts at [28:20](https://youtu.be/Wf5pmziPkiY?t=1700)
-<a class="nojs-video" href="https://youtu.be/Wf5pmziPkiY?t=1700" target="_blank" rel="noopener noreferrer" title="The dark web">Link to video 'The dark web'</a>
+**The cybersecurity attack on Albanian gov sites** - At Top News | 21 July 2022 | Starts at [7:10](https://youtu.be/ZznAq6IC-4o?&=430)
+<a class="nojs-video" href="https://youtu.be/ZznAq6IC-4o&t=430" target="_blank" rel="noopener noreferrer" title="The cybersecurity attack on Albanian gov sites">Link to video 'The cybersecurity attack on Albanian gov sites'</a>
+
+<br />
+
+{{< embed id="Wf5pmziPkiY" timestamp="1700" thumb="abcnews-darkweb.webp" lang="Albanian" title="The dark web" >}}
+
+**The dark web** - At Piranjat on ABC News | 03 May 2022 | Starts at [28:20](https://youtu.be/Wf5pmziPkiY&t=1700)
+<a class="nojs-video" href="https://youtu.be/Wf5pmziPkiY&t=1700" target="_blank" rel="noopener noreferrer" title="The dark web">Link to video 'The dark web'</a>
 
 <br />
 

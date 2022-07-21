@@ -2,4 +2,5 @@
 {{- $title := .Get "title" | default "Embed Video" }}
 {{- $thumb := .Get "thumb" | default "default.webp" }}
 {{- $lang := .Get "lang" | default "sq" }}
-<div class="youtube-player" data-id="{{ $id }}" data-title="{{ $title }}" data-thumb="{{ $thumb }}" data-lang="{{ $lang }}"></div>
+{{- $timestamp := .Get "timestamp" | default "0" }}
+<div class="youtube-player" data-id="{{ $id }}" data-timestamp="{{ $timestamp }}" data-title="{{ $title }}" data-thumb="{{ $thumb }}" data-lang="{{ $lang }}"></div>

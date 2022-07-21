@@ -5,8 +5,9 @@ function embedIframe(div) {
   iframe.setAttribute(
     "src",
     "https://www.youtube-nocookie.com/embed/" +
-      div.dataset.id +
-      "?autoplay=1&rel=0"
+      div.dataset.id + 
+      "?start=" + 
+      div.dataset.timestamp
   );
   iframe.setAttribute("title", div.dataset.title);
   iframe.setAttribute("frameborder", "0");
@@ -62,10 +63,12 @@ function initYouTubeVideos() {
     let videoTitle = playerElements[n].dataset.title;
     let videoLang = playerElements[n].dataset.lang;
     let thumbImage = playerElements[n].dataset.thumb;
+    let videoTimestamp = playerElements[n].dataset.timestamp;
     let div = document.createElement("div");
     div.setAttribute("data-id", videoId);
     div.setAttribute("data-thumb", thumbImage);
     div.setAttribute("data-lang", videoLang);
+    div.setAttribute("data-timestamp", videoTimestamp);
     let thumbNode = document.createElement("img");
     thumbNode.setAttribute("loading", "lazy");
     thumbNode.alt = videoTitle;
