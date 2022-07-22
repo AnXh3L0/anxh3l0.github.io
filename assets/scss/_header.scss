@@ -23,6 +23,15 @@ header {
   }
 
   & #logo {
+    font-weight: 700;
     text-decoration: none;
+
+    &:hover {
+      box-shadow: inset 0 -0.2rem salmon;
+    }
+
+    &:focus-visible {
+      @include focus;
+    }
   }
 }

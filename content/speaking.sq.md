@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="kYMI-r46oCM" thumb="weird-santa-sms.webp" lang="Albanian" title="Mesazhet e dyshimta nga Babagjyshi" >}}
+
+**Mesazhet e dyshimta nga Babagjyshi** - Tek Euronews Albania | 22 Korrik 2022
+<a class="nojs-video" href="https://youtu.be/kYMI-r46oCM" target="_blank" rel="noopener noreferrer" title="Mesazhet e dyshimta nga Babagjyshi">Ndërlidhja për videon 'Mesazhet e dyshimta nga Babagjyshi'</a>
+
+<br />
+
 {{< embed id="ZznAq6IC-4o" timestamp="430" thumb="cyberattack-on-gov.webp" lang="Albanian" title="Sulmi kibernetik mbi faqet qeveritare në Shqipëri" >}}
 
 **Sulmi kibernetik mbi faqet qeveritare në Shqipëri** - Në Top News | 21 Korrik 2022 | Fillon nga [7:10](https://youtu.be/ZznAq6IC-4o?&=430)

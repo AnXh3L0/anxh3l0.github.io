@@ -11,6 +11,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="kYMI-r46oCM" thumb="weird-santa-sms.webp" lang="Albanian" title="The weird SMS-s from Santa" >}}
+
+**The weird SMS-s from Santa** - At Euronews Albania | 22 July 2022
+<a class="nojs-video" href="https://youtu.be/kYMI-r46oCM" target="_blank" rel="noopener noreferrer" title="The weird SMS-s from Santa">Link to video 'The weird SMS-s from Santa'</a>
+
+<br />
+
 {{< embed id="ZznAq6IC-4o" timestamp="430" thumb="cyberattack-on-gov.webp" lang="Albanian" title="The cyberattack on Albanian gov sites" >}}
 
 **The cyberattack on Albanian gov sites** - At Top News | 21 July 2022 | Starts at [7:10](https://youtu.be/ZznAq6IC-4o?&=430)
