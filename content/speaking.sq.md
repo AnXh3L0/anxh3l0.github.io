@@ -6,7 +6,7 @@ js = true
 Më poshtë do të gjeni disa nga fjalimet/intervistat etj. që kam dhënë në evente të ndryshme dhe shfaqje televizive. Nëse dëshironi të bashkëpunojmë, mund të më [kontaktoni](/about#kontakt).
 
 {{< notice note >}}
-Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vetëm pasi të klikoni në një video ato do të fillojnë të shkarkohen. [Politika e privatësisë së YouTube](https://policies.google.com/privacy) dhe [Facebook](https://www.facebook.com/about/privacy/update "Facebook Privacy Policy") aplikohet mbi këtë përmbajtje.
+Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, videot do të ngarkohen vetëm pasi të klikoni mbi to. [Politika e privatësisë së YouTube](https://policies.google.com/privacy) dhe [Facebook](https://www.facebook.com/about/privacy/update "Facebook Privacy Policy") aplikohet mbi këtë përmbajtje.
 {{< /notice >}}
 
 <br />
