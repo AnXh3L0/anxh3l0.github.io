@@ -2,16 +2,13 @@
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
 # Generic
-#
 [translations]
 other = "Translations"
 
 [postAvailable]
 other = "Also available in"
 
-
 # 404.html
-#
 [archives]
 other = "Posts"
 
@@ -21,9 +18,7 @@ other = "Home"
 [notFound]
 other = "Oops, page not found…"
 
-
 # posts/single.html
-#
 [readingTime]
 one   = "One minute"
 other = "{{ .Count }} minutes"
@@ -40,3 +35,15 @@ other = "Published on"
 
 [updatedOn]
 other = "last updated on"
+
+[warning]
+other = "Warning"
+
+[note]
+other = "Notice"
+
+[info]
+other = "Info"
+
+[tip]
+other = "Tip"

@@ -5,7 +5,9 @@ js = true
 
 Below you will find a few of the talks/interviews/etc I've given in different events and TV shows. If you would like to collaborate, you can [contact](/about#contact) me.
 
-(!) To preserve visitor privacy without sacrificing usability, the videos load only after clicking on the thumbnails. The [YouTube privacy policy](https://policies.google.com/privacy "Google Privacy Policy applies here") and the [Facebook privacy policy](https://www.facebook.com/about/privacy/update "Facebook Privacy Policy applies here") applies to this content.
+{{< notice note >}}
+To preserve visitor privacy without sacrificing usability, the videos load only after clicking on the thumbnails. The [YouTube privacy policy](https://policies.google.com/privacy "Google Privacy Policy applies here") and the [Facebook privacy policy](https://www.facebook.com/about/privacy/update "Facebook Privacy Policy applies here") applies to this content.
+{{< /notice >}}
 
 <br />
 
