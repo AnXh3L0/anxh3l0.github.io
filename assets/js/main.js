@@ -66,6 +66,7 @@ function initYouTubeVideos() {
     let videoTimestamp = playerElements[n].dataset.timestamp;
     let div = document.createElement("div");
     div.setAttribute("data-id", videoId);
+    div.setAttribute("data-title", videoTitle);
     div.setAttribute("data-thumb", thumbImage);
     div.setAttribute("data-lang", videoLang);
     div.setAttribute("data-timestamp", videoTimestamp);
@@ -101,6 +102,7 @@ function initBBBVideos() {
     let timestamp = playerElements[n].dataset.timestamp;
     let div = document.createElement("div");
     div.setAttribute("data-id", videoId);
+    div.setAttribute("data-title", videoTitle);
     div.setAttribute("data-domain", domain);
     div.setAttribute("data-thumb", thumbImage);
     div.setAttribute("data-lang", videoLang);
@@ -136,6 +138,7 @@ function initFBVideos() {
     let timestamp = playerElements[n].dataset.timestamp;
     let div = document.createElement("div");
     div.setAttribute("data-id", videoId);
+    div.setAttribute("data-title", videoTitle);
     div.setAttribute("data-thumb", thumbImage);
     div.setAttribute("data-lang", videoLang);
     div.setAttribute("data-timestamp", timestamp);
