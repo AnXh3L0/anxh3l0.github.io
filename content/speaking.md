@@ -11,10 +11,10 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
-{{< embed id="ZznAq6IC-4o" timestamp="430" thumb="cyberattack-on-gov.webp" lang="Albanian" title="The cybersecurity attack on Albanian gov sites" >}}
+{{< embed id="ZznAq6IC-4o" timestamp="430" thumb="cyberattack-on-gov.webp" lang="Albanian" title="The cyberattack on Albanian gov sites" >}}
 
-**The cybersecurity attack on Albanian gov sites** - At Top News | 21 July 2022 | Starts at [7:10](https://youtu.be/ZznAq6IC-4o?&=430)
-<a class="nojs-video" href="https://youtu.be/ZznAq6IC-4o&t=430" target="_blank" rel="noopener noreferrer" title="The cybersecurity attack on Albanian gov sites">Link to video 'The cybersecurity attack on Albanian gov sites'</a>
+**The cyberattack on Albanian gov sites** - At Top News | 21 July 2022 | Starts at [7:10](https://youtu.be/ZznAq6IC-4o?&=430)
+<a class="nojs-video" href="https://youtu.be/ZznAq6IC-4o&t=430" target="_blank" rel="noopener noreferrer" title="The cyberattack on Albanian gov sites">Link to video 'The cyberattack on Albanian gov sites'</a>
 
 <br />
 
