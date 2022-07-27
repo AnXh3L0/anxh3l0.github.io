@@ -4,6 +4,8 @@ title = "Portfolio"
 
 Below you will find a few of my works, ordered from newest to oldest.
 
+{{< figure src="/img/portfolio/icarus-styleguide-thumb.webp" link="icarus" title="Icarus Project Style Guide" alt="Icarus Style Guide" >}}
+
 {{< figure src="/img/portfolio/genderly-thumb.webp" link="genderly" title="Genderly" alt="Genderly" >}}
 
 {{< figure src="/img/portfolio/infrastructurefund-thumb.webp" link="infrastructurefund" title="Infrastructure Fund" alt="Infrastructure Fund" >}}
