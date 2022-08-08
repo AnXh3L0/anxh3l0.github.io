@@ -1,4 +1,4 @@
-<nav id="menu-items" role="navigation">
+<nav id="menu-items">
   <ul>
     {{- $firstUrlElement := print "/" (index (split .RelPermalink "/") 1) "/" -}}
     {{- range .Site.Menus.main -}}
