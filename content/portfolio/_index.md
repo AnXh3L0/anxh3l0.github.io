@@ -4,6 +4,10 @@ title = "Portfolio"
 
 Below you will find a few of my works, ordered from newest to oldest.
 
+{{< figure src="/img/portfolio/uradesign-thumb.webp" link="ura-design" title="Ura Design Website" alt="Ura Design Website" >}}
+
+{{< figure src="/img/portfolio/cultivationspace-thumb.webp" link="cultivation-space" title="Cultivation Space Website" alt="Cultivation Space Website" >}}
+
 {{< figure src="/img/portfolio/icarus-styleguide-thumb.webp" link="icarus" title="Icarus Project Style Guide" alt="Icarus Style Guide" >}}
 
 {{< figure src="/img/portfolio/genderly-thumb.webp" link="genderly" title="Genderly" alt="Genderly" >}}
