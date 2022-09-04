@@ -11,6 +11,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="SXyeS6rkDsI" timestamp="135" thumb="socialmedia-parents-abcnews.webp" lang="Albanian" title="Parental control on social media apps" >}}
+
+**Parental control on social media apps** - At ABC News | 4 September 2022 | Starts at [2:14](https://youtu.be/SXyeS6rkDsI&t=135)
+<a class="nojs-video" href="https://youtu.be/SXyeS6rkDsI&t=135" target="_blank" rel="noopener noreferrer" title="Parental control on social media apps">Link to video 'Parental control on social media apps'</a>
+
+<br />
+
 {{< embed id="kYMI-r46oCM" thumb="weird-santa-sms.webp" lang="Albanian" title="The weird SMS-s from Santa" >}}
 
 **The weird SMS-s from Santa** - At Euronews Albania | 22 July 2022

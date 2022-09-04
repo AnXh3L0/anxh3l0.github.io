@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="SXyeS6rkDsI" timestamp="135" thumb="socialmedia-parents-abcnews.webp" lang="Albanian" title="Kontrolli prindëror mbi rrjetet sociale" >}}
+
+**Kontrolli prindëror mbi rrjetet sociale** - Në ABC News | 4 Shtator 2022 | Fillon nga [2:14](https://youtu.be/SXyeS6rkDsI&t=135)
+<a class="nojs-video" href="https://youtu.be/SXyeS6rkDsI&t=135" target="_blank" rel="noopener noreferrer" title="Kontrolli prindëror mbi rrjetet sociale">Ndërlidhja për videon 'Kontrolli prindëror mbi rrjetet sociale'</a>
+
+<br />
+
 {{< embed id="kYMI-r46oCM" thumb="weird-santa-sms.webp" lang="Albanian" title="Mesazhet e dyshimta nga Babagjyshi" >}}
 
 **Mesazhet e dyshimta nga Babagjyshi** - Tek Euronews Albania | 22 Korrik 2022
