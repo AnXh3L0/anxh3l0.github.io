@@ -11,6 +11,10 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< audio src="/files/Cyberattacks.mp3" class="audio-file" ext="mp3" caption="**Sulmet kibernetike në Ballkanin Perëndimor** - Në Radio Ejani | 6 Shtator 2022 | [Ndërlidhja direkte e artikullit](https://albanian.cri.cn/2022/09/06/VIDEj4g9kxPtPPiCPqcDx6p3220906.shtml) " >}}
+
+<br />
+
 {{< embed id="SXyeS6rkDsI" timestamp="135" thumb="socialmedia-parents-abcnews.webp" lang="Albanian" title="Kontrolli prindëror mbi rrjetet sociale" >}}
 
 **Kontrolli prindëror mbi rrjetet sociale** - Në ABC News | 4 Shtator 2022 | Fillon nga [2:14](https://youtu.be/SXyeS6rkDsI&t=135)

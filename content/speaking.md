@@ -11,6 +11,10 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< audio src="/files/Cyberattacks.mp3" class="audio-file" ext="mp3" caption="**Cyberattacks in Western Balkans** - At Radio Ejani | 6 September 2022 | [Direct article link](https://albanian.cri.cn/2022/09/06/VIDEj4g9kxPtPPiCPqcDx6p3220906.shtml) " >}}
+
+<br />
+
 {{< embed id="SXyeS6rkDsI" timestamp="135" thumb="socialmedia-parents-abcnews.webp" lang="Albanian" title="Parental control on social media apps" >}}
 
 **Parental control on social media apps** - At ABC News | 4 September 2022 | Starts at [2:14](https://youtu.be/SXyeS6rkDsI&t=135)
