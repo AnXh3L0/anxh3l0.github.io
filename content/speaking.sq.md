@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="lATDGdopHFA" thumb="cyberattacks-rtsh1.webp" lang="Albanian" title="Sulmet kibernetike dhe sistemet mbrojtëse" >}}
+
+**Sulmet kibernetike dhe sistemet mbrojtëse** - Tek Mirëmëngjes Shqipëri në RTSH 1 | 8 Shtator 2022 
+<a class="nojs-video" href="https://youtu.be/lATDGdopHFA" target="_blank" rel="noopener noreferrer" title="Sulmet kibernetike dhe sistemet mbrojtëse">Ndërlidhja për videon 'Sulmet kibernetike dhe sistemet mbrojtëse'</a>
+
+<br />
+
 {{< audio src="/files/Cyberattacks.mp3" class="audio-file" ext="mp3" caption="**Sulmet kibernetike në Ballkanin Perëndimor** - Në Radio Ejani | 6 Shtator 2022 | [Ndërlidhja direkte e artikullit](https://albanian.cri.cn/2022/09/06/VIDEj4g9kxPtPPiCPqcDx6p3220906.shtml) " >}}
 
 <br />

@@ -11,6 +11,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="lATDGdopHFA" thumb="cyberattacks-rtsh1.webp" lang="Albanian" title="The cyberattacks and defensive tools" >}}
+
+**The cyberattacks and defensive tools** - At Mirëmëngjes Shqipëri on RTSH 1 | 8 September 2022 
+<a class="nojs-video" href="https://youtu.be/lATDGdopHFA" target="_blank" rel="noopener noreferrer" title="The cyberattacks and defensive tools">Link to video 'The cyberattacks and defensive tools'</a>
+
+<br />
+
 {{< audio src="/files/Cyberattacks.mp3" class="audio-file" ext="mp3" caption="**Cyberattacks in Western Balkans** - At Radio Ejani | 6 September 2022 | [Direct article link](https://albanian.cri.cn/2022/09/06/VIDEj4g9kxPtPPiCPqcDx6p3220906.shtml) " >}}
 
 <br />
