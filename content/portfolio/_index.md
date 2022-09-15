@@ -68,13 +68,9 @@ Below you will find a few of my works, ordered from newest to oldest.
 
 {{< figure src="/img/portfolio/adaway-thumb.webp" link="adaway" title="AdAway" alt="AdAway Website" >}}
 
-{{< figure src="/img/portfolio/sirvpn-thumb.webp" link="sirvpn" title="SirVPN" alt="SirVPN Website" >}}
-
 {{< figure src="/img/portfolio/ask-website-thumb.webp" link="anysoftkeyboard" title="AnySoftKeyboard" alt="AnySoftKeyboard Website" >}}
 
 {{< figure src="/img/portfolio/libocon-thumb.webp" link="libocon" title="LibOCon 2018" alt="LibOCon 2018 Branding" >}}
-
-{{< figure src="/img/portfolio/privacy-today-thumb.webp" link="privacytoday" title="Privacy Today" alt="Privacy Today Branding" >}}
 
 {{< figure src="/img/portfolio/passman-thumb.webp" link="passman" title="Passman" alt="Passman Graphics" >}}
 
