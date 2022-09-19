@@ -62,8 +62,6 @@ Below you will find a few of my works, ordered from newest to oldest.
 
 {{< figure src="/img/portfolio/securedrop-styleguide-thumb.webp" link="securedrop-styleguide" title="SecureDrop Style Guide" alt="SecureDrop Style Guide Website" >}}
 
-{{< figure src="/img/portfolio/osd-summit-thumb.webp" link="opensourcedesign-summit" title="Open Source Design Summit" alt="Open Source Design Summit Website" >}}
-
 {{< figure src="/img/portfolio/reproducible-builds-thumb.webp" link="reproduciblebuilds-styleguide" title="Reproducible Builds Style Guide" alt="Reproducible Builds Style Guide" >}}
 
 {{< figure src="/img/portfolio/adaway-thumb.webp" link="adaway" title="AdAway" alt="AdAway Website" >}}
