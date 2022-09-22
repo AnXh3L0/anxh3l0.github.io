@@ -32,7 +32,7 @@
     {{- range .Pages }}
         <figure>
             <a href="{{ .Permalink }}">
-                <img src="{{ .Site.BaseURL }}img/portfolio/{{ .Params.img }}" loading="lazy" alt="{{ .Title }}">
+                <img src="{{ .Site.BaseURL }}/img/portfolio/{{ .Params.img }}" loading="lazy" alt="{{ .Title }}">
             </a>
             <figcaption>
                 <h2>{{ .Title }}</h2>
