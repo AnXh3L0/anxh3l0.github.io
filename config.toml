@@ -54,7 +54,7 @@ disableHugoGeneratorInject = true
   # Metadata mostly used in document's head
   description = "My personal website"
   keywords = "design, ux, ui, speaker, public, developer, privacy, security, foss, floss"
-  images = [""]
+  images = ["img/meta/default.png"]
   googleVeri = "EfTDzyY5SKBdXLP7dT3YJX3STlK1JYbol6r8PXHD0qc"
 
   homeSubtitle = ""

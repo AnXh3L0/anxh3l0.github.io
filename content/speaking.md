@@ -1,6 +1,7 @@
 +++
 title = "Speaking"
 js = true
+images = ["/img/meta/speaking.png"]
 +++
 
 Below you will find a few of the talks/interviews/etc I've given in different events and TV shows. If you would like to collaborate, you can [contact](/about#contact) me.
