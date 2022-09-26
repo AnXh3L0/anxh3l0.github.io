@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="JYPQoTC9B6w" thumb="iran-cyberattacks-euronews.webp" lang="Albanian" title="Izolimi i muxhahedinëve në Manëz dhe sulmet kibernetike nga Irani" >}}
+
+**Izolimi i muxhahedinëve në Manëz dhe sulmet kibernetike nga Irani** - Tek Euronews Now në Euronews | 26 Shtator 2022 
+<a class="nojs-video" href="https://youtu.be/JYPQoTC9B6w" target="_blank" rel="noopener noreferrer" title="Izolimi i muxhahedinëve në Manëz dhe sulmet kibernetike nga Irani">Ndërlidhja për videon 'Izolimi i muxhahedinëve në Manëz dhe sulmet kibernetike nga Irani'</a>
+
+<br />
+
 {{< embed id="lATDGdopHFA" thumb="cyberattacks-rtsh1.webp" lang="Albanian" title="Sulmet kibernetike dhe sistemet mbrojtëse" >}}
 
 **Sulmet kibernetike dhe sistemet mbrojtëse** - Tek Mirëmëngjes Shqipëri në RTSH 1 | 8 Shtator 2022 

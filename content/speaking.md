@@ -12,6 +12,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="JYPQoTC9B6w" thumb="iran-cyberattacks-euronews.webp" lang="Albanian" title="The isolation of MEK and Iran cyberattacks" >}}
+
+**The isolation of MEK and Iran cyberattacks** - At Euronews Now on Euronews | 26 September 2022 
+<a class="nojs-video" href="https://youtu.be/JYPQoTC9B6w" target="_blank" rel="noopener noreferrer" title="The isolation of MEK and Iran cyberattacks">Link to video 'The isolation of MEK and Iran cyberattacks'</a>
+
+<br />
+
 {{< embed id="lATDGdopHFA" thumb="cyberattacks-rtsh1.webp" lang="Albanian" title="The cyberattacks and defensive tools" >}}
 
 **The cyberattacks and defensive tools** - At Mirëmëngjes Shqipëri on RTSH 1 | 8 September 2022 
