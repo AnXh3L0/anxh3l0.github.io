@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="Rp7p7-BLpB8" thumb="instagram-tiktok-topnews.webp" lang="Albanian" title="Probleme me Tik Tok dhe Instagram" >}}
+
+**Probleme me Tik Tok dhe Instagram** - Tek Breaking në Top News | 02 Nëntor 2022 
+<a class="nojs-video" href="https://youtu.be/Rp7p7-BLpB8" target="_blank" rel="noopener noreferrer" title="Probleme me Tik Tok dhe Instagram">Ndërlidhja për videon 'Probleme me Tik Tok dhe Instagram'</a>
+
+<br />
+
 {{< embed id="JYPQoTC9B6w" thumb="iran-cyberattacks-euronews.webp" lang="Albanian" title="Izolimi i muxhahedinëve në Manëz dhe sulmet kibernetike nga Irani" >}}
 
 **Izolimi i muxhahedinëve në Manëz dhe sulmet kibernetike nga Irani** - Tek Euronews Now në Euronews | 26 Shtator 2022 

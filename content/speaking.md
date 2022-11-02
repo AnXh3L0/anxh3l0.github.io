@@ -12,6 +12,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="Rp7p7-BLpB8" thumb="instagram-tiktok-topnews.webp" lang="Albanian" title="Instagram and TikTok issues and downtime" >}}
+
+**Instagram and TikTok issues and downtime** - At Breaking on Top News | 02 November 2022 
+<a class="nojs-video" href="https://youtu.be/Rp7p7-BLpB8" target="_blank" rel="noopener noreferrer" title="Instagram and TikTok issues and downtime">Link to video 'Instagram and TikTok issues and downtime'</a>
+
+<br />
+
 {{< embed id="JYPQoTC9B6w" thumb="iran-cyberattacks-euronews.webp" lang="Albanian" title="The isolation of MEK and Iran cyberattacks" >}}
 
 **The isolation of MEK and Iran cyberattacks** - At Euronews Now on Euronews | 26 September 2022 
