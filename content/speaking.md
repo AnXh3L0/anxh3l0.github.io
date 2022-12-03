@@ -12,6 +12,20 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="x5HHUKSAy-E" thumb="topqueries-google.webp" lang="Albanian" title="Top queries on Google for the past month" >}}
+
+**Top queries on Google for the past month** - At Shqipëria Live on Top Channel | 02 December 2022 
+<a class="nojs-video" href="https://youtu.be/x5HHUKSAy-E" target="_blank" rel="noopener noreferrer" title="Top queries on Google for the past month">Link to video 'Top queries on Google for the past month'</a>
+
+<br />
+
+{{< embed id="fmUTzQH9G2w" thumb="callcenter-wages.webp" lang="Albanian" title="Call center fires operators and refuses to pay their salary" >}}
+
+**Call center fires operators and refuses to pay their salary** - At Shqipëria Live on Top Channel | 29 November 2022 
+<a class="nojs-video" href="https://youtu.be/fmUTzQH9G2w" target="_blank" rel="noopener noreferrer" title="Call center fires operators and refuses to pay their salary">Link to video 'Call center fires operators and refuses to pay their salary'</a>
+
+<br />
+
 {{< embed id="Rp7p7-BLpB8" thumb="instagram-tiktok-topnews.webp" lang="Albanian" title="Instagram and TikTok issues and downtime" >}}
 
 **Instagram and TikTok issues and downtime** - At Breaking on Top News | 02 November 2022 

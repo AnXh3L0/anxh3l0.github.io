@@ -11,6 +11,20 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="x5HHUKSAy-E" thumb="topqueries-google.webp" lang="Albanian" title="Kërkimet më të përsëritura në Google për muajin e fundit" >}}
+
+**Kërkimet më të përsëritura në Google për muajin e fundit** - Tek Shqipëria Live në Top Channel | 02 Dhjetor 2022 
+<a class="nojs-video" href="https://youtu.be/x5HHUKSAy-E" target="_blank" rel="noopener noreferrer" title="Kërkimet më të përsëritura në Google për muajin e fundit">Ndërlidhja për videon 'Kërkimet më të përsëritura në Google për muajin e fundit'</a>
+
+<br />
+
+{{< embed id="fmUTzQH9G2w" thumb="callcenter-wages.webp" lang="Albanian" title="Call center pushon punonjësit dhe nuk i paguan" >}}
+
+**Call center pushon punonjësit dhe nuk i paguan** - Tek Shqipëria Live në Top Channel | 29 Nëntor 2022 
+<a class="nojs-video" href="https://youtu.be/fmUTzQH9G2w" target="_blank" rel="noopener noreferrer" title="Call center pushon punonjësit dhe nuk i paguan">Ndërlidhja për videon 'Call center pushon punonjësit dhe nuk i paguan'</a>
+
+<br />
+
 {{< embed id="Rp7p7-BLpB8" thumb="instagram-tiktok-topnews.webp" lang="Albanian" title="Probleme me Tik Tok dhe Instagram" >}}
 
 **Probleme me Tik Tok dhe Instagram** - Tek Breaking në Top News | 02 Nëntor 2022 
