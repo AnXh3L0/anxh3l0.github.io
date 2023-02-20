@@ -12,6 +12,20 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="oiB_9DiLZeM" timestamp="1701" thumb="openai-chatgpt.webp" lang="Albanian" title="Fear from Artificial Intelligence and ChatGPT" >}}
+
+**Fear from Artificial Intelligence and ChatGPT** - At Syri i Botës on Syri TV | 12 February 2023 | Starts at [28:21](https://youtu.be/oiB_9DiLZeM&t=1701)
+<a class="nojs-video" href="https://youtu.be/oiB_9DiLZeM&t=1701" target="_blank" rel="noopener noreferrer" title="Fear from Artificial Intelligence and ChatGPT">Link to video 'Fear from Artificial Intelligence and ChatGPT'</a>
+
+<br />
+
+{{< embed id="fmUTzQH9G2w" thumb="callcenter-wages.webp" lang="Albanian" title="Call center fires operators and refuses to pay their salary" >}}
+
+**Call center fires operators and refuses to pay their salary** - At Shqipëria Live on Top Channel | 29 November 2022 
+<a class="nojs-video" href="https://youtu.be/fmUTzQH9G2w" target="_blank" rel="noopener noreferrer" title="Call center fires operators and refuses to pay their salary">Link to video 'Call center fires operators and refuses to pay their salary'</a>
+
+<br />
+
 {{< embed id="x5HHUKSAy-E" thumb="topqueries-google.webp" lang="Albanian" title="Top queries on Google for the past month" >}}
 
 **Top queries on Google for the past month** - At Shqipëria Live on Top Channel | 02 December 2022 

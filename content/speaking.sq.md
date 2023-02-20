@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="oiB_9DiLZeM" timestamp="1701" thumb="openai-chatgpt.webp" lang="Albanian" title="Frika nga Inteligjenca Artificiale dhe ChatGPT" >}}
+
+**Frika nga Inteligjenca Artificiale dhe ChatGPT** - Tek Syri i Botës në Syri TV | 12 Shkurt 2023 | Fillon nga [28:21](https://youtu.be/oiB_9DiLZeM&t=1701)
+<a class="nojs-video" href="https://youtu.be/oiB_9DiLZeM&t=1701" target="_blank" rel="noopener noreferrer" title="Frika nga Inteligjenca Artificiale dhe ChatGPT">Ndërlidhja për videon 'Frika nga Inteligjenca Artificiale dhe ChatGPT'</a>
+
+<br />
+
 {{< embed id="x5HHUKSAy-E" thumb="topqueries-google.webp" lang="Albanian" title="Kërkimet më të përsëritura në Google për muajin e fundit" >}}
 
 **Kërkimet më të përsëritura në Google për muajin e fundit** - Tek Shqipëria Live në Top Channel | 02 Dhjetor 2022 
