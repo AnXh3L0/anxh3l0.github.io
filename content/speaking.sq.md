@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="bZ9_PmixPAA" thumb="fake-gofundme.webp" lang="Albanian" title="Mashtrimi me GoFundMe dhe bamirësia në TikTok" >}}
+
+**Mashtrimi me GoFundMe dhe bamirësia në TikTok** - Tek Shqipëria Live në Top Channel | 23 Shkurt 2023
+<a class="nojs-video" href="https://youtu.be/bZ9_PmixPAA" target="_blank" rel="noopener noreferrer" title="Mashtrimi me GoFundMe dhe bamirësia në TikTok">Ndërlidhja për videon 'Mashtrimi me GoFundMe dhe bamirësia në TikTok'</a>
+
+<br />
+
 {{< embed id="oiB_9DiLZeM" timestamp="1701" thumb="openai-chatgpt.webp" lang="Albanian" title="Frika nga Inteligjenca Artificiale dhe ChatGPT" >}}
 
 **Frika nga Inteligjenca Artificiale dhe ChatGPT** - Tek Syri i Botës në Syri TV | 12 Shkurt 2023 | Fillon nga [28:21](https://youtu.be/oiB_9DiLZeM&t=1701)

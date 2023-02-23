@@ -12,6 +12,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="bZ9_PmixPAA" thumb="fake-gofundme.webp" lang="Albanian" title="Fake GoFundMe campaign" >}}
+
+**Fake GoFundMe campaign** - At Shqipëria Live on Top Channel | 23 February 2023
+<a class="nojs-video" href="https://youtu.be/bZ9_PmixPAA" target="_blank" rel="noopener noreferrer" title="Fake GoFundMe campaign">Link to video 'Fake GoFundMe campaign'</a>
+
+<br />
+
 {{< embed id="oiB_9DiLZeM" timestamp="1701" thumb="openai-chatgpt.webp" lang="Albanian" title="Fear from Artificial Intelligence and ChatGPT" >}}
 
 **Fear from Artificial Intelligence and ChatGPT** - At Syri i Botës on Syri TV | 12 February 2023 | Starts at [28:21](https://youtu.be/oiB_9DiLZeM&t=1701)
