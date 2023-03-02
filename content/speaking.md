@@ -12,6 +12,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="OBKSvSZnu5M" thumb="depression-tiktok.webp" lang="Albanian" title="Silent depression and how TikTok is 'killing' children" >}}
+
+**Silent depression and how TikTok is 'killing' children** - At Vizioni i Pasdites on Vizion Plus | 2 March 2023
+<a class="nojs-video" href="https://youtu.be/bZ9_PmixPAA" target="_blank" rel="noopener noreferrer" title="Silent depression and how TikTok is 'killing' children">Link to video 'Silent depression and how TikTok is 'killing' children'</a>
+
+<br />
+
 {{< embed id="bZ9_PmixPAA" thumb="fake-gofundme.webp" lang="Albanian" title="Fake GoFundMe campaign" >}}
 
 **Fake GoFundMe campaign** - At Shqipëria Live on Top Channel | 23 February 2023

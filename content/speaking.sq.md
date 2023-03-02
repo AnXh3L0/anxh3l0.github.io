@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="OBKSvSZnu5M" thumb="depression-tiktok.webp" lang="Albanian" title="Depresioni i heshtur dhe si TikTok po 'vret' fëmijët" >}}
+
+**Depresioni i heshtur dhe si TikTok po 'vret' fëmijët** - Tek Vizioni i Pasdites në Vizion Plus | 2 Mars 2023
+<a class="nojs-video" href="https://youtu.be/bZ9_PmixPAA" target="_blank" rel="noopener noreferrer" title="Depresioni i heshtur dhe si TikTok po 'vret' fëmijët">Ndërlidhja për videon 'Depresioni i heshtur dhe si TikTok po 'vret' fëmijët'</a>
+
+<br />
+
 {{< embed id="bZ9_PmixPAA" thumb="fake-gofundme.webp" lang="Albanian" title="Mashtrimi me GoFundMe dhe bamirësia në TikTok" >}}
 
 **Mashtrimi me GoFundMe dhe bamirësia në TikTok** - Tek Shqipëria Live në Top Channel | 23 Shkurt 2023
