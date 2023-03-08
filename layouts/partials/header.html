@@ -2,7 +2,7 @@
   <div id="menu">
     <a id="logo" href="{{ .Site.BaseURL }}">Home</a>
       <label for="hamburger">&#9776;</label>
-      <input type="checkbox" id="hamburger"/>
+      <input type="checkbox" id="hamburger">
       {{ if len .Site.Menus }}
       {{ partial "menu.html" . }}
       {{ end }}
