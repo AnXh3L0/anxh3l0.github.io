@@ -12,6 +12,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="VkIRxyL93QM" thumb="tiktok-boat-challenge.webp" lang="Albanian" title="Boat jumping and dangerous challenges on TikTok" >}}
+
+**Boat jumping and dangerous challenges on TikTok** - At Shqipëria Live on Top Channel | 12 July 2023
+<a class="nojs-video" href="https://youtu.be/bZ9_PmixPAA" target="_blank" rel="noopener noreferrer" title="Boat jumping and dangerous challenges on TikTok">Link to video 'Boat jumping and dangerous challenges on TikTok'</a>
+
+<br />
+
 {{< embed id="OBKSvSZnu5M" thumb="depression-tiktok.webp" lang="Albanian" title="Silent depression and how TikTok is 'killing' children" >}}
 
 <br />

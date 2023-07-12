@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="VkIRxyL93QM" thumb="tiktok-boat-challenge.webp" lang="Albanian" title="Hedhja nga varka dhe sfidat e rrezikshme në TikTok" >}}
+
+**Hedhja nga varka dhe sfidat e rrezikshme në TikTok** - Tek Shqipëria Live në Top Channel | 12 Korrik 2023
+<a class="nojs-video" href="https://youtu.be/bZ9_PmixPAA" target="_blank" rel="noopener noreferrer" title="Hedhja nga varka dhe sfidat e rrezikshme në TikTok">Ndërlidhja për videon 'Hedhja nga varka dhe sfidat e rrezikshme në TikTok'</a>
+
+<br />
+
 {{< embed id="OBKSvSZnu5M" thumb="depression-tiktok.webp" lang="Albanian" title="Depresioni i heshtur dhe si TikTok po 'vret' fëmijët" >}}
 
 <br />
