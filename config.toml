@@ -110,8 +110,9 @@ disableHugoGeneratorInject = true
 
 [languages]
   [languages.en]
-    subtitle  = ""
     weight    = 1
+  [languages.en.params]
+    subtitle  = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="License">CC BY-NC-SA 4.0</a><br />Registered in Albania<br />NUIS **M12912403O**'
     homeSubtitle = "**Anxhelo Lushka** | UX Developer | DevOps Engineer"
     poweredBy = 'Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>'
@@ -142,8 +143,9 @@ disableHugoGeneratorInject = true
     weight     = "5"
 
   [languages.sq]
-    subtitle  = ""
     weight    = 2
+  [languages.sq.params]
+    subtitle  = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" title="Licensa">CC BY-NC-SA 4.0</a><br />I regjistruar në Shqipëri<br />NIPT **M12912403O**'
     homeSubtitle = "**Anxhelo Lushka** | Zhvillues UX | Inxhinier DevOps"
     poweredBy = 'Fuqizuar nga <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>'
