@@ -12,6 +12,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="2KW2Mnx-Z-s" thumb="privacy-fake-apps.webp" lang="Albanian" title="Security and privacy issues with fake apps" >}}
+
+**Security and privacy issues with fake apps** - At Good Morning Albanians on Euronews Albania | 14 July 2023
+<a class="nojs-video" href="https://youtu.be/2KW2Mnx-Z-s" target="_blank" rel="noopener noreferrer" title="Security and privacy issues with fake apps">Link to video 'Security and privacy issues with fake apps'</a>
+
+<br />
+
 {{< embed id="VkIRxyL93QM" thumb="tiktok-boat-challenge.webp" lang="Albanian" title="Boat jumping and dangerous challenges on TikTok" >}}
 
 **Boat jumping and dangerous challenges on TikTok** - At Shqipëria Live on Top Channel | 12 July 2023

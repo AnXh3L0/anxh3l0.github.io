@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="2KW2Mnx-Z-s" thumb="privacy-fake-apps.webp" lang="Albanian" title="Problemet e sigurisë dhe privatësisë me aplikacionet fallso" >}}
+
+**Problemet e sigurisë dhe privatësisë me aplikacionet fallso** - Tek Good Morning Albanians në Euronews Albania | 14 Korrik 2023
+<a class="nojs-video" href="https://youtu.be/2KW2Mnx-Z-s" target="_blank" rel="noopener noreferrer" title="Problemet e sigurisë dhe privatësisë me aplikacionet fallso">Ndërlidhja për videon 'Problemet e sigurisë dhe privatësisë me aplikacionet fallso'</a>
+
+<br />
+
 {{< embed id="VkIRxyL93QM" thumb="tiktok-boat-challenge.webp" lang="Albanian" title="Hedhja nga varka dhe sfidat e rrezikshme në TikTok" >}}
 
 **Hedhja nga varka dhe sfidat e rrezikshme në TikTok** - Tek Shqipëria Live në Top Channel | 12 Korrik 2023
