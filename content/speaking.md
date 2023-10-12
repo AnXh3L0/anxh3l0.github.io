@@ -12,6 +12,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="-_g4Si7ityQ" thumb="minors-fraud.webp" lang="Albanian" title="How minors frauded via fake sexual services" >}}
+
+**How minors frauded via fake sexual services** - At Shqipëria Live on Top Channel | 12 October 2023
+<a class="nojs-video" href="https://youtu.be/-_g4Si7ityQ" target="_blank" rel="noopener noreferrer" title="How minors frauded via fake sexual services">Link to video 'How minors frauded via fake sexual services'</a>
+
+<br />
+
 {{< embed id="2KW2Mnx-Z-s" thumb="privacy-fake-apps.webp" lang="Albanian" title="Security and privacy issues with fake apps" >}}
 
 **Security and privacy issues with fake apps** - At Good Morning Albanians on Euronews Albania | 14 July 2023

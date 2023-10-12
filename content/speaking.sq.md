@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="-_g4Si7ityQ" thumb="minors-fraud.webp" lang="Albanian" title="How minors frauded via fake sexual services" >}}
+
+**Minorenët mashtrojnë përmes takimeve seksuale fallso** - Tek Shqipëria Live në Top Channel | 12 Tetor 2023
+<a class="nojs-video" href="https://youtu.be/-_g4Si7ityQ" target="_blank" rel="noopener noreferrer" title="Minorenët mashtrojnë përmes takimeve seksuale fallso">Ndërlidhja për videon 'Minorenët mashtrojnë përmes takimeve seksuale fallso'</a>
+
+<br />
+
 {{< embed id="2KW2Mnx-Z-s" thumb="privacy-fake-apps.webp" lang="Albanian" title="Problemet e sigurisë dhe privatësisë me aplikacionet fallso" >}}
 
 **Problemet e sigurisë dhe privatësisë me aplikacionet fallso** - Tek Good Morning Albanians në Euronews Albania | 14 Korrik 2023
