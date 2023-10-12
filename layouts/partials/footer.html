@@ -3,4 +3,8 @@
   {{ .Site.Params.poweredBy | safeHTML | markdownify }}
 </footer>
 
+{{ $instant := resources.Get "js/instantpage.js" }}
+{{ $instantpage := slice $instant | resources.Concat "instant.js" | resources.Minify }}
+<script type="module" defer src="{{ $instantpage.RelPermalink }}"></script>
+
 {{ if isset .Params "js" }}{{ partial "javascript.html" . }}{{ end }}
