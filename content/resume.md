@@ -19,7 +19,7 @@ UI/UX Developer and system administrator at [Ura Design](https://ura.design "Ura
 
 ## Skills
 
-- 4+ years of **web development** experience, with focus on performance and security/privacy
+- 5+ years of **web development** experience, with focus on performance and security/privacy
 - Skilled in HTML/CSS/JavaScript
 - Long experience in system administration and security deployments
 - Experienced in both **offensive and defensive teams** (pentesting)
