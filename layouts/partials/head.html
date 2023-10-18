@@ -53,9 +53,6 @@
 {{ if .OutputFormats.Get "json" }}
 <link href="{{ if .OutputFormats.Get "json" }}{{ .Site.BaseURL }}feed.json{{ end }}" rel="alternate" type="application/json" title="{{ .Site.Title }}"> {{ end }}
 
-<!-- Plausible -->
-<script defer data-domain="lushka.al" src="https://api.lushka.al/js/plausible.js"></script>
-
 <!-- Custom head tags -->
 {{- if templates.Exists "partials/extra-head.html" -}}
 {{ partial "extra-head.html" . }}
