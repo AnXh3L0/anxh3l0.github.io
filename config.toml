@@ -31,7 +31,7 @@ disableHugoGeneratorInject = true
 
 [author]
   name = "Anxhelo Lushka"
-  email = "anxhelo@lushka.al"
+  email = "hello@lushka.al"
 
 [markup]
   [markup.goldmark]
@@ -86,7 +86,7 @@ disableHugoGeneratorInject = true
   # Social icons
   [[params.social]]
     name = "email"
-    url  = "mailto:anxhelo@lushka.al"
+    url  = "mailto:hello@lushka.al"
 
   [[params.social]]
     name = "github"

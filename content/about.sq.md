@@ -16,7 +16,7 @@ Gjatë 6 viteve të fundit kam organizuar dhjetëra evente dhe konferenca të ti
 
 Ju mund të më kontaktoni përmes shërbimeve të ndryshme. Disa prej tyre janë paraqitur më poshtë. Personalisht nuk përdor email të koduar (GPG / PGP) kështu që nëse doni një mënyrë më të sigurt për të më kontaktuar përdorni aplikacionet e tjera.
 
-- Email: [anxhelo@lushka.al](mailto:anxhelo@lushka.al)
+- Email: [hello@lushka.al](mailto:hello@lushka.al)
 - Telegram: [@anxhelolushka](https://t.me/anxhelolushka)
 - WhatsApp: [Më dërgoni një mesazh](https://wa.me/+355699932340?text=P%C3%ABrsh%C3%ABndetje)
 - Signal: [+355699932340](tel:+355699932340)
