@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="7gOAq83dme0" thumb="skyecc-decryption.webp" lang="Albanian" title="SKY ECC, përgjimi dhe dekriptimi" >}}
+
+**SKY ECC, përgjimi dhe dekriptimi** - Tek Shqipëria Live në Top Channel | 4 Dhjetor 2023
+<a class="nojs-video" href="https://youtu.be/-_g4Si7ityQ" target="_blank" rel="noopener noreferrer" title="How minors frauded via fake sexual services">Ndërlidhja për videon 'SKY ECC, përgjimi dhe dekriptimi'</a>
+
+<br />
+
 {{< embed id="-_g4Si7ityQ" thumb="minors-fraud.webp" lang="Albanian" title="How minors frauded via fake sexual services" >}}
 
 **Minorenët mashtrojnë përmes takimeve seksuale fallso** - Tek Shqipëria Live në Top Channel | 12 Tetor 2023

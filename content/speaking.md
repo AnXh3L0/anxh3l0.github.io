@@ -12,6 +12,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="7gOAq83dme0" thumb="skyecc-decryption.webp" lang="Albanian" title="SKY ECC, surveillance and decryption" >}}
+
+**SKY ECC, surveillance and decryption** - At Shqipëria Live on Top Channel | 4 December 2023
+<a class="nojs-video" href="https://youtu.be/-_g4Si7ityQ" target="_blank" rel="noopener noreferrer" title="How minors frauded via fake sexual services">Link to video 'SKY ECC, surveillance and decryption'</a>
+
+<br />
+
 {{< embed id="-_g4Si7ityQ" thumb="minors-fraud.webp" lang="Albanian" title="How minors frauded via fake sexual services" >}}
 
 **How minors frauded via fake sexual services** - At Shqipëria Live on Top Channel | 12 October 2023
