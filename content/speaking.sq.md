@@ -11,10 +11,17 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="8ZVppAqlSN8" thumb="technology-in-school.webp" lang="Albanian" title="Teknologjia në shkolla" >}}
+
+**Teknologjia në shkolla** - Tek MCN Economy në MCN TV | 5 Dhjetor 2023
+<a class="nojs-video" href="https://youtu.be/8ZVppAqlSN8" target="_blank" rel="noopener noreferrer" title="Technology in school">Ndërlidhja për videon 'Teknologjia në shkolla'</a>
+
+<br />
+
 {{< embed id="7gOAq83dme0" thumb="skyecc-decryption.webp" lang="Albanian" title="SKY ECC, përgjimi dhe dekriptimi" >}}
 
 **SKY ECC, përgjimi dhe dekriptimi** - Tek Shqipëria Live në Top Channel | 4 Dhjetor 2023
-<a class="nojs-video" href="https://youtu.be/-_g4Si7ityQ" target="_blank" rel="noopener noreferrer" title="How minors frauded via fake sexual services">Ndërlidhja për videon 'SKY ECC, përgjimi dhe dekriptimi'</a>
+<a class="nojs-video" href="https://youtu.be/-_g4Si7ityQ" target="_blank" rel="noopener noreferrer" title="SKY ECC, përgjimi dhe dekriptimi">Ndërlidhja për videon 'SKY ECC, përgjimi dhe dekriptimi'</a>
 
 <br />
 

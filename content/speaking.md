@@ -12,10 +12,17 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="8ZVppAqlSN8" thumb="technology-in-school.webp" lang="Albanian" title="Technology in school" >}}
+
+**Technology in school** - At MCN Economy on MCN TV | 5 December 2023
+<a class="nojs-video" href="https://youtu.be/8ZVppAqlSN8" target="_blank" rel="noopener noreferrer" title="Technology in school">Link to video 'Technology in school'</a>
+
+<br />
+
 {{< embed id="7gOAq83dme0" thumb="skyecc-decryption.webp" lang="Albanian" title="SKY ECC, surveillance and decryption" >}}
 
 **SKY ECC, surveillance and decryption** - At Shqipëria Live on Top Channel | 4 December 2023
-<a class="nojs-video" href="https://youtu.be/-_g4Si7ityQ" target="_blank" rel="noopener noreferrer" title="How minors frauded via fake sexual services">Link to video 'SKY ECC, surveillance and decryption'</a>
+<a class="nojs-video" href="https://youtu.be/-_g4Si7ityQ" target="_blank" rel="noopener noreferrer" title="SKY ECC, surveillance and decryption">Link to video 'SKY ECC, surveillance and decryption'</a>
 
 <br />
 
