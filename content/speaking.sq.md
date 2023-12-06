@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="7DI4EoRx648" thumb="rtsh-google-searches.webp" lang="Albanian" title="Çfarë kërkojnë shqiptarët në Google?" >}}
+
+**Çfarë kërkojnë shqiptarët në Google?** - Tek Mirëmëngjes Shqipëri në RTSH | 6 Dhjetor 2023
+<a class="nojs-video" href="https://youtu.be/7DI4EoRx648" target="_blank" rel="noopener noreferrer" title="Çfarë kërkojnë shqiptarët në Google?">Link to video 'Çfarë kërkojnë shqiptarët në Google?'</a>
+
+<br />
+
 {{< embed id="8ZVppAqlSN8" thumb="technology-in-school.webp" lang="Albanian" title="Teknologjia në shkolla" >}}
 
 **Teknologjia në shkolla** - Tek MCN Economy në MCN TV | 5 Dhjetor 2023

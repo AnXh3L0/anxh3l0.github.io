@@ -12,6 +12,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="7DI4EoRx648" thumb="rtsh-google-searches.webp" lang="Albanian" title="What do Albanians search on Google?" >}}
+
+**What do Albanians search on Google?** - At Mirëmëngjes Shqipëri on RTSH | 6 December 2023
+<a class="nojs-video" href="https://youtu.be/7DI4EoRx648" target="_blank" rel="noopener noreferrer" title="What do Albanians search on Google?">Link to video 'What do Albanians search on Google?'</a>
+
+<br />
+
 {{< embed id="8ZVppAqlSN8" thumb="technology-in-school.webp" lang="Albanian" title="Technology in school" >}}
 
 **Technology in school** - At MCN Economy on MCN TV | 5 December 2023
