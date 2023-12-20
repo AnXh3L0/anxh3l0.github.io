@@ -12,6 +12,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="9ZhwFcBm2lw" thumb="mcn-bank-security.webp" lang="Albanian" title="Bank cybersecurity" >}}
+
+**Bank cybersecurity** - At MCN Economy on MCN TV | 20 December 2023
+<a class="nojs-video" href="https://youtu.be/9ZhwFcBm2lw" target="_blank" rel="noopener noreferrer" title="Bank cybersecurity">Link to video 'Bank cybersecurity'</a>
+
+<br />
+
 {{< embed id="7DI4EoRx648" thumb="rtsh-google-searches.webp" lang="Albanian" title="What do Albanians search on Google?" >}}
 
 **What do Albanians search on Google?** - At Mirëmëngjes Shqipëri on RTSH | 6 December 2023

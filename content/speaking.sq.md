@@ -11,10 +11,17 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="9ZhwFcBm2lw" thumb="mcn-bank-security.webp" lang="Albanian" title="Siguria kibernetike për bankat" >}}
+
+**Siguria kibernetike për bankat** - Tek MCN Economy në MCN TV | 20 Dhjetor 2023
+<a class="nojs-video" href="https://youtu.be/9ZhwFcBm2lw" target="_blank" rel="noopener noreferrer" title="Siguria kibernetike për bankat">Ndërlidhja për videon 'Siguria kibernetike për bankat'</a>
+
+<br />
+
 {{< embed id="7DI4EoRx648" thumb="rtsh-google-searches.webp" lang="Albanian" title="Çfarë kërkojnë shqiptarët në Google?" >}}
 
 **Çfarë kërkojnë shqiptarët në Google?** - Tek Mirëmëngjes Shqipëri në RTSH | 6 Dhjetor 2023
-<a class="nojs-video" href="https://youtu.be/7DI4EoRx648" target="_blank" rel="noopener noreferrer" title="Çfarë kërkojnë shqiptarët në Google?">Link to video 'Çfarë kërkojnë shqiptarët në Google?'</a>
+<a class="nojs-video" href="https://youtu.be/7DI4EoRx648" target="_blank" rel="noopener noreferrer" title="Çfarë kërkojnë shqiptarët në Google?">Ndërlidhja për videon 'Çfarë kërkojnë shqiptarët në Google?'</a>
 
 <br />
 
