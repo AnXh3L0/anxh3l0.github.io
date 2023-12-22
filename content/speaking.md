@@ -12,6 +12,13 @@ To preserve visitor privacy without sacrificing usability, the videos load only 
 
 <br />
 
+{{< embed id="AZFxAJutFTk" thumb="ai-death-prediction.webp" lang="Albanian" title="AI and death prediction" >}}
+
+**AI and death prediction** - At Shqipëria Live on Top Channel | 22 December 2023
+<a class="nojs-video" href="https://youtu.be/AZFxAJutFTk" target="_blank" rel="noopener noreferrer" title="AI and death prediction">Link to video 'AI and death prediction'</a>
+
+<br />
+
 {{< embed id="9ZhwFcBm2lw" thumb="mcn-bank-security.webp" lang="Albanian" title="Bank cybersecurity" >}}
 
 **Bank cybersecurity** - At MCN Economy on MCN TV | 20 December 2023

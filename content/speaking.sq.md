@@ -11,6 +11,13 @@ Për të ruajtur privatësinë e vizitorëve pa dëmtuar përdorueshmërinë, vi
 
 <br />
 
+{{< embed id="AZFxAJutFTk" thumb="ai-death-prediction.webp" lang="Albanian" title="Inteligjenca artificiale dhe parashikimi i vdekjes" >}}
+
+**Inteligjenca artificiale dhe parashikimi i vdekjes** - Tek Shqipëria Live në Top Channel | 22 Dhjetor 2023
+<a class="nojs-video" href="https://youtu.be/AZFxAJutFTk" target="_blank" rel="noopener noreferrer" title="Inteligjenca artificiale dhe parashikimi i vdekjes">Ndërlidhja për videon 'Inteligjenca artificiale dhe parashikimi i vdekjes'</a>
+
+<br />
+
 {{< embed id="9ZhwFcBm2lw" thumb="mcn-bank-security.webp" lang="Albanian" title="Siguria kibernetike për bankat" >}}
 
 **Siguria kibernetike për bankat** - Tek MCN Economy në MCN TV | 20 Dhjetor 2023
