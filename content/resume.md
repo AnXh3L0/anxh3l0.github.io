@@ -33,7 +33,7 @@ I am available for hire. [Get in touch](/about#contact "Ways to contact me") wit
 - Proficient with graphic design software, including Photoshop, Illustrator, GIMP, and Inkscape
 - **Public speaker** at events focused on open source, design, security, and privacy
 - Fluent in four languages: Albanian, English, Italian, and Spanish
-- 
+
 <br>
 
 ## Hobbies
