@@ -1,6 +1,5 @@
 <footer>
-  {{ .Site.Params.Copyright | safeHTML | markdownify }}<br />
-  {{ .Site.Params.poweredBy | safeHTML | markdownify }}
+  {{ .Site.Params.Copyright | safeHTML | markdownify }}
 </footer>
 
 {{ $instant := resources.Get "js/instantpage.js" }}
