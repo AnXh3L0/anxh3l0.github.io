@@ -11,34 +11,38 @@ I am available for hire. [Get in touch](/about#contact "Ways to contact me") wit
 
 ## Current work position(s)
 
-DevOps Engineer at [Magoware](https://www.magoware.tv/)
+- UI/UX Developer and system administrator at [Ura Design](https://ura.design "Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects. Ura was founded in 2016 in Albania to cater to the ever-rising demand for Usability and Design services in Open Source Software.")
 
-UI/UX Developer and system administrator at [Ura Design](https://ura.design "Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects. Ura was founded in 2016 in Albania to cater to the ever-rising demand for Usability and Design services in Open Source Software.")
+## Past positions and contracts
+
+- DevOps Engineer at [Magoware](https://www.magoware.tv/)
+- Web Developer at [Tahoe-LAFS](https://tahoe-lafs.org/trac/tahoe-lafs)
+- DevOps Engineer at [Rubik Technologies](https://rubik-technologies.com/en/)
 
 <br>
 
 ## Skills
 
-- 5+ years of **web development** experience, with focus on performance and security/privacy
-- Skilled in HTML/CSS/JavaScript
-- Long experience in system administration and security deployments
-- Experienced in both **offensive and defensive teams** (pentesting)
-- Long time contributor and volunteer in open source projects
-- Capable of working in a team, under pressure and tight deadlines
-- Long experience in event organization
-- Proficient with graphic design software: Photoshop, Illustrator, GIMP, Inkscape etc.
-- **Public speaker** in events related to open source, design, security and privacy
-- Fluid speaker in more than 3 languages (Albanian, English, Italian etc)
-
+- Over 6 years of **web development** experience, with a strong focus on performance, security, and privacy
+- Proficient in HTML, CSS, and JavaScript
+- Extensive experience in system administration and security deployments
+- Experienced in both **offensive and defensive security** roles (penetration testing)
+- Long-time contributor and volunteer in open-source projects
+- Able to work effectively in teams, manage pressure, and meet tight deadlines
+- Significant experience in event organization
+- Proficient with graphic design software, including Photoshop, Illustrator, GIMP, and Inkscape
+- **Public speaker** at events focused on open source, design, security, and privacy
+- Fluent in four languages: Albanian, English, Italian, and Spanish
+- 
 <br>
 
 ## Hobbies
 
-- Listening to music (EDM, deep house, electronic, dubstep etc.) :musical_note:
-- Reading about scientific topics :book:
-- Casual photography :camera:
-- Travelling :airplane:
-- Biking :bike:
+- Enjoys listening to music, especially EDM, deep house, electronic, and dubstep :musical_note:
+- Interested in reading scientific topics :book:
+- Casual photography enthusiast :camera:
+- Passionate about traveling :airplane:
+- Enjoys biking :bike:
 
 <br>
 
@@ -84,7 +88,7 @@ OSCAL (Open Source Conference Albania) is the first annual conference in Albania
 
 <br>
 
-## Public Speaking
+## Public Speaking ([Speaking](/speaking)
 
 **Speaker at [Prishtina Open Source Festival](https://www.facebook.com/events/603198710426816/)**
 
@@ -172,13 +176,13 @@ Ambassadors are the representatives of Fedora. Ambassadors ensure the public und
 
 ---
 
-**Member of [Open Labs Hackerspace](https://openlabs.cc/en)**
+**Ex-member of [Open Labs Hackerspace](https://openlabs.cc/en)**
 
 Open Labs is a community which promotes free and open source technologies, open data, open technological standards, online privacy and powering public domain and alternative licenses of creative works such as Creative Commons.
 
 ---
 
-**Member of [The Document Foundation](https://www.documentfoundation.org/)**
+**Ex-member of [The Document Foundation](https://www.documentfoundation.org/)**
 
 LibreOffice is a free and open-source office suite, a project of The Document Foundation.
 
