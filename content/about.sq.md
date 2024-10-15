@@ -2,11 +2,11 @@
 title = "Rreth meje"
 +++
 
-Unë quhem Anxhelo Lushka, jam një zhvillues UX dhe inxhinier DevOps, i diplomuar në inxhinieri kompjuterike dhe një përdorues dhe promovues i programeve me burim të hapur. Unë kontribuoj në projekte FOSS, të tilla si Fedora, LibreOffice, OpenStreetMap dhe [më tepër](https://github.com/AnXh3L0). Jam anëtar i [Open Labs Hackerspace](https://openlabs.cc/en), hackerspace i parë në Shqipëri, themeluar në 2012. Jam gjithashtu një Ambasador i Fedora dhe një anëtar i Document Foundation.
+Unë quhem Anxhelo Lushka, jam një zhvillues UX dhe inxhinier DevOps, i diplomuar në inxhinieri kompjuterike dhe një përdorues dhe promovues i programeve me burim të hapur. Unë kontribuoj në projekte FOSS, të tilla si Fedora, LibreOffice, OpenStreetMap dhe [më tepër](https://github.com/AnXh3L0). Jam ish-anëtar i [Open Labs Hackerspace](https://openlabs.cc/en), hackerspace i parë në Shqipëri, themeluar në 2012. Jam gjithashtu një Ambasador i Fedora dhe një ish-anëtar i Document Foundation.
 
 Në këtë faqe unë do të shfaq punët e mia më të mira me kalimin e kohës dhe disa artikuj që unë shkruaj në lidhje me ngjarjet që kam organizuar / marrë pjesë, sigurinë dhe privatësinë në përgjithësi, këshilla dhe truket etj.
 
-Gjatë 6 viteve të fundit kam organizuar dhjetëra evente dhe konferenca të tilla si [OSCAL](https://osc.al)(Open Source Conference Albania), [LibreOffice Conference](https://libocon.org) dhe më shumë.
+Gjatë 8 viteve të fundit kam organizuar dhjetëra evente dhe konferenca të tilla si [OSCAL](https://osc.al)(Open Source Conference Albania), [LibreOffice Conference](https://libocon.org) dhe më shumë.
 
 :sparkles: **[Resume](/resume "Resume ime si një faqe e vetme")**
 
