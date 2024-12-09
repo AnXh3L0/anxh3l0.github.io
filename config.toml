@@ -99,6 +99,10 @@ disableHugoGeneratorInject = true
   [[params.social]]
     name = "telegram"
     url  = "https://t.me/anxhelolushka"
+    
+  [[params.social]]
+    name = "instagram"
+    url  = "https://instagram.com/anxhelolushka"
 
 [languages]
   [languages.en]
