@@ -20,3 +20,4 @@ You can contact me through various services. A few of them are presented below. 
 - Telegram: [@anxhelolushka](https://t.me/anxhelolushka)
 - WhatsApp: [Send me a message](https://wa.me/+355699932340?text=Hello%20there)
 - Signal: [+355699932340](tel:+355699932340)
+- SimpleX: [Send me an encrypted message](https://simplex.chat/contact#/?v=2-7&smp=smp%3A%2F%2FSkIkI6EPd2D63F4xFKfHk7I1UGZVNn6k1QWZ5rcyr6w%3D%40smp9.simplex.im%2FpsbsoT-cH8B9P1LazAkpkZaZSfnQo4zZ%23%2F%3Fv%3D1-3%26dh%3DMCowBQYDK2VuAyEAVNsZToRlCI1XQIv2DvauZOzAitGAw4U_wsBglJgKoBg%253D%26srv%3Djssqzccmrcws6bhmn77vgmhfjmhwlyr3u7puw4erkyoosywgl67slqqd.onion)
