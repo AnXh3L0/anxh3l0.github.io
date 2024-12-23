@@ -12,6 +12,7 @@ I am available for hire. [Get in touch](/about#contact "Ways to contact me") wit
 ## Current work position(s)
 
 - UI/UX Developer and system administrator at [Ura Design](https://ura.design "Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects. Ura was founded in 2016 in Albania to cater to the ever-rising demand for Usability and Design services in Open Source Software.")
+- DevOps Engineer at [GlobaLeaks](https://globaleaks.org "The mission of GlobaLeaks is to research and develop a whistleblowing project development framework.")
 
 ## Past positions and contracts
 
