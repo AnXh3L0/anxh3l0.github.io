@@ -28,7 +28,7 @@ disableHugoGeneratorInject = true
 pluralizeListTitles = false
 
 [build]
-timeout = 60
+timeout = 180
 
 [permalinks]
   posts = "/posts/:filename/"
