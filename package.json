@@ -4,7 +4,7 @@
       "watch:tw": "npx tailwindcss -i ./assets/tailwind.css -o ./assets/style.css -w --minify",
       "start:hugo": "hugo server",
       "start": "concurrently \"npm run start:hugo\" \"npm run watch:tw\"",
-      "build": "npm run build:tw && hugo"
+      "build": "npm run build:tw && hugo --config hugo.toml"
     },
     "devDependencies": {
       "tailwindcss": "^3.4.17",
