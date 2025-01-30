@@ -3,7 +3,8 @@
       "build:tw": "npx tailwindcss -i ./assets/tailwind.css -o ./assets/style.css --minify",
       "watch:tw": "npx tailwindcss -i ./assets/tailwind.css -o ./assets/style.css -w --minify",
       "start:hugo": "hugo server",
-      "start": "concurrently \"npm run start:hugo\" \"npm run watch:tw\""
+      "start": "concurrently \"npm run start:hugo\" \"npm run watch:tw\"",
+      "build": "npm run build:tw && hugo"
     },
     "devDependencies": {
       "tailwindcss": "^3.4.10",
