@@ -1,0 +1,190 @@
+# Translations for Albanian
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+translations:
+  other: "Përkthimet"
+
+postAvailable:
+  other: "Gjithashtu e disponueshme në"
+
+safari-icon:
+  other: "Ikona e Safarit"
+
+close_menu:
+  other: "Mbyll menunë"
+
+language_switcher:
+  other: "Ndrysho gjuhën"
+
+article_content:
+  other: "Përmbajtja e artikullit"
+
+play_video:
+  other: "Luaj videon"
+
+video_thumbnail_alt:
+  other: "Miniatura për videon e titulluar"
+
+article_published_on:
+  other: "Publikuar më"
+
+recorded_on:
+  other: "Regjistruar më"
+
+play_audio: 
+  other: "Luaj audion"
+  
+audio_thumbnail_alt: 
+  other: "Pamja miniaturë për audion"
+
+# 404.html
+archives:
+  other: "Postimet"
+
+home:
+  other: "Faqja Kryesore"
+
+notFound:
+  other: "Ups, faqja nuk u gjet"
+
+toggle_theme:
+  other: "Ndrysho temën"
+
+toggle_menu:
+  other: "Ndrysho menunë"
+
+menu:
+  other: "Menuja"
+
+navigation:
+  other: "Navigimi"
+
+hero:
+  follow_on: "Ndiqni në"
+
+work:
+  other: "Eksperiencat"
+
+# Posts
+post:
+  published_on: "Publikuar më {{ .date }}"
+  content: "Përmbajtja e artikullit"
+  tags: "Etiketat"
+  word_count: "{{ .count }} fjalë"
+  published_date: "Publikuar më {{ .date }}"
+  updated_date: "Përditësuar më {{ .date }}"
+  commit_message: "Mesazhi i ndryshimit: {{ .message }}"
+  read_others: "Lexo postimet e tjera"
+
+back_to_articles: "Shko pas tek artikujt"
+back_to_portfolio: "Shko pas tek portofoli"
+
+back_arrow_icon_title: "Shigjeta pas"
+
+readArticle:
+  other: "Lexo artikullin"
+
+readFullArticle:
+  other: "Lexo artikullin e plotë"
+
+latestPosts:
+  other: "Postimet e fundit"
+
+aboutArticle:
+  other: "Rreth artikullit"
+
+readMoreEllipsis:
+  other: "..."
+
+openNewWindow:
+  other: "(hapet në dritare të re)"
+
+company:
+  other: "Kompania"
+
+role:
+  other: "Pozicioni"
+
+date:
+  other: "Data"
+
+downloadResume:
+  other: "Shkarko CV"
+
+downloadResumePDF:
+  other: "Shkarko CV në format PDF"
+
+footer:
+  label: "Site footer"
+  navigation: "Navigimi kryesor"
+  aria_page: "Vizito faqen {{ .Title }}"
+  aria_section: "Shfleto seksionin {{ .Title }}"
+  copyright: "© {{ .Year }} {{ .Name }}."
+  license: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+
+social_platforms:
+  email: "Email"
+  github: "GitHub"
+  linkedin: "LinkedIn"
+  instagram: "Instagram"
+  telegram: "Telegram"
+
+social:
+  follow_aria: "Ndiq në {{ .platform }} (hapet në dritare të re)"
+  follow_sr: "{{ .platform }} - "
+  follow_on: "Ndiq në  {{ .platform }}"
+  email_aria: "Dërgo email te {{ .email }}"
+  email_sr: "Adresa e email: {{ .email }}"
+
+uses:
+  workstation: "Workstation"
+  development: "Mjetet e zhvillimit"
+  design: "Dizajn"
+  productivity: "Produktiviteti"
+
+speaking_title: "Paraqitjet e mia publike"
+speaking_description: "Koleksioni i paraqitjeve të mia në media dhe bisedave në konferencë"
+play_video: "Luaj videon"
+video_thumbnail_alt: "Miniatura për videon e titulluar"
+duration: "Kohëzgjatja"
+minutes: "minuta"
+watch_video: "Shiko videon"
+listen_podcast: "Dëgjo podcastin"
+
+portfolio:
+  mainAria: "Projektet e Portofolit"
+  iconAlt: "Ikona e projektit"
+
+tip: Këshillë
+note: Shënim
+warning: Paralajmërim
+info: Informacion
+
+readingTime:
+  one: "Një minutë"
+  other: "{{ .Count }} minuta"
+
+tableOfContents:
+  other: "Tabela e Përmbajtjes"
+
+wordCount:
+  one: "Një Fjalë"
+  other: "{{ .Count }} Fjalë"
+
+publishDate:
+  other: "Publikuar më"
+
+updatedOn:
+  other: "e përditësuar më"
+
+warning:
+  other: "Kujdes"
+
+note:
+  other: "Shënim"
+
+info:
+  other: "Informacion"
+
+tip:
+  other: "Këshillë"

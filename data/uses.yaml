@@ -1,0 +1,149 @@
+categories:
+  - key: workstation
+    items:
+      - title: "Motherboard"
+        description: "Gigabyte AORUS B450 Pro"
+      - title: "CPU"
+        description: "Ryzen 7 5800X 8C/16T"
+      - title: "GPU"
+        description: "Sapphire Nitro+ RX 7800 XT 16GB"
+      - title: "RAM"
+        description: "Corsair 32GB DDR4 3000MHz"
+      - title: "Storage"
+        description: "Kingston 2TB NVMe SSD + Sabrent Rocket 512GB NVMe SSD + WD Blue 2TB SATA HDD + Seagate 4TB SATA HDD"
+      - title: "Cooler"
+        description: "bequiet! Dark Rock Pro 4"
+      - title: "PSU"
+        description: "Sharkoon WPC 650W 80+ Bronze"
+      - title: "Case"
+        description: "Corsair Carbide 400C"
+      - title: "Monitor(s)"
+        description: "2x AOC Q27G2S 27” IPS 1440p 165hz"
+      - title: "Headphones"
+        description: "Logitech G PRO X Gaming Headset"
+      - title: "Speakers"
+        description: "Logitech Z333 2.1"
+      - title: "Microphone"
+        description: "Marantz Professional Pod Pack 1"
+      - title: "Webcam"
+        description: "Logitech C920 HD Pro"
+      - title: "Mouse"
+        description: "Logitech MX Master 3S + Logitech G502 X"
+      - title: "Keyboard"
+        description: "Redragon K556 PRO RGB"
+
+  - key: laptop
+    items:
+      - title: "Dell XPS 13 9343"
+        description: "Ultrabook with Intel Core i5-5200U, 8GB RAM, and 256GB SSD"
+
+  - key: console
+    items:
+      - title: "PlayStation 5 (Disc Edition)"
+        description: "Sony’s latest-gen gaming console with a Blu-ray disc drive"
+
+  - key: mobile
+    items:
+      - title: "iPhone 14 Pro Max"
+        description: "6.7” OLED, A16 Bionic, and 48MP camera"
+      - title: "Xiaomi Redmi Note 13 Pro 4G"
+        description: "Mid-range Xiaomi phone with AMOLED display and 200MP camera"
+      - title: "Xiaomi Redmi Note 9S"
+        description: "Budget-friendly phone with Snapdragon 720G and 48MP camera"
+
+  - key: server
+    items:
+      - title: "HP Thin Client T620"
+        description: "Compact, low-power server with AMD GX-217GA and 16GB RAM"
+
+  - key: accessories
+    items:
+      - title: "Camera"
+        description: "Canon EOS Rebel T3, entry-level DSLR with an 18MP sensor"
+      - title: "Stabilizer"
+        description: "DJI Osmo Mobile 5, smartphone gimbal for smooth video recording"
+      - title: "Hobby Hacking"
+        description: "Flipper Zero, multi-tool for pentesting and hardware hacking"
+
+  - key: operating system
+    items:
+      - title: "Windows 10 Enterprise"
+        description: "Microsoft’s business-focused OS with extended support"
+      - title: "Fedora 41"
+        description: "Latest Fedora Linux with GNOME desktop environment"
+      - title: "Debian 12"
+        description: "Stable, lightweight Linux distribution for servers and desktops"
+      - title: "CentOS 9"
+        description: "RHEL-based Linux distribution for enterprise environments"
+
+  - key: development
+    items:
+      - title: "VSCodium"
+        description: "Open-source version of VS Code without Microsoft telemetry"
+      - title: "Docker Desktop/Podman"
+        description: "Containerization tools for development and deployment"
+      - title: "Moba Xterm"
+        description: "Advanced terminal with SSH, RDP, and X11 forwarding"
+
+  - key: design
+    items:
+      - title: "Figma"
+        description: "Cloud-based UI/UX design tool for collaboration"
+      - title: "Adobe Creative Cloud"
+        description: "Adobe Photoshop 2024, Adobe Illustrator 2024, Adobe InDesign 2024"
+
+  - key: music & video
+    items:
+      - title: "Spotify"
+        description: "Music streaming service with offline playback"
+      - title: "Stremio"
+        description: "Media streaming app for movies, TV shows, and live TV"
+      - title: "Audacity"
+        description: "Open-source audio editing and recording software"
+
+  - key: gaming
+    items:
+      - title: "Steam"
+        description: "PC gaming platform with cloud saves and multiplayer support"
+      - title: "GOG Galaxy"
+        description: "DRM-free game library manager and store"
+      - title: "Epic Games"
+        description: "Gaming platform with free weekly games and exclusives"
+      - title: "Battle.net"
+        description: "Blizzard’s gaming platform"
+
+  - key: communication
+    items:
+      - title: "WhatsApp"
+        description: "End-to-end encrypted messaging app owned by Meta"
+      - title: "Signal"
+        description: "Privacy-focused messaging app with secure encryption"
+      - title: "Telegram"
+        description: "Cloud-based messaging app with channels and bots"
+      - title: "Slack"
+        description: "Team collaboration tool for workplace communication"
+      - title: "Mattermost"
+        description: "Open-source self-hosted chat for teams and DevOps"
+      - title: "Google Meet/Zoom"
+        description: "Video conferencing solutions for remote communication"
+
+  - key: productivity
+    items:
+      - title: "Thunderbird"
+        description: "Open-source email client with PGP support"
+      - title: "AnyDesk/TeamViewer/RustDesk"
+        description: "Remote desktop access tools for support and management"
+      - title: "KeePassXC"
+        description: "Cross-platform, open-source password manager"
+      - title: "VirtualBox"
+        description: "Virtualization software for running multiple OS environments"
+      - title: "ShareX"
+        description: "Screenshot and screen recording tool with automation"
+      - title: "Tixati"
+        description: "Lightweight, privacy-focused BitTorrent client"
+      - title: "SumatraPDF"
+        description: "Minimalist PDF and eBook reader for Windows"
+      - title: "LocalSend"
+        description: "Local network file-sharing app for cross-platform transfers"
+      - title: "HandBrake"
+        description: "Open-source video transcoder for converting media files"

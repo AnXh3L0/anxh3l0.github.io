@@ -1,0 +1,18 @@
+{{- $icon := . -}}
+{{- $iconPath := printf "assets/icons/%s.svg" $icon -}}
+
+{{- if fileExists $iconPath -}}
+    {{- $svg := readFile $iconPath -}}
+    {{- /* Strip comments and unnecessary attributes */ -}}
+    {{- $processed := $svg 
+        | replaceRE "<!--[^>]*-->" "" 
+        | replaceRE `<svg([^>]*) width="[^"]*"` `<svg$1`
+        | replaceRE `<svg([^>]*) height="[^"]*"` `<svg$1`
+        | replaceRE `<svg(.*?)>` `<svg$1 class="h-6 w-6" aria-hidden="true" focusable="false" role="img">`
+        | replaceRE `<path` `<path class="path" fill="currentColor"`
+    -}}
+    {{- $processed | safeHTML -}}
+{{- else -}}
+    {{- warnf "Icon not found: %s" $iconPath -}}
+    <span class="missing-icon"></span>
+{{- end -}}

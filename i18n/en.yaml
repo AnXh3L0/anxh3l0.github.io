@@ -1,0 +1,193 @@
+# Translations for English
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+translations:
+  other: "Translations"
+
+postAvailable:
+  other: "Also available in"
+
+safari-icon:
+  other: "Safari icon"
+
+close_menu:
+  other: "Close menu"
+
+language_switcher:
+  other: "Change language"
+
+article_content:
+  other: "Article content"
+
+play_video:
+  other: "Play video"
+
+video_thumbnail_alt:
+  other: "Thumbnail for video titled"
+
+article_published_on:
+  other: "Published on"
+
+recorded_on:
+  other: "Recorded on"
+
+play_audio: 
+  other: "Play audio"
+  
+audio_thumbnail_alt: 
+  other: "Audio cover art for"
+
+# 404.html
+archives:
+  other: "Posts"
+
+home:
+  other: "Home"
+
+notFound:
+  other: "Oops, page not found…"
+
+toggle_theme:
+  other: "Toggle theme"
+
+toggle_menu:
+  other: "Toggle menu"
+
+menu:
+  other: "Menu"
+
+navigation:
+  other: "Navigation"
+
+hero:
+  follow_on: "Follow on"
+
+work:
+  other: "Work"
+
+# Posts
+post:
+  published_on: "Published on {{ .date }}"
+  content: "Article content"
+  tags: "Tags"
+  word_count: "{{ .count }} words"
+  published_date: "Published on {{ .date }}"
+  updated_date: "Updated on {{ .date }}"
+  commit_message: "Commit message: {{ .message }}"
+  read_others: "Read Other Posts"
+
+back_to_articles: "Go back to articles"
+back_to_portfolio: "Go back to portfolio"
+
+back_arrow_icon_title: "Back arrow"
+
+icon:
+  back_arrow: "Back arrow"
+
+readArticle:
+  other: "Read article"
+
+readFullArticle:
+  other: "Read full article"
+
+latestPosts:
+  other: "Latest posts"
+
+aboutArticle:
+  other: "About article"
+
+readMoreEllipsis:
+  other: "..."
+
+openNewWindow:
+  other: "(opens in new window)"
+
+company:
+  other: "Company"
+
+role:
+  other: "Role"
+
+date:
+  other: "Date"
+
+downloadResume:
+  other: "Download CV"
+
+downloadResumePDF:
+  other: "Download CV in PDF format"
+
+footer:
+  label: "Site footer"
+  navigation: "Main navigation"
+  aria_page: "Visit {{ .Title }} page"
+  aria_section: "Browse {{ .Title }} section"
+  copyright: "© {{ .Year }} {{ .Name }}."
+  license: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+
+social_platforms:
+  email: "Email"
+  github: "GitHub"
+  linkedin: "LinkedIn"
+  instagram: "Instagram"
+  telegram: "Telegram"
+
+social:
+  follow_aria: "Follow on {{ .platform }} (opens in new window)"
+  follow_sr: "{{ .platform }} - "
+  follow_on: "Follow on {{ .platform }}"
+  email_aria: "Send email to {{ .email }}"
+  email_sr: "Email address: {{ .email }}"
+
+uses:
+  workstation: "Workstation"
+  development: "Development tools"
+  design: "Design"
+  productivity: "Productivity"
+
+speaking_title: "My Public Appearances"
+speaking_description: "Collection of my media appearances and conference talks"
+play_video: "Play video"
+video_thumbnail_alt: "Thumbnail for video titled"
+duration: "Duration"
+minutes: "minutes"
+watch_video: "Watch video"
+listen_podcast: "Listen to podcast"
+
+portfolio:
+  mainAria: "Portfolio Projects"
+  iconAlt: "Project icon"
+
+tip: Tip
+note: Note
+warning: Warning
+info: Information
+
+readingTime:
+  one: "One minute"
+  other: "{{ .Count }} minutes"
+
+tableOfContents:
+  other: "Table of Contents"
+
+wordCount:
+  one: "One Word"
+  other: "{{ .Count }} Words"
+
+publishDate:
+  other: "Published on"
+
+updatedOn:
+  other: "last updated on"
+
+warning:
+  other: "Warning"
+
+note:
+  other: "Notice"
+
+info:
+  other: "Info"
+
+tip:
+  other: "Tip"

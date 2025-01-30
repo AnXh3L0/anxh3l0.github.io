@@ -1,0 +1,9 @@
+<button type="button" 
+        aria-label="{{ i18n "toggle_theme" }}"
+        data-theme-toggle
+        class="theme-toggle group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition-colors duration-300 hover:ring-zinc-900/20 dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20">
+    <span class="sr-only">{{ i18n "toggle_theme" }}</span>
+    {{ partial "icons/sun.html" (dict "class" "h-5 w-5 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700 dark:hidden") }}
+    {{ partial "icons/moon.html" (dict "class" "hidden h-5 w-5 fill-zinc-700 stroke-zinc-500 transition dark:block dark:group-hover:stroke-zinc-400") }}
+    {{ partial "icons/system.html" (dict "class" "hidden h-5 w-5 stroke-zinc-500 transition group-[.system-theme]:block") }}
+</button>

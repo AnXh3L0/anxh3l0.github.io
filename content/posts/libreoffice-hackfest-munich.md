@@ -1,7 +1,7 @@
 +++
 title = "LibreOffice Hackfest Munich 2018"
 date = "2018-11-01 12:00:00"
-images = ['/img/posts/libreoffice-hackfest.webp']
+images = ['/media/images/posts/libreoffice-hackfest.webp']
 description = 'A short report on the Munich hackfest on LibreOffice'
 tags = ["libreoffice", "hackfest", "design", "patch", "foss"]
 categories = ["article", "report", "blog"]
@@ -18,31 +18,31 @@ This idea got a positive feedback from the community and now we have a group of 
 
 On the first day, we started by introducing ourselves and what we would work on during the weekend. I discussed with Heiko and others about some UX tickets and the idea of separating the LibreOffice and The Document Foundation branding from each other.
 
-![Hackfest opening](/img/posts/hackfest-opening.webp)
+![Hackfest opening](/media/images/posts/hackfest-opening.webp)
 
 In the evening I got to [cook some delicious pasta](https://mobile.twitter.com/floeff/status/1055909904693780480) (Penne all'arrabbiata & Fusilli radicchio and gorgonzola) together with Marina and everyone seemed to have enjoyed the food (and the beer too).
 
-![Hackfest pasta](/img/posts/hackfest-pasta.webp)
+![Hackfest pasta](/media/images/posts/hackfest-pasta.webp)
 
 The next day (Saturday) was a bit more intensive. I started to prototype some ideas I had in mind about the branding for The Document Foundation. Unfortunately, I couldn't work that much because I was behind with my personal projects too. We had some interesing discussions on future local events and more.
 
-![Hackfest working](/img/posts/hackfest-working.webp)
+![Hackfest working](/media/images/posts/hackfest-working.webp)
 
 This second day we had some delicious pizza 🍕 for dinner.
 
-![Hackfest pizza](/img/posts/hackfest-pizza.webp)
+![Hackfest pizza](/media/images/posts/hackfest-pizza.webp)
 
 On Sunday, we made a summary of our contributions and bugfixes/patches/changes during the Hackfest.
 
-![Hackfest Last Day](/img/posts/hackfest-closing.webp)
+![Hackfest Last Day](/media/images/posts/hackfest-closing.webp)
 
 After that, it started raining but that didn't stop up from participating in the awesome Old Town city tour guided by Mike Saunders (Thanks Mike, you rock!).
 
-![Hackfest City Tour](/img/posts/hackfest-tour.webp)
+![Hackfest City Tour](/media/images/posts/hackfest-tour.webp)
 
 After the tour, we finished up with some food and beer 🍺.
 
-![Hackfest Beers](/img/posts/hackfest-beers.webp)
+![Hackfest Beers](/media/images/posts/hackfest-beers.webp)
 
 We also discussed about the idea of organizing the next Hackfest in Tirana in the upcoming March of 2019. By having the great support of LibreOffice community members, we can strengthen our skills and give back to the community.
 

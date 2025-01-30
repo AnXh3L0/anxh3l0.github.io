@@ -1,4 +1,5 @@
 +++
+layout = "single"
 title = "Resume"
 aliases = "/about/resume"
 +++
@@ -6,8 +7,6 @@ aliases = "/about/resume"
 ## Availability
 
 I am available for hire. [Get in touch](/about#contact "Ways to contact me") with me.
-
-<br>
 
 ## Current work position(s)
 
@@ -20,11 +19,9 @@ I am available for hire. [Get in touch](/about#contact "Ways to contact me") wit
 - Web Developer at [Tahoe-LAFS](https://tahoe-lafs.org/trac/tahoe-lafs)
 - DevOps Engineer at [Rubik Technologies](https://rubik-technologies.com/en/)
 
-<br>
-
 ## Skills
 
-- Over 6 years of **web development** experience, with a strong focus on performance, security, and privacy
+- Over 7 years of **web development** experience, with a strong focus on performance, security, and privacy
 - Proficient in HTML, CSS, and JavaScript
 - Extensive experience in system administration and security deployments
 - Experienced in both **offensive and defensive security** roles (penetration testing)
@@ -35,8 +32,6 @@ I am available for hire. [Get in touch](/about#contact "Ways to contact me") wit
 - **Public speaker** at events focused on open source, design, security, and privacy
 - Fluent in four languages: Albanian, English, Italian, and Spanish
 
-<br>
-
 ## Hobbies
 
 - Enjoys listening to music, especially EDM, deep house, electronic, and dubstep :musical_note:
@@ -45,13 +40,9 @@ I am available for hire. [Get in touch](/about#contact "Ways to contact me") wit
 - Passionate about traveling :airplane:
 - Enjoys biking :bike:
 
-<br>
-
 ## Education
 
 - Bachelor of Computer Engineering at the [Polytechnic University of Tirana — Faculty of Information Technology](http://www.fti.edu.al/ "The Faculty of Information Technology is the first faculty in Albania to train senior specialists in the fields of electronic engineering, telecommunication engineering and computer engineering.")
-
-<br>
 
 ## Experience
 
@@ -87,9 +78,7 @@ OSCAL (Open Source Conference Albania) is the first annual conference in Albania
 
 **Organizer of FOSSCAMP, Linux Weekend, Wiki Weekend and more**
 
-<br>
-
-## Public Speaking ([Speaking](/speaking)
+## Public Speaking
 
 **Speaker at [Prishtina Open Source Festival](https://www.facebook.com/events/603198710426816/)**
 
@@ -133,8 +122,6 @@ Wiki Weekend - Gave a talk on MediaWiki.
 
 **Speaker at other various smaller local and international events**
 
-<br>
-
 ## Participations
 
 **Participated at [FOSDEM 2017, 2018, 2019](https://fosdem.org)**
@@ -156,8 +143,6 @@ Flock is the Fedora Project's annual contributor-focused conference. It alternat
 ---
 
 **Participated in other smaller local events**
-
-<br>
 
 ## Projects
 

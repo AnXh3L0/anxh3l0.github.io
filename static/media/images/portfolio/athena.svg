@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 156 156"
+   role="img"
+   version="1.1"
+   id="svg7"
+   sodipodi:docname="logo-vertical.svg"
+   width="156"
+   height="156"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs7" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.6113876"
+     inkscape:cx="-53.059861"
+     inkscape:cy="131.87392"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g7" />
+  <g
+     id="g7"
+     transform="translate(-90.66,-0.58)">
+    <g
+       id="g8"
+       transform="translate(18.655,0.415)">
+      <path
+         d="M 150,43.94 90.66,0.58 V 95.4 c 0,27.36 22.18,49.55 49.55,49.55 h 19.59 c 27.36,0 49.55,-22.18 49.55,-49.55 V 0.58 Z m -30.76,18.41 c -5.75,0 -10.42,-4.66 -10.42,-10.42 0,-5.75 4.66,-10.42 10.42,-10.42 5.75,0 10.41,4.66 10.41,10.42 0,5.75 -4.66,10.42 -10.41,10.42 m 30.76,39.24 -9.32,-24.71 9.32,-8.71 9.32,8.71 z m 30.76,-39.24 c -5.75,0 -10.42,-4.66 -10.42,-10.42 0,-5.75 4.66,-10.42 10.42,-10.42 5.75,0 10.41,4.66 10.41,10.42 0.01,5.75 -4.66,10.42 -10.41,10.42"
+         fill="#ee453e"
+         id="path1" />
+      <path
+         d="m 119.29,144.31 c -6.32,0 -11.44,5.12 -11.44,11.44 h 22.88 c 0,-6.32 -5.12,-11.44 -11.44,-11.44"
+         fill="#ee453e"
+         id="path2" />
+      <path
+         d="m 180.71,144.31 c -6.32,0 -11.44,5.12 -11.44,11.44 h 22.88 c 0,-6.32 -5.13,-11.44 -11.44,-11.44"
+         fill="#ee453e"
+         id="path3" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="39.31284"
+   height="39.999134"
+   viewBox="0 0 39.31284 39.999134"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="briar.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4.3035714"
+     inkscape:cx="26.605809"
+     inkscape:cy="24.049793"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <path
+     d="m 10.857039,0 c -1.62291,0 -2.96086,1.3613038 -2.96086,3.0125538 v 3.82949 h 7.29376 v -3.82949 C 15.189939,1.3613038 13.868239,0 12.245339,0 Z m 16.2275,0 c -1.6229,0 -2.9609,1.3613038 -2.9609,3.0125538 V 23.352834 h 7.2938 V 3.0125538 C 31.417439,1.3613038 30.095739,0 28.472839,0 Z M 7.896179,16.646234 v 20.3403 c 0,1.6513 1.32171,3.0126 2.96086,3.0126 h 1.3883 c 1.6229,0 2.9608,-1.3613 2.9608,-3.0126 v -20.3403 z m 16.22666,16.5108 v 3.8295 c 0,1.6513 1.3388,3.0126 2.9609,3.0126 h 1.3883 c 1.6229,0 2.9608,-1.3613 2.9608,-3.0126 v -3.8295 c 9e-4,0 -7.31,0 -7.31,0 z"
+     fill="#74b816"
+     id="path2" />
+  <path
+     d="M 2.960859,8.0332038 C 1.337949,8.0332038 0,9.3779838 0,11.045734 v 1.4125 c 0,1.6513 1.321709,3.0126 2.960859,3.0126 h 19.99128 V 8.0332038 Z m 29.62728,0 v 7.4384302 h 3.7638 c 1.6229,0 2.9609,-1.3448 2.9609,-3.0125 v -1.4126 c 0,-1.6677202 -1.338,-3.0125002 -2.9609,-3.0125002 h -3.7638 z M 2.960859,24.544034 C 1.337949,24.544034 0,25.888734 0,27.556534 v 1.4125 c 0,1.6513 1.321709,3.0126 2.960859,3.0126 h 3.7638 v -7.4376 z m 13.39978,0 v 7.4384 h 19.9913 c 1.6229,0 2.9609,-1.3621 2.9609,-3.0126 v -1.4125 c 0,-1.6677 -1.338,-3.0125 -2.9609,-3.0125 z"
+     fill="#82c91e"
+     id="path3" />
+</svg>

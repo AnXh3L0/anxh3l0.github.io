@@ -1,0 +1,62 @@
+<!-- Author Structured Data -->
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "{{ .Site.Params.author.name }}",
+    "url": "{{ .Site.BaseURL }}",
+    "sameAs": [
+      {{- $social := .Site.Params.social -}}
+      {{- $socialLength := len $social -}}
+      {{- range $index, $item := $social -}}
+        "{{ $item.url }}"{{ if lt (add $index 1) $socialLength }},{{ end }}
+      {{- end -}}
+    ],
+    "email": "{{ .Site.Params.author.email }}",
+    "description": "{{ .Site.Params.author.description }}",
+    "image": "{{ .Site.Params.author.image }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{ .Site.Params.author.addressLocality }}",
+      "addressCountry": "{{ .Site.Params.author.addressCountry }}"
+    },
+    "worksFor": [
+      {{- $worksFor := .Site.Params.author.worksFor -}}
+      {{- $worksForLength := len $worksFor -}}
+      {{- range $index, $org := $worksFor -}}
+        {
+          "@type": "Organization",
+          "name": "{{ $org.name }}",
+          "url": "{{ $org.url }}",
+          "jobTitle": "{{ $org.jobTitle }}"
+        }{{ if lt (add $index 1) $worksForLength }},{{ end }}
+      {{- end -}}
+    ],
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "{{ .Site.Params.author.alumniOf }}"
+    },
+    "birthDate": "{{ .Site.Params.author.birthDate }}",
+    "gender": "{{ .Site.Params.author.gender }}",
+    "jobTitle": "{{ .Site.Params.author.jobTitle }}",
+    "knowsAbout": [
+      {{- $knowsAbout := .Site.Params.author.knowsAbout -}}
+      {{- $knowsAboutLength := len $knowsAbout -}}
+      {{- range $index, $topic := $knowsAbout -}}
+        "{{ $topic }}"{{ if lt (add $index 1) $knowsAboutLength }},{{ end }}
+      {{- end -}}
+    ],
+    "knowsLanguage": [
+      {{- $languages := .Site.Params.author.knowsLanguage -}}
+      {{- $langLength := len $languages -}}
+      {{- range $index, $language := $languages -}}
+        {
+          "@type": "Language",
+          "name": "{{ $language }}"
+        }{{ if lt (add $index 1) $langLength }},{{ end }}
+      {{- end -}}
+    ],
+    "telephone": "{{ .Site.Params.author.telephone }}",
+    "nationality": "{{ .Site.Params.author.nationality }}"
+  }
+</script>

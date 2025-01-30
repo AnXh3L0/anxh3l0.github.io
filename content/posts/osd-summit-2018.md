@@ -1,7 +1,7 @@
 +++
 title = "Open Source Design Summit Tirana"
 date = "2018-11-14 03:00:00 +0200"
-images = ['/img/posts/osd-summit.webp']
+images = ['/media/images/posts/osd-summit.webp']
 description = 'The 2nd edition of the Summit'
 tags = ["design", "summit", "community", "open source", "software"]
 categories = ["article", "report", "blog"]
@@ -13,7 +13,7 @@ During the first weekend of November (from 2-4 November) I had the opportunity a
 
 [Open Source Design](https://opensourcedesign.net/) is a community of designers and developers pushing more open design processes and improving the user experience and interface design of open source software. The community writes articles, runs a [job board](https://opensourcedesign.net/jobs), puts on events, provides resources, and presents talks targeted at developers and designers interested in working and designing in Open Source.
 
-![Open Source Design logo](/img/posts/osd-logo.webp)
+![Open Source Design logo](/media/images/posts/osd-logo.webp)
 
 Open Source Design Summit itself is an yearly event where designers, developers and more join to discuss about the issues of Open Design and how to improve our involvement in projects, provide better design and feedback, use better tools, ways of communicating and sharing with people etc.
 
@@ -45,21 +45,21 @@ Next up was dinner, we decided to eat at our usual restaurant of choice, [Mystic
 
 The following Saturday morning (officially the 1st day of the Summit) started with new energies. The event started at 10.00 AM at Ofiçina and we started discussing on the topics we proposed the previous day and preparing a more curated agenda for the day.
 
-[![Saturday agenda](/img/posts/osd-agenda-sat.webp)](/img/posts/osd-agenda-sat-full.webp)
+[![Saturday agenda](/media/images/posts/osd-agenda-sat.webp)](/media/images/posts/osd-agenda-sat-full.webp)
 
 We officially started the Summit by welcoming everyone by giving an intro to Open Source Design for newcomers that decided to join us in the Summit, following up with a short talk by [David](https://twitter.com/halaszdavid) and [Teresa](https://twitter.com/terezanovotna_) from [Red Hat](https://redhat.com) about [Design Systems](https://en.wikipedia.org/wiki/Systems_design), and specifically about [PatternFly](https://www.patternfly.org/).
 
-[![David and Tereza talk](/img/posts/osd-david-tereza.webp)](https://upload.wikimedia.org/wikipedia/commons/0/0a/Open_Source_Design_Summit_2018_-_79.webp)
+[![David and Tereza talk](/media/images/posts/osd-david-tereza.webp)](https://upload.wikimedia.org/wikipedia/commons/0/0a/Open_Source_Design_Summit_2018_-_79.webp)
 
 Next up we had a very interesting and involving workshop about Cut, Copy & Paste from [Sam](https://cameralibre.cc). The workshop was there to teach beginners about the concept of git as a version control system (as designers usually have to work with git too, which is a showstopper for many at first). Thanks a lot Sam, it was a total blast!
 
-[![Sam's workshop](/img/posts/osd-sam-workshop.webp)](/img/posts/osd-sam-workshop-full.webp)
+[![Sam's workshop](/media/images/posts/osd-sam-workshop.webp)](/media/images/posts/osd-sam-workshop-full.webp)
 
 After the workshop, we had lunch at 1 PM (we had the group photo before lunch too, but not going to share now, rather let you scroll down until the end of the article, as always) and restarted the sessions at 2 PM. In the next sessions, we talked about finalizing our [Manifesto](https://en.wikipedia.org/wiki/Manifesto), a topic we had been discussing for a long time [at our Discourse forum](https://discourse.opensourcedesign.net/t/open-source-design-manifesto/630) and we think we finally have a ready-to-go version that will be published soon on the website (bravo and thanks to everyone involved).
 
 The following topic was about our upcoming events and where should Open Source Design focus on more, a nice discussion that happened outside, in the warm weather (really, Albania is warm even in November).
 
-[![Discussing about events](/img/posts/osd-events.webp)](/img/posts/osd-events-full.webp)
+[![Discussing about events](/media/images/posts/osd-events.webp)](/media/images/posts/osd-events-full.webp)
 
 The next topic was a sharing round where we shared our knowledge and skills, what we can do to help and change the current proprietary and closed-down system and provide help where it's needed the most in open source. After, [Renata](https://twitter.com/RenataGegaj) of our team shared some Usability Studies we accomplished before, such as [Thunderbird](https://ura.design/projects/thunderbird) and [I2P](https://ura.design/projects/i2p). Later, Sam shared some info about the issue of Diffing SVG-s and how difficult it is to process it correctly and with consistent results, because each software tries to do it in their own way.
 
@@ -69,7 +69,7 @@ Closing up at 5 PM, we cleaned up the place and prepared it for the next day and
 
 The last day (Sunday) started as usual, but this time at 10:30 AM. This final day was mostly marketing related (in the sense that we created a huge table with data) but more busy.
 
-[![Last day agenda](/img/posts/osd-agenda-sun.webp)](/img/posts/osd-agenda-sun-full.webp)
+[![Last day agenda](/media/images/posts/osd-agenda-sun.webp)](/media/images/posts/osd-agenda-sun-full.webp)
 
 We started by discussing about the Summit itself and community building (via local meetups). Then, we split into two groups, one inside and one outside. The one inside worked on finalizing the Manifesto meanwhile the one outside (which I directed) discussed about Design Tools, what each of us used, what can we use and bring new ideas into the table. This was a very important topic as we agreed that open source design tools projects need more dev feedback and also help in improving their UI/UX (most complained about GIMP and I can totally understand that).
 
@@ -77,7 +77,7 @@ After these sessions, we had lunch 🥗 again at 1 PM and resumed the sessions a
 
 The whiteboard was filled with sticky notes 📌 and everyone brainstormed 💡 about different organizations/projects that had similar goals and intensions as Open Source Design.
 
-[![Whiteboard](/img/posts/osd-whiteboard-sun.webp)](/img/posts/osd-whiteboard-sun-full.webp)
+[![Whiteboard](/media/images/posts/osd-whiteboard-sun.webp)](/media/images/posts/osd-whiteboard-sun-full.webp)
 
 We discussed about ways to build up a bugdet that Open Source Design can use to extend its activity, changes we would be doing in the Open Source Design website, such as a new theme (maybe, a bit far fetched idea though), the structure of the organisation, the platforms we would use, the politics we would follow, [Adbusting](https://www.wordaz.com/adbusting.html), project outreach and how we could onboard new designers into the project.
 
@@ -87,7 +87,7 @@ This is basically (**very detailed right?**) what happened during the Open Sourc
 
 Oh, I almost forgot, as promised, here is the group photo 📸 from the Summit. Enjoy!
 
-[![OSD Summit group photo](/img/posts/osd-group-photo.webp)](https://upload.wikimedia.org/wikipedia/commons/5/54/Open_Source_Design_Summit_2018_-_95.webp)
+[![OSD Summit group photo](/media/images/posts/osd-group-photo.webp)](https://upload.wikimedia.org/wikipedia/commons/5/54/Open_Source_Design_Summit_2018_-_95.webp)
 
 Thanks to the support from [Stickermule](https://stickermule.com), [Mozilla](https://mozilla.org), [phpList](https://phplist.com), [Open Tech Fund](https://opentech.fund), [Red Hat](https://redhat.com) & [Nextcloud](https://nextcloud.com) we were able to bring the largest celebration of the Open Source Design community in the city.
 

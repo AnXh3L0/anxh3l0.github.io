@@ -1,0 +1,16 @@
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "CreativeWork",
+      "name": "{{ .Title }}",
+      "description": "{{ .Params.description }}",
+      "url": "{{ .Params.projectUrl }}",
+      "image": "{{ .Site.BaseURL }}/media/images/portfolio/{{ .Params.img }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ .Site.Params.author.name }}"
+      },
+      "dateCreated": "{{ .Date | time.Format "2006-01-02" }}",
+      "sameAs": "{{ .Params.projectUrl }}"
+    }
+</script>

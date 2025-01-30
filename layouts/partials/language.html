@@ -1,0 +1,31 @@
+{{ if .IsTranslated }}
+<div class="pointer-events-auto relative">
+  <button type="button" 
+          aria-label="{{ i18n "language_switcher" }}"
+          aria-haspopup="true"
+          aria-expanded="false"
+          class="language-switcher group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
+          data-dropdown-toggle="language-dropdown">
+    {{ partial "icons/translate.html" . }}
+  </button>
+  
+  <div id="language-dropdown"
+       class="absolute right-0 top-full z-50 mt-2 hidden w-36 origin-top-right rounded-2xl bg-white/90 p-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition-all duration-100 ease-in-out dark:bg-zinc-800/90 dark:ring-white/10"
+       role="menu"
+       aria-hidden="true">
+    {{ range .AllTranslations }}
+    <a href="{{ .Permalink }}"
+       class="flex items-center justify-between rounded-lg px-3 py-2 text-sm text-zinc-800 transition-colors hover:bg-zinc-100 dark:text-zinc-200 dark:hover:bg-zinc-700/50"
+       data-lang="{{ .Language.Lang }}"
+       role="menuitem">
+      <span>{{ .Language.LanguageName }}</span>
+      {{ if eq .Lang $.Lang }}
+      <svg class="h-4 w-4 fill-current text-teal-500" viewBox="0 0 20 20">
+        <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+      </svg>
+      {{ end }}
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

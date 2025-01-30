@@ -1,11 +1,72 @@
 {{- $noticeType := .Get 0 -}}
 {{- $raw := (markdownify .Inner | chomp) -}}
 {{- $block := findRE "(?is)^<(?:address|article|aside|blockquote|canvas|dd|div|dl|dt|fieldset|figcaption|figure|footer|form|h(?:1|2|3|4|5|6)|header|hgroup|hr|li|main|nav|noscript|ol|output|p|pre|section|table|tfoot|ul|video)\\b" $raw 1 -}}
+
 {{- if not ($.Page.Scratch.Get "noticecount") -}}
-<div><svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></symbol><symbol id="note-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="warning-notice" viewBox="0 0 576 512" preserveAspectRatio="xMidYMid meet"><path d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"/></symbol><symbol id="info-notice" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><path d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"/></symbol></svg></div>
+<div aria-hidden="true">
+    <svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- Tip (Lightbulb) -->
+      <symbol id="tip-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+      </symbol>
+  
+      <!-- Note (Pencil) -->
+      <symbol id="note-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/>
+      </symbol>
+  
+      <!-- Warning (Exclamation Triangle) -->
+      <symbol id="warning-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+      </symbol>
+  
+      <!-- Info (Information Circle) -->
+      <symbol id="info-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+      </symbol>
+    </svg>
+</div>
 {{- end -}}
 {{- $.Page.Scratch.Add "noticecount" 1 -}}
-<div class="notice {{ $noticeType }}" {{ if len .Params | eq 2 }} id="{{ .Get 1 }}" {{ end }}>
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#{{- $noticeType -}}-notice"></use></svg></span>{{- i18n $noticeType -}}</p>
-{{- if or $block (not $raw) }}{{ $raw }}{{ else }}<p>{{ $raw }}</p>{{ end -}}
+{{- $currentCount := $.Page.Scratch.Get "noticecount" -}}
+{{- $noticeDivID := cond (eq (len .Params) 2) (.Get 1) (printf "notice-%d" $currentCount) -}}
+
+{{- $colorMap := dict 
+  "tip" (dict "bg" "bg-green-50 dark:bg-green-900/20" "border" "border-l-green-400" "text" "text-green-800 dark:text-green-200")
+  "note" (dict "bg" "bg-blue-50 dark:bg-blue-900/20" "border" "border-l-blue-400" "text" "text-blue-800 dark:text-blue-200")
+  "warning" (dict "bg" "bg-yellow-50 dark:bg-yellow-900/20" "border" "border-l-yellow-400" "text" "text-yellow-800 dark:text-yellow-200")
+  "info" (dict "bg" "bg-purple-50 dark:bg-purple-900/20" "border" "border-l-purple-400" "text" "text-purple-800 dark:text-purple-200")
+-}}
+{{- $colors := index $colorMap $noticeType | default (index $colorMap "note") -}}
+
+<div 
+  class="notice my-4 px-4 py-6 rounded-lg border-l-4 {{ $colors.bg }} {{ $colors.border }} {{ $colors.text }} prose dark:prose-invert max-w-none"
+  role="note"
+  id="{{ $noticeDivID }}"
+  aria-labelledby="{{ $noticeDivID }}-title"
+>
+  <div class="flex items-start gap-2">
+    <span class="mt-1 shrink-0" aria-hidden="true">
+      <svg class="w-5 h-5 {{ $colors.text }}" focusable="false">
+        <use href="#{{ $noticeType }}-notice"></use>
+      </svg>
+    </span>
+    <div class="flex-1">
+      <p 
+        class="mt-0 font-semibold"
+        id="{{ $noticeDivID }}-title"
+        role="heading" 
+        aria-level="3"
+      >
+        {{- i18n $noticeType | title -}}
+      </p>
+      <div class="notice-content mt-2">
+        {{- if or $block (not $raw) -}}
+          {{ $raw }}
+        {{- else -}}
+          <p class="m-0">{{ $raw }}</p>
+        {{- end -}}
+      </div>
+    </div>
+  </div>
 </div>

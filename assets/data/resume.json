@@ -1,0 +1,500 @@
+{
+    "basics": {
+      "name": "Anxhelo Lushka",
+      "headline": "UX/UI Developer and DevOps Enginner",
+      "email": "hello@lushka.al",
+      "phone": "+355699932340",
+      "location": "",
+      "url": {
+        "label": "",
+        "href": "https://lushka.al"
+      },
+      "customFields": [],
+      "picture": {
+        "url": "",
+        "size": 64,
+        "aspectRatio": 1,
+        "borderRadius": 0,
+        "effects": {
+          "hidden": true,
+          "border": false,
+          "grayscale": false
+        }
+      }
+    },
+    "sections": {
+      "summary": {
+        "name": "Summary",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "summary",
+        "content": "<p>With a background in graphic design and frontend development, I specialize in creating secure, performant, and accessible web experiences. I also have extensive experience in DevOps engineering and system administration, focusing on building reliable infrastructure, optimizing CI/CD pipelines, and ensuring system security.</p><p>Passionate about open-source, I contribute to projects as a Fedora Linux Ambassador and core member of Open Source Design. As an active community organizer, I've led tech events like OSCAL, LibOCon, and Linux Weekend. I also share insights on privacy, security, and open-source topics through public speaking, workshops, and articles, advancing transparency and human rights through technology.</p>"
+      },
+      "awards": {
+        "name": "Awards",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "awards",
+        "items": []
+      },
+      "certifications": {
+        "name": "Certifications",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "certifications",
+        "items": [
+          {
+            "id": "q6uifr9e4vqez6e1vu2gmth9",
+            "visible": true,
+            "name": "General Training",
+            "issuer": "IELTS",
+            "date": "May 2022",
+            "summary": "<p>Score: 8.5 out of 9, CERF Level C2<br>Test Report Form Number 22AL000499LUSA001G</p>",
+            "url": {
+              "label": "",
+              "href": "https://ieltsregistration.britishcouncil.org/"
+            }
+          }
+        ]
+      },
+      "education": {
+        "name": "Education",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "education",
+        "items": [
+          {
+            "id": "estjoxmm3d3jtveqrj11pphi",
+            "visible": true,
+            "institution": "Polytechnic University of Tirana",
+            "studyType": "Bachelor of Science",
+            "area": "Computer Engineering",
+            "score": "",
+            "date": "",
+            "summary": "<p>Undergraduate education, as well as research and development in the fields of software engineering, object-oriented programming, computer architecture, design of digital systems, utilization systems, distributed and grid systems, network technologies and databases.</p>",
+            "url": {
+              "label": "",
+              "href": "https://fti.edu.al/"
+            }
+          }
+        ]
+      },
+      "experience": {
+        "name": "Experience",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "experience",
+        "items": [
+          {
+            "id": "qyuejzw4f1u2b93sght4mf4t",
+            "visible": true,
+            "company": "GlobaLeaks",
+            "position": "DevOps Engineer",
+            "location": "",
+            "date": "January 2025 - Present",
+            "summary": "<ul><li><p>Building secure, reliable infrastructure and optimizing CI/CD pipelines for whistleblowing platforms and human rights initiatives.</p></li><li><p>Collaborating with the CTO, team, and community to improve software and usability.</p></li><li><p>Supporting users with technical assistance, documentation, and training.</p></li><li><p>Promoting open-source collaboration and mentoring a fully remote team.</p></li></ul>",
+            "url": {
+              "label": "",
+              "href": "https://globaleaks.org"
+            }
+          },
+          {
+            "id": "lf0u6syhq2ryk6ac14udfkic",
+            "visible": true,
+            "company": "Rubik Technologies",
+            "position": "DevOps Engineer",
+            "location": "",
+            "date": "October 2023 - Present",
+            "summary": "<ul><li><p>Understanding customer requirements and KPIs to guide projects.</p></li><li><p>Implementing and managing development, testing, automation tools, and infrastructure.</p></li><li><p>Defining processes for development, testing, release, and support in DevOps operations.</p></li><li><p>Building automated workflows, CI/CD pipelines, and improving processes continuously.</p></li><li><p>Ensuring cybersecurity through vulnerability assessments and risk management.</p></li></ul>",
+            "url": {
+              "label": "",
+              "href": "https://rubik-technologies.com/"
+            }
+          },
+          {
+            "id": "dn2qwpkjdhg0bdup2udfmijw",
+            "visible": true,
+            "company": "MAGOWARE",
+            "position": "DevOps Engineer",
+            "location": "",
+            "date": "February 2022 - January 2024",
+            "summary": "<ul><li><p>Understanding customer requirements and KPIs to define DevOps processes.</p></li><li><p>Implementing and managing tools, infrastructure, and automation workflows.</p></li><li><p>Ensuring cybersecurity with continuous vulnerability assessments and risk management.</p></li></ul>",
+            "url": {
+              "label": "",
+              "href": "https://magoware.tv"
+            }
+          },
+          {
+            "id": "b1kacjr38g1jee3tmh6xvlmm",
+            "visible": true,
+            "company": "Tahoe-LAFS",
+            "position": "Web Developer",
+            "location": "",
+            "date": "May 2021 - April 2022",
+            "summary": "<ul><li><p>Developing an asset management strategy, policy, and brand identity.</p></li><li><p>Building a new online presence, website, and updated API.</p></li><li><p>Organizing inventory and tracking progress via Trac tickets.</p></li><li><p>Designing wireframes, mockups, and social media assets with guidelines.</p></li></ul>",
+            "url": {
+              "label": "",
+              "href": "https://tahoe-lafs.org"
+            }
+          },
+          {
+            "id": "bklmzqpy5eed7hegjxoutztb",
+            "visible": true,
+            "company": "Ura Design",
+            "position": "Lead Frontend Developer",
+            "location": "",
+            "date": "January 2017 - Present",
+            "summary": "<ul><li><p>Developing responsive, stable websites and apps from mock-ups using HTML, CSS, and JavaScript.</p></li><li><p>Ensuring performance, troubleshooting issues, and supporting clients.</p></li><li><p>Collaborating with the team throughout all project phases.</p></li></ul>",
+            "url": {
+              "label": "",
+              "href": "https://ura.design/en/"
+            }
+          },
+          {
+            "id": "z2ztk0za3w0ftxifpq3xb9zk",
+            "visible": true,
+            "company": "Freelancer",
+            "position": "Self-employed",
+            "location": "",
+            "date": "September 2016 - Present",
+            "summary": "<ul><li><p>Analyzing marketing and user experience challenges to create on-brand, goal-driven design solutions.</p></li><li><p>Collaborating with cross-functional teams to optimize user experience and ensure brand consistency.</p></li><li><p>Developing creative concepts, implementing responsive, secure websites and apps, and maintaining server and network systems.</p></li><li><p>Editing media for web, print, and digital use, while ensuring uptime, performance, and compliance.</p></li></ul>",
+            "url": {
+              "label": "",
+              "href": "https://lushka.al"
+            }
+          }
+        ]
+      },
+      "volunteer": {
+        "name": "Volunteering",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "volunteer",
+        "items": [
+          {
+            "id": "avdj3gh3kg9fhfd2tc6dqp93",
+            "visible": true,
+            "organization": "Fedora Project",
+            "position": "Ambassador",
+            "location": "",
+            "date": "May 2018 - Present",
+            "summary": "",
+            "url": {
+              "label": "",
+              "href": "https://getfedora.org"
+            }
+          },
+          {
+            "id": "i6gpooq63dpns0cpgpv3hc89",
+            "visible": true,
+            "organization": "Open Source Design",
+            "position": "Core member",
+            "location": "",
+            "date": "February 2018 - Present",
+            "summary": "",
+            "url": {
+              "label": "",
+              "href": "https://opensourcedesign.net"
+            }
+          },
+          {
+            "id": "jaml8gbgvubcdr9m2ykepxql",
+            "visible": true,
+            "organization": "The Document Foundation",
+            "position": "Member",
+            "location": "",
+            "date": "October 2016 - September 2020",
+            "summary": "",
+            "url": {
+              "label": "",
+              "href": "https://libreoffice.org"
+            }
+          },
+          {
+            "id": "u34o4ve1hq4u6nrd1idmarax",
+            "visible": true,
+            "organization": "Open Labs Hackerspace",
+            "position": "Member",
+            "location": "Tirana, Albania",
+            "date": "January 2016 - September 2023",
+            "summary": "<ul><li><p>Collaborated with the local municipality to implement open source solutions in the administration</p></li><li><p>Organized and volunteered in more than 40 events, locally and internationally, related to technology</p></li></ul>",
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          }
+        ]
+      },
+      "interests": {
+        "name": "Interests",
+        "columns": 5,
+        "separateLinks": true,
+        "visible": true,
+        "id": "interests",
+        "items": [
+          {
+            "id": "nyty21kj5261isyuzqrc936g",
+            "visible": true,
+            "name": "Travelling",
+            "keywords": []
+          },
+          {
+            "id": "tdvh53wl8ovh2wkt3g8hi1ed",
+            "visible": true,
+            "name": "Astrophysics",
+            "keywords": []
+          },
+          {
+            "id": "lilh6nfbwiq0ztfk3oncij2w",
+            "visible": true,
+            "name": "Photography",
+            "keywords": []
+          },
+          {
+            "id": "umgnqtbehptds3zt98xj6qsq",
+            "visible": true,
+            "name": "Music",
+            "keywords": []
+          },
+          {
+            "id": "wk92bsztfdq7zilscglt1jqr",
+            "visible": true,
+            "name": "Volunteering",
+            "keywords": []
+          }
+        ]
+      },
+      "languages": {
+        "name": "Languages",
+        "columns": 5,
+        "separateLinks": true,
+        "visible": true,
+        "id": "languages",
+        "items": [
+          {
+            "id": "te1dedh0b9d4qyqlbvi5bun2",
+            "visible": true,
+            "name": "Albanian",
+            "description": "Native",
+            "level": 5
+          },
+          {
+            "id": "wmjwjc1z8s1ytouiwiid48w0",
+            "visible": true,
+            "name": "English",
+            "description": "C2 - Bilingual",
+            "level": 5
+          },
+          {
+            "id": "hrd2tmajhqy512ixg9y4smzs",
+            "visible": true,
+            "name": "Italian",
+            "description": "C1",
+            "level": 4
+          },
+          {
+            "id": "mkr98mqpcq9q3fqbj0030vg4",
+            "visible": true,
+            "name": "Spanish",
+            "description": "B2",
+            "level": 3
+          },
+          {
+            "id": "rxhzk0sb2gs9cjlr1ya1nh83",
+            "visible": true,
+            "name": "Portuguese",
+            "description": "B1",
+            "level": 3
+          }
+        ]
+      },
+      "profiles": {
+        "name": "Profiles",
+        "columns": 2,
+        "separateLinks": true,
+        "visible": true,
+        "id": "profiles",
+        "items": [
+          {
+            "id": "bgjhxclekm64lj7c565natj8",
+            "visible": true,
+            "network": "GitHub",
+            "username": "GitHub",
+            "icon": "github",
+            "url": {
+              "label": "",
+              "href": "https://github.com/AnXh3L0"
+            }
+          },
+          {
+            "id": "wxkl9wjj7jx6tf0vaftklx4s",
+            "visible": true,
+            "network": "LinkedIn",
+            "username": "LinkedIn",
+            "icon": "linkedin",
+            "url": {
+              "label": "",
+              "href": "https://www.linkedin.com/in/anxhelo-lushka"
+            }
+          }
+        ]
+      },
+      "projects": {
+        "name": "Projects",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "projects",
+        "items": []
+      },
+      "publications": {
+        "name": "Publications",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "publications",
+        "items": []
+      },
+      "references": {
+        "name": "References",
+        "columns": 1,
+        "separateLinks": true,
+        "visible": true,
+        "id": "references",
+        "items": []
+      },
+      "skills": {
+        "name": "Skills",
+        "columns": 2,
+        "separateLinks": true,
+        "visible": true,
+        "id": "skills",
+        "items": [
+          {
+            "id": "da3fean0e9713llrpsel2e5j",
+            "visible": true,
+            "name": "Web Development",
+            "description": "",
+            "level": 5,
+            "keywords": [
+              "HTML",
+              "CSS",
+              "JavaScript",
+              "SSG",
+              "WordPress"
+            ]
+          },
+          {
+            "id": "fnjwjo1mgo6vi2qurge0n9v6",
+            "visible": true,
+            "name": "System Administration",
+            "description": "",
+            "level": 5,
+            "keywords": [
+              "Linux",
+              "Networking",
+              "Git",
+              "Scripting"
+            ]
+          },
+          {
+            "id": "gof51q7u29xj8wazavl02df9",
+            "visible": true,
+            "name": "Design",
+            "description": "",
+            "level": 4,
+            "keywords": [
+              "Figma",
+              "Adobe Photoshop",
+              "Adobe Illustrator",
+              "Inkscape"
+            ]
+          },
+          {
+            "id": "usooigb8q12na56vhu8ydm9e",
+            "visible": true,
+            "name": "Soft skills",
+            "description": "",
+            "level": 4,
+            "keywords": [
+              "Public speaking",
+              "Analytical",
+              "Detail-oriented",
+              "Creative",
+              "Adaptable",
+              "Independent",
+              "Proactive",
+              "Team-working"
+            ]
+          }
+        ]
+      },
+      "custom": {}
+    },
+    "metadata": {
+      "template": "onyx",
+      "layout": [
+        [
+          [
+            "profiles",
+            "summary",
+            "experience"
+          ],
+          []
+        ],
+        [
+          [
+            "education",
+            "volunteer",
+            "certifications",
+            "skills",
+            "languages",
+            "interests"
+          ],
+          [
+            "projects",
+            "awards",
+            "references",
+            "publications"
+          ]
+        ]
+      ],
+      "css": {
+        "value": "ul li {\n    padding-inline-start: 0 !important;\n    margin-bottom: 0.3rem !important;\n}\n\nul li p {\n    margin-bottom: 0 !important;\n}",
+        "visible": true
+      },
+      "page": {
+        "margin": 40,
+        "format": "a4",
+        "options": {
+          "breakLine": false,
+          "pageNumbers": false
+        }
+      },
+      "theme": {
+        "background": "#ffffff",
+        "text": "#000000",
+        "primary": "#e11d48"
+      },
+      "typography": {
+        "font": {
+          "family": "Inter",
+          "subset": "latin",
+          "variants": [
+            "regular"
+          ],
+          "size": 14
+        },
+        "lineHeight": 1.5,
+        "hideIcons": false,
+        "underlineLinks": true
+      },
+      "notes": ""
+    }
+  }

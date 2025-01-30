@@ -1,0 +1,16 @@
+<figure class="video-embed relative aspect-video w-full" role="region" aria-labelledby="generic-{{ .File.UniqueID }}-title">
+    <button class="thumbnail-button absolute inset-0 h-full w-full" 
+            data-domain="{{ .Params.domain }}"
+            data-id="{{ .Params.videoID }}"
+            data-timestamp="{{ .Params.timestamp | default "0" }}"
+            aria-label="{{ i18n "play_video" }}: {{ .Title }}">
+      <img src="/media/images/thumbs/{{ .Params.thumb | relURL }}" 
+           alt="{{ i18n "video_thumbnail_alt" }}: {{ .Title }}" 
+           loading="lazy"
+           class="absolute inset-0 h-full w-full object-cover">
+      <span class="play-indicator" aria-hidden="true">▶</span>
+    </button>
+    <figcaption id="generic-{{ .File.UniqueID }}-title" class="sr-only">
+      {{ .Title }} - {{ .Params.event }} ({{ i18n "duration" }}: {{ .Params.duration }} {{ i18n "minutes" }})
+    </figcaption>
+</figure>

@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language }}" itemscope itemtype="http://schema.org/WebPage">
+<html data-theme="light" lang="{{ .Site.Language }}" data-homepage="{{ .IsHome }}" dir="{{ .Site.Language.Params.direction }}" itemscope
+  itemtype="http://schema.org/WebPage">
 
 <head>
-    {{ partial "head.html" . }}
+  {{ partial "head.html" . }}
 </head>
 
-<body>
-    <a class="screen-reader-text" href="#content">Skip to content</a>
-
-    {{ partial "header.html" . }}
-
-    <div id="content" class="content">
-        {{ block "main" . }}{{ end }}
+<body class="flex h-full bg-zinc-50 dark:bg-black">
+  <div class="flex w-full">
+    <div class="fixed inset-0 flex justify-center sm:px-8">
+      <div class="flex w-full max-w-7xl lg:px-8">
+        <div class="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20"></div>
+      </div>
     </div>
-
-    {{ block "footer" . }}
-    {{ partial "footer.html" . }}
-    {{ end }}
-    
+    <div class="relative flex w-full flex-col">
+      {{ partial "header.html" . }}
+        {{ block "main" . }}
+          {{ .Content }}
+        {{ end }}
+      {{ partial "footer.html" . }}
+    </div>
+  </div>
+  {{ partial "javascript.html" . }}
 </body>
-
-</html>

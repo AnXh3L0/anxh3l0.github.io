@@ -1,15 +1,5 @@
 {{ define "main" }}
-<main>
-    <div>
-        <h1>{{ .Site.Title }}</h1>
-
-        {{- with .Site.Params.homeSubtitle }}
-        <p>{{. | markdownify }}</p>
-        {{- end }}
-
-        {{- with .Site.Params.social }}
-        {{ partial "social-icons.html" . }}
-        {{- end }}
-    </div>
-</main>
+{{ partial "hero.html" . }}
+{{ partial "gallery.html" . }}
+{{ partial "latest-posts.html" . }}
 {{ end }}

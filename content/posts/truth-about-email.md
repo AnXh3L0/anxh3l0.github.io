@@ -1,7 +1,7 @@
 +++
 title = "The truth about e-mail"
 date = "2018-10-10 12:00:00"
-images = ['/img/posts/email.webp']
+images = ['/media/images/posts/email.webp']
 description = 'A short beginner-friendly intro on e-mail ins and outs'
 tags = ["email", "privacy", "tips", "beginner", "foss"]
 categories = ["article", "privacy", "blog"]

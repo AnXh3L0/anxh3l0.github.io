@@ -1,36 +1,56 @@
 {{ define "main" }}
-<main class="post">
+{{ if .IsPage }}
+  {{ partial "portfolio.html" . }}
+{{ end }}
+<main class="flex-auto" role="main" {{ if .IsTranslated }}lang="{{ .Language.Lang }}"{{ end }}>
+  <div class="mt-16 sm:px-8 lg:mt-32">
+    <div class="mx-auto w-full max-w-7xl lg:px-8">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <div class="xl:relative">
+            <div class="mx-auto max-w-2xl">
+              <a 
+                href="{{ "/portfolio" | relLangURL }}" 
+                aria-label="{{ i18n "back_to_portfolio" }}" 
+                class="group mb-8 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0 dark:ring-white/10 dark:hover:border-zinc-700 dark:hover:ring-white/20 lg:absolute lg:-left-5 lg:-mt-2 lg:mb-0 xl:-top-1.5 xl:left-0 xl:mt-0"
+                role="navigation"
+              >
+                <svg 
+                  viewBox="0 0 16 16" 
+                  fill="none" 
+                  aria-hidden="true" 
+                  class="h-4 w-4 stroke-zinc-500 transition group-hover:stroke-zinc-700 dark:stroke-zinc-500 dark:group-hover:stroke-zinc-400"
+                  role="img"
+                >
+                  <title>{{ i18n "back_arrow_icon_title" }}</title>
+                  <path 
+                    d="M7.25 11.25 3.75 8m0 0 3.5-3.25M3.75 8h8.5" 
+                    stroke-width="1.5" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </a>
 
-    <div class="post-info">
-        <a href="/portfolio" title="Go back to portfolio page">Back to portfolio</a>
-    </div>
-
-    <article>
-        <h1 class="post-title">{{ .Title | markdownify }}</h1>
-
-        {{ with .Params.Cover }}
-        <img src="/img/{{ . }}" loading="lazy" class="post-cover" />
-        {{ end }}
-
-        <div class="post-content">
-            {{ .Content | replaceRE "(<h[1-6] id=\"(.+)\".*>)(.*)(</h[1-6]>)" `${1}${3}<a class="anchor-tag" href="#${2}">#</a>${4}` | safeHTML }}
+              <article aria-labelledby="portfolio-title">
+                <header class="mb-16">
+                  <h1 id="portfolio-title" class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+                    {{ .Title }}
+                  </h1>
+                  <div class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                  </div>
+                </header>
+                
+                <div class="prose dark:prose-invert">
+                  {{ .Content }}
+                </div>
+              </article>
+              
+              </div>
+            </div>
+          </div>
         </div>
-    </article>
-
-    <hr />
-
-    <div class="post-info">
-        {{- if .GitInfo }}
-        <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="12" cy="12" r="4"></circle>
-                <line x1="1.05" y1="12" x2="7" y2="12"></line>
-                <line x1="17.01" y1="12" x2="22.96" y2="12"></line>
-            </svg><a href="{{ .Site.Params.gitUrl -}}{{ .GitInfo.Hash }}" target="_blank"
-                rel="noopener" title="Commit message: {{ .GitInfo.Subject}}">{{ .GitInfo.AbbreviatedHash }}</a> @
-            {{ if .Site.Params.dateformNum }}<time datetime="{{ dateFormat .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}">{{ dateFormat .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}</time>{{ else }}<time datetime="{{ dateFormat .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}">{{ dateFormat "2006-01-02" .GitInfo.AuthorDate.Local }}</time>{{ end }}
-        </p>
-        {{- end }}
+      </div>
     </div>
 </main>
 {{ end }}

@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "VideoObject",
+      "name": "{{ .Title }}",
+      "description": "{{ .Params.title }}",
+      "thumbnailUrl": "{{ .Params.thumb }}",
+      "contentUrl": "{{ .Params.videoUrl }}",
+      "uploadDate": "{{ .Date | time.Format "2006-01-02" }}",
+      "duration": "PT{{ .Params.duration }}M",
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ .Site.Params.author.name }}",
+        "url": "{{ .Site.Params.author.url }}"
+      },
+      "inLanguage": "{{ .Params.lang }}",
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "{{ .Params.videoUrl }}"
+      }
+    }
+</script>

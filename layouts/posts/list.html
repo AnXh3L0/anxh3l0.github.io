@@ -1,0 +1,78 @@
+{{ define "main" }}
+{{ if .IsPage }}
+  {{ partial "article.html" . }}
+{{ end }}
+<main class="flex-auto" role="main" {{ if .IsTranslated }}lang="{{ .Language.Lang }}"{{ end }}>
+    <div class="mt-16 sm:px-8 lg:mt-32">
+        <div class="mx-auto w-full max-w-7xl lg:px-8">
+            <div class="relative px-4 sm:px-8 lg:px-12">
+              <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                <header class="max-w-2xl">
+                  <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+                    {{ .Page.Params.header }}
+                  </h1>
+                  <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                    {{ .Description }}
+                  </p>
+                </header>
+          
+                <div class="mt-16 sm:mt-20">
+                    <div class="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
+                      <div class="flex max-w-3xl flex-col space-y-16">
+                        {{ range (.Pages.GroupByDate "2006") }}
+                          <section class="space-y-8">
+                            <h2 class="relative z-10 text-2xl font-bold text-zinc-800 dark:text-zinc-200">
+                              {{ .Key }}
+                            </h2>
+                            <div class="flex flex-col space-y-12">
+                              {{ range .Pages }}
+                                <article class="md:grid md:grid-cols-4 md:items-baseline" aria-labelledby="post-{{ .File.UniqueID }}">
+                                  <div class="group relative flex flex-col items-start md:col-span-3">
+                                    <h3 id="post-{{ .File.UniqueID }}" class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+                                      <div class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+                                      <a href="{{ .RelPermalink }}" class="block" aria-label="{{ .Title }} ({{ i18n "readFullArticle" }})">
+                                        <span class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
+                                        <span class="relative z-10">{{ .Title }}</span>
+                                      </a>
+                                    </h3>
+                                    
+                                    <time class="relative z-10 order-first mb-3 flex items-center pl-3.5 text-sm text-zinc-500 dark:text-zinc-400 md:hidden"
+                                          datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                                      <span class="absolute inset-y-0 left-0 flex items-center" aria-hidden="true">
+                                        <span class="h-4 w-0.5 rounded-full bg-zinc-300 dark:bg-zinc-400"></span>
+                                      </span>
+                                      {{ .Date | time.Format ":date_long" }}
+                                    </time>
+                  
+                                    <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-300">
+                                        {{ .Plain | safeHTML | truncate (default 250 .Site.Params.summaryLength) (i18n "readMoreEllipsis") }}
+                                    </p>
+                  
+                                    <a href="{{ .RelPermalink }}" class="relative z-10 mt-4 flex items-center text-sm font-medium text-teal-600 hover:text-teal-700 dark:text-teal-400 dark:hover:text-teal-300" 
+                                      aria-label="{{ i18n "readArticle" }}: {{ .Title }}">
+                                      {{ i18n "readArticle" }}
+                                      <span class="sr-only">{{ i18n "aboutArticle" }} "{{ .Title }}"</span>
+                                      <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" class="ml-1 h-4 w-4 stroke-current">
+                                        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                      </svg>
+                                    </a>
+                                  </div>
+                  
+                                  <time class="relative z-10 order-first mb-3 mt-1 hidden items-center text-sm text-zinc-500 dark:text-zinc-400 md:block"
+                                        datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                                    {{ .Date | time.Format ":date_long" }}
+                                  </time>
+                                </article>
+                              {{ end }}
+                            </div>
+                          </section>
+                        {{ end }}
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

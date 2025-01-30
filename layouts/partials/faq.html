@@ -1,0 +1,30 @@
+<section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-list">
+      {{ range .Site.Params.faq }}
+        <div class="faq-item">
+          <h3>{{ .question }}</h3>
+          <p>{{ .answer }}</p>
+        </div>
+      {{ end }}
+    </div>
+</section>
+
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {{ range $index, $faq := .Site.Params.faq }}
+          {
+            "@type": "Question",
+            "name": "{{ $faq.question }}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "{{ $faq.answer }}"
+            }
+          }{{ if lt (add $index 1) (len $.Site.Params.faq) }},{{ end }}
+        {{ end }}
+      ]
+    }
+</script>

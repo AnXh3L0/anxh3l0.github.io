@@ -1,9 +1,36 @@
-<footer>
-  {{ .Site.Params.Copyright | safeHTML | markdownify }}
+<footer class="mt-32 flex-none" role="contentinfo" aria-label="{{ i18n "footer.label" }}">
+    <div class="sm:px-8">
+      <div class="mx-auto w-full max-w-7xl lg:px-8">
+        <div class="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
+          <div class="relative px-4 sm:px-8 lg:px-12">
+            <div class="mx-auto max-w-2xl lg:max-w-5xl">
+              <div class="flex flex-col items-center justify-between gap-6 sm:flex-row">
+                <nav class="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200"
+                     aria-label="{{ i18n "footer.navigation" }}">
+                  {{ $currentPage := . }}
+                  {{ range where site.RegularPages "Params.showInFooter" true | first 5 }}
+                  <a class="transition hover:text-teal-500 dark:hover:text-teal-400"
+                     href="{{ .RelPermalink }}"
+                     {{ if eq $currentPage.RelPermalink .RelPermalink }}aria-current="page"{{ end }}
+                     aria-label="{{ i18n "footer.aria_page" (dict "Title" .Title ) }}">
+                    {{ .Title }}
+                  </a>
+                  {{ else }}
+                  {{ end }}
+                </nav>
+                <p class="text-sm text-zinc-400 dark:text-zinc-500">
+                  {{ $currentYear := now.Format "2006" }}
+                  {{ i18n "footer.copyright" (dict "Year" $currentYear "Name" "Anxhelo Lushka") | safeHTML }}
+                  {{ with i18n "footer.license" }}
+                    <span role="text" aria-label="{{ . }}">
+                      (<abbr title="{{ . }}" aria-label="{{ . }}">CC BY-NC-SA 4.0</abbr>)
+                    </span>
+                  {{ end }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </footer>
-
-{{ $instant := resources.Get "js/instantpage.js" }}
-{{ $instantpage := slice $instant | resources.Concat "instant.js" | resources.Minify }}
-<script type="module" defer src="{{ $instantpage.RelPermalink }}"></script>
-
-{{ if isset .Params "js" }}{{ partial "javascript.html" . }}{{ end }}

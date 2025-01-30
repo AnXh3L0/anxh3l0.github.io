@@ -1,35 +1,39 @@
 {{ define "main" }}
-<main class="posts">
-    <h1>{{ .Title }}</h1>
+{{ if .IsPage }}
+  {{ partial "article.html" . }}
+{{ end }}
+<main class="flex-auto" role="main" {{ if .IsTranslated }}lang="{{ .Language.Lang }}"{{ end }}>
+  <div class="mt-16 sm:px-8 lg:mt-32">
+    <div class="mx-auto w-full max-w-7xl lg:px-8">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <div class="xl:relative">
+            <div class="mx-auto max-w-2xl">
+              <article aria-labelledby="article-title">
+                <header class="flex flex-col">
+                  <h1 
+                    id="article-title" 
+                    class="mt-6 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl"
+                  >
+                    {{ .Title }}
+                  </h1>
+                </header>
 
-    {{- if .Content }}
-    <div class="content">{{ .Content }}</div>
-    {{- end }}
+                <div 
+                  class="dark:prose-dark prose prose-zinc mt-8 max-w-none dark:prose-invert"
+                  data-mdx-content="true"
+                  role="region"
+                  aria-label="{{ i18n "article_content" }}"
+                >
+                  {{ .Content }}
+                </div>
+              </article>
 
-    {{- range .Data.Pages.GroupByDate "2006" }}
-    <div class="posts-group">
-        <div class="post-year"><time datetime="{{ .Key }}">{{ .Key }}</time></div>
-
-        <ul class="posts-list">
-            {{- range .Pages }}
-                <li class="post-item">
-                    <article>
-                        <a href="{{ .Permalink }}">
-                            <span class="post-title">{{ .Title }}</span>
-                            <span class="post-day">
-                                {{ if .Site.Params.dateformShort }}
-                                <time datetime="{{ .Date.Format .Site.Params.dateformNum }}">{{ .Date.Format .Site.Params.dateformShort }}</time>
-                                {{ else }}
-                                {{ .Date.Format "Jan 2" }}
-                                {{ end }}
-                            </span>
-                        </a>
-                        <span class="post-description">{{ .Description }}</span>
-                    </article>
-                </li>
-            {{- end }}
-        </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    {{- end }}
+  </div>
 </main>
 {{ end }}

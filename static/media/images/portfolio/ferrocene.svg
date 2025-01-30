@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="36.494061"
+   height="41.749199"
+   viewBox="0 0 36.494061 41.749199"
+   fill="none"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="ferrocene.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.3408343"
+     inkscape:cx="224.91981"
+     inkscape:cy="-107.44033"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <path
+     d="m 27.800129,12.900073 c -0.2461,0.0914 -0.5219,0.0164 -0.6969,-0.1791 -2.1751,-2.4297 -5.3369,-3.95895 -8.8562,-3.95895 -3.5192,0 -6.681,1.52925 -8.8561201,3.95895 -0.17503,0.1955 -0.45089,0.2705 -0.69697,0.1791 L 0.49290391,9.853823 c -0.473803,-0.176 -0.6446336,-0.75805 -0.341001,-1.16186 L 6.4607589,0.30166 C 6.6035689,0.111739 6.8274589,0 7.0651989,0 L 29.428829,2e-6 c 0.2378,0 0.4617,0.111739 0.6045,0.30166 l 6.3088,8.390301 c 0.3037,0.40381 0.1328,0.98586 -0.341,1.16186 z"
+     fill="#114c97"
+     id="path1" />
+  <path
+     d="m 7.0651989,25.351073 c 0.16995,0 0.32311,0.1013 0.39444,0.2554 1.88322,4.0698 6.0052901,6.8934 10.7873901,6.8934 4.7821,0 8.9042,-2.8237 10.7875,-6.8934 0.0713,-0.1542 0.2244,-0.2554 0.3943,-0.2554 0.2378,0 0.4617,0.1118 0.6045,0.3017 l 6.3088,8.3903 c 0.3037,0.4038 0.1328,0.9859 -0.341,1.1618 l -17.4907,6.497 c -0.1699,0.0631 -0.3569,0.0631 -0.5268,0 l -17.49072509,-6.497 c -0.473803,-0.176 -0.6446336,-0.758 -0.341001,-1.1618 l 6.30885599,-8.3903 c 0.14281,-0.1899 0.3667,-0.3017 0.60444,-0.3017 z"
+     fill="#114c97"
+     id="path2" />
+  <path
+     d="m 25.400129,20.630873 c 0,3.9475 -3.2026,7.1475 -7.1532,7.1475 -3.9506,0 -7.1532,-3.2 -7.1532,-7.1475 0,-3.9474 3.2026,-7.1475 7.1532,-7.1475 3.9506,0 7.1532,3.2001 7.1532,7.1475 z"
+     fill="#2cc389"
+     id="path3" />
+</svg>

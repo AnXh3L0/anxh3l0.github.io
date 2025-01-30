@@ -1,0 +1,69 @@
+{{ $hobbyImages := site.Data.hobbies.images }}
+{{ $imagePath := "media/images/hobbies/" }}
+
+<div class="mt-16 sm:mt-20" role="complementary" aria-label="Personal hobbies section">
+  <div role="region" aria-label="Image gallery showcasing personal hobbies and interests" 
+    class="scroll-container -my-4 flex snap-x snap-mandatory justify-start gap-5 overflow-x-auto overflow-y-hidden px-4 py-4 sm:justify-center sm:gap-8 sm:overflow-hidden">
+    {{ range $index, $image := $hobbyImages }}
+      {{ $rotation := cond (modBool $index 2) "rotate-2" "-rotate-2" }}
+      {{ $img := resources.Get (printf "%s%s" $imagePath $image.file) }}
+      
+      <div role="group" aria-label="{{ $image.alt }} details" 
+        class="relative aspect-[9/10] w-44 flex-none snap-center {{ $rotation }} overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl">
+        {{ if $img }}
+          {{ $srcset := slice }}
+          {{ $sizes := slice 16 32 48 64 96 128 256 384 640 750 828 1080 1200 1920 2048 3840 }}
+          {{ range $sizes }}
+            {{ if le . $img.Width }}
+              {{ $srcset = $srcset | append (printf "%s %dw" ($img.Resize (printf "%dx webp q90" .)).RelPermalink .) }}
+            {{ end }}
+          {{ end }}
+          
+          <img 
+            alt="{{ $image.alt }}"
+            loading="lazy"
+            decoding="async"
+            class="absolute inset-0 h-full w-full object-cover"
+            style="color: transparent; -webkit-user-drag: none;"
+            sizes="(min-width: 640px) 18rem, 11rem"
+            srcset="{{ delimit $srcset ", " }}"
+            src="{{ ($img.Resize "3840x webp q90").RelPermalink | safeURL }}"
+            width="{{ $img.Width }}"
+            height="{{ $img.Height }}"
+            aria-describedby="hobby-desc-{{ $index }}"
+          >
+
+        <div id="hobby-desc-{{ $index }}" class="sr-only">
+        {{ with $image.description }}{{ . }}{{ else }}Personal hobby image{{ end }}
+        </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const container = document.querySelector('[aria-label="Image gallery showcasing personal hobbies and interests"]');
+    const thirdImage = container.children[2];
+
+    if (!thirdImage) return;
+
+    function centerThirdImage() {
+      if (window.innerWidth < 640) {
+        const containerWidth = container.clientWidth;
+        const imageRect = thirdImage.getBoundingClientRect();
+        const scrollPosition = thirdImage.offsetLeft - (containerWidth / 2) + (imageRect.width / 2);
+        container.scrollLeft = scrollPosition;
+      }
+    }
+
+    centerThirdImage();
+
+    let resizeTimer;
+    window.addEventListener('resize', function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(centerThirdImage, 100);
+    });
+  });
+</script>

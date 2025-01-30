@@ -1,7 +1,7 @@
 +++
 title = "My Google-free Android life"
 date = "2018-11-08 10:00:00"
-images = ['/img/posts/android-setup.webp']
+images = ['/media/images/posts/android-setup.webp']
 description = 'An article on how to de-googlify your life and my setup'
 tags = ["android", "privacy", "security", "open source", "software", "google", "foss"]
 categories = ["beginner", "article", "how-to", "blog"]
@@ -50,7 +50,7 @@ You would have to [make a request](https://en.miui.com/unlock/) to Xiaomi to obt
 
 Now, that process has changed. You'll have to download a specific software from Xiaomi, called [Mi Unlock](http://www.miui.com/unlock/apply.php), install it in your Windows, Mac or Linux PC, [activate Debugging Settings in Developer Options](https://www.youtube.com/watch?v=7zhEsJlivFA) on your phone, reboot to the bootloader mode (by holding the Volume Down + Power button while the phone is off) and connect the phone to your computer to start a process called "Approval". This process starts a timer on the Xiaomi servers that will allow you to **unlock the phone only after a period of 15 days** (or a month in some rare cases, totally random) goes by.
 
-![Mi Unlock app](/img/posts/mi-unlock.webp)
+![Mi Unlock app](/media/images/posts/mi-unlock.webp)
 
 After this period of 15 days has passed, you have to re-connect your phone and do the same procedure as above, then by pressing the Unlock button your bootloader will be unlocked and this will allow you to install other ROM-s (systems). **Careful, make sure to backup your data because unlocking the bootloader deletes everything in the phone**.
 
@@ -81,7 +81,7 @@ To install the recovery system (sounds hard, I know), I had to [flash](https://l
 
 After this was done, I turned off the phone and kept Volume Up + Power button pressed until I saw the TWRP screen show up. That meant I was good to go and it was ready to receive my commands.
 
-![TWRP screen](/img/posts/android-twrp.webp)
+![TWRP screen](/media/images/posts/android-twrp.webp)
 
 Next step was to **issue a Wipe command**, necessary when you first install a custom ROM on your phone. As you can see from the image above, the Wipe command clears the Data, Cache and Dalvik (there is also an advanced option that allows us to tick a box to delete the System one too, as we don't need the old one anymore).
 
@@ -105,7 +105,7 @@ This is where things start to get easier. To install the apps, I use [F-Droid](h
 
 F-Droid has what are called repos, a "storehouse" that contains apps you can install. I use the default ones and have added another one from [IzzyOnDroid](https://android.izzysoft.de/repo), that contains some more apps not available from the default F-Droid repo and is updated more often.
 
-![My repos](/img/posts/android-fdroid-repos.webp)
+![My repos](/media/images/posts/android-fdroid-repos.webp)
 
 Below you will find a list of the apps I have installed, what they replace and their use.
 
@@ -164,6 +164,6 @@ This is pretty much it, all the apps I use on my phone. **The configs are then p
 
 And as a bonus for reading far down here, **a screenshot of my home screen** right now.
 
-![Screenshot](/img/posts/android-screenshot.webp)
+![Screenshot](/media/images/posts/android-screenshot.webp)
 
 All content is licensed under CC BY-NC-SA 4.0. ([Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)).

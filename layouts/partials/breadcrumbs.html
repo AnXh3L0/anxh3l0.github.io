@@ -1,0 +1,41 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="{{ .Site.BaseURL }}">Home</a>
+    </li>
+    {{ if .CurrentSection }}
+    {{ range .CurrentSection.Sections }}
+    <li class="breadcrumb-item">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+    {{ end }}
+    <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+  </ol>
+</nav>
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{/* Home item */}}
+      {{ dict "@type" "ListItem" "position" 1 "name" "Home" "item" .Site.BaseURL | jsonify }}
+      
+      {{/* Sections */}}
+      {{- if .CurrentSection -}}
+        {{- $position := 2 -}}
+        {{- range $index, $section := .CurrentSection.Sections -}}
+          ,{{ dict "@type" "ListItem" "position" $position "name" .Title "item" .RelPermalink | jsonify -}}
+          {{- $position = add $position 1 -}}
+        {{- end -}}
+        {{- $.Scratch.Set "finalPosition" $position -}}
+      {{- else -}}
+        {{- $.Scratch.Set "finalPosition" 2 -}}
+      {{- end -}}
+  
+      {{/* Current Page */}}
+      ,{{ dict "@type" "ListItem" "position" ($.Scratch.Get "finalPosition") "name" .Title "item" .Permalink | jsonify }}
+    ]
+  }
+</script>

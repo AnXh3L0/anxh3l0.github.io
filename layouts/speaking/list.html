@@ -1,0 +1,170 @@
+{{ define "main" }}
+{{ if .IsPage }}
+  {{ partial "speaking.html" . }}
+{{ end }}
+<main class="flex-auto" role="main" {{ if .IsTranslated }}lang="{{ .Language.Lang }}"{{ end }}>
+    <div class="mt-16 sm:px-8 lg:mt-32">
+      <section class="mx-auto w-full max-w-7xl lg:px-8">
+        <div class="relative px-4 sm:px-8 lg:px-12">
+          <div class="mx-auto max-w-2xl lg:max-w-5xl">
+            <header class="max-w-2xl">
+              <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+                {{ i18n "speaking_title" }}
+              </h1>
+              <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                {{ i18n "speaking_description" }}
+              </p>
+            </header>
+
+            <p>{{ .Content }}</p>
+      
+            <div class="mt-16 sm:mt-20">
+              <div class="space-y-20">
+                {{ range sort .Site.Data.speaking.entries "date" "desc" }}
+
+                  <article class="group relative flex flex-col items-start" 
+                           lang="{{ .lang }}" 
+                           data-platform="{{ .platform }}" 
+                           data-video-id="{{ .video_id | relURL }}" 
+                           data-domain="{{ .domain }}" 
+                           data-ext="{{ .ext }}"
+                           aria-labelledby="appearance-{{ anchorize .title }}">
+                    
+                    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100" 
+                        id="appearance-{{ anchorize .title }}">
+                      <div class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+                      <span class="relative z-10">{{ .title }}</span>
+                    </h2>
+      
+                    <div class="relative z-10 order-first mb-3 flex items-center pl-3.5 text-sm text-zinc-400 dark:text-zinc-500">
+                      <span class="absolute inset-y-0 left-0 flex items-center" aria-hidden="true">
+                        <span class="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span>
+                      </span>
+                      {{ .event }} ({{ dateFormat "2 January 2006" .date }})
+                    </div>
+      
+                    <div class="video-container mt-4 w-full" data-loaded="false">
+                      {{ if eq .platform "youtube" }}
+                        {{ partial "players/youtube" . }}
+                      {{ else if eq .platform "facebook" }}
+                        {{ partial "players/facebook" . }}
+                      {{ else if eq .platform "bbb" }}
+                        {{ partial "players/bbb" . }}
+                      {{ else if eq .platform "audio" }}
+                        {{ partial "players/audio" . }}
+                      {{ else }}
+                        {{ partial "players/generic" . }}
+                      {{ end }}
+                    </div>
+      
+                    <div class="relative z-10 mt-4 text-sm text-zinc-600 dark:text-zinc-400">
+                      {{ .description | markdownify }}
+                    </div>
+      
+                    <div class="relative z-10 mt-4 flex items-center text-sm font-medium text-teal-500">
+                      {{ if eq .platform "audio" }}
+                        {{ i18n "listen_podcast" }}
+                      {{ else }}
+                        {{ i18n "watch_video" }}
+                      {{ end }}
+                      <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" class="ml-1 h-4 w-4 stroke-current">
+                        <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                    </div>
+                  </article>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+</main>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Initialize all video thumbnails
+  document.querySelectorAll('.thumbnail-button').forEach(button => {
+    button.addEventListener('click', function(e) {
+      e.preventDefault();
+      const container = this.parentElement; // Target the figure element
+      if (container.dataset.loaded === 'true') return;
+
+      const article = this.closest('article');
+      const platform = article.dataset.platform;
+      const domain = article.dataset.domain;
+      const ext = article.dataset.ext;
+      const videoId = article.dataset.videoId;
+      const timestamp = this.dataset.timestamp || 0;
+
+      // Create loader element
+      const loader = document.createElement('div');
+      loader.className = 'loader animate-spin w-8 h-8 border-4 border-teal-500 rounded-full';
+      container.innerHTML = '';
+      container.appendChild(loader);
+
+      // Create iframe after short delay to show loading state
+      setTimeout(() => {
+        const iframe = createPlayer(platform, videoId, timestamp, domain, ext);
+        container.innerHTML = '';
+        container.appendChild(iframe);
+        container.dataset.loaded = 'true';
+      }, 300);
+    });
+  });
+
+  function createPlayer(platform, videoId, timestamp, domain, ext) {
+    const iframe = document.createElement('iframe');
+    iframe.className = 'w-full aspect-video rounded-lg bg-zinc-900';
+    iframe.allowFullscreen = true;
+    iframe.loading = 'lazy';
+    
+    switch(platform) {
+      case 'youtube':
+        iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&start=${timestamp}&rel=0&modestbranding=1`;
+        iframe.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+        break;
+      case 'facebook':
+        const videoUrl = `https://www.facebook.com/watch/?v=${videoId}`;
+        iframe.src = `https://www.facebook.com/plugins/video.php?height=314&href=${encodeURIComponent(videoUrl)}&show_text=false&width=560&t=${timestamp}`;
+        iframe.allow = 'autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share';
+        break;
+      case 'bbb':
+        let totalSeconds = timestamp;
+        if (typeof timestamp === 'string' && timestamp.includes('m')) {
+          const [minutes, seconds] = timestamp.replace('s', '').split('m');
+          totalSeconds = (parseInt(minutes) * 60) + (parseInt(seconds) || 0);
+        }
+        
+        iframe.src = `https://${domain}/playback/presentation/2.0/playback.html?meetingId=${videoId}&t=${totalSeconds}`;
+        iframe.allow = 'autoplay; fullscreen';
+        break;
+      case 'audio':
+        const audioContainer = document.createElement('media-theme-tailwind-audio');
+        audioContainer.className = 'w-full';
+        
+        const audio = document.createElement('audio');
+        audio.slot = "media"
+        audio.controls = true;
+        
+        if (timestamp) audio.currentTime = parseInt(timestamp);
+        
+        const source = document.createElement('source');
+        source.src = videoId;
+        source.type = `audio/${ext}`;
+        audio.appendChild(source);
+
+        console.log('Audio source:', videoId);
+        console.log('Audio type:', `audio/${ext}`);
+      
+        audioContainer.appendChild(audio);
+        return audioContainer;
+        break;
+      default:
+        console.error('Unsupported platform:', platform);
+      }
+    return iframe;
+  }
+});
+</script>
+{{ end }}

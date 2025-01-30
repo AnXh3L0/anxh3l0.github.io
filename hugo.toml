@@ -1,0 +1,155 @@
+baseURL = "https://ubiquitous-otter-4e0a36.netlify.app"
+title   = "Alpro Development"
+
+defaultContentLanguage = "en"
+languageCode = "en-us"
+defaultContentLanguageInSubdir = false
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = true
+enableEmoji     = true
+enableMissingTranslationPlaceholders = true
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = true
+
+pluralizeListTitles = false
+
+[permalinks]
+  posts = "/posts/:filename/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+    [markup.tableOfContents]
+      startLevel = 2
+      endLevel = 4
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["HTML", "RSS", "Sitemap"]
+
+[params]
+  # Metadata mostly used in document's head
+  description = "My personal website"
+  keywords = "design, ux, ui, speaker, public, developer, privacy, security, foss, floss"
+  images = ["media/images/meta/default.png"]
+  googleVeri = "EfTDzyY5SKBdXLP7dT3YJX3STlK1JYbol6r8PXHD0qc"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  gitUrl = "https://github.com/AnXh3L0/anxh3l0.github.io/commit/"
+
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#333"
+    msapplication = "#194E80"
+
+  [params.author]
+    name = "Anxhelo Lushka"
+    email = "hello@lushka.al"
+    url = "https://lushka.al"
+    description = "Web Developer & DevOps Engineer passionate about Privacy and Security"
+    image = "media/images/me/avatar.jpg"
+    addressLocality = "Tirana"
+    addressCountry = "Albania"
+    worksFor = [
+      { name = "Ura Design", url = "https://ura.design", jobTitle = "Web Developer & System Administrator" },
+      { name = "GlobaLeaks", url = "https://globaleaks.org", jobTitle = "DevOps Engineer" }
+    ]
+    alumniOf = "Polytechnic University of Tirana"
+    birthDate = "1997-09-20"
+    gender = "Male"
+    jobTitle = "Web Developer & DevOps Engineer"
+    knowsAbout = ["Web Development", "System Administration", "Design", "User Experience", "Privacy", "Security"]
+    knowsLanguage = ["Albanian", "English", "Italian", "Spanish", "Portuguese"]
+    telephone = "+355699932340"
+    nationality = "Albanian"
+
+  [[params.faq]]
+    question = "What is Hugo?"
+    answer = "Hugo is a fast and flexible static site generator written in Go."
+
+  # Social icons
+  [[params.social]]
+    name = "email"
+    icon = "solid/envelope"
+    aria = "social_platforms.email"
+    url  = "mailto:hello@lushka.al"
+
+  [[params.social]]
+    name = "github"
+    icon = "brands/github"
+    aria = "social_platforms.github"
+    url  = "https://github.com/AnXh3L0"
+
+  [[params.social]]
+    name = "linkedin"
+    icon = "brands/linkedin"
+    aria = "social_platforms.linkedin"
+    url  = "https://www.linkedin.com/in/anxhelo-lushka"
+
+  [[params.social]]
+    name = "instagram"
+    icon = "brands/instagram"
+    aria = "social_platforms.instagram"
+    url  = "https://instagram.com/anxhelolushka"
+
+  [[params.social]]
+    name = "telegram"
+    icon = "brands/telegram"
+    aria = "social_platforms.telegram"
+    url  = "https://t.me/anxhelolushka"
+
+[languages]
+  [languages.en]
+  languageName = "English"
+  weight    = 1
+  [languages.en.params]
+    languageName = "English"
+    direction = "ltr"
+
+  [languages.sq]
+  languageName = "Albanian"
+  weight    = 2
+  [languages.sq.params]
+    languageName = "Albanian"
+    direction = "ltr"
+
+[privacy]
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5

@@ -1,7 +1,7 @@
 +++
 title = "Software Freedom Kosova 2016"
 date = "2016-10-26 12:00:00"
-images = ['/img/posts/sfk.webp']
+images = ['/media/images/posts/sfk.webp']
 description = 'The iconic FOSS conference in Kosovo'
 tags = ["kosovo", "conference", "sfk"]
 category = 'conference'

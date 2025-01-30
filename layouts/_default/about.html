@@ -1,0 +1,89 @@
+{{ define "main" }}
+{{ if .IsPage }}
+  {{ partial "author.html" . }}
+{{ end }}
+<main class="flex-auto" role="main" {{ if .IsTranslated }}lang="{{ .Language.Lang }}"{{ end }}>
+    <div class="mt-16 sm:px-8 lg:mt-32">
+      <div class="mx-auto w-full max-w-7xl lg:px-8">
+        <div class="relative px-4 sm:px-8 lg:px-12">
+          <div class="mx-auto max-w-2xl lg:max-w-5xl">
+            <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
+              <!-- Image Section -->
+              <div class="lg:pl-20">
+                <div class="max-w-xs px-2.5 lg:max-w-none">
+                  {{ with .Params.image }}
+                    <figure>
+                      <img 
+                        {{ with $.Params.image_alt }}alt="{{ . | safeHTML }}"{{ else }}aria-hidden="true"{{ end }}
+                        loading="lazy" 
+                        width="1500" 
+                        height="1500" 
+                        decoding="async" 
+                        class="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800" 
+                        src="{{ . | relURL }}"
+                        {{ with $.Params.image_alt }}aria-labelledby="about-image-label"{{ end }}
+                      >
+                      {{ with $.Params.image_alt }}
+                        <figcaption id="about-image-label" class="sr-only">{{ . | safeHTML }}</figcaption>
+                      {{ end }}
+                    </figure>
+                  {{ end }}
+                </div>
+              </div>
+      
+              <!-- Content Section -->
+              <article class="lg:order-first lg:row-span-2">
+                <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+                  {{ .Title | safeHTML }}
+                </h1>
+                <div class="dark:prose-dark prose prose-zinc mt-8 max-w-none dark:prose-invert"
+                    data-mdx-content="true"
+                    role="region"
+                    aria-label="{{ i18n "article_content" }}">
+                    {{ .Content }}
+                </div>
+                
+              </article>
+      
+              <!-- Social Links -->
+              <div class="lg:pl-20">
+                <ul role="list">
+                  {{ range site.Params.social }}
+                    <li class="{{ if eq .name `email` }}mb-8 border-b border-zinc-100 pb-8 dark:border-zinc-700/40 flex{{ else }}mt-4 flex{{ end }}">
+                      <a 
+                        class="group flex text-sm font-medium text-zinc-600 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500" 
+                        href="{{ .url }}"
+                        {{ if ne .name `email` }}target="_blank" rel="noopener noreferrer"{{ end }}
+                        aria-label="{{ if eq .name `email` }}
+                            {{ i18n "social.email_aria" (dict "email" (replace .url "mailto:" "")) }}
+                        {{ else }}
+                            {{ i18n "social.follow_aria" (dict "platform" (i18n (printf "social_platforms.%s" .name))) }}
+                        {{ end }}"
+                      >
+                        <span class="sr-only">
+                          {{ if eq .name "email" }}
+                            {{ i18n "social.email_sr" (dict "email" (replace .url "mailto:" "")) }}
+                          {{ else }}
+                            {{ i18n "social.follow_sr" (dict "platform" (i18n (printf "social_platforms.%s" .name))) }}
+                          {{ end }}
+                        </span>
+                        {{ partial "fontawesome.html" .icon }}
+                        <span class="ml-4">
+                          {{ if eq .name "email" }}
+                            {{ replace .url "mailto:" "" }}
+                          {{ else }}
+                            {{ i18n "social.follow_on" (dict "platform" (i18n (printf "social_platforms.%s" .name))) }}
+                          {{ end }}
+                        </span>
+                      </a>
+                    </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</main>
+{{ end }}

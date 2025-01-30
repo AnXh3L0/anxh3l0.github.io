@@ -3,3 +3,4 @@ resources
 .vscode
 hugo
 .hugo_build.lock
+public

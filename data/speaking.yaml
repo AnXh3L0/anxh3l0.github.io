@@ -1,0 +1,378 @@
+entries:
+  - title: "AI and death prediction"
+    date: 2023-12-22
+    video_id: "AZFxAJutFTk"
+    platform: youtube
+    thumb: "ai-death-prediction.webp"
+    event: "Shqipëria Live on Top Channel"
+    duration: 10
+    description: "Discussion about AI applications in healthcare prediction systems"
+    timestamp: 0
+
+  - title: "Bank cybersecurity"
+    date: 2023-12-20
+    video_id: "9ZhwFcBm2lw"
+    platform: youtube
+    thumb: "mcn-bank-security.webp"
+    event: "MCN Economy on MCN TV"
+    lang: "Albanian"
+
+  - title: "What do Albanians search on Google?"
+    date: 2023-12-06
+    video_id: "7DI4EoRx648"
+    platform: youtube
+    thumb: "rtsh-google-searches.webp"
+    event: "Mirëmëngjes Shqipëri on RTSH"
+    lang: "Albanian"
+
+  - title: "Technology in school"
+    date: 2023-12-05
+    video_id: "8ZVppAqlSN8"
+    platform: youtube
+    thumb: "technology-in-school.webp"
+    event: "MCN Economy on MCN TV"
+    lang: "Albanian"
+
+  - title: "SKY ECC, surveillance and decryption"
+    date: 2023-12-04
+    video_id: "7gOAq83dme0"
+    platform: youtube
+    thumb: "skyecc-decryption.webp"
+    event: "Shqipëria Live on Top Channel"
+    lang: "Albanian"
+
+  - title: "How minors frauded via fake sexual services"
+    date: 2023-10-12
+    video_id: "-_g4Si7ityQ"
+    platform: youtube
+    thumb: "minors-fraud.webp"
+    event: "Shqipëria Live on Top Channel"
+    lang: "Albanian"
+
+  - title: "Security and privacy issues with fake apps"
+    date: 2023-07-14
+    video_id: "2KW2Mnx-Z-s"
+    platform: youtube
+    thumb: "privacy-fake-apps.webp"
+    event: "Good Morning Albanians on Euronews Albania"
+    lang: "Albanian"
+
+  - title: "Boat jumping and dangerous challenges on TikTok"
+    date: 2023-07-12
+    video_id: "VkIRxyL93QM"
+    platform: youtube
+    thumb: "tiktok-boat-challenge.webp"
+    event: "Shqipëria Live on Top Channel"
+    lang: "Albanian"
+
+  - title: "Silent depression and how TikTok is 'killing' children"
+    date: 2023-03-02
+    video_id: "OBKSvSZnu5M"
+    platform: youtube
+    thumb: "depression-tiktok.webp"
+    event: "Vizioni i Pasdites on Vizion Plus"
+    lang: "Albanian"
+
+  - title: "Silent depression and how TikTok is 'killing' children"
+    date: 2023-03-02
+    video_id: "vU_QXSNyx0w"
+    platform: youtube
+    thumb: "depression-tiktok-partii.webp"
+    event: "Vizioni i Pasdites on Vizion Plus"
+    lang: "Albanian"
+
+  - title: "Fake GoFundMe campaign"
+    date: 2023-02-23
+    video_id: "bZ9_PmixPAA"
+    platform: youtube
+    thumb: "fake-gofundme.webp"
+    event: "Shqipëria Live on Top Channel"
+    lang: "Albanian"
+
+  - title: "Fear from Artificial Intelligence and ChatGPT"
+    date: 2023-02-12
+    video_id: "oiB_9DiLZeM"
+    platform: youtube
+    thumb: "openai-chatgpt.webp"
+    event: "Syri i Botës on Syri TV"
+    lang: "Albanian"
+    timestamp: 1701
+
+  - title: "Top queries on Google for the past month"
+    date: 2022-12-02
+    video_id: "x5HHUKSAy-E"
+    platform: youtube
+    thumb: "topqueries-google.webp"
+    event: "Shqipëria Live on Top Channel"
+    lang: "Albanian"
+
+  - title: "Call center fires operators and refuses to pay their salary"
+    date: 2022-11-29
+    video_id: "fmUTzQH9G2w"
+    platform: youtube
+    thumb: "callcenter-wages.webp"
+    event: "Shqipëria Live on Top Channel"
+    lang: "Albanian"
+
+  - title: "Instagram and TikTok issues and downtime"
+    date: 2022-11-02
+    video_id: "Rp7p7-BLpB8"
+    platform: youtube
+    thumb: "instagram-tiktok-topnews.webp"
+    event: "Breaking on Top News"
+    lang: "Albanian"
+
+  - title: "The isolation of MEK and Iran cyberattacks"
+    date: 2022-09-26
+    video_id: "JYPQoTC9B6w"
+    platform: youtube
+    thumb: "iran-cyberattacks-euronews.webp"
+    event: "Euronews Now on Euronews"
+    lang: "Albanian"
+
+  - title: "The cyberattacks and defensive tools"
+    date: 2022-09-08
+    video_id: "lATDGdopHFA"
+    platform: youtube
+    thumb: "cyberattacks-rtsh1.webp"
+    event: "Mirëmëngjes Shqipëri on RTSH 1"
+    lang: "Albanian"
+
+  - title: "Cyberattacks in Western Balkans"
+    date: 2022-09-06
+    platform: audio
+    video_id: "files/cyberattacks.mp3"
+    ext: mp3
+    thumb: "cybersecurity-attacks.jpg"
+    event: "Radio Ejani"
+    lang: "Albanian"
+
+  - title: "Parental control on social media apps"
+    date: 2022-09-04
+    video_id: "SXyeS6rkDsI"
+    platform: youtube
+    thumb: "socialmedia-parents-abcnews.webp"
+    event: "ABC News"
+    lang: "Albanian"
+    timestamp: 135
+
+  - title: "The weird SMS-s from Santa"
+    date: 2022-07-22
+    video_id: "kYMI-r46oCM"
+    platform: youtube
+    thumb: "weird-santa-sms.webp"
+    event: "Euronews Albania"
+    lang: "Albanian"
+
+  - title: "The cyberattack on Albanian gov sites"
+    date: 2022-07-21
+    video_id: "ZznAq6IC-4o"
+    platform: youtube
+    thumb: "cyberattack-on-gov.webp"
+    event: "Top News"
+    lang: "Albanian"
+    timestamp: 430
+
+  - title: "The dark web"
+    date: 2022-05-03
+    video_id: "Wf5pmziPkiY"
+    platform: youtube
+    thumb: "abcnews-darkweb.webp"
+    event: "Piranjat on ABC News"
+    lang: "Albanian"
+    timestamp: 1700
+
+  - title: "Online shopping and risks"
+    date: 2022-04-28
+    video_id: "1128625541045148"
+    platform: facebook
+    thumb: "online-shopping.webp"
+    event: "Kafe Shqeto on Syri TV"
+    lang: "Albanian"
+    timestamp: 3901
+
+  - title: "7th edition of OSCAL in Tirana"
+    date: 2022-04-18
+    video_id: "uDRQb_bYOnM"
+    platform: youtube
+    thumb: "rtsh-oscal.webp"
+    event: "Ora 7 on RTSH"
+    lang: "Albanian"
+
+  - title: "October list and bank accounts expected to come out?!"
+    date: 2021-12-23
+    video_id: "Rr5sjuMqQ-U"
+    platform: youtube
+    thumb: "salary-scandal.webp"
+    event: "Zona Zero on Top News"
+    lang: "Albanian"
+
+  - title: "Bank loans are expected to come out, the level of crisis in the country!"
+    date: 2021-12-23
+    video_id: "u9z53XHkzPU"
+    platform: youtube
+    thumb: "bank-loans.webp"
+    event: "Zona Zero on Top News"
+    lang: "Albanian"
+
+  - title: "April salaries leaked, the potential risks!"
+    date: 2021-12-23
+    video_id: "woEKOI3IgNc"
+    platform: youtube
+    thumb: "april-salaries.webp"
+    event: "Shqipëria Live on Top Channel"
+    lang: "Albanian"
+
+  - title: "The new WhatsApp Web features"
+    date: 2021-11-10
+    video_id: "UGNtSgZlrNc"
+    platform: youtube
+    thumb: "zonazero-whatsappweb.webp"
+    event: "Zona Zero on Top News"
+    lang: "Albanian"
+
+  - title: "Call center scams and SPAK investigations"
+    date: 2021-11-03
+    video_id: "Vd2Iy7UmOYI"
+    platform: youtube
+    thumb: "breaking-callcenter.webp"
+    event: "Breaking on Top News"
+    lang: "Albanian"
+
+  - title: "Are you afraid for your privacy? Here is the app you need"
+    date: 2021-10-05
+    video_id: "JLZ1oXtbimU"
+    platform: youtube
+    thumb: "zonazero-facebook.webp"
+    event: "Zona Zero on Top News"
+    lang: "Albanian"
+
+  - title: "Online bullying and the kidnapping of Kozak"
+    date: 2021-09-24
+    video_id: "neWH6gSejM4"
+    platform: youtube
+    thumb: "online-bullying.webp"
+    event: "Shqipëria Live on Top Channel"
+    lang: "Albanian"
+
+  - title: "Be careful from the messages you receive on WhatsApp"
+    date: 2021-02-09
+    video_id: "Y5dz5aNPlow"
+    platform: youtube
+    thumb: "careful-messages-whatsapp.webp"
+    event: "Kafe Shqeto on Syri TV"
+    lang: "Albanian"
+
+  - title: "The new WhatsApp privacy policy"
+    date: 2021-01-13
+    video_id: "aJREmw7EADg"
+    platform: youtube
+    thumb: "privacy-scandal-whatsapp.webp"
+    event: "Kafe Shqeto on Syri TV"
+    lang: "Albanian"
+
+  - title: "Social media and its impact on society"
+    date: 2020-12-11
+    video_id: "4q0QPp18_4g"
+    platform: youtube
+    thumb: "social-media-society.webp"
+    event: "Ora 7 on RTSH"
+    lang: "Albanian"
+
+  - title: "Cybernetic crime and its dangers"
+    date: 2020-12-07
+    video_id: "wFxe1pShYsI"
+    platform: youtube
+    thumb: "cybernetic-crime.webp"
+    event: "Kafe Shqeto on Syri TV"
+    lang: "Albanian"
+
+  - title: "Why privacy is not about the tools but about the mindset"
+    date: 2020-12-05
+    video_id: "GHvTXrirgIc"
+    platform: youtube
+    thumb: "mindset.webp"
+    event: "Balkan FLOSStival"
+    lang: "English"
+
+  - title: "Balkan FLOSStival"
+    date: 2020-12-04
+    video_id: "yUrFuGuUXDc"
+    platform: youtube
+    thumb: "balkan-flosstival.webp"
+    event: "Wake Up on Top Channel"
+    lang: "Albanian"
+
+  - title: "How citizens are being scammed on WhatsApp"
+    date: 2020-10-29
+    video_id: "bXr9uTa_usk"
+    platform: youtube
+    thumb: "money-scam-whatsapp.webp"
+    event: "Wake Up on Top Channel"
+    lang: "Albanian"
+
+  - title: "The risks of IoT and proper deployment"
+    date: 2020-09-27
+    video_id: "mcx5Z6aBUzI"
+    platform: youtube
+    thumb: "iot-risks.webp"
+    event: "Software Freedom Kosovo 2020"
+    lang: "English"
+
+  - title: "WhatsApp is losing customers amidst data security fears"
+    date: 2019-12-17
+    video_id: "JuJ0_O82t34"
+    platform: youtube
+    thumb: "whatsapp-fears.webp"
+    event: "Wake Up on Top Channel"
+    lang: "Albanian"
+
+  - title: "Usability Lab Overview and how to receive design help for your project"
+    date: 2019-10-24
+    video_id: "IZfmRL_wLOM"
+    platform: youtube
+    thumb: "apachecon-2019.webp"
+    event: "ApacheConEU 2019 in Berlin"
+    lang: "English"
+
+  - title: "Setting up a secure and private system from scratch"
+    date: 2020-04-28
+    video_id: "3edbe3939d18067a08299b9a0a9b8d590af2bb85-1588088542963"
+    platform: bbb
+    domain: meet.flossk.org
+    thumb: "privacy.webp"
+    event: "Online webinar"
+    lang: "English"
+
+  - title: "Laws on cybernetic crimes"
+    date: 2019-04-18
+    video_id: "rkLdBSmGxbs"
+    platform: youtube
+    thumb: "cyber-laws.webp"
+    event: "Vizioni i Pasdites on Vizion Plus"
+    lang: "Albanian"
+
+  - title: "Interview at LibOCon 2017"
+    date: 2017-10-12
+    video_id: "8nIMRhbAIMw"
+    platform: youtube
+    thumb: "libreoffice-interview.webp"
+    event: "LibreOffice Conference 2017 in Rome"
+    lang: "English"
+
+  - title: "Linux Weekend 2017"
+    date: 2017-02-27
+    platform: audio
+    video_id: "files/linux-weekend.mp3"
+    ext: mp3
+    thumb: "linux-weekend.jpg"
+    event: "RTSH"
+    lang: "Albanian"
+
+  - title: "The difficulties of creating a community"
+    date: 2016-09-07
+    video_id: "SbSNYwwGsBo"
+    platform: youtube
+    thumb: "libreoffice-talk-2016.webp"
+    event: "LibreOffice Conference 2016 in Brno"
+    lang: "English"

@@ -1,5 +1,6 @@
 +++
 title = "Blocklist"
+layout = "single"
 +++
 
 # Install uBlock Origin
