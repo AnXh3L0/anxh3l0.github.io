@@ -153,9 +153,6 @@ document.addEventListener('DOMContentLoaded', () => {
         source.src = videoId;
         source.type = `audio/${ext}`;
         audio.appendChild(source);
-
-        console.log('Audio source:', videoId);
-        console.log('Audio type:', `audio/${ext}`);
       
         audioContainer.appendChild(audio);
         return audioContainer;
