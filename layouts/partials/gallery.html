@@ -31,7 +31,8 @@
                 
                 sizes="(max-width: 640px) 176px, 288px"
                 srcset="{{ if $base }}{{ $base.RelPermalink }} {{ $base.Width }}w{{ end }}
-                        {{ if $medium }}{{ $medium.RelPermalink }} {{ $medium.Width }}w{{ end }}"
+                {{ if and $base $medium }},{{ end }}
+                {{ if $medium }}{{ $medium.RelPermalink }} {{ $medium.Width }}w{{ end }}"
                 src="{{ $finalImage.RelPermalink }}"
                 
                 width="{{ $finalImage.Width }}"
