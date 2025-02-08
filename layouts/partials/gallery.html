@@ -16,6 +16,8 @@
           {{ $medium := $img.Resize "288x webp q70" }}
           {{ $finalImage := $medium | default $base | default $img }}
 
+          {{ $loadingType := cond (le $index 2) "eager" "lazy" }}
+
           <li class="w-44 flex-none snap-center sm:w-72">
             <figure 
               class="relative aspect-[9/10] {{ $rotation }} overflow-hidden 
@@ -24,11 +26,10 @@
               <img
                 alt="{{ $image.alt }}"
                 decoding="async"
-                loading="lazy"
-                class="absolute inset-0 h-full w-full object-cover"
+                class="lazy-candidate absolute inset-0 h-full w-full object-cover"
                 style="color: transparent; -webkit-user-drag: none;"
                 
-                sizes="(max-width: 640px) 90vw, (max-width: 1024px) 40vw, 25vw"
+                sizes="(max-width: 640px) 176px, 288px"
                 srcset="{{ if $base }}{{ $base.RelPermalink }} {{ $base.Width }}w{{ end }}
                         {{ if $medium }}{{ $medium.RelPermalink }} {{ $medium.Width }}w{{ end }}"
                 src="{{ $finalImage.RelPermalink }}"
@@ -36,6 +37,7 @@
                 width="{{ $finalImage.Width }}"
                 height="{{ $finalImage.Height }}"
                 aria-describedby="hobby-desc-{{ $index }}"
+                data-index="{{ $index }}"
               />
 
               <!-- Screen-reader-only description -->
@@ -50,26 +52,41 @@
   </div>
 </div>
 
+
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-  const container = document.querySelector('div[aria-label="Image gallery"]');
-  if (!container) return;
-
-  const list = container.querySelector('ul');
-  if (!list) return;
-
-  const thirdItem = list.children[2];
-  if (!thirdItem) return;
-
-  function centerThirdItem() {
-    if (window.innerWidth < 640) {
-      const containerWidth = container.clientWidth;
-      const itemRect = thirdItem.getBoundingClientRect();
-      container.scrollLeft = thirdItem.offsetLeft - (containerWidth / 2) + (itemRect.width / 2);
+  document.addEventListener('DOMContentLoaded', function () {
+    const container = document.querySelector('div[aria-label="Image gallery"]');
+    if (!container) return;
+  
+    const list = container.querySelector('ul');
+    if (!list) return;
+  
+    const thirdItem = list.children[2];
+    if (!thirdItem) return;
+  
+    function centerThirdItem() {
+      if (window.innerWidth < 640) {
+        const containerWidth = container.clientWidth;
+        const itemRect = thirdItem.getBoundingClientRect();
+        container.scrollLeft = thirdItem.offsetLeft - (containerWidth / 2) + (itemRect.width / 2);
+      }
     }
-  }
-
-  centerThirdItem();
-  window.addEventListener('resize', () => requestAnimationFrame(centerThirdItem));
-});
-</script>
+  
+    centerThirdItem();
+    window.addEventListener('resize', () => requestAnimationFrame(centerThirdItem));
+  
+    // Dynamic Lazy Loading: Only apply lazy loading for hidden images on mobile
+    const isMobile = window.innerWidth < 640;
+    document.querySelectorAll('img.lazy-candidate').forEach(img => {
+      const index = parseInt(img.getAttribute('data-index'), 10);
+      
+      if (isMobile && (index === 0 || index === 5)) {
+        img.setAttribute('loading', 'lazy');
+      } else {
+        img.setAttribute('loading', 'eager');
+      }
+      
+      img.classList.remove('lazy-candidate');
+    });
+  });
+  </script>

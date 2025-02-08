@@ -19,9 +19,30 @@
             <div class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full dark:ring-0">
               {{ $logo := resources.GetMatch (printf "media/images/logos/%s.*" $companySlug) }}
               {{ if $logo }}
-                <img alt="{{ .company }} logo" loading="lazy" width="48" height="48" decoding="async" 
-                     class="h-7 w-7" src="{{ $logo.RelPermalink }}" aria-hidden="true">
+                {{ if eq $logo.MediaType.SubType "svg" }}
+                  <img 
+                    alt="{{ .company }} logo" 
+                    loading="lazy" 
+                    width="48" 
+                    height="48" 
+                    decoding="async" 
+                    class="h-7 w-7" 
+                    src="{{ $logo.RelPermalink }}" 
+                    aria-hidden="true">
+                {{ else }}
+                  {{ $resizedLogo := $logo.Resize "48x48 webp q90" }}  
+                  <img 
+                    alt="{{ .company }} logo" 
+                    loading="lazy" 
+                    width="{{ $resizedLogo.Width }}" 
+                    height="{{ $resizedLogo.Height }}" 
+                    decoding="async" 
+                    class="h-7 w-7" 
+                    src="{{ $resizedLogo.RelPermalink }}" 
+                    aria-hidden="true">
+                {{ end }}
               {{ else }}
+                <!-- Placeholder for missing logo -->
                 <div class="h-7 w-7 rounded-full bg-zinc-100 dark:bg-zinc-800" aria-hidden="true"></div>
               {{ end }}
             </div>

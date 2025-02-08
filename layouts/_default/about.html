@@ -16,8 +16,8 @@
                       <img 
                         {{ with $.Params.image_alt }}alt="{{ . | safeHTML }}"{{ else }}aria-hidden="true"{{ end }}
                         loading="lazy" 
-                        width="1500" 
-                        height="1500" 
+                        width="450" 
+                        height="450" 
                         decoding="async" 
                         class="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800" 
                         src="{{ . | relURL }}"
