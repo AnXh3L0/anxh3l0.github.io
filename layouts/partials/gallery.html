@@ -12,11 +12,8 @@
         {{ $img := resources.Get (printf "%s%s" $imagePath $image.file) }}
 
         {{ if $img }}
-          <!-- Create responsive WebP versions -->
-          {{ $base := $img.Resize "400x webp q80" }}
-          {{ $medium := $img.Resize "800x webp q80" }}
-          {{ $large := $img.Resize "1200x webp q80" }}
-          {{ $xl := $img.Resize "1600x webp q85" }}
+          {{ $base := $img.Resize "300x webp q70" }}
+          {{ $medium := $img.Resize "400x webp q70" }}
 
           <li class="w-44 flex-none snap-center sm:w-72">
             <figure 
@@ -31,10 +28,8 @@
                 
                 sizes="(max-width: 640px) 90vw, (max-width: 1024px) 40vw, 25vw"
                 srcset="{{ if $base }}{{ $base.RelPermalink }} 400w{{ end }}
-                        {{ if $medium }}, {{ $medium.RelPermalink }} 800w{{ end }}
-                        {{ if $large }}, {{ $large.RelPermalink }} 1200w{{ end }}
-                        {{ if $xl }}, {{ $xl.RelPermalink }} 1600w{{ end }}"
-                src="{{ $xl.RelPermalink | default $img.RelPermalink }}"
+                        {{ if $medium }}, {{ $medium.RelPermalink }} 800w{{ end }}"
+                src="{{ $medium.RelPermalink | default $img.RelPermalink }}"
                 
                 width="{{ $img.Width }}"
                 height="{{ $img.Height }}"
