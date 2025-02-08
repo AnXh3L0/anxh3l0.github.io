@@ -12,8 +12,8 @@
         {{ $img := resources.Get (printf "%s%s" $imagePath $image.file) }}
 
         {{ if $img }}
-          {{ $base := $img.Resize "176x webp q70" }}
-          {{ $medium := $img.Resize "288x webp q70" }}
+          {{ $base := $img.Resize "183x webp q70" }}
+          {{ $medium := $img.Resize "300x webp q70" }}
           {{ $finalImage := $medium | default $base | default $img }}
 
           {{ $loadingType := cond (le $index 2) "eager" "lazy" }}
@@ -29,7 +29,7 @@
                 class="lazy-candidate absolute inset-0 h-full w-full object-cover"
                 style="color: transparent; -webkit-user-drag: none;"
                 
-                sizes="(max-width: 640px) 176px, 288px"
+                sizes="(max-width: 640px) 183px, 300px"
                 srcset="{{ if $base }}{{ $base.RelPermalink }} {{ $base.Width }}w{{ end }}
                 {{ if and $base $medium }},{{ end }}
                 {{ if $medium }}{{ $medium.RelPermalink }} {{ $medium.Width }}w{{ end }}"
