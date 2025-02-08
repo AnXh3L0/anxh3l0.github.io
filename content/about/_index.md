@@ -1,7 +1,7 @@
 +++
 weight = 1
 title = "About"
-image = "/media/images/me/portrait.jpg"
+image = "/media/images/me/portrait.webp"
 image_alt = "Anxhelo Lushka giving a speech at ApacheCon Europe 2019"
 +++
 

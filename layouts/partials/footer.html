@@ -18,7 +18,7 @@
                   {{ else }}
                   {{ end }}
                 </nav>
-                <p class="text-sm text-zinc-400 dark:text-zinc-500">
+                <p class="text-sm text-zinc-500 dark:text-zinc-400">
                   {{ $currentYear := now.Format "2006" }}
                   {{ i18n "footer.copyright" (dict "Year" $currentYear "Name" "Anxhelo Lushka") | safeHTML }}
                   {{ with i18n "footer.license" }}

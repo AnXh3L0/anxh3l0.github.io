@@ -10,16 +10,15 @@
 
       {{ if $img }}
         {{ $base := $img.Resize "400x webp q80" }}
-        {{ $medium := $img.Resize "800x webp q85" }}
-        {{ $large := $img.Resize "1200x webp q90" }}
-        {{ $xl := $img.Resize "1600x webp q90" }}
+        {{ $medium := $img.Resize "800x webp q80" }}
+        {{ $large := $img.Resize "1200x webp q80" }}
+        {{ $xl := $img.Resize "1600x webp q85" }}
       
       <div role="group" aria-label="{{ $image.alt }} details" 
         class="relative aspect-[9/10] w-44 flex-none snap-center {{ $rotation }} overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl">
           
           <img 
             alt="{{ $image.alt }}"
-            loading="lazy"
             decoding="async"
             class="absolute inset-0 h-full w-full object-cover"
             style="color: transparent; -webkit-user-drag: none;"
