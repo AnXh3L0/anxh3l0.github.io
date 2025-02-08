@@ -12,8 +12,8 @@
         {{ $img := resources.Get (printf "%s%s" $imagePath $image.file) }}
 
         {{ if $img }}
-          {{ $base := $img.Resize "300x webp q70" }}
-          {{ $medium := $img.Resize "400x webp q70" }}
+          {{ $base := $img.Resize "176x webp q70" }}
+          {{ $medium := $img.Resize "288x webp q70" }}
           {{ $finalImage := $medium | default $base | default $img }}
 
           <li class="w-44 flex-none snap-center sm:w-72">
@@ -24,6 +24,7 @@
               <img
                 alt="{{ $image.alt }}"
                 decoding="async"
+                loading="lazy"
                 class="absolute inset-0 h-full w-full object-cover"
                 style="color: transparent; -webkit-user-drag: none;"
                 
