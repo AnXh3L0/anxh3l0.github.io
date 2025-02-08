@@ -1,16 +1,30 @@
 <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "CreativeWork",
-      "name": "{{ .Title }}",
-      "description": "{{ .Params.description }}",
-      "url": "{{ .Params.projectUrl }}",
-      "image": "{{ .Site.BaseURL }}/media/images/portfolio/{{ .Params.img }}",
-      "author": {
-        "@type": "Person",
-        "name": "{{ .Site.Params.author.name }}"
-      },
-      "dateCreated": "{{ .Date | time.Format "2006-01-02" }}",
-      "sameAs": "{{ .Params.projectUrl }}"
-    }
+  {
+    "@context": "http://schema.org",
+    "@type": "CreativeWork",
+    "name": "{{ .Title }}",
+    
+    {{- with .Params.description }}
+    "description": "{{ . }}",
+    {{- end }}
+
+    {{- with .Params.projectUrl }}
+    "url": "{{ . }}",
+    {{- end }}
+
+    {{- with .Params.img }}
+    "image": "{{ . | relURL }}",
+    {{- end }}
+
+    "author": {
+      "@type": "Person",
+      "name": "{{ .Site.Params.author.name }}"
+    },
+
+    "dateCreated": "{{ .Date | time.Format "2006-01-02T15:04:05Z" }}"
+
+    {{- with .Params.projectUrl }},
+    "sameAs": "{{ . }}"
+    {{- end }}
+  }
 </script>

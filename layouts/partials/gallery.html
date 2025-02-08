@@ -2,63 +2,77 @@
 {{ $imagePath := "media/images/hobbies/" }}
 
 <div class="mt-16 sm:mt-20" role="complementary" aria-label="Personal hobbies section">
-  <div role="region" aria-label="Image gallery showcasing personal hobbies and interests" 
-    class="scroll-container -my-4 flex snap-x snap-mandatory justify-start gap-5 overflow-x-auto overflow-y-hidden px-4 py-4 sm:justify-center sm:gap-8 sm:overflow-hidden">
-    {{ range $index, $image := $hobbyImages }}
-      {{ $rotation := cond (modBool $index 2) "rotate-2" "-rotate-2" }}
-      {{ $img := resources.Get (printf "%s%s" $imagePath $image.file) }}
+  <div role="region"
+       aria-label="Image gallery"
+       class="scroll-container -my-4 flex snap-x snap-mandatory justify-start gap-5 overflow-x-auto overflow-y-hidden px-4 py-4 sm:justify-center sm:gap-8 sm:overflow-hidden">
 
-      {{ if $img }}
-        {{ $base := $img.Resize "400x webp q80" }}
-        {{ $medium := $img.Resize "800x webp q80" }}
-        {{ $large := $img.Resize "1200x webp q80" }}
-        {{ $xl := $img.Resize "1600x webp q85" }}
-      
-      <div role="group" aria-label="{{ $image.alt }} details" 
-        class="relative aspect-[9/10] w-44 flex-none snap-center {{ $rotation }} overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl">
-          
-          <img 
-            alt="{{ $image.alt }}"
-            decoding="async"
-            class="absolute inset-0 h-full w-full object-cover"
-            style="color: transparent; -webkit-user-drag: none;"
-            sizes="(max-width: 640px) 90vw, (max-width: 1024px) 40vw, 25vw"
-            srcset="{{ if $base }}{{ $base.RelPermalink }} 400w{{ end }}
-                    {{ if $medium }}, {{ $medium.RelPermalink }} 800w{{ end }}
-                    {{ if $large }}, {{ $large.RelPermalink }} 1200w{{ end }}
-                    {{ if $xl }}, {{ $xl.RelPermalink }} 1600w{{ end }}"
-            src="{{ $xl.RelPermalink | default $img.RelPermalink }}"
-            width="{{ $img.Width }}"
-            height="{{ $img.Height }}"
-            aria-describedby="hobby-desc-{{ $index }}"
-          >
+    <ul role="list" class="flex gap-5">
+      {{ range $index, $image := $hobbyImages }}
+        {{ $rotation := cond (modBool $index 2) "rotate-2" "-rotate-2" }}
+        {{ $img := resources.Get (printf "%s%s" $imagePath $image.file) }}
 
-        <div id="hobby-desc-{{ $index }}" class="sr-only">
-          {{ with $image.description }}{{ . }}{{ else }}Personal hobby image{{ end }}
-        </div>
+        {{ if $img }}
+          <!-- Create responsive WebP versions -->
+          {{ $base := $img.Resize "400x webp q80" }}
+          {{ $medium := $img.Resize "800x webp q80" }}
+          {{ $large := $img.Resize "1200x webp q80" }}
+          {{ $xl := $img.Resize "1600x webp q85" }}
+
+          <li class="w-44 flex-none snap-center sm:w-72">
+            <figure 
+              class="relative aspect-[9/10] {{ $rotation }} overflow-hidden 
+                     rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:rounded-2xl">
+
+              <img
+                alt="{{ $image.alt }}"
+                decoding="async"
+                class="absolute inset-0 h-full w-full object-cover"
+                style="color: transparent; -webkit-user-drag: none;"
+                
+                sizes="(max-width: 640px) 90vw, (max-width: 1024px) 40vw, 25vw"
+                srcset="{{ if $base }}{{ $base.RelPermalink }} 400w{{ end }}
+                        {{ if $medium }}, {{ $medium.RelPermalink }} 800w{{ end }}
+                        {{ if $large }}, {{ $large.RelPermalink }} 1200w{{ end }}
+                        {{ if $xl }}, {{ $xl.RelPermalink }} 1600w{{ end }}"
+                src="{{ $xl.RelPermalink | default $img.RelPermalink }}"
+                
+                width="{{ $img.Width }}"
+                height="{{ $img.Height }}"
+                aria-describedby="hobby-desc-{{ $index }}"
+              />
+
+              <!-- Screen-reader-only description -->
+              <figcaption id="hobby-desc-{{ $index }}" class="sr-only">
+                {{ with $image.description }}{{ . }}{{ else }}Personal hobby image{{ end }}
+              </figcaption>
+            </figure>
+          </li>
         {{ end }}
-      </div>
-    {{ end }}
+      {{ end }}
+    </ul>
   </div>
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  const container = document.querySelector('[aria-label="Image gallery"]');
+  const container = document.querySelector('div[aria-label="Image gallery"]');
   if (!container) return;
 
-  const thirdImage = container.children[2];
-  if (!thirdImage) return;
+  const list = container.querySelector('ul');
+  if (!list) return;
 
-  function centerThirdImage() {
+  const thirdItem = list.children[2];
+  if (!thirdItem) return;
+
+  function centerThirdItem() {
     if (window.innerWidth < 640) {
       const containerWidth = container.clientWidth;
-      const imageRect = thirdImage.getBoundingClientRect();
-      container.scrollLeft = thirdImage.offsetLeft - (containerWidth / 2) + (imageRect.width / 2);
+      const itemRect = thirdItem.getBoundingClientRect();
+      container.scrollLeft = thirdItem.offsetLeft - (containerWidth / 2) + (itemRect.width / 2);
     }
   }
 
-  centerThirdImage();
-  window.addEventListener('resize', () => requestAnimationFrame(centerThirdImage));
+  centerThirdItem();
+  window.addEventListener('resize', () => requestAnimationFrame(centerThirdItem));
 });
 </script>

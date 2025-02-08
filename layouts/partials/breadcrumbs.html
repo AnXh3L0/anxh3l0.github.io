@@ -3,12 +3,10 @@
     <li class="breadcrumb-item">
       <a href="{{ .Site.BaseURL }}">Home</a>
     </li>
-    {{ if .CurrentSection }}
-    {{ range .CurrentSection.Sections }}
-    <li class="breadcrumb-item">
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
+    {{ range .Ancestors.Reverse }}
+      <li class="breadcrumb-item">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
     {{ end }}
     <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
   </ol>
@@ -19,23 +17,23 @@
     "@context": "http://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
+      {{- $breadcrumbs := slice -}}
+
       {{/* Home item */}}
-      {{ dict "@type" "ListItem" "position" 1 "name" "Home" "item" .Site.BaseURL | jsonify }}
-      
-      {{/* Sections */}}
-      {{- if .CurrentSection -}}
-        {{- $position := 2 -}}
-        {{- range $index, $section := .CurrentSection.Sections -}}
-          ,{{ dict "@type" "ListItem" "position" $position "name" .Title "item" .RelPermalink | jsonify -}}
-          {{- $position = add $position 1 -}}
-        {{- end -}}
-        {{- $.Scratch.Set "finalPosition" $position -}}
-      {{- else -}}
-        {{- $.Scratch.Set "finalPosition" 2 -}}
+      {{- $breadcrumbs = $breadcrumbs | append (dict "@type" "ListItem" "position" 1 "name" "Home" "item" .Site.BaseURL) -}}
+
+      {{/* Ancestor sections (reverse order for correct breadcrumb structure) */}}
+      {{- $position := 2 -}}
+      {{- range .Ancestors.Reverse -}}
+        {{- $breadcrumbs = $breadcrumbs | append (dict "@type" "ListItem" "position" $position "name" .Title "item" .Permalink) -}}
+        {{- $position = add $position 1 -}}
       {{- end -}}
-  
+
       {{/* Current Page */}}
-      ,{{ dict "@type" "ListItem" "position" ($.Scratch.Get "finalPosition") "name" .Title "item" .Permalink | jsonify }}
+      {{- $breadcrumbs = $breadcrumbs | append (dict "@type" "ListItem" "position" $position "name" .Title "item" .Permalink) -}}
+
+      {{/* Output JSON safely */}}
+      {{- $breadcrumbs | jsonify -}}
     ]
   }
 </script>

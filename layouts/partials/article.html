@@ -1,69 +1,67 @@
 <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Article",
-      "headline": "{{ .Title }}",
-      "alternativeHeadline": "{{ with .Params.alternativeHeadline }}{{ . }}{{ end }}",
-      "author": {
-        "@type": "Person",
-        "name": "{{ .Site.Params.author.name }}",
-        "url": "{{ .Site.Params.author.url }}"
-      },
-      "publisher": {
-        "@type": "Person",
-        "name": "{{ .Site.Params.author.name }}",
-        "url": "{{ .Site.Params.author.url }}",
-        "image": {
-          "@type": "ImageObject",
-          "url": "{{ .Site.Params.author.image }}"
-        }
-      },
-      "datePublished": "{{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}",
-      "dateModified": "{{ .Lastmod | time.Format "2006-01-02T15:04:05Z07:00" }}",
-      "image": "{{ .Params.featuredImage }}",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "{{ .Permalink }}"
-      },
-      "description": "{{ .Description }}",
-      "articleBody": "{{ .Content | plainify }}",
-      
-      {{- if .Params.tags }}
-      "keywords": {{ .Params.tags | jsonify }},
-      {{- end }}
-      
-      "wordCount": {{ .WordCount }},    
-      "timeRequired": "PT{{ .ReadingTime }}M",
-      
-      {{- if .Params.category }}
-      "articleSection": "{{ .Params.category }}",
-      {{- end }}
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "{{ .Title }}",
+    "alternativeHeadline": "{{ with .Params.alternativeHeadline }}{{ . }}{{ end }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ .Site.Params.author.name }}",
+      "url": "{{ .Site.Params.author.url }}"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "{{ .Site.Params.author.name }}",
+      "url": "{{ .Site.Params.author.url }}",
+      "image": {
+        "@type": "ImageObject",
+        "url": "{{ .Site.Params.author.image }}"
+      }
+    },
+    "datePublished": "{{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}",
+    "dateModified": "{{ .Lastmod | time.Format "2006-01-02T15:04:05Z07:00" }}",
+    "image": "{{ .Params.featuredImage }}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ .Permalink }}"
+    },
+    "description": "{{ .Description }}",
+    "articleBody": "{{ .Content | plainify }}",
+    "wordCount": {{ .WordCount }},
+    "timeRequired": "PT{{ .ReadingTime }}M"
+    
+    {{- with .Params.tags }},
+    "keywords": {{ . | jsonify }}
+    {{- end }}
+    
+    {{- with .Params.category }},
+    "articleSection": "{{ . }}"
+    {{- end }}
 
-      {{- if .Params.commentCount }}
-      "commentCount": {{ .Params.commentCount }},
-      "comment": [
-        {{- range .Params.comments }}
-        {
-          "@type": "Comment",
-          "author": "{{ .author }}",
-          "datePublished": "{{ .datePublished }}",
-          "text": "{{ .text }}"
-        }{{ if not (last .Params.comments) }},{{ end }}
-        {{- end }}
-      ]
+    {{- with .Params.commentCount }},
+    "commentCount": {{ . }},
+    "comment": [
+      {{- range $index, $comment := .Params.comments }}
+      {
+        "@type": "Comment",
+        "author": "{{ $comment.author }}",
+        "datePublished": "{{ $comment.datePublished }}",
+        "text": "{{ $comment.text }}"
+      }{{ if ne (add $index 1) (len $.Params.comments) }},{{ end }}
       {{- end }}
+    ]
+    {{- end }}
 
-      {{- if .Params.eventDetails }}
-      ,
-      "@type": "Event",
-      "name": "{{ .Params.eventDetails.name }}",
-      "startDate": "{{ .Params.eventDetails.startDate }}",
-      "location": {
-        "@type": "Place",
-        "name": "{{ .Params.eventDetails.location }}"
-      },
-      "url": "{{ .Params.eventDetails.url }}",
-      "sameAs": "{{ .Params.videoId }}"
-      {{- end }}
-    }
+    {{- with .Params.eventDetails }},
+    "@type": "Event",
+    "name": "{{ .name }}",
+    "startDate": "{{ .startDate }}",
+    "location": {
+      "@type": "Place",
+      "name": "{{ .location }}"
+    },
+    "url": "{{ .url }}",
+    "sameAs": "{{ .videoId }}"
+    {{- end }}
+  }
 </script>

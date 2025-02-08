@@ -1,22 +1,39 @@
 <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "VideoObject",
-      "name": "{{ .Title }}",
-      "description": "{{ .Params.title }}",
-      "thumbnailUrl": "{{ .Params.thumb }}",
-      "contentUrl": "{{ .Params.videoUrl }}",
-      "uploadDate": "{{ .Date | time.Format "2006-01-02" }}",
-      "duration": "PT{{ .Params.duration }}M",
-      "publisher": {
-        "@type": "Organization",
-        "name": "{{ .Site.Params.author.name }}",
-        "url": "{{ .Site.Params.author.url }}"
-      },
-      "inLanguage": "{{ .Params.lang }}",
-      "potentialAction": {
-        "@type": "WatchAction",
-        "target": "{{ .Params.videoUrl }}"
-      }
+  {
+    "@context": "http://schema.org",
+    "@type": "VideoObject",
+    "name": "{{ .Title }}",
+    "description": "{{ .Description }}",
+
+    {{- with .Params.thumb }}
+    "thumbnailUrl": "{{ . }}",
+    {{- end }}
+
+    {{- with .Params.videoUrl }}
+    "contentUrl": "{{ . }}",
+    {{- end }}
+
+    "uploadDate": "{{ .Date | time.Format "2006-01-02T15:04:05Z" }}",
+    
+    {{- with .Params.duration }}
+    "duration": "PT{{ math.Floor . }}M{{ mul (sub . (math.Floor .)) 60 | int }}S",
+    {{- end }}
+
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ .Site.Params.author.name }}",
+      "url": "{{ .Site.Params.author.url }}"
+    },
+
+    {{- with .Params.lang }}
+    "inLanguage": "{{ . }}",
+    {{- end }}
+
+    {{- with .Params.videoUrl }}
+    "potentialAction": {
+      "@type": "WatchAction",
+      "target": "{{ . }}"
     }
+    {{- end }}
+  }
 </script>
