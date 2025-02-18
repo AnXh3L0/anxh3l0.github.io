@@ -41,7 +41,6 @@
                 data-index="{{ $index }}"
               />
 
-              <!-- Screen-reader-only description -->
               <figcaption id="hobby-desc-{{ $index }}" class="sr-only">
                 {{ with $image.description }}{{ . }}{{ else }}Personal hobby image{{ end }}
               </figcaption>
@@ -74,9 +73,7 @@
     }
   
     centerThirdItem();
-    window.addEventListener('resize', () => requestAnimationFrame(centerThirdItem));
   
-    // Dynamic Lazy Loading: Only apply lazy loading for hidden images on mobile
     const isMobile = window.innerWidth < 640;
     document.querySelectorAll('img.lazy-candidate').forEach(img => {
       const index = parseInt(img.getAttribute('data-index'), 10);
