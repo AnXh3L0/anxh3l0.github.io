@@ -35,7 +35,7 @@ categories:
   - key: laptop
     items:
       - title: "Apple MacBook M4 Pro"
-        description: "M4 Pro chip with 12‑core CPU, 16‑core GPU, 16‑core Neural Engine, 24GB unified memory. 512GB SSD storage"
+        description: "M4 Pro chip with 12‑core CPU, 16‑core GPU, 16‑core Neural Engine, 24GB unified memory, 512GB SSD storage"
       - title: "Dell XPS 13 9343"
         description: "Ultrabook with Intel Core i5-5200U, 8GB RAM, and 256GB SSD"
 
