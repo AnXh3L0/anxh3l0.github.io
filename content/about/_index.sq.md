@@ -1,7 +1,7 @@
 +++
 weight = 1
 title = "Rreth meje"
-image = "/media/images/me/portrait.jpg"
+image = "/media/images/me/portrait.webp"
 image_alt = "Anxhelo Lushka duke mbajtur një fjalim në ApacheCon Europe 2019"
 +++
 
