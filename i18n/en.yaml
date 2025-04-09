@@ -131,6 +131,7 @@ social_platforms:
   linkedin: "LinkedIn"
   instagram: "Instagram"
   telegram: "Telegram"
+  calendar: "cal.com"
 
 social:
   follow_aria: "Follow on {{ .platform }} (opens in new window)"

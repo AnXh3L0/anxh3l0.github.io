@@ -122,6 +122,12 @@ timeout = 180
     aria = "social_platforms.telegram"
     url  = "https://t.me/anxhelolushka"
 
+  [[params.social]]
+    name = "calendar"
+    icon = "solid/video"
+    aria = "social_platforms.calendar"
+    url  = "https://cal.com/anxhelolushka"
+
 [languages]
   [languages.en]
   languageName = "English"

@@ -51,7 +51,7 @@
                   {{ range site.Params.social }}
                     <li class="{{ if eq .name `email` }}mb-8 border-b border-zinc-100 pb-8 dark:border-zinc-700/40 flex{{ else }}mt-4 flex{{ end }}">
                       <a 
-                        class="group flex text-sm font-medium text-zinc-600 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500" 
+                        class="group flex items-center text-sm font-medium text-zinc-600 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500" 
                         href="{{ .url }}"
                         {{ if ne .name `email` }}target="_blank" rel="noopener noreferrer"{{ end }}
                         aria-label="{{ if eq .name `email` }}
