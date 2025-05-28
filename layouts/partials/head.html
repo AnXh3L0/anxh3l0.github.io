@@ -1,10 +1,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta charset="UTF-8">
 <meta name="author" content="{{ with .Page.Params.author }}{{ . }}{{ else }}{{ .Site.Params.author.name }}{{ end }}">
-<meta name="description"
-  content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description | default ( .Summary | plainify | truncate 80 ) }}{{ end }}">
-<meta name="keywords"
-  content="{{ .Site.Params.keywords }}{{ if .Params.tags }}{{ range .Params.tags }}, {{ . }}{{ end }}{{ end }}">
+{{- $desc := .Description | default (.Summary | plainify | truncate 160) | default .Site.Params.description -}}
+<meta name="description" content="{{ $desc }}">
+
+{{- $keywords := slice -}}
+{{- with .Site.Params.keywords }}{{ $keywords = $keywords | append . }}{{ end -}}
+{{- with .Params.tags }}{{ range . }}{{ $keywords = $keywords | append . }}{{ end }}{{ end -}}
+{{- if gt (len $keywords) 0 }}
+<meta name="keywords" content="{{ delimit $keywords ", " }}">
+{{- end }}
+
 <meta name="theme-color" content="{{ .Site.Params.themeColor }}">
 <link rel="canonical" href="{{ .Permalink }}">
 <meta name="google-site-verification" content="{{ .Site.Params.googleVeri }}">
@@ -40,6 +46,9 @@
     }
   } catch (e) { }
 </script>
+
+{{ $critical := resources.Get "css/critical.css" | resources.Minify }}
+<style>{{ $critical.Content | safeCSS }}</style>
 
 {{ $style := resources.Get "style.css" | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
