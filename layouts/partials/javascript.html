@@ -1,1 +1,2 @@
-<script type="module" src="/js/instantpage.js"></script>
+{{ $instantpage := resources.Get "js/instantpage.js" | js.Build (dict "minify" true) }}
+<script defer src="{{ $instantpage.RelPermalink }}"></script>

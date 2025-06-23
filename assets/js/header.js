@@ -212,7 +212,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const panel = document.querySelector(".mobile-menu-panel");
     const closeButton = document.querySelector(".mobile-menu-close");
 
-    if (!menuButton || !backdrop || !panel || !closeButton) return;
+    if (!menuButton || !backdrop || !panel || !closeButton) {
+      console.error("Mobile menu elements not found:", {
+        menuButton: !!menuButton,
+        backdrop: !!backdrop,
+        panel: !!panel,
+        closeButton: !!closeButton
+      });
+      return;
+    }
 
     let isAnimating = false;
     let isOpen = false;
@@ -250,9 +258,19 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     // Event listeners
-    menuButton.addEventListener("click", () => toggleMenu(true));
-    closeButton.addEventListener("click", () => toggleMenu(false));
-    backdrop.addEventListener("click", () => toggleMenu(false));
+    menuButton.addEventListener("click", (e) => {
+      e.preventDefault();
+      toggleMenu(true);
+    });
+    
+    closeButton.addEventListener("click", (e) => {
+      e.preventDefault();
+      toggleMenu(false);
+    });
+    
+    backdrop.addEventListener("click", () => {
+      toggleMenu(false);
+    });
 
     // Escape key handler
     document.addEventListener("keydown", (e) => {
