@@ -9,11 +9,6 @@ body {
   display: flex;
   min-height: 100vh;
 }
-.header, header {
-  width: 100%;
-  position: relative;
-  z-index: 10;
-}
 .logo, .avatar {
   display: flex;
   align-items: center;
