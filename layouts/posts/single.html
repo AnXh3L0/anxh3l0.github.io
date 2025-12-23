@@ -36,10 +36,10 @@
                   {{/* Hidden permalink for webmentions */}}
                   <a class="u-url hidden" href="{{ .Permalink }}"></a>
                   
-                  {{/* Hidden author h-card */}}
+                  {{/* Hidden author h-card - data from hugo.toml */}}
                   <div class="p-author h-card hidden">
-                    <a class="u-url p-name" href="{{ .Site.BaseURL }}">{{ .Site.Params.author.name }}</a>
-                    <img class="u-photo" src="{{ .Site.Params.author.image | absURL }}" alt="">
+                    <a class="u-url p-name" href="{{ .Site.Params.author.url | default .Site.BaseURL }}">{{ .Site.Params.author.name }}</a>
+                    {{ with .Site.Params.author.image }}<img class="u-photo" src="{{ . | absURL }}" alt="">{{ end }}
                   </div>
                   
                   <header class="flex flex-col">

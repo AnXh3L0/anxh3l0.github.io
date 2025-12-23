@@ -2,22 +2,44 @@
     <div class="mx-auto w-full max-w-7xl lg:px-8">
       <div class="relative px-4 sm:px-8 lg:px-12">
         <div class="mx-auto max-w-2xl lg:max-w-5xl">
-          <div class="max-w-2xl">
-            <h1 id="hero-heading" class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+          {{/* h-card microformat for IndieWeb - all data from hugo.toml */}}
+          <div class="h-card max-w-2xl">
+            {{/* Hidden properties for h-card parsers */}}
+            <a class="u-url u-uid hidden" href="{{ site.Params.author.url | default site.BaseURL }}"></a>
+            {{ with site.Params.author.image }}
+            <img class="u-photo hidden" src="{{ . | absURL }}" alt="">
+            {{ end }}
+            {{ with site.Params.author.email }}
+            <a class="u-email hidden" href="mailto:{{ . }}"></a>
+            {{ end }}
+            
+            <h1 id="hero-heading" class="p-name text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                 {{ with site.Params.author.name }}
                     {{ . }}
                 {{ end }}
             </h1>
-            <p class="mt-4 text-base text-zinc-600 dark:text-zinc-400">
+            <p class="p-job-title mt-4 text-base text-zinc-600 dark:text-zinc-400">
                 {{ with site.Params.author.jobTitle }}
                     {{ . }}
                 {{ end }}
             </p>
+            {{/* Hidden h-card properties from config */}}
+            {{ with site.Params.author.description }}
+            <span class="p-note hidden">{{ . }}</span>
+            {{ end }}
+            {{/* Location (h-adr) */}}
+            {{ if or site.Params.author.addressLocality site.Params.author.addressCountry }}
+            <span class="p-adr h-adr hidden">
+              {{ with site.Params.author.addressLocality }}<span class="p-locality">{{ . }}</span>{{ end }}
+              {{ with site.Params.author.addressCountry }}<span class="p-country-name">{{ . }}</span>{{ end }}
+            </span>
+            {{ end }}
+            
             <div class="mt-6 flex gap-4">
               {{ range site.Params.social }}
-                <a class="group -m-1 p-1 text-zinc-500 transition hover:text-zinc-600 dark:text-zinc-400 dark:hover:text-zinc-300" 
+                <a class="group -m-1 p-1 text-zinc-500 transition hover:text-zinc-600 dark:text-zinc-400 dark:hover:text-zinc-300 {{ if eq .name "email" }}u-email{{ end }}" 
                    href="{{ .url }}" 
-                   target="_blank"
+                   {{ if ne .name "email" }}target="_blank"{{ end }}
                    rel="me noopener noreferrer"
                    aria-label="{{ if eq .name `email` }}
                    {{ i18n "social.email_aria" (dict "email" (replace .url "mailto:" "")) }}
