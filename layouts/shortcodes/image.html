@@ -1,10 +1,57 @@
 {{ if .Get "src" }}
-<img src="{{ .Get "src" | safeURL }}"
-     {{ with .Get "alt" }}alt="{{ . | plainify }}"{{ end }}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $blur := .Get "blur" | default "false" -}}
+{{- $position := .Get "position" | default "left" -}}
+{{- $width := .Get "width" -}}
+{{- $height := .Get "height" -}}
+{{- $style := .Get "style" -}}
+
+{{- if eq $blur "true" -}}
+{{/* Blur-up image with LQIP placeholder */}}
+<div class="img-blur-up img-skeleton {{ $position }}" {{ with $style }}style="{{ . | safeCSS }}"{{ end }}>
+  {{- $img := resources.Get $src -}}
+  {{- if $img -}}
+    {{- $placeholder := $img.Resize "20x" -}}
+    <img 
+      src="{{ $placeholder.RelPermalink }}" 
+      alt="" 
+      class="img-placeholder" 
+      aria-hidden="true"
+    />
+    <img 
+      src="{{ $img.RelPermalink }}" 
+      alt="{{ $alt | plainify }}"
+      class="img-main"
+      loading="lazy"
+      decoding="async"
+      {{ with $width }}width="{{ . }}"{{ end }}
+      {{ with $height }}height="{{ . }}"{{ end }}
+      onload="this.parentElement.classList.add('loaded'); this.parentElement.classList.remove('img-skeleton');"
+    />
+  {{- else -}}
+    {{/* Fallback for external images */}}
+    <img 
+      src="{{ $src | safeURL }}" 
+      alt="{{ $alt | plainify }}"
+      class="img-main"
+      loading="lazy"
+      decoding="async"
+      {{ with $width }}width="{{ . }}"{{ end }}
+      {{ with $height }}height="{{ . }}"{{ end }}
+      onload="this.parentElement.classList.add('loaded'); this.parentElement.classList.remove('img-skeleton');"
+    />
+  {{- end -}}
+</div>
+{{- else -}}
+{{/* Standard image without blur-up */}}
+<img src="{{ $src | safeURL }}"
+     {{ with $alt }}alt="{{ . | plainify }}"{{ end }}
      loading="lazy"
      decoding="async"
-     class="{{ with .Get "position" }}{{ . }}{{ else }}left{{ end }}"
-     {{ with .Get "style" }}style="{{ . | safeCSS }}"{{ end }}
-     {{ with .Get "width" }}width="{{ . }}"{{ end }}
-     {{ with .Get "height" }}height="{{ . }}"{{ end }} />
+     class="{{ $position }}"
+     {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
+     {{ with $width }}width="{{ . }}"{{ end }}
+     {{ with $height }}height="{{ . }}"{{ end }} />
+{{- end -}}
 {{ end }}

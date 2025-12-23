@@ -80,6 +80,9 @@
 {{- template "_internal/schema.html" . }}
 {{- template "_internal/opengraph.html" . }}
 {{- template "_internal/twitter_cards.html" . }}
+
+<!-- Breadcrumb Schema -->
+{{- partial "breadcrumbs-schema.html" . -}}
 {{ range .Params.categories }}
 <meta property="article:section" content="{{ . }}">
 {{ end }}

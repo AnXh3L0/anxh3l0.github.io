@@ -255,3 +255,25 @@ webmentionInstructions:
 
 webmentionOr:
   other: "or"
+
+# Share Button
+sharePost:
+  other: "Share"
+
+share:
+  other: "Share"
+
+shareOnTwitter:
+  other: "Share on Twitter"
+
+shareOnLinkedIn:
+  other: "Share on LinkedIn"
+
+shareOnFacebook:
+  other: "Share on Facebook"
+
+copyLink:
+  other: "Copy link"
+
+linkCopied:
+  other: "Link copied!"

@@ -252,3 +252,25 @@ webmentionInstructions:
 
 webmentionOr:
   other: "ose"
+
+# Share Button
+sharePost:
+  other: "Shpërndaj"
+
+share:
+  other: "Shpërndaj"
+
+shareOnTwitter:
+  other: "Shpërndaj në Twitter"
+
+shareOnLinkedIn:
+  other: "Shpërndaj në LinkedIn"
+
+shareOnFacebook:
+  other: "Shpërndaj në Facebook"
+
+copyLink:
+  other: "Kopjo lidhjen"
+
+linkCopied:
+  other: "Lidhja u kopjua!"

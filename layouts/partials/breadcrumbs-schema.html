@@ -1,0 +1,39 @@
+{{/* BreadcrumbList JSON-LD Schema for SEO */}}
+{{- $breadcrumbs := slice -}}
+
+{{/* Home */}}
+{{- $breadcrumbs = $breadcrumbs | append (dict "name" (i18n "home" | default "Home") "url" .Site.BaseURL) -}}
+
+{{/* Section */}}
+{{- if .Section -}}
+  {{- $sectionPage := .Site.GetPage "section" .Section -}}
+  {{- if $sectionPage -}}
+    {{- $breadcrumbs = $breadcrumbs | append (dict "name" ($sectionPage.Title | default (.Section | title)) "url" $sectionPage.Permalink) -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* Current page (if not home or section list) */}}
+{{- if and .IsPage (not .IsHome) -}}
+  {{- $breadcrumbs = $breadcrumbs | append (dict "name" .Title "url" .Permalink) -}}
+{{- end -}}
+
+{{- if gt (len $breadcrumbs) 1 -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{- range $index, $crumb := $breadcrumbs -}}
+    {{- if $index }},{{ end }}
+    {
+      "@type": "ListItem",
+      "position": {{ add $index 1 }},
+      "name": {{ $crumb.name | jsonify }},
+      "item": {{ $crumb.url | jsonify }}
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end -}}
+
