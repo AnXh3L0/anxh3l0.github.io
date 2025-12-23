@@ -454,6 +454,28 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Code block enhancements - language badges
+  function initializeCodeBlocks() {
+    document.querySelectorAll('.prose pre code').forEach(codeBlock => {
+      // Skip if already processed
+      if (codeBlock.dataset.enhanced) return;
+      codeBlock.dataset.enhanced = 'true';
+      
+      const pre = codeBlock.parentElement;
+      
+      // Try to detect language from class
+      const langMatch = codeBlock.className.match(/language-(\w+)/);
+      if (langMatch && langMatch[1] !== 'plaintext' && langMatch[1] !== 'text') {
+        const lang = langMatch[1];
+        const badge = document.createElement('span');
+        badge.className = 'code-language';
+        badge.textContent = lang;
+        pre.appendChild(badge);
+        pre.classList.add('has-language-badge');
+      }
+    });
+  }
+
   // Initialize systems
   handleTheme();
   initializeMobileMenu();
@@ -463,4 +485,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initializeCopyCode();
   initializeExternalLinks();
   initializeKeyboardNavigation();
+  initializeCodeBlocks();
 });

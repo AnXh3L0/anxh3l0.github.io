@@ -1,5 +1,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta charset="UTF-8">
+<meta name="view-transition" content="same-origin">
 
 <!-- Preconnect for performance -->
 <link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin>
@@ -58,6 +59,16 @@
 
 {{ $style := resources.Get "style.css" | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+<!-- Print stylesheet -->
+{{ $print := resources.Get "css/print.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print">
+
+<!-- Webmention & IndieAuth support -->
+<link rel="webmention" href="https://webmention.io/lushka.al/webmention">
+<link rel="pingback" href="https://webmention.io/lushka.al/xmlrpc">
+<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 
 <!-- Author -->
 {{ partial "author.html" . }}

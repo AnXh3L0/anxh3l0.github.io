@@ -489,3 +489,100 @@ kbd {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* ============================================
+   View Transitions API
+   ============================================ */
+
+/* Simple cross-fade with subtle blur */
+@supports (view-transition-name: none) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 200ms;
+    animation-timing-function: ease-in-out;
+  }
+
+  ::view-transition-old(root) {
+    animation-name: vt-fade-out;
+  }
+
+  ::view-transition-new(root) {
+    animation-name: vt-fade-in;
+  }
+
+  @keyframes vt-fade-out {
+    to {
+      opacity: 0;
+      filter: blur(2px);
+    }
+  }
+
+  @keyframes vt-fade-in {
+    from {
+      opacity: 0;
+      filter: blur(2px);
+    }
+  }
+
+  /* Respect reduced motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+      animation: none !important;
+    }
+  }
+}
+
+/* ============================================
+   Code Block Improvements
+   ============================================ */
+
+/* Code block container - only add extra padding when has language badge */
+.prose pre {
+  position: relative;
+}
+
+.prose pre.has-language-badge {
+  padding-top: 2.5rem;
+}
+
+/* Filename label for code blocks */
+.code-filename {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  color: #a1a1aa;
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+[data-theme="dark"] .code-filename {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* Language badge */
+.code-language {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.125rem 0.5rem;
+  font-size: 0.625rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #a1a1aa;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 0.25rem;
+  z-index: 10;
+}
+
+/* Copy button positioning adjustment when has language badge */
+.prose pre.has-language-badge .copy-code-button {
+  top: 0.5rem;
+  right: 3.5rem;
+}

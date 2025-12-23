@@ -218,3 +218,37 @@ pressToNavigate:
 
 noRelatedPosts:
   other: "Nuk u gjetën postime të ngjashme"
+
+# Webmentions
+webmentions:
+  other: "Webmentions"
+
+webmentionLikes:
+  other: "Pëlqime"
+
+webmentionLikesLabel:
+  other: "pëlqime"
+
+webmentionReposts:
+  other: "Ripostime"
+
+webmentionRepostsLabel:
+  other: "ripostime"
+
+webmentionsLoading:
+  other: "Duke ngarkuar webmentions..."
+
+webmentionsEmpty:
+  other: "Asnjë webmention ende. Bëhu i pari që përgjigjet!"
+
+webmentionsError:
+  other: "Nuk u ngarkuan webmentions"
+
+webmentionHow:
+  other: "Si të dërgosh një webmention"
+
+webmentionInstructions:
+  other: "Lidh këtë faqe nga faqja jote, pastaj dërgo një webmention duke përdorur"
+
+webmentionOr:
+  other: "ose"

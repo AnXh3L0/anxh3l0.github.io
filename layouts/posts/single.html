@@ -195,6 +195,9 @@
                 </section>
                 {{ end }}
 
+                {{/* Webmentions */}}
+                {{ partial "webmentions.html" . }}
+
                 {{ if and (not $.Site.Params.DisableReadOtherPosts) (or .NextInSection .PrevInSection) }}
                 <nav class="pagination mt-12" aria-label="{{ i18n "post.read_others" }}">
                     <div class="pagination__title mb-6">

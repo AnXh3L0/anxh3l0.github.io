@@ -18,7 +18,7 @@
                 <a class="group -m-1 p-1 text-zinc-500 transition hover:text-zinc-600 dark:text-zinc-400 dark:hover:text-zinc-300" 
                    href="{{ .url }}" 
                    target="_blank"
-                   rel="noopener noreferrer"
+                   rel="me noopener noreferrer"
                    aria-label="{{ if eq .name `email` }}
                    {{ i18n "social.email_aria" (dict "email" (replace .url "mailto:" "")) }}
                     {{ else }}

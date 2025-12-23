@@ -1,0 +1,173 @@
+/* Print Stylesheet - Optimized for printing articles */
+@media print {
+  /* Reset colors for printing */
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* Hide non-essential elements */
+  header,
+  footer,
+  nav,
+  .mobile-menu-backdrop,
+  .mobile-menu-panel,
+  .scroll-to-top,
+  .theme-toggle,
+  .language-switcher,
+  .pagination,
+  .related-posts,
+  .share-buttons,
+  .comments,
+  .newsletter,
+  .copy-code-button,
+  #scroll-to-top,
+  [aria-hidden="true"]:not(img) {
+    display: none !important;
+  }
+
+  /* Page setup */
+  @page {
+    margin: 2cm;
+    size: A4;
+  }
+
+  /* Typography */
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+    font-family: Georgia, "Times New Roman", serif;
+  }
+
+  h1 {
+    font-size: 24pt;
+    page-break-after: avoid;
+  }
+
+  h2 {
+    font-size: 18pt;
+    page-break-after: avoid;
+  }
+
+  h3 {
+    font-size: 14pt;
+    page-break-after: avoid;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Prevent orphans and widows */
+  p, li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Images */
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  figure {
+    page-break-inside: avoid;
+  }
+
+  /* Links - show URLs */
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 10pt;
+    font-weight: normal;
+    color: #666 !important;
+  }
+
+  /* Don't show URL for internal/anchor links */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after,
+  a[href^="mailto:"]::after {
+    content: "";
+  }
+
+  /* Code blocks */
+  pre, code {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 10pt;
+    border: 1px solid #ccc !important;
+    page-break-inside: avoid;
+  }
+
+  pre {
+    padding: 1em !important;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #ccc !important;
+    padding: 8px;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr {
+    page-break-inside: avoid;
+  }
+
+  /* Blockquotes */
+  blockquote {
+    border-left: 3px solid #333 !important;
+    padding-left: 1em;
+    margin-left: 0;
+    font-style: italic;
+  }
+
+  /* Article specific */
+  article {
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .prose {
+    max-width: none !important;
+  }
+
+  /* Show a print header */
+  article::before {
+    content: "Printed from " attr(data-post-url);
+    display: block;
+    font-size: 10pt;
+    color: #666 !important;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5em;
+  }
+
+  /* Page breaks */
+  .page-break-before {
+    page-break-before: always;
+  }
+
+  .page-break-after {
+    page-break-after: always;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
+

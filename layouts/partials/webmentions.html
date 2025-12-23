@@ -1,0 +1,179 @@
+{{/* Webmentions Display Partial */}}
+{{/* Fetches and displays webmentions from webmention.io */}}
+
+{{ $permalink := .Permalink }}
+
+<section class="webmentions mt-12" aria-labelledby="webmentions-heading">
+  <h2 id="webmentions-heading" class="flex items-center gap-2 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+    <svg class="h-5 w-5 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+    </svg>
+    {{ i18n "webmentions" | default "Webmentions" }}
+  </h2>
+  
+  <div class="webmentions-container mt-4" data-webmention-url="{{ $permalink }}">
+    {{/* Likes/Favorites */}}
+    <div class="webmention-likes mb-4 hidden" aria-label="{{ i18n "webmentionLikes" | default "Likes" }}">
+      <div class="flex items-center gap-2 mb-2">
+        <svg class="h-4 w-4 text-red-500" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+        <span class="text-sm text-zinc-600 dark:text-zinc-400">
+          <span class="likes-count">0</span> {{ i18n "webmentionLikesLabel" | default "likes" }}
+        </span>
+      </div>
+      <div class="likes-avatars flex -space-x-2"></div>
+    </div>
+    
+    {{/* Reposts/Shares */}}
+    <div class="webmention-reposts mb-4 hidden" aria-label="{{ i18n "webmentionReposts" | default "Reposts" }}">
+      <div class="flex items-center gap-2 mb-2">
+        <svg class="h-4 w-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+        </svg>
+        <span class="text-sm text-zinc-600 dark:text-zinc-400">
+          <span class="reposts-count">0</span> {{ i18n "webmentionRepostsLabel" | default "reposts" }}
+        </span>
+      </div>
+      <div class="reposts-avatars flex -space-x-2"></div>
+    </div>
+    
+    {{/* Replies/Comments */}}
+    <div class="webmention-replies">
+      <ul class="replies-list space-y-4"></ul>
+    </div>
+    
+    {{/* Loading state */}}
+    <p class="webmentions-loading text-sm text-zinc-500 dark:text-zinc-400">
+      {{ i18n "webmentionsLoading" | default "Loading webmentions..." }}
+    </p>
+    
+    {{/* Empty state */}}
+    <p class="webmentions-empty hidden text-sm text-zinc-500 dark:text-zinc-400">
+      {{ i18n "webmentionsEmpty" | default "No webmentions yet. Be the first to respond!" }}
+    </p>
+  </div>
+  
+  {{/* How to send a webmention */}}
+  <details class="mt-4 text-sm">
+    <summary class="cursor-pointer text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-300">
+      {{ i18n "webmentionHow" | default "How to send a webmention" }}
+    </summary>
+    <div class="mt-2 rounded-lg bg-zinc-100 p-4 dark:bg-zinc-800/50">
+      <p class="text-zinc-600 dark:text-zinc-400">
+        {{ i18n "webmentionInstructions" | default "Link to this page from your own site, then send a webmention using" }}
+        <a href="https://webmention.io" target="_blank" rel="noopener" class="text-teal-600 hover:text-teal-700 dark:text-teal-400">webmention.io</a>
+        {{ i18n "webmentionOr" | default "or" }}
+        <a href="https://brid.gy" target="_blank" rel="noopener" class="text-teal-600 hover:text-teal-700 dark:text-teal-400">Bridgy</a>.
+      </p>
+    </div>
+  </details>
+</section>
+
+<script>
+(function() {
+  const container = document.querySelector('.webmentions-container');
+  if (!container) return;
+  
+  const url = container.dataset.webmentionUrl;
+  const domain = '{{ .Site.BaseURL | replaceRE "https?://" "" | replaceRE "/$" "" }}';
+  const endpoint = `https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(url)}&per-page=100`;
+  
+  fetch(endpoint)
+    .then(response => response.json())
+    .then(data => {
+      const loading = container.querySelector('.webmentions-loading');
+      const empty = container.querySelector('.webmentions-empty');
+      const likesSection = container.querySelector('.webmention-likes');
+      const repostsSection = container.querySelector('.webmention-reposts');
+      const likesAvatars = container.querySelector('.likes-avatars');
+      const repostsAvatars = container.querySelector('.reposts-avatars');
+      const likesCount = container.querySelector('.likes-count');
+      const repostsCount = container.querySelector('.reposts-count');
+      const repliesList = container.querySelector('.replies-list');
+      
+      loading.classList.add('hidden');
+      
+      if (!data.children || data.children.length === 0) {
+        empty.classList.remove('hidden');
+        return;
+      }
+      
+      const likes = data.children.filter(m => m['wm-property'] === 'like-of');
+      const reposts = data.children.filter(m => m['wm-property'] === 'repost-of');
+      const replies = data.children.filter(m => ['in-reply-to', 'mention-of'].includes(m['wm-property']));
+      
+      // Show likes
+      if (likes.length > 0) {
+        likesSection.classList.remove('hidden');
+        likesCount.textContent = likes.length;
+        likes.slice(0, 10).forEach(like => {
+          if (like.author && like.author.photo) {
+            const img = document.createElement('img');
+            img.src = like.author.photo;
+            img.alt = like.author.name || 'Anonymous';
+            img.title = like.author.name || 'Anonymous';
+            img.className = 'h-8 w-8 rounded-full ring-2 ring-white dark:ring-zinc-900';
+            img.loading = 'lazy';
+            likesAvatars.appendChild(img);
+          }
+        });
+      }
+      
+      // Show reposts
+      if (reposts.length > 0) {
+        repostsSection.classList.remove('hidden');
+        repostsCount.textContent = reposts.length;
+        reposts.slice(0, 10).forEach(repost => {
+          if (repost.author && repost.author.photo) {
+            const img = document.createElement('img');
+            img.src = repost.author.photo;
+            img.alt = repost.author.name || 'Anonymous';
+            img.title = repost.author.name || 'Anonymous';
+            img.className = 'h-8 w-8 rounded-full ring-2 ring-white dark:ring-zinc-900';
+            img.loading = 'lazy';
+            repostsAvatars.appendChild(img);
+          }
+        });
+      }
+      
+      // Show replies
+      replies.forEach(reply => {
+        const li = document.createElement('li');
+        li.className = 'rounded-lg border border-zinc-200 p-4 dark:border-zinc-700';
+        
+        const authorPhoto = reply.author?.photo || '';
+        const authorName = reply.author?.name || 'Anonymous';
+        const authorUrl = reply.author?.url || '#';
+        const content = reply.content?.html || reply.content?.text || '';
+        const published = reply.published ? new Date(reply.published).toLocaleDateString() : '';
+        const source = reply.url || reply['wm-source'];
+        
+        li.innerHTML = `
+          <div class="flex items-start gap-3">
+            ${authorPhoto ? `<img src="${authorPhoto}" alt="${authorName}" class="h-10 w-10 rounded-full" loading="lazy">` : ''}
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap">
+                <a href="${authorUrl}" target="_blank" rel="noopener" class="font-medium text-zinc-900 hover:text-teal-600 dark:text-zinc-100 dark:hover:text-teal-400">${authorName}</a>
+                ${published ? `<time class="text-xs text-zinc-500 dark:text-zinc-400">${published}</time>` : ''}
+              </div>
+              <div class="mt-1 text-sm text-zinc-600 dark:text-zinc-400 prose-sm">${content}</div>
+              ${source ? `<a href="${source}" target="_blank" rel="noopener" class="mt-2 inline-block text-xs text-teal-600 hover:text-teal-700 dark:text-teal-400">View original →</a>` : ''}
+            </div>
+          </div>
+        `;
+        
+        repliesList.appendChild(li);
+      });
+      
+      if (likes.length === 0 && reposts.length === 0 && replies.length === 0) {
+        empty.classList.remove('hidden');
+      }
+    })
+    .catch(err => {
+      console.error('Error fetching webmentions:', err);
+      container.querySelector('.webmentions-loading').textContent = '{{ i18n "webmentionsError" | default "Could not load webmentions" }}';
+    });
+})();
+</script>
+

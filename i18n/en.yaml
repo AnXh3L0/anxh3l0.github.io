@@ -221,3 +221,37 @@ pressToNavigate:
 
 noRelatedPosts:
   other: "No related posts found"
+
+# Webmentions
+webmentions:
+  other: "Webmentions"
+
+webmentionLikes:
+  other: "Likes"
+
+webmentionLikesLabel:
+  other: "likes"
+
+webmentionReposts:
+  other: "Reposts"
+
+webmentionRepostsLabel:
+  other: "reposts"
+
+webmentionsLoading:
+  other: "Loading webmentions..."
+
+webmentionsEmpty:
+  other: "No webmentions yet. Be the first to respond!"
+
+webmentionsError:
+  other: "Could not load webmentions"
+
+webmentionHow:
+  other: "How to send a webmention"
+
+webmentionInstructions:
+  other: "Link to this page from your own site, then send a webmention using"
+
+webmentionOr:
+  other: "or"
