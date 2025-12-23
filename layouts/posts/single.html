@@ -31,11 +31,21 @@
                   </svg>
                 </a>
   
-                <article aria-labelledby="article-title" data-post-url="{{ .RelPermalink }}">
+                {{/* h-entry microformat for IndieWeb/Webmentions */}}
+                <article class="h-entry" aria-labelledby="article-title" data-post-url="{{ .RelPermalink }}">
+                  {{/* Hidden permalink for webmentions */}}
+                  <a class="u-url hidden" href="{{ .Permalink }}"></a>
+                  
+                  {{/* Hidden author h-card */}}
+                  <div class="p-author h-card hidden">
+                    <a class="u-url p-name" href="{{ .Site.BaseURL }}">{{ .Site.Params.author.name }}</a>
+                    <img class="u-photo" src="{{ .Site.Params.author.image | absURL }}" alt="">
+                  </div>
+                  
                   <header class="flex flex-col">
                     <h1 
                       id="article-title" 
-                      class="mt-6 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl"
+                      class="p-name mt-6 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl"
                     >
                       {{ .Title }}
                     </h1>
@@ -43,8 +53,8 @@
                     {{/* Article meta with reading time */}}
                     <div class="order-first mb-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-zinc-400 dark:text-zinc-500">
                       <time 
-                        datetime="{{ .Date.Format "2006-01-02" }}" 
-                        class="flex items-center"
+                        datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" 
+                        class="dt-published flex items-center"
                         aria-label="{{ i18n "article_published_on" (time.Format ":date_long" .Date) }}"
                       >
                         <span class="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500" aria-hidden="true"></span>
@@ -79,7 +89,7 @@
                   {{ end }}
   
                   <div 
-                    class="dark:prose-dark prose prose-zinc mt-8 max-w-none dark:prose-invert"
+                    class="e-content dark:prose-dark prose prose-zinc mt-8 max-w-none dark:prose-invert"
                     data-mdx-content="true"
                     role="region"
                     aria-label="{{ i18n "article_content" }}"
