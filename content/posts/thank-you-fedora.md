@@ -1,5 +1,6 @@
 +++
 title = "Thank you, Fedora"
+postType = "opinion"
 date = "2018-11-10 10:00:00"
 images = ['/media/images/posts/thanks-fedora.webp']
 description = 'A thank you for the Fedora Community'

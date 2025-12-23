@@ -1,5 +1,6 @@
 +++
 title = "Open Source Conference Albania 2019"
+postType = "article"
 date = "2019-05-26 12:00:00"
 images = ['/media/images/posts/oscal-19.webp']
 description = 'The annual Open Source Conference in Albania'

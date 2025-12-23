@@ -1,5 +1,6 @@
 +++
 title = "Open Source Design Summit Tirana"
+postType = "article"
 date = "2018-11-14 03:00:00 +0200"
 images = ['/media/images/posts/osd-summit.webp']
 description = 'The 2nd edition of the Summit'

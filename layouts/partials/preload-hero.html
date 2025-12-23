@@ -1,0 +1,35 @@
+{{/* 
+  Preload Hero/Critical Images
+  Detects featured images and adds preload hints
+  Include in <head>: {{ partial "preload-hero.html" . }}
+*/}}
+
+{{/* Check for featured image in front matter */}}
+{{- with .Params.image -}}
+  {{- $img := resources.Get . -}}
+  {{- if $img -}}
+    {{- $webp := $img.Resize (printf "%dx webp" $img.Width) -}}
+    <link rel="preload" as="image" type="image/webp" href="{{ $webp.RelPermalink }}" />
+  {{- else -}}
+    <link rel="preload" as="image" href="{{ . | absURL }}" />
+  {{- end -}}
+{{- end -}}
+
+{{/* Also check images array */}}
+{{- with index .Params.images 0 -}}
+  {{- $img := resources.Get . -}}
+  {{- if $img -}}
+    {{- $webp := $img.Resize (printf "%dx webp" $img.Width) -}}
+    <link rel="preload" as="image" type="image/webp" href="{{ $webp.RelPermalink }}" />
+  {{- else -}}
+    <link rel="preload" as="image" href="{{ . | absURL }}" />
+  {{- end -}}
+{{- end -}}
+
+{{/* Preload author avatar on homepage */}}
+{{- if .IsHome -}}
+  {{- with .Site.Params.author.image -}}
+    <link rel="preload" as="image" href="{{ . | absURL }}" />
+  {{- end -}}
+{{- end -}}
+

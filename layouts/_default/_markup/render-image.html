@@ -1,21 +1,125 @@
-{{ $img := "" }}
-{{ $source := ( .Destination | safeURL ) }}
-{{ $imgPath := add "/content" $source }}
-{{ if fileExists $imgPath }}
-    {{ $img = imageConfig $imgPath }}
-{{ else }}
-    {{ $imgPath := add "/static" $source }}
-    {{ if fileExists $imgPath }}
-        {{ $img = imageConfig $imgPath }}
-    {{ end }}
-{{ end }}
+{{/* 
+  Markdown Image Renderer
+  Automatically applies:
+  - WebP conversion with fallback
+  - Responsive srcset
+  - Auto dimensions
+  - Lazy loading
+  - Alt text warning in dev
+*/}}
 
-{{ if $img }}
-  <img
-  src="{{ $source }}"
-  alt="{{ htmlUnescape .Text }}"
-  loading="lazy"
-  width="{{ $img.Width }}"
-  height="{{ $img.Height }}"
+{{- $src := .Destination -}}
+{{- $alt := .Text -}}
+{{- $title := .Title -}}
+
+{{/* Try to get image as a resource */}}
+{{- $img := "" -}}
+{{- $isResource := false -}}
+
+{{/* Check if it's a page resource */}}
+{{- with .Page.Resources.GetMatch $src -}}
+  {{- $img = . -}}
+  {{- $isResource = true -}}
+{{- end -}}
+
+{{/* Check in assets */}}
+{{- if not $img -}}
+  {{- $assetPath := $src -}}
+  {{- if hasPrefix $src "/" -}}
+    {{- $assetPath = strings.TrimPrefix "/" $src -}}
+  {{- end -}}
+  {{- with resources.Get $assetPath -}}
+    {{- $img = . -}}
+    {{- $isResource = true -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* Alt text warning in development */}}
+{{- if and (not $alt) hugo.IsServer -}}
+<!-- ⚠️ DEV WARNING: Missing alt text for image: {{ $src }} -->
+{{- end -}}
+
+{{- if $isResource -}}
+  {{/* Generate responsive sizes */}}
+  {{- $sizes_list := slice 480 768 1024 1280 -}}
+  {{- $srcset := slice -}}
+  {{- $srcsetWebP := slice -}}
+  
+  {{- range $size := $sizes_list -}}
+    {{- if ge $img.Width $size -}}
+      {{- $resized := $img.Resize (printf "%dx" $size) -}}
+      {{- $srcset = $srcset | append (printf "%s %dw" $resized.RelPermalink $size) -}}
+      
+      {{/* WebP version */}}
+      {{- if ne $img.MediaType.SubType "webp" -}}
+        {{- $webp := $img.Resize (printf "%dx webp" $size) -}}
+        {{- $srcsetWebP = $srcsetWebP | append (printf "%s %dw" $webp.RelPermalink $size) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{/* Add original/full size */}}
+  {{- $srcset = $srcset | append (printf "%s %dw" $img.RelPermalink $img.Width) -}}
+  {{- if ne $img.MediaType.SubType "webp" -}}
+    {{- $webpFull := $img.Resize (printf "%dx webp" $img.Width) -}}
+    {{- $srcsetWebP = $srcsetWebP | append (printf "%s %dw" $webpFull.RelPermalink $img.Width) -}}
+  {{- end -}}
+
+  {{- if and (gt (len $srcsetWebP) 0) (ne $img.MediaType.SubType "webp") -}}
+  <picture>
+    <source 
+      type="image/webp" 
+      srcset="{{ delimit $srcsetWebP ", " }}"
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
+    />
+    <img 
+      src="{{ $img.RelPermalink }}"
+      srcset="{{ delimit $srcset ", " }}"
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
+      alt="{{ $alt }}"
+      {{ with $title }}title="{{ . }}"{{ end }}
+      width="{{ $img.Width }}"
+      height="{{ $img.Height }}"
+      loading="lazy"
+      decoding="async"
+      class="rounded-lg"
+    />
+  </picture>
+  {{- else -}}
+  <img 
+    src="{{ $img.RelPermalink }}"
+    {{ if gt (len $srcset) 0 }}srcset="{{ delimit $srcset ", " }}"{{ end }}
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
+    alt="{{ $alt }}"
+    {{ with $title }}title="{{ . }}"{{ end }}
+    width="{{ $img.Width }}"
+    height="{{ $img.Height }}"
+    loading="lazy"
+    decoding="async"
+    class="rounded-lg"
   />
-{{ end }}
+  {{- end -}}
+{{- else -}}
+  {{/* Fallback for static/external images */}}
+  {{- $imgPath := "" -}}
+  {{- $imgConfig := "" -}}
+  
+  {{/* Try to get dimensions from static folder */}}
+  {{- $staticPath := printf "static%s" $src -}}
+  {{- if fileExists $staticPath -}}
+    {{- $imgConfig = imageConfig $staticPath -}}
+  {{- end -}}
+  
+  <img 
+    src="{{ $src | safeURL }}"
+    alt="{{ $alt }}"
+    {{ with $title }}title="{{ . }}"{{ end }}
+    {{ with $imgConfig }}
+    width="{{ .Width }}"
+    height="{{ .Height }}"
+    {{ end }}
+    loading="lazy"
+    decoding="async"
+    class="rounded-lg"
+  />
+{{- end -}}

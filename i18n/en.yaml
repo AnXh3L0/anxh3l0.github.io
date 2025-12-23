@@ -150,8 +150,6 @@ speaking_title: "My Public Appearances"
 speaking_description: "Collection of my media appearances and conference talks"
 duration: "Duration"
 minutes: "minutes"
-watch_video: "Watch video"
-listen_podcast: "Listen to podcast"
 
 portfolio:
   mainAria: "Portfolio Projects"
@@ -297,3 +295,73 @@ qrCodeDescription:
 
 downloadQR:
   other: "Download QR"
+
+# Accent Picker
+customizeAccent:
+  other: "Customize accent color"
+
+accentColor:
+  other: "Accent Color"
+
+resetToDefault:
+  other: "Reset to default"
+
+# Reading Progress
+readingProgress:
+  other: "Reading progress"
+
+# Post Types
+postTypeTutorial:
+  other: "Tutorial"
+
+postTypeOpinion:
+  other: "Opinion"
+
+postTypeNews:
+  other: "News"
+
+postTypeReview:
+  other: "Review"
+
+postTypeGuide:
+  other: "Guide"
+
+postTypeAnnouncement:
+  other: "Announcement"
+
+postTypeArticle:
+  other: "Article"
+
+# Statistics Page
+statsPosts:
+  other: "Blog Posts"
+
+statsPortfolio:
+  other: "Portfolio Items"
+
+statsWords:
+  other: "Words Written"
+
+statsMinutes:
+  other: "Minutes to Read"
+
+statsTags:
+  other: "Tags"
+
+statsAvgWords:
+  other: "Avg Words/Post"
+
+statsFirstPost:
+  other: "First Post"
+
+statsLanguages:
+  other: "Languages"
+
+statsByYear:
+  other: "Posts by Year"
+
+statsTopTags:
+  other: "Most Used Tags"
+
+statsFunFacts:
+  other: "Fun Facts"

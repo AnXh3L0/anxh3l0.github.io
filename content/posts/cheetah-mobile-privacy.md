@@ -1,5 +1,6 @@
 +++
 title = "Cheetah Mobile and privacy"
+postType = "news"
 date = "2018-11-26 03:00:00 +0200"
 images = ['/media/images/posts/cheetah.webp']
 description = 'Reasons why you should remove them now!'

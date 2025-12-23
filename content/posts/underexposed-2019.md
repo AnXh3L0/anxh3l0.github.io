@@ -1,5 +1,6 @@
 +++
 title = "Underexposed 2019"
+postType = "article"
 date = "2019-01-21 15:00:00 +0200"
 images = ['/media/images/posts/underexposed-post.webp']
 description = 'The Simply Secure event dedicated to Design'

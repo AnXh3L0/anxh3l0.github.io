@@ -1,5 +1,6 @@
 +++
 title = "Alternatives to YouTube"
+postType = "guide"
 date = "2018-10-15 12:00:00"
 images = ['/media/images/posts/youtube.webp']
 description = 'A detailed article on helping you find privacy-aware alternatives to YouTube'

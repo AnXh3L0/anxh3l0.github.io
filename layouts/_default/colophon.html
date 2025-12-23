@@ -1,0 +1,50 @@
+{{ define "main" }}
+<main class="flex-auto" role="main">
+  <div class="mt-16 sm:mt-32 sm:px-8">
+    <div class="mx-auto w-full max-w-7xl lg:px-8">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <header class="max-w-2xl">
+            <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+              {{ .Title }}
+            </h1>
+            <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+              {{ .Description }}
+            </p>
+          </header>
+          
+          <div class="mt-16 sm:mt-20">
+            <div class="prose prose-zinc dark:prose-invert max-w-none">
+              {{ .Content }}
+            </div>
+            
+            {{/* Site Build Info */}}
+            <div class="mt-12 rounded-lg border border-zinc-200 bg-zinc-50 p-6 dark:border-zinc-700 dark:bg-zinc-800/50">
+              <h3 class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Build Information</h3>
+              <dl class="mt-4 grid grid-cols-1 gap-4 text-sm sm:grid-cols-2">
+                <div>
+                  <dt class="text-zinc-500 dark:text-zinc-400">Hugo Version</dt>
+                  <dd class="font-medium text-zinc-900 dark:text-zinc-100">{{ hugo.Version }}</dd>
+                </div>
+                <div>
+                  <dt class="text-zinc-500 dark:text-zinc-400">Build Date</dt>
+                  <dd class="font-medium text-zinc-900 dark:text-zinc-100">{{ now.Format "January 2, 2006" }}</dd>
+                </div>
+                <div>
+                  <dt class="text-zinc-500 dark:text-zinc-400">Environment</dt>
+                  <dd class="font-medium text-zinc-900 dark:text-zinc-100">{{ hugo.Environment }}</dd>
+                </div>
+                <div>
+                  <dt class="text-zinc-500 dark:text-zinc-400">Go Version</dt>
+                  <dd class="font-medium text-zinc-900 dark:text-zinc-100">{{ hugo.GoVersion }}</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}
+

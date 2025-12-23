@@ -1,5 +1,6 @@
 +++
 title = "The truth about e-mail"
+postType = "guide"
 date = "2018-10-10 12:00:00"
 images = ['/media/images/posts/email.webp']
 description = 'A short beginner-friendly intro on e-mail ins and outs'

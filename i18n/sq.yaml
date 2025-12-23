@@ -147,8 +147,6 @@ speaking_title: "Paraqitjet e mia publike"
 speaking_description: "Koleksioni i paraqitjeve të mia në media dhe bisedave në konferencë"
 duration: "Kohëzgjatja"
 minutes: "minuta"
-watch_video: "Shiko videon"
-listen_podcast: "Dëgjo podcastin"
 
 portfolio:
   mainAria: "Projektet e Portofolit"
@@ -294,3 +292,73 @@ qrCodeDescription:
 
 downloadQR:
   other: "Shkarko QR"
+
+# Accent Picker
+customizeAccent:
+  other: "Personalizo ngjyrën"
+
+accentColor:
+  other: "Ngjyra Kryesore"
+
+resetToDefault:
+  other: "Kthe në default"
+
+# Reading Progress
+readingProgress:
+  other: "Progresi i leximit"
+
+# Post Types
+postTypeTutorial:
+  other: "Tutorial"
+
+postTypeOpinion:
+  other: "Opinion"
+
+postTypeNews:
+  other: "Lajme"
+
+postTypeReview:
+  other: "Vlerësim"
+
+postTypeGuide:
+  other: "Udhëzues"
+
+postTypeAnnouncement:
+  other: "Njoftim"
+
+postTypeArticle:
+  other: "Artikull"
+
+# Statistics Page
+statsPosts:
+  other: "Postime"
+
+statsPortfolio:
+  other: "Projekte"
+
+statsWords:
+  other: "Fjalë të shkruara"
+
+statsMinutes:
+  other: "Minuta leximi"
+
+statsTags:
+  other: "Etiketa"
+
+statsAvgWords:
+  other: "Mesatarja fjalë/postim"
+
+statsFirstPost:
+  other: "Postimi i parë"
+
+statsLanguages:
+  other: "Gjuhë"
+
+statsByYear:
+  other: "Postime sipas vitit"
+
+statsTopTags:
+  other: "Etiketat më të përdorura"
+
+statsFunFacts:
+  other: "Fakte interesante"

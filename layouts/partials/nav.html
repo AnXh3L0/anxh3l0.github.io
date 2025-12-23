@@ -34,6 +34,16 @@
           </a>
         </li>
       {{ end }}
+      {{/* Now page */}}
+      {{ with site.GetPage "/now" }}
+        <li>
+          <a href="{{ .RelPermalink }}" 
+              class="block py-2 transition hover:text-teal-500 dark:hover:text-teal-400 {{ if eq $currentPage.RelPermalink .RelPermalink }}text-teal-500 dark:text-teal-400{{ end }}"
+              {{ if eq $currentPage.RelPermalink .RelPermalink }}aria-current="page"{{ end }}>
+            {{ .Title }}
+          </a>
+        </li>
+      {{ end }}
     </ul>
   </nav>
 </div>
@@ -42,6 +52,19 @@
   <ul class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur-sm dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
     {{ $currentPage := . }}
     {{ range site.Sections }}
+      <li class="min-w-max">
+        <a href="{{ .RelPermalink }}" 
+            class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 {{ if eq $currentPage.RelPermalink .RelPermalink }}text-teal-500 dark:text-teal-400{{ end }}"
+            {{ if eq $currentPage.RelPermalink .RelPermalink }}aria-current="page"{{ end }}>
+          {{ .Title }}
+          {{ if eq $currentPage.RelPermalink .RelPermalink }}
+            <span class="absolute inset-x-1 -bottom-px h-px bg-linear-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span>
+          {{ end }}
+        </a>
+      </li>
+    {{ end }}
+    {{/* Now page */}}
+    {{ with site.GetPage "/now" }}
       <li class="min-w-max">
         <a href="{{ .RelPermalink }}" 
             class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 {{ if eq $currentPage.RelPermalink .RelPermalink }}text-teal-500 dark:text-teal-400{{ end }}"

@@ -83,6 +83,13 @@
 
 <!-- Breadcrumb Schema -->
 {{- partial "breadcrumbs-schema.html" . -}}
+
+<!-- HowTo Schema (if applicable) -->
+{{- partial "schema-howto.html" . -}}
+
+<!-- Preload Critical Images -->
+{{- partial "preload-hero.html" . -}}
+
 {{ range .Params.categories }}
 <meta property="article:section" content="{{ . }}">
 {{ end }}

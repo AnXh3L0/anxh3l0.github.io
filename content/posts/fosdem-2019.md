@@ -1,5 +1,6 @@
 +++
 title = "FOSDEM 2019"
+postType = "article"
 date = "2019-02-12 12:00:00"
 images = ['/media/images/posts/fosdem.webp']
 description = 'The biggest FOSS conference in Europe'

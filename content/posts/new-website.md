@@ -1,5 +1,6 @@
 +++
 title = "New website"
+postType = "announcement"
 date = "2025-01-30 16:00:00"
 images = ['/media/images/posts/new-website.webp']
 description = "Rebuilding my website with Hugo and TailwindCSS, with improved accessibility, SEO, and performance."

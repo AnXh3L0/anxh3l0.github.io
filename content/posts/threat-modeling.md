@@ -1,5 +1,6 @@
 +++
 title = "Threat Modeling"
+postType = "guide"
 date = "2018-11-07 12:00:00"
 images = ['/media/images/posts/threat-modeling.webp']
 description = 'Assessing your risks in the online world'

@@ -1,0 +1,82 @@
+{{/* 
+  HowTo Schema.org Structured Data
+  Use in front matter:
+  howto:
+    name: "How to do something"
+    description: "Step by step guide"
+    totalTime: "PT30M"
+    steps:
+      - name: "Step 1"
+        text: "Do this first"
+        image: "/path/to/image.jpg"
+      - name: "Step 2"  
+        text: "Then do this"
+*/}}
+
+{{- with .Params.howto -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": {{ .name | jsonify }},
+  "description": {{ .description | default $.Description | jsonify }},
+  {{- with .totalTime }}
+  "totalTime": {{ . | jsonify }},
+  {{- end }}
+  {{- with .estimatedCost }}
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": {{ .currency | default "USD" | jsonify }},
+    "value": {{ .value | jsonify }}
+  },
+  {{- end }}
+  {{- with .supply }}
+  "supply": [
+    {{- range $i, $item := . }}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "HowToSupply",
+      "name": {{ $item | jsonify }}
+    }
+    {{- end }}
+  ],
+  {{- end }}
+  {{- with .tool }}
+  "tool": [
+    {{- range $i, $item := . }}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "HowToTool",
+      "name": {{ $item | jsonify }}
+    }
+    {{- end }}
+  ],
+  {{- end }}
+  "step": [
+    {{- range $i, $step := .steps }}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "HowToStep",
+      "position": {{ add $i 1 }},
+      "name": {{ $step.name | jsonify }},
+      "text": {{ $step.text | jsonify }}
+      {{- with $step.image }},
+      "image": {{ . | absURL | jsonify }}
+      {{- end }}
+      {{- with $step.url }},
+      "url": {{ . | jsonify }}
+      {{- end }}
+    }
+    {{- end }}
+  ],
+  "author": {
+    "@type": "Person",
+    "name": {{ $.Site.Params.author.name | jsonify }},
+    "url": {{ $.Site.Params.author.url | default $.Site.BaseURL | jsonify }}
+  },
+  "datePublished": {{ $.Date.Format "2006-01-02" | jsonify }},
+  "dateModified": {{ $.Lastmod.Format "2006-01-02" | jsonify }}
+}
+</script>
+{{- end -}}
+

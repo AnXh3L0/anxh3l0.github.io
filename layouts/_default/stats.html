@@ -1,0 +1,157 @@
+{{ define "main" }}
+{{/* Calculate statistics */}}
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ $portfolio := where .Site.RegularPages "Section" "portfolio" }}
+{{ $totalWords := 0 }}
+{{ $totalReadingTime := 0 }}
+{{ range $posts }}
+  {{ $totalWords = add $totalWords .WordCount }}
+  {{ $totalReadingTime = add $totalReadingTime .ReadingTime }}
+{{ end }}
+
+{{ $avgWords := 0 }}
+{{ if gt (len $posts) 0 }}
+  {{ $avgWords = div $totalWords (len $posts) }}
+{{ end }}
+
+{{ $tags := .Site.Taxonomies.tags }}
+{{ $categories := .Site.Taxonomies.categories }}
+
+{{/* Get oldest and newest post dates */}}
+{{ $oldestPost := index ($posts.ByDate) 0 }}
+{{ $newestPost := index ($posts.ByDate.Reverse) 0 }}
+
+<main class="flex-auto" role="main">
+  <div class="mt-16 sm:mt-32 sm:px-8">
+    <div class="mx-auto w-full max-w-7xl lg:px-8">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <header class="max-w-2xl">
+            <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+              {{ .Title }}
+            </h1>
+            <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+              {{ .Description }}
+            </p>
+          </header>
+          
+          <div class="mt-16 sm:mt-20">
+            {{/* Main Stats Grid */}}
+            <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+              {{/* Total Posts */}}
+              <div class="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-700 dark:bg-zinc-800">
+                <div class="text-3xl font-bold text-teal-500">{{ len $posts }}</div>
+                <div class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{{ i18n "statsPosts" | default "Blog Posts" }}</div>
+              </div>
+              
+              {{/* Portfolio Items */}}
+              <div class="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-700 dark:bg-zinc-800">
+                <div class="text-3xl font-bold text-teal-500">{{ len $portfolio }}</div>
+                <div class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{{ i18n "statsPortfolio" | default "Portfolio Items" }}</div>
+              </div>
+              
+              {{/* Total Words */}}
+              <div class="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-700 dark:bg-zinc-800">
+                <div class="text-3xl font-bold text-teal-500">{{ lang.FormatNumber 0 $totalWords }}</div>
+                <div class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{{ i18n "statsWords" | default "Words Written" }}</div>
+              </div>
+              
+              {{/* Total Reading Time */}}
+              <div class="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-700 dark:bg-zinc-800">
+                <div class="text-3xl font-bold text-teal-500">{{ $totalReadingTime }}</div>
+                <div class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{{ i18n "statsMinutes" | default "Minutes to Read" }}</div>
+              </div>
+              
+              {{/* Tags */}}
+              <div class="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-700 dark:bg-zinc-800">
+                <div class="text-3xl font-bold text-teal-500">{{ len $tags }}</div>
+                <div class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{{ i18n "statsTags" | default "Tags" }}</div>
+              </div>
+              
+              {{/* Average Words */}}
+              <div class="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-700 dark:bg-zinc-800">
+                <div class="text-3xl font-bold text-teal-500">{{ lang.FormatNumber 0 $avgWords }}</div>
+                <div class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{{ i18n "statsAvgWords" | default "Avg Words/Post" }}</div>
+              </div>
+              
+              {{/* First Post Year */}}
+              {{ with $oldestPost }}
+              <div class="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-700 dark:bg-zinc-800">
+                <div class="text-3xl font-bold text-teal-500">{{ .Date.Format "2006" }}</div>
+                <div class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{{ i18n "statsFirstPost" | default "First Post" }}</div>
+              </div>
+              {{ end }}
+              
+              {{/* Languages */}}
+              <div class="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-700 dark:bg-zinc-800">
+                <div class="text-3xl font-bold text-teal-500">{{ len .Site.Languages }}</div>
+                <div class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{{ i18n "statsLanguages" | default "Languages" }}</div>
+              </div>
+            </div>
+            
+            {{/* Posts by Year */}}
+            <div class="mt-12">
+              <h2 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100">{{ i18n "statsByYear" | default "Posts by Year" }}</h2>
+              <div class="mt-4 space-y-3">
+                {{ $years := dict }}
+                {{ range $posts }}
+                  {{ $year := .Date.Format "2006" }}
+                  {{ $count := index $years $year | default 0 }}
+                  {{ $years = merge $years (dict $year (add $count 1)) }}
+                {{ end }}
+                
+                {{ range $year, $count := $years }}
+                <div class="flex items-center gap-4">
+                  <span class="w-12 text-sm font-medium text-zinc-900 dark:text-zinc-100">{{ $year }}</span>
+                  <div class="flex-1">
+                    <div class="h-4 rounded-full bg-zinc-200 dark:bg-zinc-700">
+                      {{ $maxCount := 20 }}
+                      {{ $width := mul (div (float $count) (float $maxCount)) 100 }}
+                      {{ if gt $width 100 }}{{ $width = 100 }}{{ end }}
+                      <div class="h-4 rounded-full bg-teal-500" style="width: {{ $width }}%"></div>
+                    </div>
+                  </div>
+                  <span class="w-8 text-right text-sm text-zinc-600 dark:text-zinc-400">{{ $count }}</span>
+                </div>
+                {{ end }}
+              </div>
+            </div>
+            
+            {{/* Top Tags */}}
+            <div class="mt-12">
+              <h2 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100">{{ i18n "statsTopTags" | default "Most Used Tags" }}</h2>
+              <div class="mt-4 flex flex-wrap gap-2">
+                {{ range $name, $taxonomy := $tags }}
+                  {{ if gt (len $taxonomy.Pages) 1 }}
+                  <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" 
+                     class="inline-flex items-center gap-1 rounded-full bg-zinc-100 px-3 py-1 text-sm text-zinc-700 transition-colors hover:bg-teal-500 hover:text-white dark:bg-zinc-800 dark:text-zinc-300">
+                    {{ $name }}
+                    <span class="text-xs opacity-70">({{ len $taxonomy.Pages }})</span>
+                  </a>
+                  {{ end }}
+                {{ end }}
+              </div>
+            </div>
+            
+            {{/* Fun Facts */}}
+            <div class="mt-12 rounded-lg border border-zinc-200 bg-zinc-50 p-6 dark:border-zinc-700 dark:bg-zinc-800/50">
+              <h2 class="text-lg font-semibold text-zinc-900 dark:text-zinc-100">{{ i18n "statsFunFacts" | default "Fun Facts" }}</h2>
+              <ul class="mt-4 space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+                <li>📚 If you read all posts, it would take <strong class="text-zinc-900 dark:text-zinc-100">{{ $totalReadingTime }} minutes</strong></li>
+                <li>✍️ That's approximately <strong class="text-zinc-900 dark:text-zinc-100">{{ div $totalWords 250 }}</strong> book pages</li>
+                {{ with $newestPost }}
+                <li>🆕 Most recent post: <a href="{{ .RelPermalink }}" class="text-teal-500 hover:underline">{{ .Title }}</a></li>
+                {{ end }}
+                {{ with $oldestPost }}
+                <li>📅 Blogging since <strong class="text-zinc-900 dark:text-zinc-100">{{ .Date.Format "January 2006" }}</strong></li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}
+

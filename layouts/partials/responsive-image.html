@@ -1,0 +1,88 @@
+{{/* 
+  Responsive Image Partial
+  Features:
+  - Automatic WebP conversion with fallback
+  - Responsive srcset generation
+  - Auto width/height to prevent layout shift
+  - Lazy loading
+  - Alt text warning in dev
+  
+  Usage: {{ partial "responsive-image.html" (dict "src" "path/to/image.jpg" "alt" "Description" "class" "optional-class" "context" .) }}
+*/}}
+
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $class := .class | default "" -}}
+{{- $context := .context | default . -}}
+{{- $lazy := .lazy | default true -}}
+{{- $sizes := .sizes | default "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 800px" -}}
+
+{{/* Try to get the image resource */}}
+{{- $img := "" -}}
+{{- if hasPrefix $src "/" -}}
+  {{- $img = resources.Get (strings.TrimPrefix "/" $src) -}}
+{{- else -}}
+  {{- $img = resources.Get $src -}}
+{{- end -}}
+
+{{- if $img -}}
+  {{/* Generate responsive sizes */}}
+  {{- $sizes_list := slice 480 768 1024 1280 1600 -}}
+  {{- $srcset := slice -}}
+  {{- $srcsetWebP := slice -}}
+  
+  {{- range $size := $sizes_list -}}
+    {{- if ge $img.Width $size -}}
+      {{- $resized := $img.Resize (printf "%dx" $size) -}}
+      {{- $srcset = $srcset | append (printf "%s %dw" $resized.RelPermalink $size) -}}
+      
+      {{/* WebP version */}}
+      {{- $webp := $img.Resize (printf "%dx webp" $size) -}}
+      {{- $srcsetWebP = $srcsetWebP | append (printf "%s %dw" $webp.RelPermalink $size) -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{/* Add original size */}}
+  {{- $srcset = $srcset | append (printf "%s %dw" $img.RelPermalink $img.Width) -}}
+  {{- $webpFull := $img.Resize (printf "%dx webp" $img.Width) -}}
+  {{- $srcsetWebP = $srcsetWebP | append (printf "%s %dw" $webpFull.RelPermalink $img.Width) -}}
+  
+  {{/* Alt text warning in development */}}
+  {{- if and (not $alt) hugo.IsServer -}}
+  <!-- ⚠️ WARNING: Missing alt text for image: {{ $src }} -->
+  {{- end -}}
+  
+  <picture>
+    {{/* WebP source */}}
+    <source 
+      type="image/webp" 
+      srcset="{{ delimit $srcsetWebP ", " }}"
+      sizes="{{ $sizes }}"
+    />
+    {{/* Original format fallback */}}
+    <source 
+      srcset="{{ delimit $srcset ", " }}"
+      sizes="{{ $sizes }}"
+    />
+    <img 
+      src="{{ $img.RelPermalink }}"
+      alt="{{ $alt }}"
+      width="{{ $img.Width }}"
+      height="{{ $img.Height }}"
+      {{ if $lazy }}loading="lazy" decoding="async"{{ end }}
+      {{ with $class }}class="{{ . }}"{{ end }}
+    />
+  </picture>
+{{- else -}}
+  {{/* Fallback for external images or images not found */}}
+  {{- if and (not $alt) hugo.IsServer -}}
+  <!-- ⚠️ WARNING: Missing alt text for image: {{ $src }} -->
+  {{- end -}}
+  <img 
+    src="{{ $src }}"
+    alt="{{ $alt }}"
+    {{ if $lazy }}loading="lazy" decoding="async"{{ end }}
+    {{ with $class }}class="{{ . }}"{{ end }}
+  />
+{{- end -}}
+

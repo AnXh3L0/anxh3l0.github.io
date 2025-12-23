@@ -1,5 +1,6 @@
 +++
 title = "Fedora Women's Day 2018"
+postType = "article"
 date = "2018-11-03 12:00:00"
 images = ['/media/images/posts/fwd-event.webp']
 description = 'An event dedicated to Women in the Fedora Project'

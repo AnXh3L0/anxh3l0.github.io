@@ -1,5 +1,6 @@
 +++
 title = "LibreOffice Hackfest Munich 2018"
+postType = "article"
 date = "2018-11-01 12:00:00"
 images = ['/media/images/posts/libreoffice-hackfest.webp']
 description = 'A short report on the Munich hackfest on LibreOffice'

@@ -1,5 +1,6 @@
 +++
 title = "Software Freedom Kosova 2016"
+postType = "article"
 date = "2016-10-26 12:00:00"
 images = ['/media/images/posts/sfk.webp']
 description = 'The iconic FOSS conference in Kosovo'

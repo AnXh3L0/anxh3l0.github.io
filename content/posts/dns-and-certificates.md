@@ -1,5 +1,6 @@
 +++
 title = "DNS and Root Certificates"
+postType = "guide"
 date = "2019-02-05 10:00:00"
 images = ['/media/images/posts/dns.webp']
 description = 'What you need to know about it'

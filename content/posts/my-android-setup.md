@@ -1,5 +1,6 @@
 +++
 title = "My Google-free Android life"
+postType = "guide"
 date = "2018-11-08 10:00:00"
 images = ['/media/images/posts/android-setup.webp']
 description = 'An article on how to de-googlify your life and my setup'

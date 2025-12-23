@@ -1,5 +1,6 @@
 +++
 title = "LibreOffice Conference 2016 - Brno"
+postType = "article"
 date = "2016-09-11 12:00:00"
 images = ['/media/images/posts/libreoffice.webp']
 tags = ["libreoffice", "conference", "report", "blog"]

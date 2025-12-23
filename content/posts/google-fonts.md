@@ -1,5 +1,6 @@
 +++
 title = "Google Fonts installer"
+postType = "tutorial"
 date = "2021-06-06 23:50:00"
 images = ['/media/images/posts/google-fonts.webp']
 description = 'A script to install all Google Fonts locally'
