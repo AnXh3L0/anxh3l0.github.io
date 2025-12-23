@@ -1,0 +1,51 @@
+{{/* QR Code Generator for easy mobile sharing */}}
+{{ $url := .Permalink }}
+{{ $encodedUrl := $url | urlquery }}
+{{ $title := .Title }}
+
+<details class="qr-code-generator mt-4 rounded-lg border border-zinc-200 bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800/50">
+  <summary class="flex cursor-pointer items-center gap-2 p-4 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+    <svg class="h-4 w-4 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h2M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+    </svg>
+    {{ i18n "qrCode" | default "QR Code" }}
+  </summary>
+  
+  <div class="border-t border-zinc-200 p-4 dark:border-zinc-700">
+    <div class="flex flex-col items-center gap-4 sm:flex-row">
+      {{/* QR Code Image - using QR Server API (free, no signup) */}}
+      <div class="qr-code-image rounded-lg bg-white p-2 shadow-sm">
+        <img 
+          src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data={{ $encodedUrl }}&format=svg" 
+          alt="{{ i18n "qrCodeAlt" | default "QR code for this page" }}"
+          width="150"
+          height="150"
+          loading="lazy"
+          class="h-[150px] w-[150px]"
+        />
+      </div>
+      
+      <div class="flex-1 text-center sm:text-left">
+        <p class="mb-2 text-sm text-zinc-600 dark:text-zinc-400">
+          {{ i18n "qrCodeDescription" | default "Scan to open this page on your mobile device" }}
+        </p>
+        <p class="text-xs text-zinc-500 dark:text-zinc-500 break-all">
+          {{ $url }}
+        </p>
+        
+        {{/* Download QR Code button */}}
+        <a 
+          href="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data={{ $encodedUrl }}&format=png&download=1" 
+          download="qr-{{ .File.ContentBaseName }}.png"
+          class="mt-3 inline-flex items-center gap-1.5 rounded-md bg-zinc-100 px-3 py-1.5 text-xs font-medium text-zinc-700 transition-colors hover:bg-zinc-200 dark:bg-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-600"
+        >
+          <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+          </svg>
+          {{ i18n "downloadQR" | default "Download QR" }}
+        </a>
+      </div>
+    </div>
+  </div>
+</details>
+

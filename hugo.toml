@@ -50,6 +50,9 @@ timeout = 180
 
 [outputs]
   home = ["HTML", "RSS", "Sitemap"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
 
 [params]
   # Metadata mostly used in document's head

@@ -1,0 +1,69 @@
+{{/* Citation Generator - Multiple formats */}}
+{{ $author := .Site.Params.author.name }}
+{{ $title := .Title }}
+{{ $date := .Date }}
+{{ $url := .Permalink }}
+{{ $siteName := .Site.Title }}
+{{ $accessDate := now.Format "January 2, 2006" }}
+
+<details class="citation-generator mt-6 rounded-lg border border-zinc-200 bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800/50">
+  <summary class="flex cursor-pointer items-center gap-2 p-4 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+    <svg class="h-4 w-4 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+    </svg>
+    {{ i18n "citeThisPost" | default "Cite this post" }}
+  </summary>
+  
+  <div class="space-y-4 border-t border-zinc-200 p-4 dark:border-zinc-700">
+    {{/* APA Format */}}
+    <div class="citation-format">
+      <div class="mb-1 flex items-center justify-between">
+        <span class="text-xs font-medium uppercase tracking-wide text-zinc-500 dark:text-zinc-400">APA</span>
+        <button type="button" class="copy-citation-btn text-xs text-teal-600 hover:text-teal-700 dark:text-teal-400 dark:hover:text-teal-300" data-format="apa">
+          {{ i18n "copy" | default "Copy" }}
+        </button>
+      </div>
+      <code class="citation-text block rounded bg-zinc-100 p-2 text-xs text-zinc-700 dark:bg-zinc-900 dark:text-zinc-300" data-format="apa">{{ $author }} ({{ $date.Format "2006, January 2" }}). {{ $title }}. {{ $siteName }}. {{ $url }}</code>
+    </div>
+
+    {{/* MLA Format */}}
+    <div class="citation-format">
+      <div class="mb-1 flex items-center justify-between">
+        <span class="text-xs font-medium uppercase tracking-wide text-zinc-500 dark:text-zinc-400">MLA</span>
+        <button type="button" class="copy-citation-btn text-xs text-teal-600 hover:text-teal-700 dark:text-teal-400 dark:hover:text-teal-300" data-format="mla">
+          {{ i18n "copy" | default "Copy" }}
+        </button>
+      </div>
+      <code class="citation-text block rounded bg-zinc-100 p-2 text-xs text-zinc-700 dark:bg-zinc-900 dark:text-zinc-300" data-format="mla">{{ $author }}. "{{ $title }}." {{ $siteName }}, {{ $date.Format "2 Jan. 2006" }}, {{ $url }}.</code>
+    </div>
+
+    {{/* Chicago Format */}}
+    <div class="citation-format">
+      <div class="mb-1 flex items-center justify-between">
+        <span class="text-xs font-medium uppercase tracking-wide text-zinc-500 dark:text-zinc-400">Chicago</span>
+        <button type="button" class="copy-citation-btn text-xs text-teal-600 hover:text-teal-700 dark:text-teal-400 dark:hover:text-teal-300" data-format="chicago">
+          {{ i18n "copy" | default "Copy" }}
+        </button>
+      </div>
+      <code class="citation-text block rounded bg-zinc-100 p-2 text-xs text-zinc-700 dark:bg-zinc-900 dark:text-zinc-300" data-format="chicago">{{ $author }}. "{{ $title }}." {{ $siteName }}. {{ $date.Format "January 2, 2006" }}. {{ $url }}.</code>
+    </div>
+
+    {{/* BibTeX Format */}}
+    <div class="citation-format">
+      <div class="mb-1 flex items-center justify-between">
+        <span class="text-xs font-medium uppercase tracking-wide text-zinc-500 dark:text-zinc-400">BibTeX</span>
+        <button type="button" class="copy-citation-btn text-xs text-teal-600 hover:text-teal-700 dark:text-teal-400 dark:hover:text-teal-300" data-format="bibtex">
+          {{ i18n "copy" | default "Copy" }}
+        </button>
+      </div>
+      <code class="citation-text block whitespace-pre-wrap rounded bg-zinc-100 p-2 text-xs text-zinc-700 dark:bg-zinc-900 dark:text-zinc-300" data-format="bibtex">@online{{ "{" }}{{ .File.ContentBaseName }},
+  author = {{ "{" }}{{ $author }}{{ "}" }},
+  title = {{ "{" }}{{ $title }}{{ "}" }},
+  year = {{ "{" }}{{ $date.Format "2006" }}{{ "}" }},
+  url = {{ "{" }}{{ $url }}{{ "}" }},
+  urldate = {{ "{" }}{{ now.Format "2006-01-02" }}{{ "}" }}
+{{ "}" }}</code>
+    </div>
+  </div>
+</details>
+

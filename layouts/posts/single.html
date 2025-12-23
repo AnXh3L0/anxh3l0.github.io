@@ -71,7 +71,7 @@
                     </div>
                   </header>
                   
-                  {{/* Table of Contents - only show if there are actual headings */}}
+                  {{/* Table of Contents */}}
                   {{ $toc := .TableOfContents }}
                   {{ $hasToc := and $toc (not (eq $toc "<nav id=\"TableOfContents\"></nav>")) (gt .WordCount 400) }}
                   {{ if $hasToc }}
@@ -172,6 +172,12 @@
                     </div>
                     {{- end }}
                 </div>
+
+                {{/* Citation Generator */}}
+                {{ partial "citation.html" . }}
+
+                {{/* QR Code */}}
+                {{ partial "qr-code.html" . }}
 
                 {{/* Related Posts - Feature 3 */}}
                 {{ $related := slice }}

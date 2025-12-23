@@ -274,3 +274,23 @@ copyLink:
 
 linkCopied:
   other: "Lidhja u kopjua!"
+
+# Citation Generator
+citeThisPost:
+  other: "Cito këtë postim"
+
+copy:
+  other: "Kopjo"
+
+# QR Code
+qrCode:
+  other: "Kodi QR"
+
+qrCodeAlt:
+  other: "Kodi QR për këtë faqe"
+
+qrCodeDescription:
+  other: "Skano për të hapur këtë faqe në celularin tënd"
+
+downloadQR:
+  other: "Shkarko QR"

@@ -277,3 +277,23 @@ copyLink:
 
 linkCopied:
   other: "Link copied!"
+
+# Citation Generator
+citeThisPost:
+  other: "Cite this post"
+
+copy:
+  other: "Copy"
+
+# QR Code
+qrCode:
+  other: "QR Code"
+
+qrCodeAlt:
+  other: "QR code for this page"
+
+qrCodeDescription:
+  other: "Scan to open this page on your mobile device"
+
+downloadQR:
+  other: "Download QR"
