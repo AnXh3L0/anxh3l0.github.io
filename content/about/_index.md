@@ -34,7 +34,7 @@ In my free time, I enjoy **traveling, astrophysics, photography, and music**, wh
 
 ## Contact
 
-You can contact me through various services. A few of them are presented below. Keep in mind I don't use encrypted emails (GPG/PGP) so if you want a more secure way to contact me use the other apps.
+You can contact me through various services. A few of them are listed below. Keep in mind I don't use encrypted emails (GPG/PGP), so if you want a more secure way to contact me, use the other apps.
 
 - WhatsApp: [Send me a message](https://wa.me/+355699932340?text=Hello%20there)
 - Signal: [+355699932340](tel:+355699932340)

@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html data-theme="light" lang="{{ .Site.Language }}" data-homepage="{{ .IsHome }}" dir="{{ .Site.Language.Params.direction }}" itemscope
-  itemtype="http://schema.org/WebPage">
+  itemtype="https://schema.org/WebPage">
 
 <head>
   {{ partial "head.html" . }}
 </head>
 
 <body class="flex h-full bg-zinc-50 dark:bg-black">
+  <!-- Skip to Content Link for Accessibility -->
+  <a href="#main-content" 
+     class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-teal-500 focus:px-4 focus:py-2 focus:text-white focus:outline-none">
+    {{ i18n "skipToContent" | default "Skip to main content" }}
+  </a>
+
   <div class="flex w-full">
     <div class="fixed inset-0 flex justify-center sm:px-8">
       <div class="flex w-full max-w-7xl lg:px-8">
@@ -15,11 +21,25 @@
     </div>
     <div class="relative flex w-full flex-col">
       {{ partial "header.html" . }}
-        {{ block "main" . }}
-          {{ .Content }}
-        {{ end }}
+        <div id="main-content">
+          {{ block "main" . }}
+            {{ .Content }}
+          {{ end }}
+        </div>
       {{ partial "footer.html" . }}
     </div>
   </div>
+
+  <!-- Scroll to Top Button -->
+  <button id="scroll-to-top"
+          type="button"
+          aria-label="{{ i18n "scrollToTop" | default "Scroll to top" }}"
+          class="fixed bottom-6 right-6 z-50 flex h-12 w-12 translate-y-2 cursor-pointer items-center justify-center rounded-full bg-white opacity-0 shadow-lg ring-1 ring-zinc-900/10 transition-all duration-300 pointer-events-none hover:bg-zinc-50 hover:ring-zinc-900/20 dark:bg-zinc-800 dark:ring-white/10 dark:hover:bg-zinc-700 dark:hover:ring-white/20">
+    <svg class="h-5 w-5 text-zinc-600 dark:text-zinc-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+    </svg>
+  </button>
+
   {{ partial "javascript.html" . }}
 </body>
+</html>

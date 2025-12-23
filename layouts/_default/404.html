@@ -1,0 +1,75 @@
+{{ define "main" }}
+<main class="flex-auto" role="main">
+  <div class="mt-16 sm:px-8 lg:mt-32">
+    <div class="mx-auto w-full max-w-7xl lg:px-8">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <div class="flex flex-col items-center justify-center py-16 text-center">
+            
+            <!-- 404 Illustration -->
+            <div class="relative mb-8">
+              <span class="text-9xl font-bold text-zinc-200 dark:text-zinc-800" aria-hidden="true">404</span>
+              <div class="absolute inset-0 flex items-center justify-center">
+                <svg class="h-24 w-24 text-teal-500 dark:text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+            </div>
+            
+            <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+              {{ i18n "notFound" }}
+            </h1>
+            
+            <p class="mt-4 max-w-lg text-base text-zinc-600 dark:text-zinc-400">
+              {{ i18n "notFoundDescription" | default "The page you're looking for doesn't exist or has been moved." }}
+            </p>
+            
+            <!-- Navigation Options -->
+            <div class="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:gap-6">
+              <a href="{{ "/" | relLangURL }}" 
+                 class="inline-flex items-center gap-2 rounded-md bg-zinc-800 px-4 py-2 text-sm font-semibold text-zinc-100 transition hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 dark:bg-zinc-700 dark:hover:bg-zinc-600">
+                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+                {{ i18n "home" }}
+              </a>
+              
+              <a href="{{ "/posts" | relLangURL }}" 
+                 class="inline-flex items-center gap-2 rounded-md bg-white px-4 py-2 text-sm font-semibold text-zinc-800 shadow-md ring-1 ring-zinc-900/10 transition hover:bg-zinc-50 dark:bg-zinc-800 dark:text-zinc-200 dark:ring-zinc-700 dark:hover:bg-zinc-700">
+                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                </svg>
+                {{ i18n "archives" }}
+              </a>
+            </div>
+            
+            <!-- Recent Posts Suggestion -->
+            <div class="mt-16 w-full max-w-xl">
+              <h2 class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                {{ i18n "suggestedPosts" | default "You might be interested in:" }}
+              </h2>
+              <ul class="mt-4 divide-y divide-zinc-100 dark:divide-zinc-700/50">
+                {{ range first 3 (where site.RegularPages "Type" "posts") }}
+                <li class="py-3">
+                  <a href="{{ .RelPermalink }}" 
+                     class="group flex items-center justify-between gap-4 text-left transition">
+                    <span class="text-sm font-medium text-zinc-700 transition group-hover:text-teal-500 dark:text-zinc-300 dark:group-hover:text-teal-400">
+                      {{ .Title }}
+                    </span>
+                    <time class="flex-none text-xs text-zinc-400 dark:text-zinc-500" datetime="{{ .Date.Format "2006-01-02" }}">
+                      {{ .Date | time.Format ":date_short" }}
+                    </time>
+                  </a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }}
+

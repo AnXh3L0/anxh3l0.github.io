@@ -145,8 +145,6 @@ uses:
 
 speaking_title: "Paraqitjet e mia publike"
 speaking_description: "Koleksioni i paraqitjeve të mia në media dhe bisedave në konferencë"
-play_video: "Luaj videon"
-video_thumbnail_alt: "Miniatura për videon e titulluar"
 duration: "Kohëzgjatja"
 minutes: "minuta"
 watch_video: "Shiko videon"
@@ -155,11 +153,6 @@ listen_podcast: "Dëgjo podcastin"
 portfolio:
   mainAria: "Projektet e Portofolit"
   iconAlt: "Ikona e projektit"
-
-tip: Këshillë
-note: Shënim
-warning: Paralajmërim
-info: Informacion
 
 readingTime:
   one: "Një minutë"
@@ -178,6 +171,7 @@ publishDate:
 updatedOn:
   other: "e përditësuar më"
 
+# Notice types
 warning:
   other: "Kujdes"
 
@@ -189,3 +183,38 @@ info:
 
 tip:
   other: "Këshillë"
+
+# Veçoritë e reja
+skipToContent:
+  other: "Kalo te përmbajtja kryesore"
+
+scrollToTop:
+  other: "Kthehu në krye"
+
+notFoundDescription:
+  other: "Faqja që po kërkoni nuk ekziston ose është zhvendosur."
+
+suggestedPosts:
+  other: "Mund të jeni të interesuar për:"
+
+copyCode:
+  other: "Kopjo kodin"
+
+codeCopied:
+  other: "U kopjua!"
+
+# Veçoritë e reja
+relatedPosts:
+  other: "Postime të Ngjashme"
+
+readingTimeLabel:
+  other: "{{ .minutes }} min lexim"
+
+keyboardShortcuts:
+  other: "Shkurtoret e tastierës"
+
+pressToNavigate:
+  other: "Shtyp J/K për të naviguar postimet"
+
+noRelatedPosts:
+  other: "Nuk u gjetën postime të ngjashme"

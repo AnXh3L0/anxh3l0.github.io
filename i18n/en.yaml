@@ -148,8 +148,6 @@ uses:
 
 speaking_title: "My Public Appearances"
 speaking_description: "Collection of my media appearances and conference talks"
-play_video: "Play video"
-video_thumbnail_alt: "Thumbnail for video titled"
 duration: "Duration"
 minutes: "minutes"
 watch_video: "Watch video"
@@ -158,11 +156,6 @@ listen_podcast: "Listen to podcast"
 portfolio:
   mainAria: "Portfolio Projects"
   iconAlt: "Project icon"
-
-tip: Tip
-note: Note
-warning: Warning
-info: Information
 
 readingTime:
   one: "One minute"
@@ -181,14 +174,50 @@ publishDate:
 updatedOn:
   other: "last updated on"
 
+# Notice types
 warning:
   other: "Warning"
 
 note:
-  other: "Notice"
+  other: "Note"
 
 info:
   other: "Info"
 
 tip:
   other: "Tip"
+
+# New Features
+skipToContent:
+  other: "Skip to main content"
+
+scrollToTop:
+  other: "Scroll to top"
+
+notFoundDescription:
+  other: "The page you're looking for doesn't exist or has been moved."
+
+suggestedPosts:
+  other: "You might be interested in:"
+
+copyCode:
+  other: "Copy code"
+
+codeCopied:
+  other: "Copied!"
+
+# Feature additions
+relatedPosts:
+  other: "Related Posts"
+
+readingTimeLabel:
+  other: "{{ .minutes }} min read"
+
+keyboardShortcuts:
+  other: "Keyboard shortcuts"
+
+pressToNavigate:
+  other: "Press J/K to navigate posts"
+
+noRelatedPosts:
+  other: "No related posts found"

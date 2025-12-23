@@ -83,11 +83,172 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // Initialize all video thumbnails
+  // Format time helper
+  function formatTime(seconds) {
+    if (isNaN(seconds) || !isFinite(seconds)) return '0:00';
+    const mins = Math.floor(seconds / 60);
+    const secs = Math.floor(seconds % 60);
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  }
+
+  // Initialize custom audio player controls
+  function initAudioPlayer(playerContainer) {
+    const audio = playerContainer.querySelector('.audio-element');
+    const playPauseBtn = playerContainer.querySelector('.play-pause-btn');
+    const playIcon = playerContainer.querySelector('.play-icon');
+    const pauseIcon = playerContainer.querySelector('.pause-icon');
+    const progressContainer = playerContainer.querySelector('.progress-container');
+    const progressBar = playerContainer.querySelector('.progress-bar');
+    const progressHandle = playerContainer.querySelector('.progress-handle');
+    const currentTimeEl = playerContainer.querySelector('.current-time');
+    const durationEl = playerContainer.querySelector('.duration');
+    const volumeBtn = playerContainer.querySelector('.volume-btn');
+    const volumeHighIcon = playerContainer.querySelector('.volume-high-icon');
+    const volumeLowIcon = playerContainer.querySelector('.volume-low-icon');
+    const mutedIcon = playerContainer.querySelector('.muted-icon');
+    const volumeSlider = playerContainer.querySelector('.volume-slider');
+    const speedBtn = playerContainer.querySelector('.speed-btn');
+
+    if (!audio) return;
+
+    let isDragging = false;
+    const speeds = [0.5, 0.75, 1, 1.25, 1.5, 2];
+    let speedIndex = 2; // Start at 1x
+
+    // Update progress bar
+    function updateProgress() {
+      if (!audio.duration) return;
+      const percent = (audio.currentTime / audio.duration) * 100;
+      progressBar.style.width = percent + '%';
+      progressHandle.style.left = percent + '%';
+      currentTimeEl.textContent = formatTime(audio.currentTime);
+    }
+
+    // Update volume icons
+    function updateVolumeIcon() {
+      const vol = audio.muted ? 0 : audio.volume;
+      volumeHighIcon.classList.toggle('hidden', vol <= 0.5);
+      volumeLowIcon.classList.toggle('hidden', vol === 0 || vol > 0.5);
+      mutedIcon.classList.toggle('hidden', vol > 0);
+    }
+
+    // Play/Pause
+    playPauseBtn.addEventListener('click', () => {
+      audio.paused ? audio.play() : audio.pause();
+    });
+
+    audio.addEventListener('play', () => {
+      playIcon.classList.add('hidden');
+      pauseIcon.classList.remove('hidden');
+    });
+
+    audio.addEventListener('pause', () => {
+      playIcon.classList.remove('hidden');
+      pauseIcon.classList.add('hidden');
+    });
+
+    // Progress updates
+    audio.addEventListener('timeupdate', updateProgress);
+
+    // Duration
+    function setDuration() {
+      if (audio.duration && isFinite(audio.duration)) {
+        durationEl.textContent = formatTime(audio.duration);
+      }
+    }
+    audio.addEventListener('loadedmetadata', setDuration);
+    audio.addEventListener('durationchange', setDuration);
+    audio.addEventListener('canplay', setDuration);
+
+    // Show handle on hover/touch
+    progressContainer.addEventListener('mouseenter', () => {
+      progressHandle.style.opacity = '1';
+    });
+    progressContainer.addEventListener('mouseleave', () => {
+      if (!isDragging) progressHandle.style.opacity = '0';
+    });
+
+    // Seek function - works with both mouse and touch
+    function seek(clientX) {
+      const rect = progressContainer.getBoundingClientRect();
+      const percent = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+      if (audio.duration && isFinite(audio.duration)) {
+        audio.currentTime = percent * audio.duration;
+        updateProgress();
+      }
+    }
+
+    // Mouse events
+    progressContainer.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      progressHandle.style.opacity = '1';
+      seek(e.clientX);
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      if (isDragging) seek(e.clientX);
+    });
+
+    document.addEventListener('mouseup', () => {
+      if (isDragging) {
+        isDragging = false;
+        progressHandle.style.opacity = '0';
+      }
+    });
+
+    // Touch events for mobile
+    progressContainer.addEventListener('touchstart', (e) => {
+      isDragging = true;
+      progressHandle.style.opacity = '1';
+      const touch = e.touches[0];
+      seek(touch.clientX);
+      e.preventDefault();
+    }, { passive: false });
+
+    document.addEventListener('touchmove', (e) => {
+      if (isDragging && e.touches.length > 0) {
+        seek(e.touches[0].clientX);
+      }
+    }, { passive: true });
+
+    document.addEventListener('touchend', () => {
+      if (isDragging) {
+        isDragging = false;
+        progressHandle.style.opacity = '0';
+      }
+    });
+
+    // Volume mute toggle
+    volumeBtn.addEventListener('click', () => {
+      audio.muted = !audio.muted;
+      volumeSlider.value = audio.muted ? 0 : audio.volume;
+      updateVolumeIcon();
+    });
+
+    // Volume slider
+    volumeSlider.addEventListener('input', (e) => {
+      audio.volume = parseFloat(e.target.value);
+      audio.muted = audio.volume === 0;
+      updateVolumeIcon();
+    });
+
+    // Speed control
+    speedBtn.addEventListener('click', () => {
+      speedIndex = (speedIndex + 1) % speeds.length;
+      audio.playbackRate = speeds[speedIndex];
+      speedBtn.textContent = speeds[speedIndex] + 'x';
+    });
+
+    // Initialize volume
+    volumeSlider.value = audio.volume;
+    updateVolumeIcon();
+  }
+
+  // Initialize all video/audio thumbnails
   document.querySelectorAll('.thumbnail-button').forEach(button => {
     button.addEventListener('click', function(e) {
       e.preventDefault();
-      const container = this.parentElement; // Target the figure element
+      const container = this.parentElement;
       if (container.dataset.loaded === 'true') return;
 
       const article = this.closest('article');
@@ -97,7 +258,25 @@ document.addEventListener('DOMContentLoaded', () => {
       const videoId = article.dataset.videoId;
       const timestamp = this.dataset.timestamp || 0;
 
-      // Create loader element
+      // Handle audio - reveal custom player
+      if (platform === 'audio') {
+        const audioPlayer = container.querySelector('.custom-audio-player');
+        const thumbnailBtn = container.querySelector('.thumbnail-button');
+        if (audioPlayer && thumbnailBtn) {
+          thumbnailBtn.classList.add('hidden');
+          audioPlayer.classList.remove('hidden');
+          initAudioPlayer(audioPlayer);
+          const audioEl = audioPlayer.querySelector('.audio-element');
+          if (audioEl) {
+            if (timestamp) audioEl.currentTime = parseInt(timestamp);
+            audioEl.play();
+          }
+          container.dataset.loaded = 'true';
+        }
+        return;
+      }
+
+      // Create loader element for video platforms
       const loader = document.createElement('div');
       loader.className = 'loader animate-spin w-8 h-8 border-4 border-teal-500 rounded-full';
       container.innerHTML = '';
@@ -135,31 +314,12 @@ document.addEventListener('DOMContentLoaded', () => {
           const [minutes, seconds] = timestamp.replace('s', '').split('m');
           totalSeconds = (parseInt(minutes) * 60) + (parseInt(seconds) || 0);
         }
-        
         iframe.src = `https://${domain}/playback/presentation/2.0/playback.html?meetingId=${videoId}&t=${totalSeconds}`;
         iframe.allow = 'autoplay; fullscreen';
         break;
-      case 'audio':
-        const audioContainer = document.createElement('media-theme-tailwind-audio');
-        audioContainer.className = 'w-full';
-        
-        const audio = document.createElement('audio');
-        audio.slot = "media"
-        audio.controls = true;
-        
-        if (timestamp) audio.currentTime = parseInt(timestamp);
-        
-        const source = document.createElement('source');
-        source.src = videoId;
-        source.type = `audio/${ext}`;
-        audio.appendChild(source);
-      
-        audioContainer.appendChild(audio);
-        return audioContainer;
-        break;
       default:
         console.error('Unsupported platform:', platform);
-      }
+    }
     return iframe;
   }
 });

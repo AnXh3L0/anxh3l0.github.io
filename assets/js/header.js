@@ -213,12 +213,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const closeButton = document.querySelector(".mobile-menu-close");
 
     if (!menuButton || !backdrop || !panel || !closeButton) {
-      console.error("Mobile menu elements not found:", {
-        menuButton: !!menuButton,
-        backdrop: !!backdrop,
-        panel: !!panel,
-        closeButton: !!closeButton
-      });
       return;
     }
 
@@ -280,9 +274,193 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Scroll to Top Button
+  function initializeScrollToTop() {
+    const scrollButton = document.getElementById("scroll-to-top");
+    if (!scrollButton) return;
+
+    let isVisible = false;
+    const threshold = 400;
+
+    const toggleVisibility = () => {
+      const shouldShow = window.scrollY > threshold;
+      if (shouldShow !== isVisible) {
+        isVisible = shouldShow;
+        scrollButton.classList.toggle("opacity-0", !isVisible);
+        scrollButton.classList.toggle("pointer-events-none", !isVisible);
+        scrollButton.classList.toggle("translate-y-2", !isVisible);
+      }
+    };
+
+    scrollButton.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    window.addEventListener("scroll", toggleVisibility, { passive: true });
+    toggleVisibility();
+  }
+
+  // Copy Code Button
+  function initializeCopyCode() {
+    const codeBlocks = document.querySelectorAll("pre > code");
+    
+    codeBlocks.forEach((codeBlock) => {
+      const pre = codeBlock.parentElement;
+      if (!pre || pre.querySelector(".copy-code-button")) return;
+
+      // Create wrapper if needed
+      pre.style.position = "relative";
+
+      const button = document.createElement("button");
+      button.className = "copy-code-button";
+      button.setAttribute("aria-label", "Copy code to clipboard");
+      button.innerHTML = `
+        <svg class="copy-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+        </svg>
+        <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      `;
+
+      button.addEventListener("click", async () => {
+        const code = codeBlock.textContent;
+        try {
+          await navigator.clipboard.writeText(code);
+          
+          // Show success state
+          const copyIcon = button.querySelector(".copy-icon");
+          const checkIcon = button.querySelector(".check-icon");
+          copyIcon.style.display = "none";
+          checkIcon.style.display = "block";
+          button.classList.add("copied");
+
+          setTimeout(() => {
+            copyIcon.style.display = "block";
+            checkIcon.style.display = "none";
+            button.classList.remove("copied");
+          }, 2000);
+        } catch (err) {
+          console.error("Failed to copy:", err);
+        }
+      });
+
+      pre.appendChild(button);
+    });
+  }
+
+  // External Link Handler - open in new tab with security attributes
+  function initializeExternalLinks() {
+    const links = document.querySelectorAll('a[href^="http"]');
+    const currentHost = window.location.hostname;
+
+    links.forEach((link) => {
+      try {
+        const url = new URL(link.href);
+        if (url.hostname !== currentHost) {
+          link.setAttribute("target", "_blank");
+          link.setAttribute("rel", "noopener noreferrer");
+        }
+      } catch (e) {
+        // Invalid URL, skip
+      }
+    });
+  }
+
+  // Keyboard Navigation - Feature 8
+  function initializeKeyboardNavigation() {
+    // Only enable on post pages
+    const article = document.querySelector("article[data-post-url]");
+    if (!article) return;
+
+    const prevLink = document.querySelector('[data-post-nav="prev"]');
+    const nextLink = document.querySelector('[data-post-nav="next"]');
+
+    // Create keyboard hint element
+    const hint = document.createElement("div");
+    hint.className = "keyboard-hint";
+    hint.innerHTML = `<kbd>J</kbd>/<kbd>K</kbd> navigate posts · <kbd>↑</kbd> scroll to top`;
+    document.body.appendChild(hint);
+
+    let hintTimeout;
+    let hasShownHint = sessionStorage.getItem("keyboardHintShown");
+
+    // Show hint once per session
+    if (!hasShownHint) {
+      setTimeout(() => {
+        hint.classList.add("visible");
+        sessionStorage.setItem("keyboardHintShown", "true");
+        
+        hintTimeout = setTimeout(() => {
+          hint.classList.remove("visible");
+        }, 5000);
+      }, 2000);
+    }
+
+    document.addEventListener("keydown", (e) => {
+      // Don't trigger if user is typing in an input
+      if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA" || e.target.isContentEditable) {
+        return;
+      }
+
+      switch (e.key.toLowerCase()) {
+        case "j":
+          // Next post (older)
+          if (nextLink) {
+            e.preventDefault();
+            nextLink.click();
+          }
+          break;
+        case "k":
+          // Previous post (newer)
+          if (prevLink) {
+            e.preventDefault();
+            prevLink.click();
+          }
+          break;
+        case "home":
+          // Scroll to top
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+          break;
+        case "end":
+          // Scroll to bottom
+          e.preventDefault();
+          window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+          break;
+        case "t":
+          // Toggle theme with 't' key
+          const themeToggle = document.querySelector(".theme-toggle");
+          if (themeToggle && !e.ctrlKey && !e.metaKey) {
+            e.preventDefault();
+            themeToggle.click();
+          }
+          break;
+      }
+    });
+
+    // Show hint briefly when user focuses on navigation
+    [prevLink, nextLink].forEach(link => {
+      if (link) {
+        link.addEventListener("focus", () => {
+          clearTimeout(hintTimeout);
+          hint.classList.add("visible");
+          hintTimeout = setTimeout(() => {
+            hint.classList.remove("visible");
+          }, 3000);
+        });
+      }
+    });
+  }
+
   // Initialize systems
   handleTheme();
   initializeMobileMenu();
   initializeHeaderAnimations();
   handleLanguageSwitcher();
+  initializeScrollToTop();
+  initializeCopyCode();
+  initializeExternalLinks();
+  initializeKeyboardNavigation();
 });

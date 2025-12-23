@@ -8,10 +8,9 @@ layout = "single"
 If you use some other Adblocker, such as AdBlock Plus or "AdBlock", delete it before installing uBlock Origin.
 
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-- [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [Opera](https://addons.opera.com/en/extensions/details/ublock/)
-- [Microsoft Edge](https://www.microsoft.com/en-us/p/ublock-origin/9nblggh444l4?activetab=pivot%3Aoverviewtab)
-- [Safari](https://safari-extensions.apple.com/details/?id=com.el1t.uBlock-3NU33NW2M3)
+- [Chrome](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak)
+- Safari: uBlock Origin is not available for Safari. Consider using [AdGuard for Safari](https://adguard.com/en/adguard-safari/overview.html) instead.
 
 # Recommended settings
 {{< notice tip >}}

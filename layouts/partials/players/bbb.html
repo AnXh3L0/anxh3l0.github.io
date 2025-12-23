@@ -1,19 +1,19 @@
-
 {{ $videoID := .video_id }}
 <figure class="video-embed relative aspect-video w-full" 
-        data-video-id="{{ $videoID }}" 
+        data-platform="bbb"
+        data-video-id="{{ $videoID }}"
+        data-loaded="false"
         role="region" 
         aria-labelledby="bbb-{{ $videoID }}-title">
   <button class="thumbnail-button absolute inset-0 h-full w-full" 
           data-platform="bbb" 
           data-video-id="{{ $videoID }}" 
-          data-loaded="false"
           data-domain="{{ .domain }}"
           data-timestamp="{{ .timestamp | default "0" }}"
-          aria-label="{{ i18n "play_video" }}: {{ .Title }}">
+          aria-label="{{ i18n "play_video" }}: {{ .title }}">
     <img class="absolute inset-0 h-full w-full bg-zinc-900 object-cover" 
          src="/media/images/thumbs/{{ .thumb | relURL }}" 
-         alt="{{ i18n "video_thumbnail_alt" }}: {{ .Title }}"
+         alt="{{ i18n "video_thumbnail_alt" }}: {{ .title }}"
          loading="lazy" 
          decoding="async"
          width="1280" 
@@ -27,6 +27,6 @@
     </span>
   </button>
   <figcaption id="bbb-{{ $videoID }}-title" class="sr-only">
-    {{ .Title }} ({{ i18n "recorded_on" }} {{ dateFormat "2 January 2006" .date }})
+    {{ .title }} ({{ i18n "recorded_on" }} {{ dateFormat "2 January 2006" .date }})
   </figcaption>
 </figure>

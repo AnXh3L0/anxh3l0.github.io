@@ -1,5 +1,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta charset="UTF-8">
+
+<!-- Preconnect for performance -->
+<link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin>
+<link rel="preconnect" href="https://www.facebook.com" crossorigin>
+<link rel="dns-prefetch" href="https://www.youtube-nocookie.com">
+<link rel="dns-prefetch" href="https://www.facebook.com">
 <meta name="author" content="{{ with .Page.Params.author }}{{ . }}{{ else }}{{ .Site.Params.author.name }}{{ end }}">
 {{- $desc := .Description | default (.Summary | plainify | truncate 160) | default .Site.Params.description -}}
 <meta name="description" content="{{ $desc }}">

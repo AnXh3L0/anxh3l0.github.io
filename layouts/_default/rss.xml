@@ -1,0 +1,65 @@
+{{- /* RSS 2.0 with full content - Feature 10 */ -}}
+{{- $pctx := . -}}
+{{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+{{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+{{- $pages = $pctx.Pages -}}
+{{- end -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+{{- $pages = $pages | first $limit -}}
+{{- end -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}</description>
+    <generator>Hugo {{ hugo.Version }}</generator>
+    <language>{{ .Language.LanguageCode }}</language>
+    <copyright>© {{ now.Format "2006" }} {{ .Site.Params.author.name }}</copyright>
+    <lastBuildDate>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{- with .OutputFormats.Get "RSS" }}
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
+    {{- end }}
+    <image>
+      <url>{{ .Site.BaseURL }}favicons/apple-touch-icon.png</url>
+      <title>{{ .Site.Title }}</title>
+      <link>{{ .Permalink }}</link>
+    </image>
+    {{- range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <dc:creator>{{ .Site.Params.author.name }}</dc:creator>
+      {{- with .Params.categories }}
+      {{- range . }}
+      <category>{{ . }}</category>
+      {{- end }}
+      {{- end }}
+      {{- with .Params.tags }}
+      {{- range . }}
+      <category>{{ . }}</category>
+      {{- end }}
+      {{- end }}
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ .Summary | html }}</description>
+      {{- /* Full content in content:encoded */ -}}
+      <content:encoded><![CDATA[
+        {{- with .Params.featuredImage }}
+        <p><img src="{{ . | absURL }}" alt="{{ $.Title }}" /></p>
+        {{- end }}
+        {{ .Content }}
+        <hr />
+        <p><a href="{{ .Permalink }}">{{ i18n "readArticle" }}</a> · 
+        {{ i18n "readingTimeLabel" (dict "minutes" .ReadingTime) }} · 
+        {{ i18n "post.word_count" (dict "count" .WordCount) }}</p>
+      ]]></content:encoded>
+    </item>
+    {{- end }}
+  </channel>
+</rss>
+

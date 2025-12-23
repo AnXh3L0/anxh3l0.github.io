@@ -1,12 +1,17 @@
 {{ $videoID := .video_id }}
-<figure class="video-embed relative aspect-video w-full" role="region" aria-labelledby="fb-{{ $videoID }}-title">
+<figure class="video-embed relative aspect-video w-full" 
+        data-platform="facebook"
+        data-loaded="false"
+        role="region" 
+        aria-labelledby="fb-{{ $videoID }}-title">
   <button class="thumbnail-button absolute inset-0 h-full w-full" 
+          data-platform="facebook"
           data-video-id="{{ $videoID }}"
           data-timestamp="{{ .timestamp | default "0" }}"
           data-lang="{{ .lang }}"
-          aria-label="{{ i18n "play_video" }}: {{ .Title }}">
+          aria-label="{{ i18n "play_video" }}: {{ .title }}">
     <img src="/media/images/thumbs/{{ .thumb | relURL }}" 
-         alt="{{ i18n "video_thumbnail_alt" }}: {{ .Title }}" 
+         alt="{{ i18n "video_thumbnail_alt" }}: {{ .title }}" 
          loading="lazy"
          class="absolute inset-0 h-full w-full object-cover">
     <span class="play-indicator absolute" aria-hidden="true">
@@ -18,10 +23,6 @@
     </span>
   </button>
   <figcaption id="fb-{{ $videoID }}-title" class="sr-only">
-    {{ if .Date }}
-      {{ .Title }} ({{ .Params.event }}, {{ time.Format "2 January 2006" .Date }})
-    {{ else }}
-      {{ .Title }} ({{ .Params.event }})
-    {{ end }}
+    {{ .title }} ({{ .event }}, {{ dateFormat "2 January 2006" .date }})
   </figcaption>
 </figure>

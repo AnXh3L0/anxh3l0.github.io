@@ -13,7 +13,6 @@
                   href="{{ "/posts" | relLangURL }}" 
                   aria-label="{{ i18n "back_to_articles" }}" 
                   class="group mb-8 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 transition dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0 dark:ring-white/10 dark:hover:border-zinc-700 dark:hover:ring-white/20 lg:absolute lg:-left-5 lg:-mt-2 lg:mb-0 xl:-top-1.5 xl:left-0 xl:mt-0"
-                  role="navigation"
                 >
                   <svg 
                     viewBox="0 0 16 16" 
@@ -32,7 +31,7 @@
                   </svg>
                 </a>
   
-                <article aria-labelledby="article-title">
+                <article aria-labelledby="article-title" data-post-url="{{ .RelPermalink }}">
                   <header class="flex flex-col">
                     <h1 
                       id="article-title" 
@@ -40,15 +39,44 @@
                     >
                       {{ .Title }}
                     </h1>
-                    <time 
-                      datetime="{{ .Date.Format "2006-01-02" }}" 
-                      class="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500"
-                      aria-label="{{ i18n "article_published_on" (time.Format ":date_long" .Date) }}"
-                    >
-                      <span class="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500" aria-hidden="true"></span>
-                      <span class="ml-3">{{ time.Format ":date_long" .Date }}</span>
-                    </time>
+                    
+                    {{/* Article meta with reading time */}}
+                    <div class="order-first mb-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-zinc-400 dark:text-zinc-500">
+                      <time 
+                        datetime="{{ .Date.Format "2006-01-02" }}" 
+                        class="flex items-center"
+                        aria-label="{{ i18n "article_published_on" (time.Format ":date_long" .Date) }}"
+                      >
+                        <span class="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500" aria-hidden="true"></span>
+                        <span class="ml-3">{{ time.Format ":date_long" .Date }}</span>
+                      </time>
+                      
+                      {{/* Reading time */}}
+                      <span class="flex items-center gap-1.5" aria-label="{{ i18n "readingTimeLabel" (dict "minutes" .ReadingTime) }}">
+                        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        {{ i18n "readingTimeLabel" (dict "minutes" .ReadingTime) }}
+                      </span>
+                    </div>
                   </header>
+                  
+                  {{/* Table of Contents - only show if there are actual headings */}}
+                  {{ $toc := .TableOfContents }}
+                  {{ $hasToc := and $toc (not (eq $toc "<nav id=\"TableOfContents\"></nav>")) (gt .WordCount 400) }}
+                  {{ if $hasToc }}
+                  <nav class="my-8 rounded-lg border border-zinc-200 bg-zinc-50 p-4 dark:border-zinc-700 dark:bg-zinc-800/50" aria-labelledby="toc-heading">
+                    <h2 id="toc-heading" class="mb-3 flex items-center gap-2 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+                      </svg>
+                      {{ i18n "tableOfContents" }}
+                    </h2>
+                    <div class="toc prose-sm prose-zinc dark:prose-invert max-w-none text-sm">
+                      {{ $toc }}
+                    </div>
+                  </nav>
+                  {{ end }}
   
                   <div 
                     class="dark:prose-dark prose prose-zinc mt-8 max-w-none dark:prose-invert"
@@ -130,8 +158,45 @@
                     {{- end }}
                 </div>
 
+                {{/* Related Posts - Feature 3 */}}
+                {{ $related := slice }}
+                {{ with .Params.tags }}
+                  {{ $currentPage := $ }}
+                  {{ range $tag := . }}
+                    {{ range where (index $.Site.Taxonomies.tags $tag).Pages "RelPermalink" "!=" $currentPage.RelPermalink }}
+                      {{ $related = $related | append . }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+                {{ $related = $related | uniq | first 3 }}
+                
+                {{ if gt (len $related) 0 }}
+                <section class="mt-12" aria-labelledby="related-posts-heading">
+                  <h2 id="related-posts-heading" class="flex items-center gap-2 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                    <svg class="h-5 w-5 text-teal-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                    </svg>
+                    {{ i18n "relatedPosts" }}
+                  </h2>
+                  <ul class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-3">
+                    {{ range $related }}
+                    <li class="h-full">
+                      <a href="{{ .RelPermalink }}" class="group flex h-full flex-col justify-between rounded-lg border border-zinc-200 p-4 transition-all hover:border-teal-500 hover:shadow-md dark:border-zinc-700 dark:hover:border-teal-500">
+                        <h3 class="line-clamp-2 text-sm font-medium text-zinc-900 transition-colors group-hover:text-teal-600 dark:text-zinc-100 dark:group-hover:text-teal-400">
+                          {{ .Title }}
+                        </h3>
+                        <time class="mt-2 block text-xs text-zinc-500 dark:text-zinc-400" datetime="{{ .Date.Format "2006-01-02" }}">
+                          {{ .Date | time.Format ":date_medium" }}
+                        </time>
+                      </a>
+                    </li>
+                    {{ end }}
+                  </ul>
+                </section>
+                {{ end }}
+
                 {{ if and (not $.Site.Params.DisableReadOtherPosts) (or .NextInSection .PrevInSection) }}
-                <div class="pagination mt-12">
+                <nav class="pagination mt-12" aria-label="{{ i18n "post.read_others" }}">
                     <div class="pagination__title mb-6">
                     <span class="text-sm font-medium text-zinc-600 dark:text-zinc-300">
                         {{ i18n "post.read_others" }}
@@ -142,7 +207,8 @@
                     <div class="pagination__buttons flex flex-col justify-between gap-4 sm:flex-row">
                     {{ if .NextInSection }}
                     <a href="{{ .NextInSection.Permalink }}" 
-                        class="group flex items-center gap-2 text-zinc-700 transition-colors hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-zinc-100">
+                        class="nav-prev group flex items-center gap-2 text-zinc-700 transition-colors hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-zinc-100"
+                        data-post-nav="prev">
                         <span class="pagination__icon">←</span>
                         <span class="pagination__text text-sm font-medium">
                         {{ .NextInSection.Title }}
@@ -152,7 +218,8 @@
 
                     {{ if .PrevInSection }}
                     <a href="{{ .PrevInSection.Permalink }}" 
-                        class="group flex items-center gap-2 text-zinc-700 transition-colors hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-zinc-100 sm:ml-auto">
+                        class="nav-next group flex items-center gap-2 text-zinc-700 transition-colors hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-zinc-100 sm:ml-auto"
+                        data-post-nav="next">
                         <span class="pagination__text text-sm font-medium">
                         {{ .PrevInSection.Title }}
                         </span>
@@ -160,7 +227,7 @@
                     </a>
                     {{ end }}
                     </div>
-                </div>
+                </nav>
                 {{ end }}
               </div>
             </div>

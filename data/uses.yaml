@@ -69,14 +69,14 @@ categories:
 
   - key: operating system
     items:
-      - title: "Windows 10 Enterprise"
-        description: "Microsoft’s business-focused OS with extended support"
-      - title: "Fedora 41"
+      - title: "Windows 11 Enterprise"
+        description: "Microsoft's latest business-focused OS with enhanced security features"
+      - title: "Fedora 42"
         description: "Latest Fedora Linux with GNOME desktop environment"
-      - title: "Debian 12"
+      - title: "Debian 13"
         description: "Stable, lightweight Linux distribution for servers and desktops"
-      - title: "CentOS 9"
-        description: "RHEL-based Linux distribution for enterprise environments"
+      - title: "Rocky Linux 9"
+        description: "RHEL-compatible Linux distribution for enterprise environments"
 
   - key: development
     items:
@@ -92,7 +92,7 @@ categories:
       - title: "Figma"
         description: "Cloud-based UI/UX design tool for collaboration"
       - title: "Adobe Creative Cloud"
-        description: "Adobe Photoshop 2024, Adobe Illustrator 2024, Adobe InDesign 2024"
+        description: "Adobe Photoshop 2025, Adobe Illustrator 2025, Adobe InDesign 2025"
 
   - key: music & video
     items:
