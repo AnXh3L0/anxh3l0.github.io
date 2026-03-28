@@ -88,6 +88,12 @@
                   </nav>
                   {{ end }}
   
+                  {{/* Post series navigation */}}
+                  {{ partial "post-series.html" . }}
+
+                  {{/* Content freshness warning for old posts */}}
+                  {{ partial "content-freshness.html" . }}
+
                   <div 
                     class="e-content dark:prose-dark prose prose-zinc mt-8 max-w-none dark:prose-invert"
                     data-mdx-content="true"
@@ -215,6 +221,9 @@
                   </ul>
                 </section>
                 {{ end }}
+
+                {{/* Series nav (bottom) */}}
+                {{ partial "post-series.html" . }}
 
                 {{/* Webmentions */}}
                 {{ partial "webmentions.html" . }}

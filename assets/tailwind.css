@@ -144,10 +144,6 @@ button,
   overflow: hidden;
 }
 
-.thumbnail-button {
-  transition: opacity 0.2s ease;
-}
-
 .play-indicator {
   position: absolute;
   top: 50%;
@@ -337,8 +333,8 @@ html {
     margin: 2cm;
   }
 
-  /* Show print date in footer */
-  body:after {
+  /* Show print date in footer (only when data attribute is set) */
+  body[data-print-date]:after {
     content: "Printed on " attr(data-print-date);
     display: block;
     text-align: center;
@@ -948,4 +944,84 @@ details[open] summary::before {
 /* Citation copy feedback */
 .citation-format .copy-citation-btn.copied {
   color: #22c55e;
+}
+
+/* ========================================
+   Image Lightbox
+   ======================================== */
+
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.lightbox-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #a1a1aa;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.lightbox-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.lightbox-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  transform: scale(0.95);
+  transition: transform 0.25s ease;
+}
+
+.lightbox-overlay.active .lightbox-img {
+  transform: scale(1);
+}
+
+/* ========================================
+   Post Series Navigation
+   ======================================== */
+
+.series-nav {
+  border-left: 3px solid #14b8a6;
+}
+
+[data-theme="dark"] .series-nav {
+  border-left-color: #2dd4bf;
+}
+
+.series-nav .series-item.current {
+  font-weight: 600;
+  color: #14b8a6;
+}
+
+[data-theme="dark"] .series-nav .series-item.current {
+  color: #2dd4bf;
 }

@@ -115,7 +115,7 @@ downloadResumePDF:
   other: "Shkarko CV në format PDF"
 
 footer:
-  label: "Site footer"
+  label: "Fundi i faqes"
   navigation: "Navigimi kryesor"
   aria_page: "Vizito faqen {{ .Title }}"
   aria_section: "Shfleto seksionin {{ .Title }}"
@@ -145,6 +145,9 @@ uses:
 
 speaking_title: "Paraqitjet e mia publike"
 speaking_description: "Koleksioni i paraqitjeve të mia në media dhe bisedave në konferencë"
+
+speakingYearLabel:
+  other: "Paraqitjet në {{ .year }}"
 duration: "Kohëzgjatja"
 minutes: "minuta"
 
@@ -362,3 +365,66 @@ statsTopTags:
 
 statsFunFacts:
   other: "Fakte interesante"
+
+# Newsletter
+newsletterTitle:
+  other: "Qëndro i përditësuar"
+
+newsletterSubtitle:
+  other: "Merr njoftim kur publikoj diçka të re. Mund të çregjistrohesh në çdo kohë."
+
+newsletterPlaceholder:
+  other: "Adresa e emailit"
+
+newsletterJoin:
+  other: "Regjistrohu"
+
+newsletterThanks:
+  other: "Faleminderit për regjistrimin! Do të dëgjosh nga ne së shpejti."
+
+# Content Freshness
+contentFreshness:
+  other: "Ky postim u publikua më shumë se {{ .years }} vjet më parë. Disa informacione mund të jenë të vjetruara."
+
+# Post Series
+seriesLabel:
+  other: "Ky postim është pjesë e serisë"
+
+seriesPart:
+  other: "Pjesa {{ .current }} nga {{ .total }}"
+
+# Image Lightbox
+lightboxClose:
+  other: "Mbyll"
+
+# Colophon / Build Info
+colophonBuildInfo:
+  other: "Informacioni i ndërtimit"
+
+colophonHugoVersion:
+  other: "Versioni i Hugo"
+
+colophonBuildDate:
+  other: "Data e ndërtimit"
+
+colophonEnvironment:
+  other: "Mjedisi"
+
+colophonGoVersion:
+  other: "Versioni i Go"
+
+# Audio Player
+audioPlaybackSpeed:
+  other: "Shpejtësia e luajtjes"
+
+audioMute:
+  other: "Hesht"
+
+audioVolume:
+  other: "Volumi"
+
+audioPlay:
+  other: "Luaj"
+
+audioPause:
+  other: "Ndalo"

@@ -84,7 +84,7 @@
               
               {{/* Languages */}}
               <div class="rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-700 dark:bg-zinc-800">
-                <div class="text-3xl font-bold text-teal-500">{{ len .Site.Languages }}</div>
+                <div class="text-3xl font-bold text-teal-500">{{ len hugo.Deps }}</div>
                 <div class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{{ i18n "statsLanguages" | default "Languages" }}</div>
               </div>
             </div>
@@ -100,14 +100,16 @@
                   {{ $years = merge $years (dict $year (add $count 1)) }}
                 {{ end }}
                 
+                {{ $maxCount := 1 }}
+                {{ range $year, $count := $years }}
+                  {{ if gt $count $maxCount }}{{ $maxCount = $count }}{{ end }}
+                {{ end }}
                 {{ range $year, $count := $years }}
                 <div class="flex items-center gap-4">
                   <span class="w-12 text-sm font-medium text-zinc-900 dark:text-zinc-100">{{ $year }}</span>
                   <div class="flex-1">
                     <div class="h-4 rounded-full bg-zinc-200 dark:bg-zinc-700">
-                      {{ $maxCount := 20 }}
                       {{ $width := mul (div (float $count) (float $maxCount)) 100 }}
-                      {{ if gt $width 100 }}{{ $width = 100 }}{{ end }}
                       <div class="h-4 rounded-full bg-teal-500" style="width: {{ $width }}%"></div>
                     </div>
                   </div>

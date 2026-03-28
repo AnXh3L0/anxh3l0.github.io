@@ -1,0 +1,47 @@
+{{ with .Params.series }}
+{{ $seriesName := . }}
+{{ $currentPage := $ }}
+{{ $seriesPages := where (where $.Site.RegularPages "Section" "posts") ".Params.series" $seriesName }}
+{{ $seriesPages = $seriesPages.ByDate }}
+{{ $total := len $seriesPages }}
+
+{{ if gt $total 1 }}
+{{ $currentIndex := 0 }}
+{{ range $i, $page := $seriesPages }}
+  {{ if eq $page.RelPermalink $currentPage.RelPermalink }}
+    {{ $currentIndex = add $i 1 }}
+  {{ end }}
+{{ end }}
+
+<nav class="series-nav my-8 rounded-lg border border-zinc-200 bg-zinc-50 py-4 pr-4 pl-5 dark:border-zinc-700 dark:bg-zinc-800/50" aria-label="Post series navigation">
+  <div class="mb-3 flex flex-wrap items-center gap-2">
+    <span class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+      {{ i18n "seriesLabel" | default "This post is part of the series" }}:
+    </span>
+    <span class="rounded-md bg-teal-100 px-2 py-0.5 text-sm font-medium text-teal-800 dark:bg-teal-900/40 dark:text-teal-300">
+      {{ $seriesName }}
+    </span>
+    <span class="text-xs text-zinc-500 dark:text-zinc-400">
+      ({{ i18n "seriesPart" (dict "current" $currentIndex "total" $total) }})
+    </span>
+  </div>
+  <ol class="space-y-1 text-sm">
+    {{ range $i, $page := $seriesPages }}
+    <li class="series-item {{ if eq $page.RelPermalink $currentPage.RelPermalink }}current{{ end }}">
+      {{ if eq $page.RelPermalink $currentPage.RelPermalink }}
+        <span class="flex items-center gap-2 py-1">
+          <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-teal-500 text-xs font-bold text-white">{{ add $i 1 }}</span>
+          <span>{{ $page.Title }}</span>
+        </span>
+      {{ else }}
+        <a href="{{ $page.RelPermalink }}" class="flex items-center gap-2 py-1 text-zinc-600 transition-colors hover:text-teal-500 dark:text-zinc-400 dark:hover:text-teal-400">
+          <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-zinc-200 text-xs font-medium text-zinc-600 dark:bg-zinc-700 dark:text-zinc-400">{{ add $i 1 }}</span>
+          <span>{{ $page.Title }}</span>
+        </a>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ol>
+</nav>
+{{ end }}
+{{ end }}

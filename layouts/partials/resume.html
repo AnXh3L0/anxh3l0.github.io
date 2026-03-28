@@ -21,7 +21,7 @@
               {{ if $logo }}
                 {{ if eq $logo.MediaType.SubType "svg" }}
                   <img 
-                    alt="{{ .company }} logo" 
+                    alt="" 
                     loading="lazy" 
                     width="48" 
                     height="48" 
@@ -32,7 +32,7 @@
                 {{ else }}
                   {{ $resizedLogo := $logo.Resize "48x48 webp q90" }}  
                   <img 
-                    alt="{{ .company }} logo" 
+                    alt="" 
                     loading="lazy" 
                     width="{{ $resizedLogo.Width }}" 
                     height="{{ $resizedLogo.Height }}" 

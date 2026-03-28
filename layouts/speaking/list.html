@@ -19,8 +19,19 @@
             <p>{{ .Content }}</p>
       
             <div class="mt-16 sm:mt-20">
-              <div class="space-y-20">
-                {{ range sort .Site.Data.speaking.entries "date" "desc" }}
+              {{ $entries := sort hugo.Data.speaking.entries "date" "desc" }}
+              {{ $currentYear := "" }}
+              {{ range $entries }}
+                {{ $year := dateFormat "2006" .date }}
+                {{ if ne $year $currentYear }}
+                  {{ $currentYear = $year }}
+                  {{ if ne $year (dateFormat "2006" (index $entries 0).date) }}
+              </div>
+                  {{ end }}
+              <section class="mb-16" aria-label="{{ i18n "speakingYearLabel" (dict "year" $year) | default (printf "Appearances in %s" $year) }}">
+                <h2 class="mb-8 text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-200">{{ $year }}</h2>
+                <div class="space-y-20">
+                {{ end }}
 
                   <article class="group relative flex flex-col items-start" 
                            lang="{{ .lang }}" 
@@ -30,11 +41,11 @@
                            data-ext="{{ .ext }}"
                            aria-labelledby="appearance-{{ anchorize .title }}">
                     
-                    <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100" 
+                    <h3 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100" 
                         id="appearance-{{ anchorize .title }}">
                       <div class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
                       <span class="relative z-10">{{ .title }}</span>
-                    </h2>
+                    </h3>
       
                     <div class="relative z-10 order-first mb-3 flex items-center pl-3.5 text-sm text-zinc-400 dark:text-zinc-500">
                       <span class="absolute inset-y-0 left-0 flex items-center" aria-hidden="true">
@@ -61,8 +72,9 @@
                       {{ .description | markdownify }}
                     </div>
                   </article>
-                {{ end }}
-              </div>
+              {{ end }}
+                </div>
+              </section>
             </div>
           </div>
         </div>

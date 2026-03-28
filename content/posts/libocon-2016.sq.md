@@ -3,6 +3,7 @@ title = "LibreOffice Conference 2016 - Brno"
 postType = "article"
 date = "2016-09-11 12:00:00"
 images = ['/media/images/posts/libreoffice.webp']
+description = "Raport nga Konferenca e LibreOffice 2016 e mbajtur në Brno, Republika Çeke"
 tags = ["libreoffice", "conference", "report", "blog"]
 categories = ["libreoffice", "conference"]
 aliases = "/libocon-2016"

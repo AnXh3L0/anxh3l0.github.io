@@ -54,7 +54,7 @@
                                     </div>
                   
                                     <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-300">
-                                        {{ .Plain | safeHTML | truncate (default 250 .Site.Params.summaryLength) (i18n "readMoreEllipsis") }}
+                                        {{ .Plain | truncate (default 250 .Site.Params.summaryLength) (i18n "readMoreEllipsis") }}
                                     </p>
                   
                                     <a href="{{ .RelPermalink }}" class="relative z-10 mt-4 flex items-center text-sm font-medium text-teal-600 hover:text-teal-700 dark:text-teal-400 dark:hover:text-teal-300" 

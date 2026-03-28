@@ -148,6 +148,9 @@ uses:
 
 speaking_title: "My Public Appearances"
 speaking_description: "Collection of my media appearances and conference talks"
+
+speakingYearLabel:
+  other: "Appearances in {{ .year }}"
 duration: "Duration"
 minutes: "minutes"
 
@@ -365,3 +368,66 @@ statsTopTags:
 
 statsFunFacts:
   other: "Fun Facts"
+
+# Newsletter
+newsletterTitle:
+  other: "Stay up to date"
+
+newsletterSubtitle:
+  other: "Get notified when I publish something new, and unsubscribe at any time."
+
+newsletterPlaceholder:
+  other: "Email address"
+
+newsletterJoin:
+  other: "Join"
+
+newsletterThanks:
+  other: "Thanks for subscribing! You'll hear from us soon."
+
+# Content Freshness
+contentFreshness:
+  other: "This post was published more than {{ .years }} years ago. Some information may be outdated."
+
+# Post Series
+seriesLabel:
+  other: "This post is part of the series"
+
+seriesPart:
+  other: "Part {{ .current }} of {{ .total }}"
+
+# Image Lightbox
+lightboxClose:
+  other: "Close"
+
+# Colophon / Build Info
+colophonBuildInfo:
+  other: "Build Information"
+
+colophonHugoVersion:
+  other: "Hugo Version"
+
+colophonBuildDate:
+  other: "Build Date"
+
+colophonEnvironment:
+  other: "Environment"
+
+colophonGoVersion:
+  other: "Go Version"
+
+# Audio Player
+audioPlaybackSpeed:
+  other: "Playback speed"
+
+audioMute:
+  other: "Mute"
+
+audioVolume:
+  other: "Volume"
+
+audioPlay:
+  other: "Play"
+
+audioPause:
+  other: "Pause"

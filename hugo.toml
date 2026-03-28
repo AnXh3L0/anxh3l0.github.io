@@ -14,7 +14,7 @@ publishDir   = "public"
 buildDrafts  = false
 buildFuture  = false
 buildExpired = false
-canonifyURLs = true
+canonifyURLs = false
 
 enableRobotsTXT = true
 enableGitInfo   = true
@@ -65,6 +65,8 @@ timeout = 240
   gitUrl = "https://github.com/AnXh3L0/anxh3l0.github.io/commit/"
 
   # Colors for favicons
+  themeColor = "#194E80"
+
   [params.favicon.color]
     mask = "#333"
     msapplication = "#194E80"

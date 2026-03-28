@@ -20,22 +20,22 @@
             
             {{/* Site Build Info */}}
             <div class="mt-12 rounded-lg border border-zinc-200 bg-zinc-50 p-6 dark:border-zinc-700 dark:bg-zinc-800/50">
-              <h3 class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Build Information</h3>
+              <h3 class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">{{ i18n "colophonBuildInfo" }}</h3>
               <dl class="mt-4 grid grid-cols-1 gap-4 text-sm sm:grid-cols-2">
                 <div>
-                  <dt class="text-zinc-500 dark:text-zinc-400">Hugo Version</dt>
+                  <dt class="text-zinc-500 dark:text-zinc-400">{{ i18n "colophonHugoVersion" }}</dt>
                   <dd class="font-medium text-zinc-900 dark:text-zinc-100">{{ hugo.Version }}</dd>
                 </div>
                 <div>
-                  <dt class="text-zinc-500 dark:text-zinc-400">Build Date</dt>
+                  <dt class="text-zinc-500 dark:text-zinc-400">{{ i18n "colophonBuildDate" }}</dt>
                   <dd class="font-medium text-zinc-900 dark:text-zinc-100">{{ now.Format "January 2, 2006" }}</dd>
                 </div>
                 <div>
-                  <dt class="text-zinc-500 dark:text-zinc-400">Environment</dt>
+                  <dt class="text-zinc-500 dark:text-zinc-400">{{ i18n "colophonEnvironment" }}</dt>
                   <dd class="font-medium text-zinc-900 dark:text-zinc-100">{{ hugo.Environment }}</dd>
                 </div>
                 <div>
-                  <dt class="text-zinc-500 dark:text-zinc-400">Go Version</dt>
+                  <dt class="text-zinc-500 dark:text-zinc-400">{{ i18n "colophonGoVersion" }}</dt>
                   <dd class="font-medium text-zinc-900 dark:text-zinc-100">{{ hugo.GoVersion }}</dd>
                 </div>
               </dl>

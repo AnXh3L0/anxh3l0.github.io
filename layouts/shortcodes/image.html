@@ -46,7 +46,7 @@
 {{- else -}}
 {{/* Standard image without blur-up */}}
 <img src="{{ $src | safeURL }}"
-     {{ with $alt }}alt="{{ . | plainify }}"{{ end }}
+     alt="{{ $alt | plainify }}"
      loading="lazy"
      decoding="async"
      class="{{ $position }}"

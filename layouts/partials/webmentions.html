@@ -74,13 +74,34 @@
 (function() {
   const container = document.querySelector('.webmentions-container');
   if (!container) return;
-  
+
   const url = container.dataset.webmentionUrl;
-  const domain = '{{ .Site.BaseURL | replaceRE "https?://" "" | replaceRE "/$" "" }}';
   const endpoint = `https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(url)}&per-page=100`;
-  
+
+  function sanitize(str) {
+    const el = document.createElement('div');
+    el.textContent = str || '';
+    return el.innerHTML;
+  }
+
+  function isValidUrl(str) {
+    try { const u = new URL(str); return u.protocol === 'https:' || u.protocol === 'http:'; }
+    catch { return false; }
+  }
+
+  function createAvatar(entry) {
+    if (!entry.author || !entry.author.photo || !isValidUrl(entry.author.photo)) return null;
+    const img = document.createElement('img');
+    img.src = entry.author.photo;
+    img.alt = sanitize(entry.author.name) || 'Anonymous';
+    img.title = img.alt;
+    img.className = 'h-8 w-8 rounded-full ring-2 ring-white dark:ring-zinc-900';
+    img.loading = 'lazy';
+    return img;
+  }
+
   fetch(endpoint)
-    .then(response => response.json())
+    .then(r => r.json())
     .then(data => {
       const loading = container.querySelector('.webmentions-loading');
       const empty = container.querySelector('.webmentions-empty');
@@ -91,81 +112,101 @@
       const likesCount = container.querySelector('.likes-count');
       const repostsCount = container.querySelector('.reposts-count');
       const repliesList = container.querySelector('.replies-list');
-      
+
       loading.classList.add('hidden');
-      
+
       if (!data.children || data.children.length === 0) {
         empty.classList.remove('hidden');
         return;
       }
-      
+
       const likes = data.children.filter(m => m['wm-property'] === 'like-of');
       const reposts = data.children.filter(m => m['wm-property'] === 'repost-of');
       const replies = data.children.filter(m => ['in-reply-to', 'mention-of'].includes(m['wm-property']));
-      
-      // Show likes
+
       if (likes.length > 0) {
         likesSection.classList.remove('hidden');
         likesCount.textContent = likes.length;
         likes.slice(0, 10).forEach(like => {
-          if (like.author && like.author.photo) {
-            const img = document.createElement('img');
-            img.src = like.author.photo;
-            img.alt = like.author.name || 'Anonymous';
-            img.title = like.author.name || 'Anonymous';
-            img.className = 'h-8 w-8 rounded-full ring-2 ring-white dark:ring-zinc-900';
-            img.loading = 'lazy';
-            likesAvatars.appendChild(img);
-          }
+          const avatar = createAvatar(like);
+          if (avatar) likesAvatars.appendChild(avatar);
         });
       }
-      
-      // Show reposts
+
       if (reposts.length > 0) {
         repostsSection.classList.remove('hidden');
         repostsCount.textContent = reposts.length;
         reposts.slice(0, 10).forEach(repost => {
-          if (repost.author && repost.author.photo) {
-            const img = document.createElement('img');
-            img.src = repost.author.photo;
-            img.alt = repost.author.name || 'Anonymous';
-            img.title = repost.author.name || 'Anonymous';
-            img.className = 'h-8 w-8 rounded-full ring-2 ring-white dark:ring-zinc-900';
-            img.loading = 'lazy';
-            repostsAvatars.appendChild(img);
-          }
+          const avatar = createAvatar(repost);
+          if (avatar) repostsAvatars.appendChild(avatar);
         });
       }
-      
-      // Show replies
+
       replies.forEach(reply => {
         const li = document.createElement('li');
         li.className = 'rounded-lg border border-zinc-200 p-4 dark:border-zinc-700';
-        
-        const authorPhoto = reply.author?.photo || '';
-        const authorName = reply.author?.name || 'Anonymous';
-        const authorUrl = reply.author?.url || '#';
-        const content = reply.content?.html || reply.content?.text || '';
+
+        const authorName = sanitize(reply.author?.name) || 'Anonymous';
+        const authorUrl = (reply.author?.url && isValidUrl(reply.author.url)) ? reply.author.url : '#';
+        const authorPhoto = (reply.author?.photo && isValidUrl(reply.author.photo)) ? reply.author.photo : '';
+        const contentText = sanitize(reply.content?.text || '');
         const published = reply.published ? new Date(reply.published).toLocaleDateString() : '';
-        const source = reply.url || reply['wm-source'];
-        
-        li.innerHTML = `
-          <div class="flex items-start gap-3">
-            ${authorPhoto ? `<img src="${authorPhoto}" alt="${authorName}" class="h-10 w-10 rounded-full" loading="lazy">` : ''}
-            <div class="flex-1 min-w-0">
-              <div class="flex items-center gap-2 flex-wrap">
-                <a href="${authorUrl}" target="_blank" rel="noopener" class="font-medium text-zinc-900 hover:text-teal-600 dark:text-zinc-100 dark:hover:text-teal-400">${authorName}</a>
-                ${published ? `<time class="text-xs text-zinc-500 dark:text-zinc-400">${published}</time>` : ''}
-              </div>
-              <div class="mt-1 text-sm text-zinc-600 dark:text-zinc-400 prose-sm">${content}</div>
-              ${source ? `<a href="${source}" target="_blank" rel="noopener" class="mt-2 inline-block text-xs text-teal-600 hover:text-teal-700 dark:text-teal-400">View original →</a>` : ''}
-            </div>
-          </div>
-        `;
-        
+        const source = (reply.url || reply['wm-source']);
+        const safeSource = (source && isValidUrl(source)) ? source : '';
+
+        const wrapper = document.createElement('div');
+        wrapper.className = 'flex items-start gap-3';
+
+        if (authorPhoto) {
+          const img = document.createElement('img');
+          img.src = authorPhoto;
+          img.alt = authorName;
+          img.className = 'h-10 w-10 rounded-full';
+          img.loading = 'lazy';
+          wrapper.appendChild(img);
+        }
+
+        const body = document.createElement('div');
+        body.className = 'flex-1 min-w-0';
+
+        const meta = document.createElement('div');
+        meta.className = 'flex items-center gap-2 flex-wrap';
+        const nameLink = document.createElement('a');
+        nameLink.href = authorUrl;
+        nameLink.target = '_blank';
+        nameLink.rel = 'noopener';
+        nameLink.className = 'font-medium text-zinc-900 hover:text-teal-600 dark:text-zinc-100 dark:hover:text-teal-400';
+        nameLink.textContent = authorName;
+        meta.appendChild(nameLink);
+
+        if (published) {
+          const time = document.createElement('time');
+          time.className = 'text-xs text-zinc-500 dark:text-zinc-400';
+          time.textContent = published;
+          meta.appendChild(time);
+        }
+        body.appendChild(meta);
+
+        const contentEl = document.createElement('div');
+        contentEl.className = 'mt-1 text-sm text-zinc-600 dark:text-zinc-400';
+        contentEl.textContent = reply.content?.text || '';
+        body.appendChild(contentEl);
+
+        if (safeSource) {
+          const sourceLink = document.createElement('a');
+          sourceLink.href = safeSource;
+          sourceLink.target = '_blank';
+          sourceLink.rel = 'noopener';
+          sourceLink.className = 'mt-2 inline-block text-xs text-teal-600 hover:text-teal-700 dark:text-teal-400';
+          sourceLink.textContent = 'View original \u2192';
+          body.appendChild(sourceLink);
+        }
+
+        wrapper.appendChild(body);
+        li.appendChild(wrapper);
         repliesList.appendChild(li);
       });
-      
+
       if (likes.length === 0 && reposts.length === 0 && replies.length === 0) {
         empty.classList.remove('hidden');
       }

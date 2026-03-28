@@ -5,7 +5,7 @@ date = "2016-10-26 12:00:00"
 images = ['/media/images/posts/sfk.webp']
 description = 'The iconic FOSS conference in Kosovo'
 tags = ["kosovo", "conference", "sfk"]
-category = 'conference'
+categories = ["conference"]
 aliases = "/sfk-16"
 +++
 

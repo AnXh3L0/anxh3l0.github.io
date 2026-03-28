@@ -3,6 +3,7 @@ title = "LibreOffice Conference 2016 - Brno"
 postType = "article"
 date = "2016-09-11 12:00:00"
 images = ['/media/images/posts/libreoffice.webp']
+description = "Report from the LibreOffice Conference 2016 held in Brno, Czech Republic"
 tags = ["libreoffice", "conference", "report", "blog"]
 categories = ["libreoffice", "conference"]
 aliases = "/libocon-2016"

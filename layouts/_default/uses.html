@@ -4,7 +4,7 @@
 {{ end }}
 <main class="flex-auto" role="main" {{ if .IsTranslated }}lang="{{ .Language.Lang }}"{{ end }}>
     <div class="mt-16 sm:px-8 lg:mt-32">
-        {{- $uses := site.Data.uses -}}
+        {{- $uses := hugo.Data.uses -}}
         <div class="mx-auto w-full max-w-7xl lg:px-8">
           <div class="relative px-4 sm:px-8 lg:px-12">
             <div class="mx-auto max-w-2xl lg:max-w-5xl">
