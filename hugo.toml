@@ -2,7 +2,6 @@ baseURL = "https://lushka.al"
 title   = "Alpro Development"
 
 defaultContentLanguage = "en"
-languageCode = "en-us"
 defaultContentLanguageInSubdir = false
 
 archetypeDir = "archetypes"
@@ -80,8 +79,8 @@ timeout = 240
     addressLocality = "Tirana"
     addressCountry = "Albania"
     worksFor = [
-      { name = "Ura Design", url = "https://ura.design", jobTitle = "Web Developer & System Administrator" },
-      { name = "GlobaLeaks", url = "https://globaleaks.org", jobTitle = "DevOps Engineer" }
+      { name = "ueb.al", url = "https://ueb.al", jobTitle = "Founder & Web Developer" },
+      { name = "Ura Design", url = "https://ura.design", jobTitle = "Web Developer & System Administrator" }
     ]
     alumniOf = "Polytechnic University of Tirana"
     birthDate = "1997-09-20"
@@ -135,14 +134,16 @@ timeout = 240
 
 [languages]
   [languages.en]
-  languageName = "English"
+  label = "English"
+  locale = "en-us"
   weight    = 1
   [languages.en.params]
     languageName = "English"
     direction = "ltr"
 
   [languages.sq]
-  languageName = "Albanian"
+  label = "Albanian"
+  locale = "sq-al"
   weight    = 2
   [languages.sq.params]
     languageName = "Albanian"

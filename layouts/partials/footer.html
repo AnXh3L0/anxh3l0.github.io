@@ -18,15 +18,21 @@
                   {{ else }}
                   {{ end }}
                 </nav>
-                <p class="text-sm text-zinc-500 dark:text-zinc-400">
-                  {{ $currentYear := now.Format "2006" }}
-                  {{ i18n "footer.copyright" (dict "Year" $currentYear "Name" "Anxhelo Lushka") | safeHTML }}
-                  {{ with i18n "footer.license" }}
-                    <span role="text" aria-label="{{ . }}">
-                      (<abbr title="{{ . }}" aria-label="{{ . }}">CC BY-NC-SA 4.0</abbr>)
-                    </span>
-                  {{ end }}
-                </p>
+                <div class="flex flex-col items-center gap-1 sm:items-end">
+                  <p class="text-sm text-zinc-500 dark:text-zinc-400">
+                    {{ $currentYear := now.Format "2006" }}
+                    {{ i18n "footer.copyright" (dict "Year" $currentYear "Name" "Anxhelo Lushka") | safeHTML }}
+                    {{ with i18n "footer.license" }}
+                      <span role="text" aria-label="{{ . }}">
+                        (<abbr title="{{ . }}" aria-label="{{ . }}">CC BY-NC-SA 4.0</abbr>)
+                      </span>
+                    {{ end }}
+                  </p>
+                  {{ $agencyLink := printf `<a class="font-semibold text-teal-500 transition hover:text-teal-600 dark:hover:text-teal-400" href="https://ueb.al" target="_blank" rel="noopener noreferrer">ueb.al</a>` }}
+                  <p class="text-sm text-zinc-500 dark:text-zinc-400">
+                    {{ i18n "footer.agency" (dict "agency" $agencyLink) | safeHTML }}
+                  </p>
+                </div>
               </div>
             </div>
           </div>

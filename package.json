@@ -7,11 +7,12 @@
         "build": "npm run build:tw && hugo --config hugo.toml"
     },
     "devDependencies": {
+        "@tailwindcss/cli": "^4.3.0",
         "@tailwindcss/typography": "^0.5.19",
-        "concurrently": "^9.2.1",
-        "prettier": "^3.7.4",
-        "prettier-plugin-tailwindcss": "^0.7.2",
-        "tailwindcss": "^4.1.18"
+        "concurrently": "^10.0.3",
+        "prettier": "^3.8.3",
+        "prettier-plugin-tailwindcss": "^0.8.0",
+        "tailwindcss": "^4.3.0"
     },
     "dependencies": {
         "@tailwindcss/forms": "^0.5.11"

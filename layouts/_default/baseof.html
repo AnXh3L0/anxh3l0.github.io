@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="light" lang="{{ .Site.Language }}" data-homepage="{{ .IsHome }}" dir="{{ .Site.Language.Params.direction }}" itemscope
+<html class="h-full" data-theme="light" lang="{{ .Site.Language }}" data-homepage="{{ .IsHome }}" dir="{{ .Site.Language.Params.direction }}" itemscope
   itemtype="https://schema.org/WebPage">
 
 <head>
@@ -21,7 +21,7 @@
     </div>
     <div class="relative flex w-full flex-col">
       {{ partial "header.html" . }}
-        <div id="main-content">
+        <div id="main-content" class="flex-auto">
           {{ block "main" . }}
             {{ .Content }}
           {{ end }}

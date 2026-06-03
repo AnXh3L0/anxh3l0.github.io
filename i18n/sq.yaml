@@ -61,6 +61,7 @@ navigation:
 
 hero:
   follow_on: "Ndiqni në"
+  intro: "Puna ime e biznesit dhe me klientët kalon përmes {{ .agency }}, agjencisë sime të dizajnit dhe zhvillimit web. Zotëroj gjithashtu {{ .domain1 }} dhe {{ .domain2 }}."
 
 work:
   other: "Eksperiencat"
@@ -121,6 +122,7 @@ footer:
   aria_section: "Shfleto seksionin {{ .Title }}"
   copyright: "© {{ .Year }} {{ .Name }}."
   license: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+  agency: "Dizajn &amp; zhvillim nga {{ .agency }}"
 
 social_platforms:
   email: "Email"

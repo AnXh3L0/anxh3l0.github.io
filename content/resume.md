@@ -10,18 +10,20 @@ I am available for hire. [Get in touch](/about#contact "Ways to contact me") wit
 
 ## Current work position(s)
 
+- CTO, Product & AI Engineer at [American Labs Inc.](https://american.al "American Labs Inc.")
+- Founder & Web Developer at [ueb.al](https://ueb.al "My web design & development agency, where all my business and client work goes through")
 - UI/UX Developer and system administrator at [Ura Design](https://ura.design "Ura is a digital studio which focuses on visual communication solutions tailored for Open Source and Internet Freedom projects. Ura was founded in 2016 in Albania to cater to the ever-rising demand for Usability and Design services in Open Source Software.")
-- DevOps Engineer at [GlobaLeaks](https://globaleaks.org "The mission of GlobaLeaks is to research and develop a whistleblowing project development framework.")
 
 ## Past positions and contracts
 
+- DevOps Engineer at [GlobaLeaks](https://globaleaks.org "The mission of GlobaLeaks is to research and develop a whistleblowing project development framework.")
 - DevOps Engineer at [Magoware](https://www.magoware.tv/)
 - Web Developer at [Tahoe-LAFS](https://tahoe-lafs.org/trac/tahoe-lafs)
 - DevOps Engineer at [Rubik Technologies](https://rubik-technologies.com/en/)
 
 ## Skills
 
-- Over 7 years of **web development** experience, with a strong focus on performance, security, and privacy
+- Over 8 years of **web development** experience, with a strong focus on performance, security, and privacy
 - Proficient in HTML, CSS, and JavaScript
 - Extensive experience in system administration and security deployments
 - Experienced in both **offensive and defensive security** roles (penetration testing)

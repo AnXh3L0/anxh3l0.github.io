@@ -7,7 +7,7 @@ image_alt = "Anxhelo Lushka giving a speech at ApacheCon Europe 2019"
 
 :sparkles: **[Resume](/resume "My resume as a single page")** :scroll: **[PDF resume](/files/Resume%20-%20Anxhelo%20Lushka.pdf "My short resume in PDF format")**
 
-I’m **Anxhelo Lushka**, a **DevOps Engineer, UX/UI Developer, and Open Source Advocate** with a background in **computer engineering**. My work focuses on building **secure, reliable, and privacy-respecting systems**, optimizing **CI/CD pipelines**, and designing **accessible and performant web experiences**.
+I’m **Anxhelo Lushka**, a **DevOps Engineer, UX/UI Developer, and Open Source Advocate** with a background in **computer engineering**. My work focuses on building **secure, reliable, and privacy-respecting systems**, optimizing **CI/CD pipelines**, and designing **accessible and performant web experiences**. You’ll also find me online at **[angelo.al](https://angelo.al)** and **[anxhelo.al](https://anxhelo.al)**.
 
 I’m a **longtime open-source contributor** and have been actively involved in projects like **Fedora, LibreOffice, OpenStreetMap, Open Source Design**, and [many more](https://github.com/AnXh3L0). As a **Fedora Ambassador** and an ex-member of **The Document Foundation**, I advocate for **transparency, human rights, and ethical technology** through **public speaking, workshops, and mentorship**.
 
@@ -20,9 +20,9 @@ From 2016 to 2023, I was a **core member of Open Labs Hackerspace**, the first h
 
 ## Professional Experience
 
-I currently work as a **DevOps Engineer at GlobaLeaks and Rubik Technologies**, where I focus on **infrastructure security, automation, and cloud-native deployments** for mission-critical applications, and as a **web developer and system administrator at Ura Design**.
+These days, I'm the **CTO at [American Labs Inc.](https://american.al)**, working across **product and AI engineering**. My own business and client work runs through **[ueb.al](https://ueb.al)**, my **web design and development agency**, where I help **startups, NGOs, and enterprises** build **robust, scalable, and privacy-conscious solutions**. Alongside these, I work as a **web developer and system administrator at [Ura Design](https://ura.design)**.
 
-As a **freelancer**, I have collaborated with various **startups, NGOs, and enterprises** to develop **robust, scalable, and privacy-conscious solutions**.
+Previously, I worked as a **DevOps Engineer at [GlobaLeaks](https://globaleaks.org) and Rubik Technologies**, where I focused on **infrastructure security, automation, and cloud-native deployments** for mission-critical applications.
 
 ## More About Me
 

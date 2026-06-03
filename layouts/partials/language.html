@@ -18,7 +18,7 @@
        class="flex items-center justify-between rounded-lg px-3 py-2 text-sm text-zinc-800 transition-colors hover:bg-zinc-100 dark:text-zinc-200 dark:hover:bg-zinc-700/50"
        data-lang="{{ .Language.Lang }}"
        role="menuitem">
-      <span>{{ .Language.LanguageName }}</span>
+      <span>{{ .Language.Label }}</span>
       {{ if eq .Lang $.Lang }}
       <svg class="h-4 w-4 fill-current text-teal-500" viewBox="0 0 20 20">
         <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>

@@ -61,6 +61,7 @@ navigation:
 
 hero:
   follow_on: "Follow on"
+  intro: "My business and client work runs through {{ .agency }}, my web design &amp; development agency. I also own {{ .domain1 }} and {{ .domain2 }}."
 
 work:
   other: "Work"
@@ -124,6 +125,7 @@ footer:
   aria_section: "Browse {{ .Title }} section"
   copyright: "© {{ .Year }} {{ .Name }}."
   license: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+  agency: "Design &amp; development by {{ .agency }}"
 
 social_platforms:
   email: "Email"

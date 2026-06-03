@@ -6,7 +6,7 @@ layout: "now"
 
 ## What I'm Doing Now
 
-*Last updated: December 2025*
+*Last updated: June 2026*
 
 ### 🎯 Current Focus
 
@@ -16,9 +16,10 @@ layout: "now"
 
 ### 💼 Work
 
-Currently working as a **Web Developer & DevOps Engineer** at:
+These days I'm the **CTO at [American Labs Inc.](https://american.al)**, where I work across **product and AI engineering**. Alongside it, my own client and business work runs through my agency:
+- [American Labs Inc.](https://american.al) - CTO, Product & AI Engineer
+- [ueb.al](https://ueb.al) - My web design & development agency, where all my professional and client work goes through
 - [Ura Design](https://ura.design) - Building beautiful interfaces for open source
-- [GlobaLeaks](https://globaleaks.org) - Helping whistleblowers worldwide
 
 ### 📚 Learning
 

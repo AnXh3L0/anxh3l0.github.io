@@ -7,7 +7,7 @@ image_alt = "Anxhelo Lushka duke mbajtur një fjalim në ApacheCon Europe 2019"
 
 :sparkles: **[CV](/resume "CV-ja ime në një faqe të vetme")** :scroll: **[CV në PDF](/files/Resume%20-%20Anxhelo%20Lushka.pdf "CV-ja ime e shkurtër në format PDF")**  
 
-Jam **Anxhelo Lushka**, një **inxhinier DevOps, zhvillues UX/UI dhe përkrahës i Open Source**, me një sfond në **inxhinieri kompjuterike**. Puna ime fokusohet në ndërtimin e **sistemeve të sigurta, të besueshme dhe që respektojnë privatësinë**, optimizimin e **CI/CD pipelines**, dhe dizajnimin e **përvojave të aksesueshme dhe performante në web**.  
+Jam **Anxhelo Lushka**, një **inxhinier DevOps, zhvillues UX/UI dhe përkrahës i Open Source**, me një sfond në **inxhinieri kompjuterike**. Puna ime fokusohet në ndërtimin e **sistemeve të sigurta, të besueshme dhe që respektojnë privatësinë**, optimizimin e **CI/CD pipelines**, dhe dizajnimin e **përvojave të aksesueshme dhe performante në web**. Mund të më gjeni online edhe në **[angelo.al](https://angelo.al)** dhe **[anxhelo.al](https://anxhelo.al)**.  
 
 Jam një **kontribues prej një kohe të gjatë në open-source** dhe kam qenë aktiv në projekte si **Fedora, LibreOffice, OpenStreetMap, Open Source Design**, dhe [shumë të tjera](https://github.com/AnXh3L0). Si një **Ambasador i Fedora-s** dhe ish-anëtar i **The Document Foundation**, promovoj **transparencën, të drejtat e njeriut dhe teknologjinë etike** përmes **konferencave, punëtorive dhe mentorimit**.  
 
@@ -20,9 +20,9 @@ Nga viti 2016 deri në 2023, isha **anëtar kryesor i Open Labs Hackerspace**, h
 
 ## Eksperienca profesionale  
 
-Aktualisht punoj si **Inxhinier DevOps në GlobaLeaks dhe Rubik Technologies**, ku fokusohem në **sigurinë e infrastrukturës, automatizimin dhe implementimet cloud-native** për aplikacione kritike për misionin, si dhe si **zhvillues web dhe administrator sistemi në Ura Design**.  
+Këto kohë, jam **CTO në [American Labs Inc.](https://american.al)**, duke punuar në **inxhinieri produkti dhe AI**. Puna ime e biznesit dhe me klientët kalon përmes **[ueb.al](https://ueb.al)**, agjencisë sime të **dizajnit dhe zhvillimit web**, ku ndihmoj **startup-e, OJQ dhe biznese** të ndërtojnë **zgjidhje të fuqishme, të shkallëzueshme dhe të fokusuara në privatësi**. Përkrah tyre, punoj si **zhvillues web dhe administrator sistemi në [Ura Design](https://ura.design)**.  
 
-Si **freelancer**, kam bashkëpunuar me **startup-e, OJQ dhe biznese** për të zhvilluar **zgjidhje të fuqishme, të shkallëzueshme dhe të fokusuara në privatësi**.  
+Më parë, kam punuar si **Inxhinier DevOps në [GlobaLeaks](https://globaleaks.org) dhe Rubik Technologies**, ku u fokusova në **sigurinë e infrastrukturës, automatizimin dhe implementimet cloud-native** për aplikacione kritike për misionin.  
 
 ## Më shumë rreth meje  
 

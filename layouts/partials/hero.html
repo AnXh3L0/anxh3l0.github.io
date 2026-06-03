@@ -23,6 +23,14 @@
                     {{ . }}
                 {{ end }}
             </p>
+            {{/* Agency + owned domains intro (links styled here so Tailwind always detects the classes) */}}
+            {{ $linkClass := "font-semibold text-teal-500 transition hover:text-teal-600 dark:hover:text-teal-400" }}
+            {{ $agency := printf `<a class="p-org %s" href="https://ueb.al" target="_blank" rel="me noopener noreferrer">ueb.al</a>` $linkClass }}
+            {{ $domain1 := printf `<a class="u-url %s" href="https://angelo.al" target="_blank" rel="me noopener noreferrer">angelo.al</a>` $linkClass }}
+            {{ $domain2 := printf `<a class="u-url %s" href="https://anxhelo.al" target="_blank" rel="me noopener noreferrer">anxhelo.al</a>` $linkClass }}
+            <p class="mt-6 max-w-2xl text-base text-zinc-600 dark:text-zinc-400">
+                {{ i18n "hero.intro" (dict "agency" $agency "domain1" $domain1 "domain2" $domain2) | safeHTML }}
+            </p>
             {{/* Hidden h-card properties from config */}}
             {{ with site.Params.author.description }}
             <span class="p-note hidden">{{ . }}</span>

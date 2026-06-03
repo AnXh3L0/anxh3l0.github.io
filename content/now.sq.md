@@ -6,7 +6,7 @@ layout: "now"
 
 ## Çfarë Po Bëj Tani
 
-*Përditësuar së fundmi: Dhjetor 2025*
+*Përditësuar së fundmi: Qershor 2026*
 
 ### 🎯 Fokusi Aktual
 
@@ -16,9 +16,10 @@ layout: "now"
 
 ### 💼 Puna
 
-Aktualisht punoj si **Zhvillues Web & Inxhinier DevOps** në:
+Këto kohë jam **CTO në [American Labs Inc.](https://american.al)**, ku punoj në **inxhinieri produkti dhe AI**. Përkrah saj, puna ime me klientë dhe biznesi kalon përmes agjencisë sime:
+- [American Labs Inc.](https://american.al) - CTO, Inxhinier Produkti & AI
+- [ueb.al](https://ueb.al) - Agjencia ime e dizajnit dhe zhvillimit web, përmes së cilës kalon e gjithë puna ime profesionale dhe me klientë
 - [Ura Design](https://ura.design) - Duke ndërtuar ndërfaqe të bukura për burim të hapur
-- [GlobaLeaks](https://globaleaks.org) - Duke ndihmuar sinjalizuesit në mbarë botën
 
 ### 📚 Duke Mësuar
 
