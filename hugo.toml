@@ -91,10 +91,6 @@ timeout = 240
     telephone = "+355699932340"
     nationality = "Albanian"
 
-  [[params.faq]]
-    question = "What is Hugo?"
-    answer = "Hugo is a fast and flexible static site generator written in Go."
-
   # Social icons
   [[params.social]]
     name = "email"

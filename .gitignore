@@ -6,3 +6,4 @@ hugo
 public
 .DS_Store
 assets/style.css
+assets/jsconfig.json
